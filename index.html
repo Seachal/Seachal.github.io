@@ -7,9 +7,9 @@
 
 <html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name="theme-color" content="#222">
 
 
@@ -20,8 +20,8 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -40,7 +40,7 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -48,15 +48,15 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
 
-<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=5.1.3">
 
 
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
@@ -68,11 +68,13 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Hexo, NexT">
 
 
 
 
+
+  <link rel="alternate" href="/atom.xml" title="Sechal的Blogs" type="application/atom+xml">
 
 
 
@@ -82,7 +84,7 @@
 <meta name="description" content="Android开发笔记|Java学习笔记">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Sechal的Blogs">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://seachal.top/index.html">
 <meta property="og:site_name" content="Sechal的Blogs">
 <meta property="og:description" content="Android开发笔记|Java学习笔记">
 <meta property="og:locale" content="zh-Hans">
@@ -118,7 +120,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://seachal.top/">
 
 
 
@@ -143,17 +145,16 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-home">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
+      <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Sechal的Blogs</span>
         <span class="logo-line-after"><i></i></span>
@@ -183,19 +184,9 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
           </a>
         </li>
       
@@ -203,9 +194,19 @@
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
             
             分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
           </a>
         </li>
       
@@ -213,17 +214,89 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
             归档
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>
+            
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br>
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>
+            
+            公益404
+          </a>
+        </li>
+      
 
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
       
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
   
 </nav>
 
@@ -252,12 +325,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/23/如何在Mac下配置Github和Bitbucket的SSH/">
+    <link itemprop="mainEntityOfPage" href="http://seachal.top/2017/12/23/如何在Mac下配置Github和Bitbucket的SSH/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Seachal">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/seachalzhang.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -294,7 +367,7 @@
           </span>
 
           
-            <span class="post-category" >
+            <span class="post-category">
             
               <span class="post-meta-divider">|</span>
             
@@ -327,6 +400,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  505
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  2
+                </span>
+              
+            </div>
+          
 
           
 
@@ -345,29 +449,16 @@
       
         
           
-            <h1 id="如何在Mac下配置Github和Bitbucket的SSH"><a href="#如何在Mac下配置Github和Bitbucket的SSH" class="headerlink" title="如何在Mac下配置Github和Bitbucket的SSH"></a>如何在Mac下配置Github和Bitbucket的SSH</h1><h2 id="第一步：生成-SSH-公钥过程"><a href="#第一步：生成-SSH-公钥过程" class="headerlink" title="第一步：生成 SSH 公钥过程"></a>第一步：生成 SSH 公钥过程</h2><p>大多数 Git 服务器都会选择使用 SSH 公钥来进行授权。系统中的每个用户都必须提供一个公钥用于授权，没有的话就要生成一个。生成公钥的过程在所有操作系统上都差不多。 </p>
-<h3 id="1-查看是否已经有了SSH密钥"><a href="#1-查看是否已经有了SSH密钥" class="headerlink" title="1.查看是否已经有了SSH密钥"></a>1.查看是否已经有了SSH密钥</h3><p> 首先先确认一下是否已经有一个公钥了。SSH 公钥默认储存在账户的主目录下的 <code>~/.ssh</code> 目录。进去看看：</p>
-<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> ~<span class="string">/.ssh</span></span><br></pre></td></tr></table></figure>
-<p>如果没有密钥则不会有此文件夹，有则备份删除</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cp -R ~/<span class="selector-class">.ssh</span> ~/.ssh_bak</span><br><span class="line">rm -R ~/.ssh</span><br></pre></td></tr></table></figure>
-<h3 id="2-生成密钥"><a href="#2-生成密钥" class="headerlink" title="2.生成密钥"></a>2.生成密钥</h3><figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -<span class="built_in">t</span> rsa -C <span class="string">"你在Github上的邮箱"</span></span><br></pre></td></tr></table></figure>
-<p>第一次要输入file名字，直接回车即可，默认文件名为<code>id_</code>前缀，然后会被要求输入个密码并且确认。</p>
-<h2 id="第二步：添加密钥到SSH"><a href="#第二步：添加密钥到SSH" class="headerlink" title="第二步：添加密钥到SSH"></a>第二步：添加密钥到SSH</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">ssh-<span class="keyword">add</span><span class="bash"> -K id_rsa</span></span><br></pre></td></tr></table></figure>
-<p>需要刚才生成密钥时候输入的密码。</p>
-<h3 id="在github上添加SSH-Key"><a href="#在github上添加SSH-Key" class="headerlink" title="在github上添加SSH Key"></a>在github上添加SSH Key</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">more</span> <span class="selector-tag">id_rsa</span><span class="selector-class">.pub</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>查看公钥里的内容并且全部复制下来(包括开头ssh-rsa和结尾邮箱)。</li>
-<li>进入到<code>github</code>的<code>setting</code>，找到SSH Keys页面添加一个key，title随意，赋值公钥进去保存即可。</li>
-</ul>
-<h2 id="第三步：测试是否成功"><a href="#第三步：测试是否成功" class="headerlink" title="第三步：测试是否成功"></a>第三步：测试是否成功</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">ssh</span> <span class="selector-tag">git</span>@<span class="keyword">github</span>.<span class="keyword">com</span></span><br></pre></td></tr></table></figure>
-<p>成功则返回类似:</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Hi Seachal! You've successfully authenticated, <span class="keyword">but</span> GitHub <span class="keyword">does</span> <span class="keyword">not</span> provide shell access.</span><br><span class="line">Connection <span class="keyword">to</span> github.com closed.</span><br></pre></td></tr></table></figure>
-<h3 id="Bitbucket"><a href="#Bitbucket" class="headerlink" title="Bitbucket"></a>Bitbucket</h3><p><a href="http://bicbucket.org/" target="_blank" rel="noopener">Bitbucket.org</a>是一个和<code>Github</code>极其类似的托管库网站，但是他的私有库是免费的，所以一般我们会把私有库放到<code>bitbucket</code>上，而其他库放到<code>github</code>上，毕竟<code>github</code>的<code>SNS</code>属性稍微多些，开源的库就尽量的希望有与其他人的更多互动。<br>给<code>bitbucket</code>添加SSH Key实际上是一样的。<br>测试bitbucket ssh是否可连接</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">ssh</span> <span class="selector-tag">-T</span> <span class="selector-tag">git</span>@<span class="keyword">bitbucket</span>.<span class="keyword">org</span></span><br></pre></td></tr></table></figure>
-<p>成功则返回类似:</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">logged in as Seachal.</span><br><span class="line"></span><br><span class="line">You can <span class="keyword">use</span> git <span class="keyword">or</span> hg <span class="keyword">to</span> <span class="keyword">connect</span> <span class="keyword">to</span> Bitbucket. Shell <span class="keyword">access</span> <span class="keyword">is</span> disabled.</span><br></pre></td></tr></table></figure>
-
-          
+          如何在Mac下配置Github和Bitbucket的SSH第一步：生成 SSH 公钥过程大多数 Git 服务器都会选择使用 SSH 公钥来进行授权。系统中的每个用户都必须提供一个公钥用于授权，没有的话就要生成一个。生成公钥的过程在所有操作系统上都差不多。 
+1.查看是否已经有了SSH密钥 首先先确认
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/12/23/如何在Mac下配置Github和Bitbucket的SSH/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -414,12 +505,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/23/Android Studio快捷键_Mac&Windos&Linux/">
+    <link itemprop="mainEntityOfPage" href="http://seachal.top/2017/12/23/Android Studio快捷键_Mac&Windos&Linux/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Seachal">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/seachalzhang.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -456,7 +547,7 @@
           </span>
 
           
-            <span class="post-category" >
+            <span class="post-category">
             
               <span class="post-meta-divider">|</span>
             
@@ -489,6 +580,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1,182
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  5
+                </span>
+              
+            </div>
+          
 
           
 
@@ -507,550 +629,37 @@
       
         
           
-            <p>Android Studio 为许多常用操作提供了键盘快捷键。 下表按操作系统显示了默认键盘快捷键，包括 Mac 、Windows、Linux 等系统。</p>
-<table>
-<thead>
-<tr>
-<th>说明</th>
-<th>Mac</th>
-<th>Windows/Linux</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>常规</td>
-<td>　</td>
-<td>　</td>
-</tr>
-<tr>
-<td>全部保存</td>
-<td>Command + S</td>
-<td>Control + S</td>
-</tr>
-<tr>
-<td>同步</td>
-<td>Command + Option + Y</td>
-<td>Control + S</td>
-</tr>
-<tr>
-<td>最大化/最小化编辑器</td>
-<td>Control + Command + F12</td>
-<td>Control + Shift + F12</td>
-</tr>
-<tr>
-<td>添加到收藏夹</td>
-<td>Option + Shift + F</td>
-<td>Alt + Shift + F</td>
-</tr>
-<tr>
-<td>使用当前配置文件检查当前文件</td>
-<td>Option + Shift + I</td>
-<td>Alt + Shift + I</td>
-</tr>
-<tr>
-<td>快速切换模式</td>
-<td>Control + `（反引号）</td>
-<td>Control + `（反引号）</td>
-</tr>
-<tr>
-<td>打开设置对话框</td>
-<td>Command + ,（英文逗号）</td>
-<td>Control + Alt + S</td>
-</tr>
-<tr>
-<td>打开项目结构对话框</td>
-<td>Command + ;（英文分号）</td>
-<td>Control + Alt + Shift + S</td>
-</tr>
-<tr>
-<td>在标签和工具窗口之间切换</td>
-<td>Control + Tab</td>
-<td>Control + Tab</td>
-</tr>
-<tr>
-<td>在 Studio 内导航和搜索</td>
-<td>　</td>
-<td>　</td>
-</tr>
-<tr>
-<td>搜索全部内容（包括代码和菜单）</td>
-<td>按两次 Shift</td>
-<td>按两次 Shift</td>
-</tr>
-<tr>
-<td>查找</td>
-<td>Command + F</td>
-<td>Control + F</td>
-</tr>
-<tr>
-<td>查找下一个</td>
-<td>Command + G</td>
-<td>F3</td>
-</tr>
-<tr>
-<td>查找上一个</td>
-<td>Command + Shift + G</td>
-<td>Shift + F3</td>
-</tr>
-<tr>
-<td>替换</td>
-<td>Command + R</td>
-<td>Control + R</td>
-</tr>
-<tr>
-<td>查找操作</td>
-<td>Command + Shift + A</td>
-<td>Control + Shift + A</td>
-</tr>
-<tr>
-<td>按符号名称搜索</td>
-<td>Command + Option + O</td>
-<td>Control + Alt + Shift + N</td>
-</tr>
-<tr>
-<td>查找类</td>
-<td>Command + O</td>
-<td>Control + N</td>
-</tr>
-<tr>
-<td>查找文件（而不是类）</td>
-<td>Command + Shift + O</td>
-<td>Control + Shift + N</td>
-</tr>
-<tr>
-<td>在路径中查找</td>
-<td>Command + Shift + F</td>
-<td>Control + Shift + F</td>
-</tr>
-<tr>
-<td>打开文件结构弹出式菜单</td>
-<td>Command + F12</td>
-<td>Control + F12</td>
-</tr>
-<tr>
-<td>在打开的编辑器标签之前导航</td>
-<td>Control + 向右/向左箭头</td>
-<td>Alt + 向右/向左箭头</td>
-</tr>
-<tr>
-<td>跳到源代码</td>
-<td>F4 / Command + 向下箭头</td>
-<td>F4 / Control + Enter</td>
-</tr>
-<tr>
-<td>在新窗口中打开当前编辑器标签</td>
-<td>Shift + F4</td>
-<td>Shift + F4</td>
-</tr>
-<tr>
-<td>最近打开的文件弹出式菜单</td>
-<td>Command + E</td>
-<td>Control + E</td>
-</tr>
-<tr>
-<td>最近编辑的文件弹出式菜单</td>
-<td>Command + Shift + E</td>
-<td>Control + Shift + E</td>
-</tr>
-<tr>
-<td>转到上一个编辑位置</td>
-<td>Command + Shift + 退格键</td>
-<td>Control + Shift + 退格键</td>
-</tr>
-<tr>
-<td>关闭活动编辑器标签</td>
-<td>Command + W</td>
-<td>Control + F4</td>
-</tr>
-<tr>
-<td>从工具窗口返回到编辑器窗口</td>
-<td>Esc</td>
-<td>Esc</td>
-</tr>
-<tr>
-<td>隐藏活动或上一个活动工具窗口</td>
-<td>Shift + Esc</td>
-<td>Shift + Esc</td>
-</tr>
-<tr>
-<td>转到行</td>
-<td>Command + L</td>
-<td>Control + G</td>
-</tr>
-<tr>
-<td>打开类型层次结构</td>
-<td>Control + H</td>
-<td>Control + H</td>
-</tr>
-<tr>
-<td>打开方法层次结构</td>
-<td>Command + Shift + H</td>
-<td>Control + Shift + H</td>
-</tr>
-<tr>
-<td>打开调用层次结构</td>
-<td>Control + Option + H</td>
-<td>Control + Alt + H</td>
-</tr>
-<tr>
-<td>编写代码</td>
-<td>　</td>
-<td>　</td>
-</tr>
-<tr>
-<td>生成代码（getter、setter、构造函数、 hashCode/equals、toString、新文件、新类）</td>
-<td>Command + N</td>
-<td>Alt + Insert</td>
-</tr>
-<tr>
-<td>替换方法</td>
-<td>Control + O</td>
-<td>Control + O</td>
-</tr>
-<tr>
-<td>实现方法</td>
-<td>Control + I</td>
-<td>Control + I</td>
-</tr>
-<tr>
-<td>控制语句 (if…else / try…catch / etc.)</td>
-<td>Command + Option + T</td>
-<td>Control + Alt + T</td>
-</tr>
-<tr>
-<td>删除插入符处的行</td>
-<td>Command + 退格键</td>
-<td>Control + Y</td>
-</tr>
-<tr>
-<td>折叠/展开当前代码块</td>
-<td>Command + 减号/加号</td>
-<td>Control + 减号/加号</td>
-</tr>
-<tr>
-<td>折叠/展开所有代码块</td>
-<td>Command + Shift + 减号/加号</td>
-<td>Control + Shift + 减号/加号</td>
-</tr>
-<tr>
-<td>复制当前行或选择</td>
-<td>Command + D</td>
-<td>Control + D</td>
-</tr>
-<tr>
-<td>基本代码自动完成</td>
-<td>Control + 空格键</td>
-<td>Control + 空格键</td>
-</tr>
-<tr>
-<td>智能代码自动完成（按预期 类型过滤方法和变量列表）</td>
-<td>Control + Shift + 空格键</td>
-<td>Control + Shift + 空格键</td>
-</tr>
-<tr>
-<td>完成语句</td>
-<td>Command + Shift + Enter</td>
-<td>Control + Shift + Enter</td>
-</tr>
-<tr>
-<td>快速文档查找</td>
-<td>Control + J</td>
-<td>Control + Q</td>
-</tr>
-<tr>
-<td>显示选定方法的参数</td>
-<td>Command + P</td>
-<td>Control + P</td>
-</tr>
-<tr>
-<td>转到声明（直接）</td>
-<td>Command + B 或 Command + 点击</td>
-<td>Control + B 或 Control + 点击</td>
-</tr>
-<tr>
-<td>转到实现</td>
-<td>Command + Alt + B</td>
-<td>Control + Alt + B</td>
-</tr>
-<tr>
-<td>转到超类方法/超类</td>
-<td>Command + U</td>
-<td>Control + U</td>
-</tr>
-<tr>
-<td>打开快速定义查找</td>
-<td>Command + Y</td>
-<td>Control + Shift + I</td>
-</tr>
-<tr>
-<td>切换项目工具窗口的可见性</td>
-<td>Command + 1</td>
-<td>Alt + 1</td>
-</tr>
-<tr>
-<td>切换书签</td>
-<td>F3</td>
-<td>F11</td>
-</tr>
-<tr>
-<td>通过助记切换书签</td>
-<td>Option + F3</td>
-<td>Control + F11</td>
-</tr>
-<tr>
-<td>通过行注释添加注释/取消注释</td>
-<td>Command + /</td>
-<td>Control + /</td>
-</tr>
-<tr>
-<td>通过块注释添加注释/取消注释</td>
-<td>Command + Shift + /</td>
-<td>Control + Shift + /</td>
-</tr>
-<tr>
-<td>选择连续增加的代码块</td>
-<td>Option + Up</td>
-<td>Control + W</td>
-</tr>
-<tr>
-<td>将当前选择退回到上一个状态</td>
-<td>Option + Down</td>
-<td>Control + Shift + W</td>
-</tr>
-<tr>
-<td>移动到代码块起始位置</td>
-<td>Option + Command + [</td>
-<td>Control + [</td>
-</tr>
-<tr>
-<td>移动到代码块结束位置</td>
-<td>Option + Command + ]</td>
-<td>Control + ]</td>
-</tr>
-<tr>
-<td>从当前位置选择到代码块起始位置</td>
-<td>Option + Command + Shift + [</td>
-<td>Control + Shift + [</td>
-</tr>
-<tr>
-<td>从当前位置选择到代码块结束位置</td>
-<td>Option + Command + Shift + ]</td>
-<td>Control + Shift + ]</td>
-</tr>
-<tr>
-<td>从当前位置删除到单词结尾</td>
-<td>Option + Delete</td>
-<td>Control + Delete</td>
-</tr>
-<tr>
-<td>从当前位置删除到单词开头</td>
-<td>Option + 退格键</td>
-<td>Control + 退格键</td>
-</tr>
-<tr>
-<td>优化导入</td>
-<td>Control + Option + O</td>
-<td>Control + Alt + O</td>
-</tr>
-<tr>
-<td>项目快速修复 （显示意图操作和快速修复）</td>
-<td>Option + Enter</td>
-<td>Alt + Enter</td>
-</tr>
-<tr>
-<td>重新格式化代码</td>
-<td>Command + Option + L</td>
-<td>Control + Alt + L</td>
-</tr>
-<tr>
-<td>自动缩进行</td>
-<td>Control + Option + I</td>
-<td>Control + Alt + I</td>
-</tr>
-<tr>
-<td>缩进/取消缩进行</td>
-<td>Tab/Shift + Tab</td>
-<td>Tab/Shift + Tab</td>
-</tr>
-<tr>
-<td>智能行合并</td>
-<td>Control + Shift + J</td>
-<td>Control + Shift + J</td>
-</tr>
-<tr>
-<td>智能行拆分</td>
-<td>Command + Enter</td>
-<td>Control + Enter</td>
-</tr>
-<tr>
-<td>开始新行</td>
-<td>Shift + Enter</td>
-<td>Shift + Enter</td>
-</tr>
-<tr>
-<td>下一个/上一个突出显示的错误</td>
-<td>F2 / Shift + F2</td>
-<td>F2 / Shift + F2</td>
-</tr>
-<tr>
-<td>构建并运行</td>
-<td>　</td>
-<td>　</td>
-</tr>
-<tr>
-<td>构建</td>
-<td>Command + F9</td>
-<td>Control + F9</td>
-</tr>
-<tr>
-<td>构建并运行</td>
-<td>Control + R</td>
-<td>Shift + F10</td>
-</tr>
-<tr>
-<td>调试</td>
-<td>　</td>
-<td>　</td>
-</tr>
-<tr>
-<td>调试</td>
-<td>Control + D</td>
-<td>Shift + F9</td>
-</tr>
-<tr>
-<td>跳过</td>
-<td>F8</td>
-<td>F8</td>
-</tr>
-<tr>
-<td>逐步执行</td>
-<td>F7</td>
-<td>F7</td>
-</tr>
-<tr>
-<td>智能逐步执行</td>
-<td>Shift + F7</td>
-<td>Shift + F7</td>
-</tr>
-<tr>
-<td>跳出</td>
-<td>Shift + F8</td>
-<td>Shift + F8</td>
-</tr>
-<tr>
-<td>运行到光标位置</td>
-<td>Option + F9</td>
-<td>Alt + F9</td>
-</tr>
-<tr>
-<td>评估表达式</td>
-<td>Option + F8</td>
-<td>Alt + F8</td>
-</tr>
-<tr>
-<td>继续运行程序</td>
-<td>Command + Option + R</td>
-<td>F9</td>
-</tr>
-<tr>
-<td>切换断点</td>
-<td>Command + F8</td>
-<td>Control + F8</td>
-</tr>
-<tr>
-<td>查看断点</td>
-<td>Command + Shift + F8</td>
-<td>Control + Shift + F8</td>
-</tr>
-<tr>
-<td>重构</td>
-<td>　</td>
-<td>　</td>
-</tr>
-<tr>
-<td>复制</td>
-<td>F5</td>
-<td>F5</td>
-</tr>
-<tr>
-<td>移动</td>
-<td>F6</td>
-<td>F6</td>
-</tr>
-<tr>
-<td>安全删除</td>
-<td>Command + Delete</td>
-<td>Alt + Delete</td>
-</tr>
-<tr>
-<td>重命名</td>
-<td>Shift + F6</td>
-<td>Shift + F6</td>
-</tr>
-<tr>
-<td>更改签名</td>
-<td>Command + F6</td>
-<td>Control + F6</td>
-</tr>
-<tr>
-<td>内联</td>
-<td>Command + Option + N</td>
-<td>Control + Alt + N</td>
-</tr>
-<tr>
-<td>提取方法</td>
-<td>Command + Option + M</td>
-<td>Control + Alt + M</td>
-</tr>
-<tr>
-<td>提取变量</td>
-<td>Command + Option + V</td>
-<td>Control + Alt + V</td>
-</tr>
-<tr>
-<td>提取字段</td>
-<td>Command + Option + F</td>
-<td>Control + Alt + F</td>
-</tr>
-<tr>
-<td>提取常量</td>
-<td>Command + Option + C</td>
-<td>Control + Alt + C</td>
-</tr>
-<tr>
-<td>提取参数</td>
-<td>Command + Option + P</td>
-<td>Control + Alt + P</td>
-</tr>
-<tr>
-<td>版本控制/本地历史记录</td>
-<td>　</td>
-<td>　</td>
-</tr>
-<tr>
-<td>将项目提交到 VCS</td>
-<td>Command + K</td>
-<td>Control + K</td>
-</tr>
-<tr>
-<td>从 VCS 更新项目</td>
-<td>Command + T</td>
-<td>Control + T</td>
-</tr>
-<tr>
-<td>查看最近变更</td>
-<td>Option + Shift + C</td>
-<td>Alt + Shift + C</td>
-</tr>
-<tr>
-<td>打开 VCS 弹出式菜单</td>
-<td>Control + V</td>
-<td>Alt + `（反引号）</td>
-</tr>
-</tbody>
-</table>
+          Android Studio 为许多常用操作提供了键盘快捷键。 下表按操作系统显示了默认键盘快捷键，包括 Mac 、Windows、Linux 等系统。
 
-          
+
+
+说明
+Mac
+Windows/Linux
+
+
+
+
+常规
+　
+　
+
+
+全部保存
+Command + S
+Control + S
+
+
+同步
+Co
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/12/23/Android Studio快捷键_Mac&Windos&Linux/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1119,6 +728,8 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image" src="/images/seachalzhang.jpg" alt="Seachal">
+            
               <p class="site-author-name" itemprop="name">Seachal</p>
               <p class="site-description motion-element" itemprop="description">Android开发笔记|Java学习笔记</p>
           </div>
@@ -1140,10 +751,10 @@
               
               
               <div class="site-state-item site-state-categories">
-                
+                <a href="/categories/index.html">
                   <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
-                
+                </a>
               </div>
             
 
@@ -1151,18 +762,57 @@
               
               
               <div class="site-state-item site-state-tags">
-                
+                <a href="/tags/index.html">
                   <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
-                
+                </a>
               </div>
             
 
           </nav>
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
           <div class="links-of-author motion-element">
+            
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/Seachal" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-github"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.jianshu.com/u/a2d105dc9ca9" target="_blank" title="简书">
+                    
+                      <i class="fa fa-fw fa-globe"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://blog.csdn.net/Zhangxichao100?ref=toolbar" target="_blank" title="CSDN">
+                    
+                      <i class="fa fa-fw fa-globe"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://www.cnblogs.com/Seachal" target="_blank" title="cnblogs">
+                    
+                      <i class="fa fa-fw fa-globe"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:seachal.zhang@gmail.com" target="_blank" title="E-Mail">
+                    
+                      <i class="fa fa-fw fa-envelope"></i></a>
+                </span>
+              
             
           </div>
 
@@ -1197,6 +847,15 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Seachal</span>
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">1.7k</span>
   
 </div>
 
@@ -1359,6 +1018,323 @@
 
 
   
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
 
 
 
