@@ -46,6 +46,62 @@
   </entry>
   
   <entry>
+    <title>Android设置TextView文显示固定字数 省略号表示多余部分</title>
+    <link href="http://seachal.top/2017/12/23/2017-12-28-1/"/>
+    <id>http://seachal.top/2017/12/23/2017-12-28-1/</id>
+    <published>2017-12-23T12:10:30.000Z</published>
+    <updated>2017-12-29T09:45:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Android设置TextView文显示固定字数-省略号表示多余部分"><a href="#Android设置TextView文显示固定字数-省略号表示多余部分" class="headerlink" title="Android设置TextView文显示固定字数 省略号表示多余部分"></a>Android设置TextView文显示固定字数 省略号表示多余部分</h1><p>今天在设置TextView文显示固定字数 省略号表示多余部分时，发现<code>android:maxLines</code>和<code>android:ellipsize</code>这两个属性同时使用并没有效果。<br><em>原因：</em><br> 把               <code>android:layout_height=&quot;match_parent&quot;</code><br>改为                <code>android:layout_height=&quot;wrap_content&quot;</code><br>就有效果了。</p><p>##更多代码<br>在xml中：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">android:ellipsize=&quot;start&quot; 　　省略号在开头</span><br><span class="line">android:ellipsize=&quot;middle&quot;   省略号在中间</span><br><span class="line">android:ellipsize=&quot;marquee&quot;  跑马灯</span><br></pre></td></tr></table></figure><p>在java文件中：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tv.setEllipsize(TextUtils.TruncateAt.valueOf(&quot;START&quot;));</span><br><span class="line">tv.setEllipsize(TextUtils.TruncateAt.valueOf(&quot;MIDDLE&quot;));</span><br><span class="line">tv.setEllipsize(TextUtils.TruncateAt.valueOf(&quot;MARQUEE&quot;));</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Android设置TextView文显示固定字数-省略号表示多余部分&quot;&gt;&lt;a href=&quot;#Android设置TextView文显示固定字数-省略号表示多余部分&quot; class=&quot;headerlink&quot; title=&quot;Android设置TextView文显示固定字数
+      
+    
+    </summary>
+    
+      <category term="Android" scheme="http://seachal.top/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://seachal.top/tags/Android/"/>
+    
+      <category term="TextView" scheme="http://seachal.top/tags/TextView/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>动态为TextView控件设置drawableLeft图标,并设置间距</title>
+    <link href="http://seachal.top/2017/12/23/2017-12-27/"/>
+    <id>http://seachal.top/2017/12/23/2017-12-27/</id>
+    <published>2017-12-23T11:10:30.000Z</published>
+    <updated>2017-12-29T09:44:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="动态为TextView控件设置drawableLeft图标-并设置间距"><a href="#动态为TextView控件设置drawableLeft图标-并设置间距" class="headerlink" title="动态为TextView控件设置drawableLeft图标,并设置间距"></a>动态为TextView控件设置drawableLeft图标,并设置间距</h1><p><em>重要属性:</em></p><p>textView.setCompoundDrawablePadding(4);//设置图片和text之间的间距 </p><p>textView.setPadding(-5, 0, 0, 0);//设置整体的padding</p><p>代码如下:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">addDrwable</span><span class="params">(TextView textView)</span> </span>&#123;</span><br><span class="line">       <span class="comment">//获取图片</span></span><br><span class="line">       Drawable drawable = ContextCompat.getDrawable(mContext, R.drawable.staff_portrait);</span><br><span class="line">       drawable.setBounds(<span class="number">0</span>, <span class="number">0</span>, drawable.getMinimumWidth() / <span class="number">2</span>, drawable.getMinimumHeight() / <span class="number">2</span>);</span><br><span class="line">       <span class="comment">//在左侧添加图片</span></span><br><span class="line">       textView.setCompoundDrawables(drawable, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>);</span><br><span class="line">       <span class="comment">//textView.setCompoundDrawablesRelative(drawable, null, null, null);</span></span><br><span class="line">       textView.setCompoundDrawablePadding(<span class="number">5</span>);<span class="comment">//设置图片和text之间的间距</span></span><br><span class="line">       textView.setPadding(<span class="number">25</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>);</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure><p><strong>存在问题</strong><br>TextView的属性Gravity对添加的图片无效，如Gravity的值为center，图片会居左，文字相对于无图片时的位置偏右了一点。<br>所以只能被迫选择列表中的数据全部由居中给为居左</p><p><img src="http://p1nxdiyfl.bkt.clouddn.com/Jietu20171229-172723.png" alt="Jietu20171229-172723"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;动态为TextView控件设置drawableLeft图标-并设置间距&quot;&gt;&lt;a href=&quot;#动态为TextView控件设置drawableLeft图标-并设置间距&quot; class=&quot;headerlink&quot; title=&quot;动态为TextView控件设置drawabl
+      
+    
+    </summary>
+    
+      <category term="Android" scheme="http://seachal.top/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://seachal.top/tags/Android/"/>
+    
+      <category term="View" scheme="http://seachal.top/tags/View/"/>
+    
+      <category term="TextView" scheme="http://seachal.top/tags/TextView/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Android Studio快捷键_Mac&amp;Windos&amp;Linux</title>
     <link href="http://seachal.top/2017/12/23/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE_Mac&amp;Windos&amp;Linux/"/>
     <id>http://seachal.top/2017/12/23/Android Studio快捷键_Mac&amp;Windos&amp;Linux/</id>
