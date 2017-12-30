@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>%2F2017%2F12%2F30%2FBlog%E5%88%9B%E5%BB%BA%E4%B8%8E%E4%BC%98%E5%8C%96%2F2017-12-30%2F</url>
-    <content type="text"><![CDATA[title： 标题date： 2017-12-28 20:10:30updated： 2017-12-29 20:10:30comments ： truetags：categories：permalink： Hexo优化-在文章尾部添加版权声明信息Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.David LevithanWide Awake]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[Android设置TextView文显示固定字数 省略号表示多余部分]]></title>
     <url>%2F2017%2F12%2F28%2FAndroid%2F2017-12-28-1%2F</url>
     <content type="text"><![CDATA[Android设置TextView文显示固定字数 省略号表示多余部分今天在设置TextView文显示固定字数 省略号表示多余部分时，发现android:maxLines和android:ellipsize这两个属性同时使用并没有效果。原因： 把 android:layout_height=&quot;match_parent&quot;改为 android:layout_height=&quot;wrap_content&quot;就有效果了。 ##更多代码在xml中： 123android:ellipsize=&quot;start&quot; 省略号在开头android:ellipsize=&quot;middle&quot; 省略号在中间android:ellipsize=&quot;marquee&quot; 跑马灯 在java文件中： 123tv.setEllipsize(TextUtils.TruncateAt.valueOf(&quot;START&quot;));tv.setEllipsize(TextUtils.TruncateAt.valueOf(&quot;MIDDLE&quot;));tv.setEllipsize(TextUtils.TruncateAt.valueOf(&quot;MARQUEE&quot;));]]></content>
@@ -16,6 +11,11 @@
         <tag>Android</tag>
         <tag>TextView</tag>
       </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[标题]]></title>
+    <url>%2F2017%2F12%2F28%2FBlog%E5%88%9B%E5%BB%BA%E4%B8%8E%E4%BC%98%E5%8C%96%2F2017-12-30%2F</url>
+    <content type="text"><![CDATA[Hexo优化-在文章尾部添加版权声明信息Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.David LevithanWide Awake]]></content>
   </entry>
   <entry>
     <title><![CDATA[动态为TextView控件设置drawableLeft图标,并设置间距]]></title>
