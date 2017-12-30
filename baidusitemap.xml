@@ -4,23 +4,56 @@
 
     
   <url>
-    <loc>http://seachal.top/2017/12/29/Android/2017-12-29/</loc>
-    <lastmod>2017-12-29T11:34:32.000Z</lastmod>
+    <loc>http://seachal.top/2017/12/23/Android/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE_Mac&Windos&Linux/</loc>
+    <lastmod>2017-12-29T11:55:48.000Z</lastmod>
     <data>
         <display>
-        <title></title>
-        <pubTime>2017-12-29T11:34:19.000Z</pubTime>
+        <title>Android Studio快捷键_Mac&Windos&Linux</title>
+        <pubTime>2017-12-23T08:30:30.000Z</pubTime>
         
+        <tag>Android</tag>
+         
+        <tag>Mac</tag>
+         
+        <tag>IDE</tag>
+         
          
            
+             
+              <breadCrumb title="Android" url="http://seachal.top/categories/Android/"/>
+          
         </display>
     </data>
     </url>
 
     
   <url>
-    <loc>http://seachal.top/2017/12/28/2017-12-28-1/</loc>
-    <lastmod>2017-12-29T11:33:54.000Z</lastmod>
+    <loc>http://seachal.top/2017/12/23/%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E4%B8%8B%E9%85%8D%E7%BD%AEGithub%E5%92%8CBitbucket%E7%9A%84SSH/</loc>
+    <lastmod>2017-12-29T11:55:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>如何在Mac下配置Github和Bitbucket的SSH</title>
+        <pubTime>2017-12-23T13:10:30.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+        <tag>Git</tag>
+         
+        <tag>Github</tag>
+         
+         
+           
+             
+              <breadCrumb title="Github" url="http://seachal.top/categories/Github/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://seachal.top/2017/12/28/Android/2017-12-28-1/</loc>
+    <lastmod>2017-12-29T11:55:38.000Z</lastmod>
     <data>
         <display>
         <title>Android设置TextView文显示固定字数 省略号表示多余部分</title>
@@ -41,7 +74,7 @@
 
     
   <url>
-    <loc>http://seachal.top/2017/12/28/2017-12-27/</loc>
+    <loc>http://seachal.top/2017/12/28/Android/2017-12-27-1-1-1/</loc>
     <lastmod>2017-12-29T11:33:47.000Z</lastmod>
     <data>
         <display>
@@ -64,56 +97,8 @@
     </url>
 
     
-  <url>
-    <loc>http://seachal.top/2017/12/23/%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E4%B8%8B%E9%85%8D%E7%BD%AEGithub%E5%92%8CBitbucket%E7%9A%84SSH/</loc>
-    <lastmod>2017-12-26T09:25:17.000Z</lastmod>
-    <data>
-        <display>
-        <title>如何在Mac下配置Github和Bitbucket的SSH</title>
-        <pubTime>2017-12-23T13:10:30.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-        <tag>Git</tag>
-         
-        <tag>Github</tag>
-         
-         
-           
-             
-              <breadCrumb title="Github" url="http://seachal.top/categories/Github/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
     
     
     
-    
-    
-  <url>
-    <loc>http://seachal.top/2017/12/23/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE_Mac&Windos&Linux/</loc>
-    <lastmod>2017-12-23T15:10:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android Studio快捷键_Mac&Windos&Linux</title>
-        <pubTime>2017-12-23T08:30:30.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>Mac</tag>
-         
-        <tag>IDE</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android" url="http://seachal.top/categories/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
 </urlset>
