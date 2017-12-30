@@ -66,9 +66,9 @@
     
       <category term="Android" scheme="http://seachal.top/tags/Android/"/>
     
-      <category term="TextView" scheme="http://seachal.top/tags/TextView/"/>
-    
       <category term="View" scheme="http://seachal.top/tags/View/"/>
+    
+      <category term="TextView" scheme="http://seachal.top/tags/TextView/"/>
     
   </entry>
   
@@ -128,9 +128,9 @@
       <category term="Android" scheme="http://seachal.top/categories/Android/"/>
     
     
-      <category term="Android" scheme="http://seachal.top/tags/Android/"/>
-    
       <category term="Mac" scheme="http://seachal.top/tags/Mac/"/>
+    
+      <category term="Android" scheme="http://seachal.top/tags/Android/"/>
     
       <category term="IDE" scheme="http://seachal.top/tags/IDE/"/>
     

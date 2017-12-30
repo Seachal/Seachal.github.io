@@ -21,8 +21,8 @@
       </categories>
       <tags>
         <tag>Android</tag>
-        <tag>TextView</tag>
         <tag>View</tag>
+        <tag>TextView</tag>
       </tags>
   </entry>
   <entry>
@@ -46,8 +46,8 @@
         <category>Android</category>
       </categories>
       <tags>
-        <tag>Android</tag>
         <tag>Mac</tag>
+        <tag>Android</tag>
         <tag>IDE</tag>
       </tags>
   </entry>
@@ -62,13 +62,13 @@
     <content type="text"><![CDATA[Zhang Seachal，坐标北京，专注 Android 经验分享，性情中人。 写博客的初衷：总结经验，记录自己的成长。]]></content>
   </entry>
   <entry>
-    <title><![CDATA[categories]]></title>
-    <url>%2Fcategories%2Findex.html</url>
+    <title><![CDATA[tags]]></title>
+    <url>%2Ftags%2Findex.html</url>
     <content type="text"></content>
   </entry>
   <entry>
-    <title><![CDATA[tags]]></title>
-    <url>%2Ftags%2Findex.html</url>
+    <title><![CDATA[categories]]></title>
+    <url>%2Fcategories%2Findex.html</url>
     <content type="text"></content>
   </entry>
   <entry>
