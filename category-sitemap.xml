@@ -7,6 +7,13 @@
     </url>
 
     <url>
+        <loc>http://seachal.top/categories/Bolg/</loc>
+        <lastmod>2017-12-25T12:10:30.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://seachal.top/categories/Github/</loc>
         <lastmod>2017-12-29T11:55:46.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -15,7 +22,7 @@
 
     <url>
         <loc>http://seachal.top/categories/Android/</loc>
-        <lastmod>2017-12-29T11:55:48.000Z</lastmod>
+        <lastmod>2017-12-30T14:09:40.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
