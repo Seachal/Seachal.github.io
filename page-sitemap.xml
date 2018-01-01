@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://seachal.top</loc>
+        <loc>http://yoursite.com</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     
     <url>
-        <loc>http://seachal.top/baidu_verify_7XCzs2NhTQ.html</loc>
+        <loc>http://yoursite.com/baidu_verify_7XCzs2NhTQ.html</loc>
         <lastmod>2018-01-01T10:37:25.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://seachal.top/googlefd6408045c9a4412.html</loc>
+        <loc>http://yoursite.com/googlefd6408045c9a4412.html</loc>
         <lastmod>2017-12-24T14:16:48.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://seachal.top/uploads/</loc>
+        <loc>http://yoursite.com/uploads/</loc>
         <lastmod>2017-12-24T13:44:32.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://seachal.top/categories/</loc>
+        <loc>http://yoursite.com/categories/</loc>
         <lastmod>2017-12-24T09:15:57.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://seachal.top/tags/</loc>
+        <loc>http://yoursite.com/tags/</loc>
         <lastmod>2017-12-24T08:22:43.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://seachal.top/about/</loc>
+        <loc>http://yoursite.com/about/</loc>
         <lastmod>2017-12-24T08:16:35.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>

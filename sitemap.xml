@@ -2,22 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <sitemap>
-        <loc>http://seachal.top/post-sitemap.xml</loc>
+        <loc>http://yoursite.com/post-sitemap.xml</loc>
         <lastmod>2017-12-31T16:14:04.000Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://seachal.top/page-sitemap.xml</loc>
+        <loc>http://yoursite.com/page-sitemap.xml</loc>
         <lastmod>2018-01-01T10:37:25.000Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://seachal.top/category-sitemap.xml</loc>
+        <loc>http://yoursite.com/category-sitemap.xml</loc>
         <lastmod>2017-12-25T12:10:30.000Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://seachal.top/tag-sitemap.xml</loc>
+        <loc>http://yoursite.com/tag-sitemap.xml</loc>
         <lastmod>2017-12-25T12:10:30.000Z</lastmod>
     </sitemap>
 
