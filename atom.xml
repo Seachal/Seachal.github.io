@@ -153,9 +153,9 @@
     
       <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
     
-      <category term="View" scheme="http://yoursite.com/tags/View/"/>
-    
       <category term="TextView" scheme="http://yoursite.com/tags/TextView/"/>
+    
+      <category term="View" scheme="http://yoursite.com/tags/View/"/>
     
   </entry>
   
