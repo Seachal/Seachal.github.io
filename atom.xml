@@ -244,9 +244,9 @@
     
       <category term="Mac" scheme="http://yoursite.com/tags/Mac/"/>
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
-    
       <category term="IDE" scheme="http://yoursite.com/tags/IDE/"/>
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
     
   </entry>
   
