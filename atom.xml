@@ -5,9 +5,9 @@
   <subtitle>记录学习的技能和遇到的问题</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://seachal.me/"/>
   <updated>2018-01-02T06:22:17.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://seachal.me/</id>
   
   <author>
     <name>Seachal</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/uncategorized/2018/01/02/HenCoder/HenCoder%20Android%20%E5%BC%80%E5%8F%91%E8%BF%9B%E9%98%B6:%20%E8%87%AA%E5%AE%9A%E4%B9%89%20View%201-2%20Paint%20%E8%AF%A6%E8%A7%A3/"/>
-    <id>http://yoursite.com/uncategorized/2018/01/02/HenCoder/HenCoder Android 开发进阶: 自定义 View 1-2 Paint 详解/</id>
+    <link href="https://seachal.me/uncategorized/2018/01/02/HenCoder/HenCoder%20Android%20%E5%BC%80%E5%8F%91%E8%BF%9B%E9%98%B6:%20%E8%87%AA%E5%AE%9A%E4%B9%89%20View%201-2%20Paint%20%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://seachal.me/uncategorized/2018/01/02/HenCoder/HenCoder Android 开发进阶: 自定义 View 1-2 Paint 详解/</id>
     <published>2018-01-02T06:18:11.000Z</published>
     <updated>2018-01-02T06:22:17.000Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/uncategorized/2018/01/02/Hexo/2018-01-02/"/>
-    <id>http://yoursite.com/uncategorized/2018/01/02/Hexo/2018-01-02/</id>
+    <link href="https://seachal.me/uncategorized/2018/01/02/Hexo/2018-01-02/"/>
+    <id>https://seachal.me/uncategorized/2018/01/02/Hexo/2018-01-02/</id>
     <published>2018-01-02T06:06:22.000Z</published>
     <updated>2018-01-02T06:11:20.000Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/uncategorized/2018/01/02/HenCoder/HenCoder%20Android%20%E5%BC%80%E5%8F%91%E8%BF%9B%E9%98%B6:%20%E8%87%AA%E5%AE%9A%E4%B9%89%20View%201-1%20%E7%BB%98%E5%88%B6%E5%9F%BA%E7%A1%80/"/>
-    <id>http://yoursite.com/uncategorized/2018/01/02/HenCoder/HenCoder Android 开发进阶: 自定义 View 1-1 绘制基础/</id>
+    <link href="https://seachal.me/uncategorized/2018/01/02/HenCoder/HenCoder%20Android%20%E5%BC%80%E5%8F%91%E8%BF%9B%E9%98%B6:%20%E8%87%AA%E5%AE%9A%E4%B9%89%20View%201-1%20%E7%BB%98%E5%88%B6%E5%9F%BA%E7%A1%80/"/>
+    <id>https://seachal.me/uncategorized/2018/01/02/HenCoder/HenCoder Android 开发进阶: 自定义 View 1-1 绘制基础/</id>
     <published>2018-01-02T03:50:52.000Z</published>
     <updated>2018-01-02T06:48:32.000Z</updated>
     
@@ -83,8 +83,8 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/uncategorized/2017/12/30/2017-12-30-1/"/>
-    <id>http://yoursite.com/uncategorized/2017/12/30/2017-12-30-1/</id>
+    <link href="https://seachal.me/uncategorized/2017/12/30/2017-12-30-1/"/>
+    <id>https://seachal.me/uncategorized/2017/12/30/2017-12-30-1/</id>
     <published>2017-12-30T13:33:22.000Z</published>
     <updated>2017-12-30T13:33:22.000Z</updated>
     
@@ -105,8 +105,8 @@
   
   <entry>
     <title>Android设置TextView文显示固定字数 省略号表示多余部分</title>
-    <link href="http://yoursite.com/Android/2017/12/28/Android/Android%E8%AE%BE%E7%BD%AETextView%E6%96%87%E6%98%BE%E7%A4%BA%E5%9B%BA%E5%AE%9A%E5%AD%97%E6%95%B0%20%E7%9C%81%E7%95%A5%E5%8F%B7%E8%A1%A8%E7%A4%BA%E5%A4%9A%E4%BD%99%E9%83%A8%E5%88%86/"/>
-    <id>http://yoursite.com/Android/2017/12/28/Android/Android设置TextView文显示固定字数 省略号表示多余部分/</id>
+    <link href="https://seachal.me/Android/2017/12/28/Android/Android%E8%AE%BE%E7%BD%AETextView%E6%96%87%E6%98%BE%E7%A4%BA%E5%9B%BA%E5%AE%9A%E5%AD%97%E6%95%B0%20%E7%9C%81%E7%95%A5%E5%8F%B7%E8%A1%A8%E7%A4%BA%E5%A4%9A%E4%BD%99%E9%83%A8%E5%88%86/"/>
+    <id>https://seachal.me/Android/2017/12/28/Android/Android设置TextView文显示固定字数 省略号表示多余部分/</id>
     <published>2017-12-28T12:10:30.000Z</published>
     <updated>2017-12-29T11:55:38.000Z</updated>
     
@@ -121,19 +121,19 @@
     
     </summary>
     
-      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+      <category term="Android" scheme="https://seachal.me/categories/Android/"/>
     
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="https://seachal.me/tags/Android/"/>
     
-      <category term="TextView" scheme="http://yoursite.com/tags/TextView/"/>
+      <category term="TextView" scheme="https://seachal.me/tags/TextView/"/>
     
   </entry>
   
   <entry>
     <title>动态为TextView控件设置drawableLeft图标,并设置间距</title>
-    <link href="http://yoursite.com/Android/2017/12/28/Android/%E5%8A%A8%E6%80%81%E4%B8%BATextView%E6%8E%A7%E4%BB%B6%E8%AE%BE%E7%BD%AEdrawableLeft%E5%9B%BE%E6%A0%87,%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%97%B4%E8%B7%9D/"/>
-    <id>http://yoursite.com/Android/2017/12/28/Android/动态为TextView控件设置drawableLeft图标,并设置间距/</id>
+    <link href="https://seachal.me/Android/2017/12/28/Android/%E5%8A%A8%E6%80%81%E4%B8%BATextView%E6%8E%A7%E4%BB%B6%E8%AE%BE%E7%BD%AEdrawableLeft%E5%9B%BE%E6%A0%87,%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%97%B4%E8%B7%9D/"/>
+    <id>https://seachal.me/Android/2017/12/28/Android/动态为TextView控件设置drawableLeft图标,并设置间距/</id>
     <published>2017-12-28T11:10:30.000Z</published>
     <updated>2017-12-30T14:09:40.000Z</updated>
     
@@ -148,21 +148,21 @@
     
     </summary>
     
-      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+      <category term="Android" scheme="https://seachal.me/categories/Android/"/>
     
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="https://seachal.me/tags/Android/"/>
     
-      <category term="TextView" scheme="http://yoursite.com/tags/TextView/"/>
+      <category term="TextView" scheme="https://seachal.me/tags/TextView/"/>
     
-      <category term="View" scheme="http://yoursite.com/tags/View/"/>
+      <category term="View" scheme="https://seachal.me/tags/View/"/>
     
   </entry>
   
   <entry>
     <title>Hexo创建文章和草稿</title>
-    <link href="http://yoursite.com/Bolg/2017/12/25/Blog%E5%88%9B%E5%BB%BA%E4%B8%8E%E4%BC%98%E5%8C%96/2017-12-30-1/"/>
-    <id>http://yoursite.com/Bolg/2017/12/25/Blog创建与优化/2017-12-30-1/</id>
+    <link href="https://seachal.me/Bolg/2017/12/25/Blog%E5%88%9B%E5%BB%BA%E4%B8%8E%E4%BC%98%E5%8C%96/2017-12-30-1/"/>
+    <id>https://seachal.me/Bolg/2017/12/25/Blog创建与优化/2017-12-30-1/</id>
     <published>2017-12-25T12:10:30.000Z</published>
     <updated>2017-12-25T12:10:30.000Z</updated>
     
@@ -177,19 +177,19 @@
     
     </summary>
     
-      <category term="Bolg" scheme="http://yoursite.com/categories/Bolg/"/>
+      <category term="Bolg" scheme="https://seachal.me/categories/Bolg/"/>
     
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://seachal.me/tags/Hexo/"/>
     
-      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+      <category term="Blog" scheme="https://seachal.me/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>如何在Mac下配置Github和Bitbucket的SSH</title>
-    <link href="http://yoursite.com/Github/2017/12/23/%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E4%B8%8B%E9%85%8D%E7%BD%AEGithub%E5%92%8CBitbucket%E7%9A%84SSH/"/>
-    <id>http://yoursite.com/Github/2017/12/23/如何在Mac下配置Github和Bitbucket的SSH/</id>
+    <link href="https://seachal.me/Github/2017/12/23/%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E4%B8%8B%E9%85%8D%E7%BD%AEGithub%E5%92%8CBitbucket%E7%9A%84SSH/"/>
+    <id>https://seachal.me/Github/2017/12/23/如何在Mac下配置Github和Bitbucket的SSH/</id>
     <published>2017-12-23T13:10:30.000Z</published>
     <updated>2017-12-29T11:55:46.000Z</updated>
     
@@ -204,21 +204,21 @@
     
     </summary>
     
-      <category term="Github" scheme="http://yoursite.com/categories/Github/"/>
+      <category term="Github" scheme="https://seachal.me/categories/Github/"/>
     
     
-      <category term="Mac" scheme="http://yoursite.com/tags/Mac/"/>
+      <category term="Mac" scheme="https://seachal.me/tags/Mac/"/>
     
-      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+      <category term="Git" scheme="https://seachal.me/tags/Git/"/>
     
-      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+      <category term="Github" scheme="https://seachal.me/tags/Github/"/>
     
   </entry>
   
   <entry>
     <title>Android Studio快捷键_Mac和Windos和Linux</title>
-    <link href="http://yoursite.com/Android/2017/12/23/Android/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE_Mac&amp;Windos&amp;Linux/"/>
-    <id>http://yoursite.com/Android/2017/12/23/Android/Android Studio快捷键_Mac&amp;Windos&amp;Linux/</id>
+    <link href="https://seachal.me/Android/2017/12/23/Android/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE_Mac&amp;Windos&amp;Linux/"/>
+    <id>https://seachal.me/Android/2017/12/23/Android/Android Studio快捷键_Mac&amp;Windos&amp;Linux/</id>
     <published>2017-12-23T08:30:30.000Z</published>
     <updated>2017-12-31T16:14:04.000Z</updated>
     
@@ -239,14 +239,14 @@
     
     </summary>
     
-      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+      <category term="Android" scheme="https://seachal.me/categories/Android/"/>
     
     
-      <category term="Mac" scheme="http://yoursite.com/tags/Mac/"/>
+      <category term="Mac" scheme="https://seachal.me/tags/Mac/"/>
     
-      <category term="IDE" scheme="http://yoursite.com/tags/IDE/"/>
+      <category term="IDE" scheme="https://seachal.me/tags/IDE/"/>
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="https://seachal.me/tags/Android/"/>
     
   </entry>
   
