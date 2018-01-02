@@ -3,11 +3,12 @@ Allow: /
 Allow: /archives/
 Allow: /categories/
 Allow: /tags/ 
+Allow: /about/ 
 Disallow: /vendors/
 Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: http://www.seacahl.top/sitemap.xml
-Sitemap: http://www.seacahl.top/baidusitemap.xml
+Sitemap: http://www.seacahl.me/sitemap.xml
+Sitemap: http://www.seacahl.me/baidusitemap.xml
