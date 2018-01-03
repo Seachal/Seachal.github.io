@@ -1,1 +1,9 @@
 https://seachal.me/uncategorized/2018/01/02/HenCoder/HenCoder Android 开发进阶: 自定义 View 1-2 Paint 详解/
+https://seachal.me/uncategorized/2018/01/02/Hexo/2018-01-02/
+https://seachal.me/uncategorized/2018/01/02/HenCoder/HenCoder Android 开发进阶: 自定义 View 1-1 绘制基础/
+https://seachal.me/uncategorized/2017/12/30/2017-12-30-1/
+https://seachal.me/Android/2017/12/28/Android/Android设置TextView文显示固定字数 省略号表示多余部分/
+https://seachal.me/Android/2017/12/28/Android/动态为TextView控件设置drawableLeft图标,并设置间距/
+https://seachal.me/Bolg/2017/12/25/Blog创建与优化/2017-12-30-1/
+https://seachal.me/Github/2017/12/23/如何在Mac下配置Github和Bitbucket的SSH/
+https://seachal.me/Android/2017/12/23/Android/Android Studio快捷键_Mac和Windos和Linux/
