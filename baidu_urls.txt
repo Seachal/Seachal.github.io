@@ -1,5 +1,5 @@
-https://seachal.me/Bolg/2017/12/29/Hexo/Hexo博客Next主题如何添加Fork me on Github/
-https://seachal.me/Bolg/2017/12/29/Hexo/Hexo遇到的坑/
+https://seachal.me/Bolg/2018/01/03/Hexo/Hexo遇到的坑/
+https://seachal.me/Bolg/2017/12/29/Hexo/Hexo博客Next主题如何添加ForkMeOnGithub/
 https://seachal.me/Android/2017/12/28/Android/Android设置TextView文显示固定字数 省略号表示多余部分/
 https://seachal.me/Android/2017/12/28/Android/动态为TextView控件设置drawableLeft图标,并设置间距/
 https://seachal.me/Bolg/2017/12/25/Blog创建与优化/2017-12-30-1/
