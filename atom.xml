@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://seachal.me/"/>
-  <updated>2018-01-03T05:33:09.000Z</updated>
+  <updated>2018-01-03T06:09:30.000Z</updated>
   <id>https://seachal.me/</id>
   
   <author>
@@ -21,15 +21,17 @@
     <link href="https://seachal.me/uncategorized/2018/01/03/Hexo/2018-01-03/"/>
     <id>https://seachal.me/uncategorized/2018/01/03/Hexo/2018-01-03/</id>
     <published>2018-01-03T05:33:09.000Z</published>
-    <updated>2018-01-03T05:33:09.000Z</updated>
+    <updated>2018-01-03T06:09:30.000Z</updated>
     
-    <content type="html"><![CDATA[<p># </p>]]></content>
+    <content type="html"><![CDATA[<p>layout：    false<br>title：<br>date：<br>updated：<br>comments    ：true<br>tags：<br>categories：<br>permalink：</p><hr><h1 id="Hexo博客Next主题如何添加”Fork-me-on-Github”"><a href="#Hexo博客Next主题如何添加”Fork-me-on-Github”" class="headerlink" title="Hexo博客Next主题如何添加”Fork me on Github”"></a>Hexo博客Next主题如何添加”Fork me on Github”</h1><p>网站如何添加”Fork me on Github”,如果只是简单的添加只需要参考<a href="https://github.com/blog/273-github-ribbons" target="_blank" rel="noopener">github的文档</a>,<br>将类似下面的代码添加到主题文件夹下<code>layout</code>文件夹下的<code>_layout.swig</code>文件中</p><p>|  </p><p>1</p><p> |  </p><p>a href=”<a href="https://github.com/you&quot;&gt;img" target="_blank" rel="noopener">https://github.com/you&quot;&gt;img</a> style=”position: absolute; top: 0; left: 0; border: 0;” src=”<a href="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" target="_blank" rel="noopener">https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67</a>“ alt=”Fork me on GitHub” data-canonical-src=”<a href="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png&quot;&gt;a&gt;" target="_blank" rel="noopener">https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png&quot;&gt;a&gt;</a></p><p> |</p><p>比如我的<code>github</code>地址为:<code>https://github.com/dannyjiajia</code><br>所以上面的代码改为:</p><p>|  </p><p>1</p><p> |  </p><p>a href=”<a href="https://github.com/dannyjiajia&quot;&gt;img" target="_blank" rel="noopener">https://github.com/dannyjiajia&quot;&gt;img</a> style=”position: absolute; top: 0; left: 0; border: 0;” src=”<a href="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" target="_blank" rel="noopener">https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67</a>“ alt=”Fork me on GitHub” data-canonical-src=”<a href="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png&quot;&gt;a&gt;" target="_blank" rel="noopener">https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png&quot;&gt;a&gt;</a></p><p> |</p><p><strong>但是这样会有个问题：手机上的页面也会是这个效果,其他主题不知道，<code>next</code>主题会把页面的导航菜单给挡住。我这里采取的方式是只在<code>桌面版</code>的页面上添加。</strong></p><p><del>修改<code>/themes/next/source/js/src/schemes/pisces.js</code></del><br>其实可以统一修改这个文件:<code>/themes/next/source/js/src/motion.js</code></p><p>在<code>$(document).ready</code>函数内添加如下代码</p><p>|  </p><p>1</p><p> |  </p><p>NexT.utils.isDesktop() &amp;&amp; $(document.body).append(‘这里粘贴你修改后的html代码’);</p><p> |</p><p>over~ 这样就只会在桌面版的网页内显示”Fork me on Github”</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;# &lt;/p&gt;
+        &lt;p&gt;layout：    false&lt;br&gt;title：&lt;br&gt;date：&lt;br&gt;updated：&lt;br&gt;comments    ：true&lt;br&gt;tags：&lt;br&gt;categories：&lt;br&gt;permalink：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;Hexo博客Next主题如
       
     
     </summary>
