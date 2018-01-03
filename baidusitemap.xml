@@ -4,15 +4,22 @@
 
     
   <url>
-    <loc>https://seachal.me/uncategorized/2018/01/03/Hexo/2018-01-03/</loc>
-    <lastmod>2018-01-03T06:09:30.000Z</lastmod>
+    <loc>https://seachal.me/Bolg/2018/01/03/Hexo/2018-01-03/</loc>
+    <lastmod>2018-01-03T12:10:30.000Z</lastmod>
     <data>
         <display>
-        <title></title>
-        <pubTime>2018-01-03T05:33:09.000Z</pubTime>
+        <title>Hexo博客Next主题如何添加"Fork me on Github"</title>
+        <pubTime>2018-01-03T06:10:30.000Z</pubTime>
         
+        <tag>Hexo</tag>
+         
+        <tag>Blog</tag>
+         
          
            
+             
+              <breadCrumb title="Bolg" url="https://seachal.me/categories/Bolg/"/>
+          
         </display>
     </data>
     </url>
