@@ -2,6 +2,11 @@
 <search>
   <entry>
     <title></title>
+    <url>%2Funcategorized%2F2018%2F01%2F03%2FHexo%2F2018-01-03%2F</url>
+    <content type="text"><![CDATA[#]]></content>
+  </entry>
+  <entry>
+    <title></title>
     <url>%2Funcategorized%2F2018%2F01%2F02%2FHexo%2F2018-01-02%2F</url>
     <content type="text"><![CDATA[Hexo遇到的坑##1.imagemin使用npm install hexo-imagemin –save安装imagemin后在根目录 _cofig.yml中配置imagemin如下。 imagemin: enable : true interlaced : false multipass : false optimizationLevel: 2 pngquant : false progressive: false 会有一些图片在 hexo g命令后生成的是0kb，根本打不开，注释掉_cofig.yml中关于imagemin的配置，生成的图片还是0kb，使用npm uninstall hexo-imagemin命令卸载后，就解决了了问题。]]></content>
   </entry>
