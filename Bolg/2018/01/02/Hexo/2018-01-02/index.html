@@ -1,0 +1,5 @@
+<h1 id="Hexo遇到的坑"><a href="#Hexo遇到的坑" class="headerlink" title="Hexo遇到的坑"></a>Hexo遇到的坑</h1><p>##1.imagemin<br>使用npm install hexo-imagemin –save安装imagemin后<br>在根目录 _cofig.yml中配置imagemin如下。</p>
+<blockquote>
+<p>imagemin:<br>  enable     : true<br>  interlaced : false<br>  multipass  : false<br>  optimizationLevel: 2<br>  pngquant   : false<br>  progressive: false</p>
+</blockquote>
+<p>  会有一些图片在  <code>hexo g</code>命令后生成的是0kb，根本打不开，注释掉_cofig.yml中关于imagemin的配置，生成的图片还是0kb，使用<code>npm uninstall hexo-imagemin</code>命令卸载后，就解决了了问题。</p>

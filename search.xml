@@ -6,9 +6,16 @@
     <content type="text"><![CDATA[layout： falsetitle：date：updated：comments ：truetags：categories：permalink： Hexo博客Next主题如何添加”Fork me on Github”网站如何添加”Fork me on Github”,如果只是简单的添加只需要参考github的文档,将类似下面的代码添加到主题文件夹下layout文件夹下的_layout.swig文件中 | 1 | a href=”https://github.com/you&quot;&gt;img style=”position: absolute; top: 0; left: 0; border: 0;” src=”https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67“ alt=”Fork me on GitHub” data-canonical-src=”https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png&quot;&gt;a&gt; | 比如我的github地址为:https://github.com/dannyjiajia所以上面的代码改为: | 1 | a href=”https://github.com/dannyjiajia&quot;&gt;img style=”position: absolute; top: 0; left: 0; border: 0;” src=”https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67“ alt=”Fork me on GitHub” data-canonical-src=”https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png&quot;&gt;a&gt; | 但是这样会有个问题：手机上的页面也会是这个效果,其他主题不知道，next主题会把页面的导航菜单给挡住。我这里采取的方式是只在桌面版的页面上添加。 修改/themes/next/source/js/src/schemes/pisces.js其实可以统一修改这个文件:/themes/next/source/js/src/motion.js 在$(document).ready函数内添加如下代码 | 1 | NexT.utils.isDesktop() &amp;&amp; $(document.body).append(‘这里粘贴你修改后的html代码’); | over~ 这样就只会在桌面版的网页内显示”Fork me on Github”]]></content>
   </entry>
   <entry>
-    <title></title>
-    <url>%2Funcategorized%2F2018%2F01%2F02%2FHexo%2F2018-01-02%2F</url>
+    <title><![CDATA[Hexo遇到的坑]]></title>
+    <url>%2FBolg%2F2018%2F01%2F02%2FHexo%2F2018-01-02%2F</url>
     <content type="text"><![CDATA[Hexo遇到的坑##1.imagemin使用npm install hexo-imagemin –save安装imagemin后在根目录 _cofig.yml中配置imagemin如下。 imagemin: enable : true interlaced : false multipass : false optimizationLevel: 2 pngquant : false progressive: false 会有一些图片在 hexo g命令后生成的是0kb，根本打不开，注释掉_cofig.yml中关于imagemin的配置，生成的图片还是0kb，使用npm uninstall hexo-imagemin命令卸载后，就解决了了问题。]]></content>
+      <categories>
+        <category>Bolg</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Blog</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Android设置TextView文显示固定字数 省略号表示多余部分]]></title>

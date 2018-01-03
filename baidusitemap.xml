@@ -19,6 +19,28 @@
 
     
   <url>
+    <loc>https://seachal.me/Bolg/2018/01/02/Hexo/2018-01-02/</loc>
+    <lastmod>2018-01-02T12:10:30.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo遇到的坑</title>
+        <pubTime>2018-01-02T06:10:30.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Blog</tag>
+         
+         
+           
+             
+              <breadCrumb title="Bolg" url="https://seachal.me/categories/Bolg/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://seachal.me/Android/2017/12/23/Android/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE_Mac%E5%92%8CWindos%E5%92%8CLinux/</loc>
     <lastmod>2018-01-02T11:31:08.000Z</lastmod>
     <data>
@@ -37,21 +59,6 @@
              
               <breadCrumb title="Android" url="https://seachal.me/categories/Android/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://seachal.me/uncategorized/2018/01/02/Hexo/2018-01-02/</loc>
-    <lastmod>2018-01-02T06:11:20.000Z</lastmod>
-    <data>
-        <display>
-        <title></title>
-        <pubTime>2018-01-02T06:06:22.000Z</pubTime>
-        
-         
-           
         </display>
     </data>
     </url>
