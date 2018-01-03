@@ -10,5 +10,8 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
+
+Sitemap: https://www.seacahl.me/search.xml
+
 Sitemap: https://www.seacahl.me/sitemap.xml
 Sitemap: https://www.seacahl.me/baidusitemap.xml
