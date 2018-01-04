@@ -74,6 +74,18 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[Hexo创建文章和草稿]]></title>
+    <url>%2FBolg%2F2017%2F12%2F25%2FBlog%E5%88%9B%E5%BB%BA%E4%B8%8E%E4%BC%98%E5%8C%96%2F2018-01-04%2F</url>
+    <content type="text"><![CDATA[#首先安装gulp，执行以下命令： 1npm insatll gulp -g 1npm install gulp-htmlclean]]></content>
+      <categories>
+        <category>Bolg</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[如何在Mac下配置Github和Bitbucket的SSH]]></title>
     <url>%2FGithub%2F2017%2F12%2F23%2F%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E4%B8%8B%E9%85%8D%E7%BD%AEGithub%E5%92%8CBitbucket%E7%9A%84SSH%2F</url>
     <content type="text"><![CDATA[如何在Mac下配置Github和Bitbucket的SSH第一步：生成 SSH 公钥过程大多数 Git 服务器都会选择使用 SSH 公钥来进行授权。系统中的每个用户都必须提供一个公钥用于授权，没有的话就要生成一个。生成公钥的过程在所有操作系统上都差不多。 1.查看是否已经有了SSH密钥 首先先确认一下是否已经有一个公钥了。SSH 公钥默认储存在账户的主目录下的 ~/.ssh 目录。进去看看： 1cd ~/.ssh 如果没有密钥则不会有此文件夹，有则备份删除 12cp -R ~/.ssh ~/.ssh_bakrm -R ~/.ssh 2.生成密钥1ssh-keygen -t rsa -C "你在Github上的邮箱" 第一次要输入file名字，直接回车即可，默认文件名为id_前缀，然后会被要求输入个密码并且确认。 第二步：添加密钥到SSH12cd ~/.sshssh-add -K id_rsa 需要刚才生成密钥时候输入的密码。 在github上添加SSH Key1more id_rsa.pub 查看公钥里的内容并且全部复制下来(包括开头ssh-rsa和结尾邮箱)。 进入到github的setting，找到SSH Keys页面添加一个key，title随意，赋值公钥进去保存即可。 第三步：测试是否成功1ssh git@github.com 成功则返回类似: 12Hi Seachal! You've successfully authenticated, but GitHub does not provide shell access.Connection to github.com closed. BitbucketBitbucket.org是一个和Github极其类似的托管库网站，但是他的私有库是免费的，所以一般我们会把私有库放到bitbucket上，而其他库放到github上，毕竟github的SNS属性稍微多些，开源的库就尽量的希望有与其他人的更多互动。给bitbucket添加SSH Key实际上是一样的。测试bitbucket ssh是否可连接 1ssh -T git@bitbucket.org 成功则返回类似: 123logged in as Seachal.You can use git or hg to connect to Bitbucket. Shell access is disabled.]]></content>
