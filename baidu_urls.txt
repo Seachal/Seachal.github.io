@@ -1,3 +1,5 @@
+https://seachal.me/程序员/2018/01/04/程序员/2018-01-04/
+https://seachal.me/uncategorized/2018/01/04/Android/2018-01-04/
 https://seachal.me/Bolg/2018/01/03/Hexo/Hexo遇到的坑/
 https://seachal.me/Bolg/2017/12/29/Hexo/Hexo博客Next主题如何添加ForkMeOnGithub/
 https://seachal.me/Android/2017/12/28/Android/Android设置TextView文显示固定字数 省略号表示多余部分/
