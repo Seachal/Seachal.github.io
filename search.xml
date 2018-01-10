@@ -21,8 +21,8 @@
         <category>程序员</category>
       </categories>
       <tags>
-        <tag>程序员</tag>
         <tag>工具</tag>
+        <tag>程序员</tag>
       </tags>
   </entry>
   <entry>
@@ -70,8 +70,8 @@
       </categories>
       <tags>
         <tag>Android</tag>
-        <tag>TextView</tag>
         <tag>View</tag>
+        <tag>TextView</tag>
       </tags>
   </entry>
   <entry>
@@ -119,8 +119,8 @@
         <category>Android</category>
       </categories>
       <tags>
-        <tag>Mac</tag>
         <tag>Android</tag>
+        <tag>Mac</tag>
         <tag>IDE</tag>
       </tags>
   </entry>
