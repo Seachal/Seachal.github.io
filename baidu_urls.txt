@@ -1,9 +1,10 @@
+https://seachal.me/Android/2018/01/10/2018-01-10/
 https://seachal.me/程序员/2018/01/04/程序员/2018-01-04/
-https://seachal.me/Bolg/2018/01/03/Hexo/Hexo遇到的坑/
-https://seachal.me/Bolg/2017/12/29/Hexo/Hexo博客Next主题如何添加ForkMeOnGithub/
+https://seachal.me/Bolg/2018/01/03/BlogBuild/Hexo遇到的坑/
+https://seachal.me/Bolg/2017/12/29/BlogBuild/Hexo博客Next主题如何添加ForkMeOnGithub/
 https://seachal.me/Android/2017/12/28/Android/Android设置TextView文显示固定字数 省略号表示多余部分/
 https://seachal.me/Android/2017/12/28/Android/动态为TextView控件设置drawableLeft图标,并设置间距/
-https://seachal.me/Bolg/2017/12/25/Blog创建与优化/2017-12-30-1/
-https://seachal.me/Bolg/2017/12/25/Blog创建与优化/2018-01-04/
+https://seachal.me/Bolg/2017/12/25/BlogBuild/2017-12-30-1/
+https://seachal.me/Bolg/2017/12/25/BlogBuild/2018-01-04/
 https://seachal.me/Github/2017/12/23/如何在Mac下配置Github和Bitbucket的SSH/
 https://seachal.me/Android/2017/12/23/Android/Android Studio快捷键_Mac和Windos和Linux/
