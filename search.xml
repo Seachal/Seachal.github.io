@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo创建文章和草稿]]></title>
+    <url>%2FReactNative%2F2018%2F01%2F12%2FReactNative%2F2018-01-12%2F</url>
+    <content type="text"><![CDATA[JavaScript语法let以及let与var的区别let 语句声明一个块级作用域的本地变量，并且可选的将其初始化为一个值。 语法let var1 [= value1] [, var2 [= value2]] [, …, varN [= valueN]]; 参数var1, var2, …, varN 变量名。可以是任意合法的标识符。 value1, value2, …, valueN 变量的初始值。可以是任意合法的表达式。 描述let允许你声明一个作用域被限制在块级中的变量、语句或者表达式。与var关键字不同的是，它声明的变量只能是全局或者整个函数块的。 这里解释了我们为什么选取“let”这个名字。 12345678Let is a mathematical statement that was adopted by early programming languages like Scheme and Basic. Variables are considered low level entities not suitable for higher levels of abstraction, thus the desire of many language designers to introduce similar but more powerful concepts like in Clojure, F#, Scala, where let might mean a value, or a variable that can be assigned, but not changed, which in turn lets the compiler catch more programming errors and optimize code better. JavaScript has had var from the beginning, so they just needed another keyword, and just borrowed from dozens of other languages that use let already as a traditional keyword as close to var as possible, although in JavaScript let creates block scope local variable instead. answered Jun 20 ‘16 at 7:47 exebook 123456Let是一个数学声明，是采用于早期的编程语言如Scheme和Basic。变量被认为是不适合更高层次抽象的低级实体，因此许多语言设计者希望引入类似但更强大的概念，如在Clojure、f#、Scala，let可能意味着一个值，或者一个变量可以赋值，但不能被更改，这反过来使编译器能够捕获更多的编程错误和优化代码更好。javascript从一开始就有var，所以他们只是需要另一个关键字，并只是借用了其他数十种语言，使用let已经作为一个传统的尽可能接近var的关键字，虽然在javascript 中 let只创建块范围局部变量而已。 作用域规则let声明的变量只在其声明的块或子块中可用，这一点，与var相似。二者之间最主要的区别在于var声明的变量的作用域是整个封闭函数。 1234567891011121314151617function varTest() &#123; var x = 1; if (true) &#123; var x = 2; // 同样的变量! console.log(x); // 2 &#125; console.log(x); // 2&#125;function letTest() &#123; let x = 1; if (true) &#123; let x = 2; // 不同的变量 console.log(x); // 2 &#125; console.log(x); // 1&#125; 简化内部函数代码当用到内部函数的时候，let会让你的代码更加简洁。 1234567891011121314151617181920212223242526var list = document.getElementById('list');for (let i = 1; i &lt;= 5; i++) &#123; let item = document.createElement('li'); item.appendChild(document.createTextNode('Item ' + i)); item.onclick = function(ev) &#123; console.log('Item ' + i + ' is clicked.'); &#125;; list.appendChild(item);&#125;// to achieve the same effect with 'var'// you have to create a different context// using a closure to preserve the valuefor (var i = 1; i &lt;= 5; i++) &#123; var item = document.createElement('li'); item.appendChild(document.createTextNode('Item ' + i)); (function(i)&#123; item.onclick = function(ev) &#123; console.log('Item ' + i + ' is clicked.'); &#125;; &#125;)(i); list.appendChild(item);&#125; 以上示例的工作原理是因为（匿名）内部函数的五个实例引用了变量i的五个不同实例。注意，如果你将let替换为var，则它将无法正常工作，因为所有内部函数都将返回相同的i：6的最终值。此外，我们可以通过将创建新元素的代码移动到每个循环的作用域来保持循环更清晰。 在程序或者函数的顶层，let并不会像**var**一样在全局对象上创造一个属性，比如： 1234var x = 'global';let y = 'global';console.log(this.x); // "global"console.log(this.y); // undefined 模仿私有接口在处理构造函数的时候，可以通过let绑定来共享一个或多个私有成员，而不使用闭包： 123456789101112131415161718192021222324252627282930313233343536var Thing;&#123; let privateScope = new WeakMap(); let counter = 0; Thing = function() &#123; this.someProperty = 'foo'; privateScope.set(this, &#123; hidden: ++counter, &#125;); &#125;; Thing.prototype.showPublic = function() &#123; return this.someProperty; &#125;; Thing.prototype.showPrivate = function() &#123; return privateScope.get(this).hidden; &#125;;&#125;console.log(typeof privateScope);// "undefined"var thing = new Thing();console.log(thing);// Thing &#123;someProperty: "foo"&#125;thing.showPublic();// "foo"thing.showPrivate();// 1 let暂存死区的错误在相同的函数或块作用域内重新声明同一个变量会引发SyntaxError。 1234if (x) &#123; let foo; let foo; // TypeError thrown.&#125; 在 ECMAScript 2015 中，**let**绑定不受变量提升的约束，这意味着**let**声明不会被提升到当前执行上下文的顶部。在块中的变量初始化之前，引用它将会导致 [ReferenceError](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)（而使用 var 声明变量则恰恰相反，该变量的值是 undefined ）。该变量处于从块开始到初始化处理的“暂存死区”。 123456function do_something() &#123; console.log(bar); // undefined console.log(foo); // ReferenceError: foo is not defined var bar = 1; let foo = 2;&#125; 在 switch 声明中你可能会遇到这样的错误，因为它只有一个块. 123456789switch (x) &#123; case 0: let foo; break; case 1: let foo; // TypeError for redeclaration. break;&#125; 但是，重要的是要指出嵌套在case子句内的块将创建一个新的块作用域的词法环境，这不会产生上面显示的重新声明错误。 123456789101112let x = 1;switch(x) &#123; case 0: &#123; let foo; break; &#125; case 1: &#123; let foo; break; &#125;&#125; 与词法作用域结合的暂存死区由于词法作用域，表达式(foo + 55)内的标识符“foo”会解析为if块的foo，而不是覆盖值为33的foo。在这一行中，if块的“foo”已经在词法环境中创建，但尚未达到（并终止）其初始化（这是语句本身的一部分）：它仍处于暂存死区。 1234567function test()&#123; var foo = 33; if (true) &#123; let foo = (foo + 55); // ReferenceError &#125;&#125;test(); 这种现象可能会使您陷入以下情况。指令let n of n.a已经在for循环块的私有范围内，因此标识符“n.a”被解析为位于指令本身的第一部分（“let n”）中的’n’对象的属性’a’ ，由于尚未达成和终止其声明，因此仍处于暂存死区。 12345678910function go(n) &#123; // n here is defined! console.log(n); // Object &#123;a: [1,2,3]&#125; for (let n of n.a) &#123; // ReferenceError console.log(n); &#125;&#125;go(&#123;a: [1, 2, 3]&#125;); 其他情况当在块中使用时，let将变量的作用域限制为该块。注意**var**的作用域在它被声明的函数内的区别。 12345678910111213var a = 1;var b = 2;if (a === 1) &#123; var a = 11; // the scope is global let b = 22; // the scope is inside the if-block console.log(a); // 11 console.log(b); // 22&#125; console.log(a); // 11console.log(b); // 2 规范| Specification | Status | Comment || ECMAScript 2015 (6th Edition, ECMA-262) Let and Const Declarations | Standard | Initial definition. Does not specify let expressions or let blocks. || ECMAScript Latest Draft (ECMA-262) Let and Const Declarations | Living Standard | | 浏览器兼容 Desktop Mobile Feature Chrome Edge Firefox Internet Explorer Opera Safari Basic support 41 12 441 2 3 11 17 10 1. Prior to Firefox 44, let is only available to code blocks in HTML wrapped in a &lt;script type=&quot;application/javascript;version=1.7&quot;&gt; block (or higher version) and has different semantics (e.g. no temporal dead zone). 2. Prior to Firefox 46, a TypeError is thrown on redeclaration instead of a SyntaxError. 3. Firefox 54 adds support of let in workers. 相关链接 var const ES6 In Depth: let and const Breaking changes in let and const in Firefox 44. You Don’t Know JS: Scope &amp; Closures: Chapter 3: Function vs. Block Scope 文档标签和贡献者 标签： ECMAScript 2015 JavaScript let Statement Variable declaration Variables 参考：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let]]></content>
+      <categories>
+        <category>ReactNative</category>
+      </categories>
+      <tags>
+        <tag>ECMAScript 2015</tag>
+        <tag>JavaScript</tag>
+        <tag>let</tag>
+        <tag>Statement</tag>
+        <tag>ES6</tag>
+        <tag>Variable</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Mac和Linux返回上一级的命令是什么]]></title>
+    <url>%2FMac%2F2018%2F01%2F12%2FMac%2F2018-01-11%2F</url>
+    <content type="text"><![CDATA[Mac和Linux返回上一级的命令是什么要注意在linux shell有几个特定的符号。一个就是 . 指当前目录，例如： sh ./xx就是用shell去运行当前目录下的xx程序。一个是 .. 指上一级目录，例如： vi ../xx就是用vi去打开上一级目录下的xx文件。 cd ..将上一级目录变为当前目录，也就是返回上一级。另外就是 ~ 代表当前用户的家目录。 cd ~回到登录用户的家目录。参考：https://zhidao.baidu.com/question/58838894]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+        <tag>命令行</tag>
+        <tag>Terminal</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>%2Funcategorized%2F2018%2F01%2F10%2F2018-01-10-1%2F</url>
+    <content type="text"><![CDATA[PyCharm与IntelliJ IDEA Python插件FAQPyCharm与IntelliJ IDEA + Python插件 问：随着PyCharm的宣布，IDEA插件仍然可用？答：是的，我们计划同步发布新的PyCharm构建和插件更新。对于购买了IntelliJ IDEA Ultimate许可证的用户，该插件将保持免费。 问：插件是否支持PyCharm支持的大部分/全部功能？答：IntelliJ IDEA的Python插件是与PyCharm相同的代码库构建的。有些功能可能暂时在插件中不可用，因为与PyCharm相比，最新的IntelliJ IDEA基于早期的IntelliJ平台。 问：PyCharm和Python插件有什么不同？使用PyCharm而不仅仅是插件会有好处吗？答：PyCharm在一些领域提供了一个更简单的用户界面，例如项目管理，IDE设置等。 Python插件依次具有Jython全面的支持功能（跨语言导航，完成和重构）。PyCharm仅支持Jython作为运行应用程序的运行时。 如果你不使用Java / Python集成，PyCharm是一个更好的开始。 问：我可以使用我的IntelliJ IDEA许可证使用PyCharm吗？答：不可以。这两种产品使用不同的许可证制度。如果您想使用这两种产品，则需要购买两个许可证。 问：IntelliJ IDEA和PyCharm之间的项目文件是否兼容？答：在PyCharm中创建的项目可以在安装了Python插件的IntelliJ IDEA中打开，没有任何问题。IntelliJ IDEA允许更灵活的项目配置，例如为项目配置库的可能性。PyCharm将能够打开并使用更高级设置的项目，但是您将无法更改PyCharm中的设置。参考：https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Android ListView的Item会出现点击两次的问题]]></title>
     <url>%2FAndroid%2F2018%2F01%2F10%2F2018-01-10%2F</url>
     <content type="text"><![CDATA[Android ListView的Item会出现点击两次的问题方案有两种，方案一： 直接自定义监听器，适用于大量此类操作。方案二： 直接在方法里拦截，适用于少量此类操作。 方案一：自定义一个监听器NoDoubleClickListener，抽象一个 onNoDoubleClick 方法。 1234567891011121314151617public abstract class NoDoubleClickListener implements View.OnClickListener &#123; public static final int DELAY = 10000; //连击事件间隔 private long lastClickTime = 0; //记录最后一次时间 @Override public void onClick(View v) &#123; long currentTime = System.currentTimeMillis(); if (currentTime - lastClickTime &gt; DELAY) &#123; //判断时间差 lastClickTime = currentTime; //记录最后一次点击时间 onNoDoubleClick(v); &#125; &#125; //抽象一个无连击事件方法，用于实现内容 public abstract void onNoDoubleClick(View v);&#125; 用法，在建立监听的时候使用刚刚自定义的监听器，并实现其抽象方法。 1234567view.setOnClickListener(new NoDoubleClickListener() &#123; @Override public void onNoDoubleClick(View v) &#123; //你的代码 &#125; &#125;); 方案二：把方案一的时间差判定方法拿出来。。就行了。。 1234567891011public class Utils &#123; public static final int DELAY = 1000; private static long lastClickTime = 0; public static boolean isNotFastClick()&#123; long currentTime = System.currentTimeMillis(); if (currentTime - lastClickTime &gt; DELAY) &#123; lastClickTime = currentTime; return true; &#125;else&#123;return false;&#125; &#125;&#125; 用法, 12345678view.setOnClickListener(new View.OnClickListener() &#123; @Override public void onClick(View v) &#123; if(Utils.isNotFastClick())&#123; //你的代码 &#125; &#125; &#125;); 按照java的设计原则，推荐第一种方案。其他监听也是同样的自定义方式。 参考：https://segmentfault.com/q/1010000004395999]]></content>
@@ -27,26 +61,26 @@
   </entry>
   <entry>
     <title><![CDATA[Hexo遇到的坑]]></title>
-    <url>%2FBolg%2F2018%2F01%2F03%2FBlogBuild%2FHexo%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91%2F</url>
+    <url>%2FBolgBuild%2F2018%2F01%2F03%2FBlogBuild%2FHexo%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91%2F</url>
     <content type="text"><![CDATA[Hexo遇到的坑1. imagemin使用npm install hexo-imagemin –save安装imagemin后在根目录 _cofig.yml中配置imagemin如下。 imagemin: enable : true interlaced : false multipass : false optimizationLevel: 2 pngquant : false progressive: false 会有一些图片在 hexo g命令后生成的是0kb，根本打不开，注释掉_cofig.yml中关于imagemin的配置，生成的图片还是0kb，使用npm uninstall hexo-imagemin命令卸载后，就解决了了问题。]]></content>
       <categories>
-        <category>Bolg</category>
+        <category>BolgBuild</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>Blog</tag>
+        <tag>BolgBuild</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[Hexo博客Next主题如何添"ForkMeOnGithub"]]></title>
-    <url>%2FBolg%2F2017%2F12%2F29%2FBlogBuild%2FHexo%E5%8D%9A%E5%AE%A2Next%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0ForkMeOnGithub%2F</url>
+    <url>%2FBolgBuild%2F2017%2F12%2F29%2FBlogBuild%2FHexo%E5%8D%9A%E5%AE%A2Next%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0ForkMeOnGithub%2F</url>
     <content type="text"><![CDATA[Hexo博客Next主题如何添加”ForkMeOnGithub”如何给网站添加”Fork me on Github”效果？ 1. 效果图展示 2. 实现1. 样式挑选样式可以参考github的文档,可以选择左侧样式还是右侧样式， 2. 修改把官网的的代码拷贝过来添加到Hexo博客根目录/themes/next/layout文件夹下的_layout.swig文件中官网的代码： 123&lt;a target="_blank" href="https://github.com/you"&gt;&lt;img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"&gt;&lt;/a&gt; 比如我的github地址为:https://github.com/Seachal所以代码如下:1234567&lt;body&gt;...&lt;a target="_blank" href="https://github.com/Seachal"&gt;&lt;img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"&gt;&lt;/a&gt;...&lt;/body&gt; 3. 有何问题但是这样会有个问题：手机上的页面也会是这个效果,如果你不想让手机上显示成 那么你需要 修改文件hexo博客根目录\themes\next\layout\_layout.swig 找到如下代码块 1234&lt;html class="&#123;&#123; html_class | lower &#125;&#125;"&gt;&lt;head&gt; &#123;% include '_partials/head.swig' %&#125; &lt;title&gt;&#123;% block title %&#125;&#123;% endblock %&#125;&lt;/title&gt; 添加代码，结果如下: 1234567891011121314151617&lt;head&gt; &#123;% include '_partials/head.swig' %&#125; &lt;title&gt;&#123;% block title %&#125;&#123;% endblock %&#125;&lt;/title&gt; &#123;% include '_third-party/analytics/index.swig' %&#125; &lt;style&gt; .forkMeOnGithub&#123; display: none; &#125; @media (min-width: 768px) &#123; .forkMeOnGithub&#123; display: inline; &#125;&#125;&lt;/style&gt;&lt;/head&gt; 最后在2.1节添加的代码块上套上div加上class就行了，代码如下 123&lt;div class="forkMeOnGithub"&gt;&lt;a target="_blank" href="https://github.com/Seachal"&gt;&lt;img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"&gt;&lt;/a&gt;&lt;/div&gt; 这样就只会在桌面版的网页内显示”Fork me on Github”]]></content>
       <categories>
-        <category>Bolg</category>
+        <category>BolgBuild</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>Blog</tag>
+        <tag>BolgBuild</tag>
       </tags>
   </entry>
   <entry>
@@ -76,26 +110,26 @@
   </entry>
   <entry>
     <title><![CDATA[Hexo创建文章和草稿]]></title>
-    <url>%2FBolg%2F2017%2F12%2F25%2FBlogBuild%2F2017-12-30-1%2F</url>
+    <url>%2FBolgBuild%2F2017%2F12%2F25%2FBlogBuild%2F2017-12-30-1%2F</url>
     <content type="text"><![CDATA[Hexo创建文章和草稿文章命令行中输入： ======================== $ hexo new “new article” ======================== 之后在source/_posts目录下面，多了一个new-article.md的文件。 打开之后我们会看到： ========================= title: new article date: 2014-11-01 20:10:33 tags: ========================= 文件的开头是属性，采用统一的yaml格式，用三条短横线分隔。下面是文章正文。 文章的正文支持markdown格式，建议你先学习一下它的语法。markdown不像html似的一大堆标签，很简单，只有几个符号。 新建、删除或修改文章后，不需要重启hexo server，刷新一下即可预览。 属性文章可以拥有如下属性： Setting Description Default layout Layout post或page title 文章的标题 date 创建日期 文件的创建日期 updated 修改日期 文件的修改日期 comments 是否开启评论 true tags 标签 categories 分类 permalink url中的名字 文件名 动态博客中通过发布文章页面设置的各种属性，在hexo里要这样设置。 分类和标签例如： =========== categories: 日记 tags: Hexo node.js =========== 摘要同wordpress一样，之上的内容为摘要。 layout如果你修改了layout，在scaffolds文件夹里一定要有名字对应的模版文件，否则会采用默认模版。 文件名在配置文件中的new_post_name项可以设置文件名，默认为:title，也就是你在命令行输入的名字。 文件名可以为下面几个变量和字符串常量的任意组合： Variable Description :title Escaped title (lower case and replace spaces with dash) :year Created year (4-digit) :month Created month (2-digit) :i_month Created month (Without leading zeros) :day Created day (2-digit) :i_day Created day (Without leading zeros) 草稿草稿相当于很多博客都有的“私密文章”功能。 ============================ $ hexo new draft “new draft” ============================ 会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。 如果你希望强行预览草稿，更改配置文件： =================== render_drafts: true =================== 或者，如下方式启动server： ====================== $ hexo server –drafts ====================== 下面这条命令可以把草稿变成文章，或者页面： ================================== $ hexo publish [layout] ==================================]]></content>
       <categories>
-        <category>Bolg</category>
+        <category>BolgBuild</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>Blog</tag>
+        <tag>BolgBuild</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[Hexo创建文章和草稿]]></title>
-    <url>%2FBolg%2F2017%2F12%2F25%2FBlogBuild%2F2018-01-04%2F</url>
+    <url>%2FBolgBuild%2F2017%2F12%2F25%2FBlogBuild%2F2018-01-04%2F</url>
     <content type="text"><![CDATA[#首先安装gulp，执行以下命令： 1npm insatll gulp -g 1npm install gulp-htmlclean]]></content>
       <categories>
-        <category>Bolg</category>
+        <category>BolgBuild</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>Blog</tag>
+        <tag>BolgBuild</tag>
       </tags>
   </entry>
   <entry>

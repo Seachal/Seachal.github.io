@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://seachal.me/"/>
-  <updated>2018-01-10T08:43:29.000Z</updated>
+  <updated>2018-01-12T02:42:42.000Z</updated>
   <id>https://seachal.me/</id>
   
   <author>
@@ -15,6 +15,91 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo创建文章和草稿</title>
+    <link href="https://seachal.me/ReactNative/2018/01/12/ReactNative/2018-01-12/"/>
+    <id>https://seachal.me/ReactNative/2018/01/12/ReactNative/2018-01-12/</id>
+    <published>2018-01-12T02:10:30.000Z</published>
+    <updated>2018-01-12T02:42:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="JavaScript语法let以及let与var的区别"><a href="#JavaScript语法let以及let与var的区别" class="headerlink" title="JavaScript语法let以及let与var的区别"></a>JavaScript语法let以及let与var的区别</h1><p><code>let</code> 语句声明一个块级作用域的本地变量，并且可选的将其初始化为一个值。</p><h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><p>let var1 [= value1] [, var2 [= value2]] [, …, varN [= valueN]];</p><h3 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h3><p><code>var1</code>, <code>var2</code>, …, <code>varN</code></p><p>变量名。可以是任意合法的标识符。</p><p><code>value1</code>, <code>value2</code>, …, <code>valueN</code></p><p>变量的初始值。可以是任意合法的表达式。</p><h2 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h2><p><strong><code>let</code></strong>允许你声明一个作用域被限制在块级中的变量、语句或者表达式。与<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/var" target="_blank" rel="noopener">var</a>关键字不同的是，它声明的变量只能是全局或者整个函数块的。</p><p><a href="https://stackoverflow.com/questions/37916940/js-why-let-have-this-name" target="_blank" rel="noopener">这里</a>解释了我们为什么选取“<strong>let</strong>”这个名字。</p><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Let is <span class="keyword">a</span> mathematical statement that was adopted <span class="keyword">by</span> early programming languages like Scheme <span class="keyword">and</span> Basic. </span><br><span class="line">Variables are considered low level entities <span class="keyword">not</span> suitable <span class="keyword">for</span> higher levels <span class="keyword">of</span> abstraction, </span><br><span class="line">thus <span class="keyword">the</span> desire <span class="keyword">of</span> many language designers <span class="built_in">to</span> introduce similar but more powerful concepts like <span class="keyword">in</span> Clojure, F<span class="comment">#, Scala, </span></span><br><span class="line">where let might mean <span class="keyword">a</span> <span class="built_in">value</span>, <span class="keyword">or</span> <span class="keyword">a</span> <span class="built_in">variable</span> that can be assigned, but <span class="keyword">not</span> changed, </span><br><span class="line">which <span class="keyword">in</span> turn lets <span class="keyword">the</span> compiler <span class="keyword">catch</span> more programming errors <span class="keyword">and</span> optimize code better. </span><br><span class="line">JavaScript has had var <span class="built_in">from</span> <span class="keyword">the</span> beginning, so they just needed another keyword, </span><br><span class="line"><span class="keyword">and</span> just borrowed <span class="built_in">from</span> dozens <span class="keyword">of</span> other languages that use let already <span class="keyword">as</span> <span class="keyword">a</span> traditional keyword <span class="keyword">as</span> <span class="built_in">close</span> <span class="built_in">to</span> var <span class="keyword">as</span> possible, </span><br><span class="line">although <span class="keyword">in</span> JavaScript let creates block scope <span class="built_in">local</span> <span class="built_in">variable</span> instead.</span><br></pre></td></tr></table></figure><p>answered Jun 20 ‘16 at 7:47</p><p><a href="https://stackoverflow.com/users/1968972/exebook" target="_blank" rel="noopener"><img src="images/bfdd4ec8dff5c7635520fe98348524ec." alt="">exebook</a></p><figure class="highlight zephir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Let</span>是一个数学声明，是采用于早期的编程语言如Scheme和Basic。</span><br><span class="line">变量被认为是不适合更高层次抽象的低级实体，因此许多语言设计者希望引入类似但更强大的概念，</span><br><span class="line">如在Clojure、f<span class="comment">#、Scala，let可能意味着一个值，或者一个变量可以赋值，但不能被更改，</span></span><br><span class="line">这反过来使编译器能够捕获更多的编程错误和优化代码更好。</span><br><span class="line">javascript从一开始就有<span class="keyword">var</span>，所以他们只是需要另一个关键字，并只是借用了其他数十种语言，</span><br><span class="line">使用<span class="keyword">let</span>已经作为一个传统的尽可能接近<span class="keyword">var</span>的关键字，虽然在javascript 中 <span class="keyword">let</span>只创建块范围局部变量而已。</span><br></pre></td></tr></table></figure><h3 id="作用域规则"><a href="#作用域规则" class="headerlink" title="作用域规则"></a>作用域规则</h3><p><strong><code>let</code></strong>声明的变量只在其声明的块或子块中可用，这一点，与<strong><code>var</code></strong>相似。二者之间最主要的区别在于<strong><code>var</code></strong>声明的变量的作用域是整个封闭函数。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">varTest</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> x = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">if</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> x = <span class="number">2</span>;  <span class="comment">// 同样的变量!</span></span><br><span class="line">    <span class="built_in">console</span>.log(x);  <span class="comment">// 2</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">console</span>.log(x);  <span class="comment">// 2</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">letTest</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">let</span> x = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">if</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">    <span class="keyword">let</span> x = <span class="number">2</span>;  <span class="comment">// 不同的变量</span></span><br><span class="line">    <span class="built_in">console</span>.log(x);  <span class="comment">// 2</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">console</span>.log(x);  <span class="comment">// 1</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="简化内部函数代码"><a href="#简化内部函数代码" class="headerlink" title="简化内部函数代码"></a>简化内部函数代码</h3><p>当用到内部函数的时候，<strong><code>let</code></strong>会让你的代码更加简洁。</p><figure class="highlight qml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> <span class="built_in">list</span> = <span class="built_in">document</span>.getElementById(<span class="string">'list'</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">1</span>; i &lt;= <span class="number">5</span>; i++) &#123;</span><br><span class="line">  <span class="keyword">let</span> item = <span class="built_in">document</span>.createElement(<span class="string">'li'</span>);</span><br><span class="line">  item.appendChild(<span class="built_in">document</span>.createTextNode(<span class="string">'Item '</span> + i));</span><br><span class="line"></span><br><span class="line">  item.onclick = <span class="function"><span class="keyword">function</span>(<span class="params">ev</span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Item '</span> + i + <span class="string">' is clicked.'</span>);</span><br><span class="line">  &#125;;</span><br><span class="line">  <span class="built_in">list</span>.appendChild(item);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// to achieve the same effect with 'var'</span></span><br><span class="line"><span class="comment">// you have to create a different context</span></span><br><span class="line"><span class="comment">// using a closure to preserve the value</span></span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">1</span>; i &lt;= <span class="number">5</span>; i++) &#123;</span><br><span class="line">  <span class="keyword">var</span> item = <span class="built_in">document</span>.createElement(<span class="string">'li'</span>);</span><br><span class="line">  item.appendChild(<span class="built_in">document</span>.createTextNode(<span class="string">'Item '</span> + i));</span><br><span class="line"></span><br><span class="line">  (<span class="function"><span class="keyword">function</span>(<span class="params">i</span>)</span>&#123;</span><br><span class="line">    item.onclick = <span class="function"><span class="keyword">function</span>(<span class="params">ev</span>) </span>&#123;</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="string">'Item '</span> + i + <span class="string">' is clicked.'</span>);</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;)(i);</span><br><span class="line">  <span class="built_in">list</span>.appendChild(item);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>以上示例的工作原理是因为（匿名）内部函数的五个实例引用了变量<code>i</code>的五个不同实例。注意，如果你将<strong><code>let</code></strong>替换为<strong><code>var</code></strong>，则它将无法正常工作，因为所有内部函数都将返回相同的<code>i</code>：6的最终值。此外，我们可以通过将创建新元素的代码移动到每个循环的作用域来保持循环更清晰。</p><p>在程序或者函数的顶层，<strong><code>let</code></strong>并不会像<code>**var**</code>一样在全局对象上创造一个属性，比如：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> x = <span class="string">'global'</span>;</span><br><span class="line"><span class="keyword">let</span> y = <span class="string">'global'</span>;</span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">this</span>.x); <span class="comment">// "global"</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">this</span>.y); <span class="comment">// undefined</span></span><br></pre></td></tr></table></figure><h3 id="模仿私有接口"><a href="#模仿私有接口" class="headerlink" title="模仿私有接口"></a>模仿私有接口</h3><p>在处理<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes/constructor" target="_blank" rel="noopener">构造函数</a>的时候，可以通过<strong><code>let</code></strong>绑定来共享一个或多个私有成员，而不使用<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures" target="_blank" rel="noopener">闭包</a>：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> Thing;</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">let</span> privateScope = <span class="keyword">new</span> <span class="built_in">WeakMap</span>();</span><br><span class="line">  <span class="keyword">let</span> counter = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">  Thing = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.someProperty = <span class="string">'foo'</span>;</span><br><span class="line"></span><br><span class="line">    privateScope.set(<span class="keyword">this</span>, &#123;</span><br><span class="line">      hidden: ++counter,</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  Thing.prototype.showPublic = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">this</span>.someProperty;</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  Thing.prototype.showPrivate = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> privateScope.get(<span class="keyword">this</span>).hidden;</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span> privateScope);</span><br><span class="line"><span class="comment">// "undefined"</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> thing = <span class="keyword">new</span> Thing();</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(thing);</span><br><span class="line"><span class="comment">// Thing &#123;someProperty: "foo"&#125;</span></span><br><span class="line"></span><br><span class="line">thing.showPublic();</span><br><span class="line"><span class="comment">// "foo"</span></span><br><span class="line"></span><br><span class="line">thing.showPrivate();</span><br><span class="line"><span class="comment">// 1</span></span><br></pre></td></tr></table></figure><h3 id="let暂存死区的错误"><a href="#let暂存死区的错误" class="headerlink" title="let暂存死区的错误"></a><code>let</code>暂存死区的错误</h3><p>在相同的函数或块作用域内重新声明同一个变量会引发<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError" title="SyntaxError 对象代表尝试解析语法上不合法的代码的错误。" target="_blank" rel="noopener"><code>SyntaxError</code></a>。</p><figure class="highlight ceylon"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (x) &#123;</span><br><span class="line">  <span class="keyword">let</span> foo;</span><br><span class="line">  <span class="keyword">let</span> foo; <span class="comment">// TypeError thrown.</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>在 ECMAScript 2015 中，<code>**let**</code>绑定不受<strong>变量提升</strong>的约束，这意味着<code>**let**</code>声明不会被提升到当前执行上下文的顶部。在块中的变量初始化之前，引用它将会导致 <code>[ReferenceError](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)</code>（而使用 var 声明变量则恰恰相反，该变量的值是 undefined ）。该变量处于从块开始到初始化处理的“暂存死区”。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">do_something</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(bar); <span class="comment">// undefined</span></span><br><span class="line">  <span class="built_in">console</span>.log(foo); <span class="comment">// ReferenceError: foo is not defined</span></span><br><span class="line">  <span class="keyword">var</span> bar = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">let</span> foo = <span class="number">2</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>在 <a href="https://developer.mozilla.org/zh-CN/docs/JavaScript/Reference/Statements/switch" title="switch" target="_blank" rel="noopener"><code>switch</code></a> 声明中你可能会遇到这样的错误，因为它只有一个块.</p><figure class="highlight ceylon"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">switch</span> (x) &#123;</span><br><span class="line">  <span class="keyword">case</span> <span class="number">0</span>:</span><br><span class="line">    <span class="keyword">let</span> foo;</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">    <span class="keyword">let</span> foo; <span class="comment">// TypeError for redeclaration.</span></span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>但是，重要的是要指出嵌套在case子句内的块将创建一个新的块作用域的词法环境，这不会产生上面显示的重新声明错误。</p><figure class="highlight ceylon"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> x = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">switch</span>(x) &#123;</span><br><span class="line">  <span class="keyword">case</span> <span class="number">0</span>: &#123;</span><br><span class="line">    <span class="keyword">let</span> foo;</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">  &#125;  </span><br><span class="line">  <span class="keyword">case</span> <span class="number">1</span>: &#123;</span><br><span class="line">    <span class="keyword">let</span> foo;</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="与词法作用域结合的暂存死区"><a href="#与词法作用域结合的暂存死区" class="headerlink" title="与词法作用域结合的暂存死区"></a>与词法作用域结合的暂存死区</h3><p>由于词法作用域，表达式<code>(foo + 55)</code>内的标识符“<strong>foo</strong>”会解析为if块的foo，而<strong>不是</strong>覆盖值为33的foo。在这一行中，if块的“foo”已经在词法环境中创建，但尚未达到（并终止）其初始化（这是语句本身的一部分）：它仍处于暂存死区。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">   <span class="keyword">var</span> foo = <span class="number">33</span>;</span><br><span class="line">   <span class="keyword">if</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">      <span class="keyword">let</span> foo = (foo + <span class="number">55</span>); <span class="comment">// ReferenceError</span></span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line">test();</span><br></pre></td></tr></table></figure><p>这种现象可能会使您陷入以下情况。指令<code>let n of n.a</code>已经在for循环块的私有范围内，因此标识符“<strong>n.a</strong>”被解析为位于指令本身的第一部分（“let n”）中的’n’对象的属性’a’ ，由于尚未达成和终止其声明，因此仍处于暂存死区。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">go</span>(<span class="params">n</span>) </span>&#123;</span><br><span class="line">  <span class="comment">// n here is defined!</span></span><br><span class="line">  <span class="built_in">console</span>.log(n); <span class="comment">// Object &#123;a: [1,2,3]&#125;</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">let</span> n <span class="keyword">of</span> n.a) &#123; <span class="comment">// ReferenceError</span></span><br><span class="line">    <span class="built_in">console</span>.log(n);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">go(&#123;<span class="attr">a</span>: [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]&#125;);</span><br></pre></td></tr></table></figure><h2 id="其他情况"><a href="#其他情况" class="headerlink" title="其他情况"></a>其他情况</h2><p>当在块中使用时，<strong><code>let</code></strong>将变量的作用域限制为该块。注意<code>**var**</code>的作用域在它被声明的函数内的区别。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">var</span> b = <span class="number">2</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (a === <span class="number">1</span>) &#123;</span><br><span class="line">  <span class="keyword">var</span> a = <span class="number">11</span>; <span class="comment">// the scope is global</span></span><br><span class="line">  <span class="keyword">let</span> b = <span class="number">22</span>; <span class="comment">// the scope is inside the if-block</span></span><br><span class="line"></span><br><span class="line">  <span class="built_in">console</span>.log(a);  <span class="comment">// 11</span></span><br><span class="line">  <span class="built_in">console</span>.log(b);  <span class="comment">// 22</span></span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(a); <span class="comment">// 11</span></span><br><span class="line"><span class="built_in">console</span>.log(b); <span class="comment">// 2</span></span><br></pre></td></tr></table></figure><h2 id="规范"><a href="#规范" class="headerlink" title="规范"></a>规范</h2><p>| Specification | Status | Comment |<br>| <a href="https://www.ecma-international.org/ecma-262/6.0/#sec-let-and-const-declarations" target="_blank" rel="noopener">ECMAScript 2015 (6th Edition, ECMA-262) Let and Const Declarations</a> | Standard | Initial definition. Does not specify let expressions or let blocks. |<br>| <a href="https://tc39.github.io/ecma262/#sec-let-and-const-declarations" target="_blank" rel="noopener">ECMAScript Latest Draft (ECMA-262) Let and Const Declarations</a> | Living Standard |   |</p><h2 id="浏览器兼容"><a href="#浏览器兼容" class="headerlink" title="浏览器兼容"></a>浏览器兼容</h2><ul><li>Desktop </li><li>Mobile</li></ul><table><thead><tr><th style="text-align:left">Feature</th><th style="text-align:left">Chrome</th><th style="text-align:left">Edge</th><th style="text-align:left">Firefox</th><th style="text-align:left">Internet Explorer</th><th style="text-align:left">Opera</th><th style="text-align:left">Safari</th></tr></thead><tbody><tr><td style="text-align:left"><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/let" target="_blank" rel="noopener">Basic support</a></td><td style="text-align:left">41</td><td style="text-align:left">12</td><td style="text-align:left">44<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let#compatNote_1" target="_blank" rel="noopener">1</a> <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let#compatNote_2" target="_blank" rel="noopener">2</a> <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let#compatNote_3" target="_blank" rel="noopener">3</a></td><td style="text-align:left">11</td><td style="text-align:left">17</td><td style="text-align:left">10</td></tr></tbody></table><p>1. Prior to Firefox 44, <code>let</code> is only available to code blocks in HTML wrapped in a <code>&lt;script type=&quot;application/javascript;version=1.7&quot;&gt;</code> block (or higher version) and has different semantics (e.g. no temporal dead zone).</p><p>2. Prior to Firefox 46, a <code>TypeError</code> is thrown on redeclaration instead of a <code>SyntaxError</code>.</p><p>3. Firefox 54 adds support of <code>let</code> in workers.</p><h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul><li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/var" target="_blank" rel="noopener"><code>var</code></a></li><li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/const" target="_blank" rel="noopener"><code>const</code></a></li><li><a href="https://hacks.mozilla.org/2015/07/es6-in-depth-let-and-const/" target="_blank" rel="noopener">ES6 In Depth: <code>let</code> and <code>const</code></a></li><li><a href="https://blog.mozilla.org/addons/2015/10/14/breaking-changes-let-const-firefox-nightly-44/" target="_blank" rel="noopener">Breaking changes in <code>let</code> and <code>const</code> in Firefox 44.</a></li><li><a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md" target="_blank" rel="noopener">You Don’t Know JS: Scope &amp; Closures: Chapter 3: Function vs. Block Scope</a></li></ul><h2 id="文档标签和贡献者"><a href="#文档标签和贡献者" class="headerlink" title="文档标签和贡献者"></a>文档标签和贡献者</h2><p> <strong>标签：</strong>  </p><ul><li><p><a href="https://developer.mozilla.org/zh-CN/docs/tag/ECMAScript%202015" target="_blank" rel="noopener">ECMAScript 2015</a></p></li><li><p><a href="https://developer.mozilla.org/zh-CN/docs/tag/JavaScript" target="_blank" rel="noopener">JavaScript</a></p></li><li><p><a href="https://developer.mozilla.org/zh-CN/docs/tag/let" target="_blank" rel="noopener">let</a></p></li><li><p><a href="https://developer.mozilla.org/zh-CN/docs/tag/Statement" target="_blank" rel="noopener">Statement</a></p></li><li><p><a href="https://developer.mozilla.org/zh-CN/docs/tag/Variable%20declaration" target="_blank" rel="noopener">Variable declaration</a></p></li><li><p><a href="https://developer.mozilla.org/zh-CN/docs/tag/Variables" target="_blank" rel="noopener">Variables</a></p></li></ul><p>参考：<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let" target="_blank" rel="noopener">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;JavaScript语法let以及let与var的区别&quot;&gt;&lt;a href=&quot;#JavaScript语法let以及let与var的区别&quot; class=&quot;headerlink&quot; title=&quot;JavaScript语法let以及let与var的区别&quot;&gt;&lt;/a&gt;JavaS
+      
+    
+    </summary>
+    
+      <category term="ReactNative" scheme="https://seachal.me/categories/ReactNative/"/>
+    
+    
+      <category term="ECMAScript 2015" scheme="https://seachal.me/tags/ECMAScript-2015/"/>
+    
+      <category term="JavaScript" scheme="https://seachal.me/tags/JavaScript/"/>
+    
+      <category term="let" scheme="https://seachal.me/tags/let/"/>
+    
+      <category term="Statement" scheme="https://seachal.me/tags/Statement/"/>
+    
+      <category term="ES6" scheme="https://seachal.me/tags/ES6/"/>
+    
+      <category term="Variable" scheme="https://seachal.me/tags/Variable/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac和Linux返回上一级的命令是什么</title>
+    <link href="https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/"/>
+    <id>https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/</id>
+    <published>2018-01-12T02:10:30.000Z</published>
+    <updated>2018-01-12T02:44:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Mac和Linux返回上一级的命令是什么"><a href="#Mac和Linux返回上一级的命令是什么" class="headerlink" title="Mac和Linux返回上一级的命令是什么"></a>Mac和Linux返回上一级的命令是什么</h1><p>要注意在linux shell有几个特定的符号。<br>一个就是 . 指当前目录，例如：<br> sh ./xx<br>就是用shell去运行当前目录下的xx程序。<br>一个是 .. 指上一级目录，例如：<br> vi ../xx<br>就是用vi去打开上一级目录下的xx文件。<br> cd ..<br>将上一级目录变为当前目录，也就是返回上一级。<br>另外就是 ~ 代表当前用户的家目录。<br> cd ~<br>回到登录用户的家目录。<br>参考：<a href="https://zhidao.baidu.com/question/58838894" target="_blank" rel="noopener">https://zhidao.baidu.com/question/58838894</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;a href=&quot;#Mac和Linux返回上一级的命令是什么&quot; class=&quot;headerlink&quot; title=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;/a&gt;Mac和Linux返回上一级的命令是什么&lt;/h1&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="Mac" scheme="https://seachal.me/categories/Mac/"/>
+    
+    
+      <category term="shell" scheme="https://seachal.me/tags/shell/"/>
+    
+      <category term="命令行" scheme="https://seachal.me/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+    
+      <category term="Terminal" scheme="https://seachal.me/tags/Terminal/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://seachal.me/uncategorized/2018/01/10/2018-01-10-1/"/>
+    <id>https://seachal.me/uncategorized/2018/01/10/2018-01-10-1/</id>
+    <published>2018-01-10T11:00:33.000Z</published>
+    <updated>2018-01-10T11:01:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="PyCharm与IntelliJ-IDEA-Python插件FAQ"><a href="#PyCharm与IntelliJ-IDEA-Python插件FAQ" class="headerlink" title="PyCharm与IntelliJ IDEA Python插件FAQ"></a>PyCharm与IntelliJ IDEA Python插件FAQ</h1><p>PyCharm与IntelliJ IDEA + Python插件</p><p>问：随着PyCharm的宣布，IDEA插件仍然可用？<br>答：是的，我们计划同步发布新的PyCharm构建和插件更新。对于购买了IntelliJ IDEA Ultimate许可证的用户，该插件将保持免费。</p><p>问：插件是否支持PyCharm支持的大部分/全部功能？<br>答：IntelliJ IDEA的Python插件是与PyCharm相同的代码库构建的。有些功能可能暂时在插件中不可用，因为与PyCharm相比，最新的IntelliJ IDEA基于早期的IntelliJ平台。</p><p>问：PyCharm和Python插件有什么不同？使用PyCharm而不仅仅是插件会有好处吗？<br>答：PyCharm在一些领域提供了一个更简单的用户界面，例如项目管理，IDE设置等。</p><p>Python插件依次具有Jython全面的支持功能（跨语言导航，完成和重构）。PyCharm仅支持Jython作为运行应用程序的运行时。</p><p>如果你不使用Java / Python集成，PyCharm是一个更好的开始。</p><p>问：我可以使用我的IntelliJ IDEA许可证使用PyCharm吗？<br>答：不可以。这两种产品使用不同的许可证制度。如果您想使用这两种产品，则需要购买两个许可证。</p><p>问：IntelliJ IDEA和PyCharm之间的项目文件是否兼容？<br>答：在PyCharm中创建的项目可以在安装了Python插件的IntelliJ IDEA中打开，没有任何问题。IntelliJ IDEA允许更灵活的项目配置，例如为项目配置库的可能性。PyCharm将能够打开并使用更高级设置的项目，但是您将无法更改PyCharm中的设置。<br>参考：<a href="https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ" target="_blank" rel="noopener">https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;PyCharm与IntelliJ-IDEA-Python插件FAQ&quot;&gt;&lt;a href=&quot;#PyCharm与IntelliJ-IDEA-Python插件FAQ&quot; class=&quot;headerlink&quot; title=&quot;PyCharm与IntelliJ IDEA Pyth
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Android ListView的Item会出现点击两次的问题</title>
@@ -74,8 +159,8 @@
   
   <entry>
     <title>Hexo遇到的坑</title>
-    <link href="https://seachal.me/Bolg/2018/01/03/BlogBuild/Hexo%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
-    <id>https://seachal.me/Bolg/2018/01/03/BlogBuild/Hexo遇到的坑/</id>
+    <link href="https://seachal.me/BolgBuild/2018/01/03/BlogBuild/Hexo%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
+    <id>https://seachal.me/BolgBuild/2018/01/03/BlogBuild/Hexo遇到的坑/</id>
     <published>2018-01-03T06:10:30.000Z</published>
     <updated>2018-01-03T12:10:30.000Z</updated>
     
@@ -90,19 +175,19 @@
     
     </summary>
     
-      <category term="Bolg" scheme="https://seachal.me/categories/Bolg/"/>
+      <category term="BolgBuild" scheme="https://seachal.me/categories/BolgBuild/"/>
     
     
       <category term="Hexo" scheme="https://seachal.me/tags/Hexo/"/>
     
-      <category term="Blog" scheme="https://seachal.me/tags/Blog/"/>
+      <category term="BolgBuild" scheme="https://seachal.me/tags/BolgBuild/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客Next主题如何添&quot;ForkMeOnGithub&quot;</title>
-    <link href="https://seachal.me/Bolg/2017/12/29/BlogBuild/Hexo%E5%8D%9A%E5%AE%A2Next%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0ForkMeOnGithub/"/>
-    <id>https://seachal.me/Bolg/2017/12/29/BlogBuild/Hexo博客Next主题如何添加ForkMeOnGithub/</id>
+    <link href="https://seachal.me/BolgBuild/2017/12/29/BlogBuild/Hexo%E5%8D%9A%E5%AE%A2Next%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0ForkMeOnGithub/"/>
+    <id>https://seachal.me/BolgBuild/2017/12/29/BlogBuild/Hexo博客Next主题如何添加ForkMeOnGithub/</id>
     <published>2017-12-29T06:10:30.000Z</published>
     <updated>2017-12-29T12:10:30.000Z</updated>
     
@@ -117,12 +202,12 @@
     
     </summary>
     
-      <category term="Bolg" scheme="https://seachal.me/categories/Bolg/"/>
+      <category term="BolgBuild" scheme="https://seachal.me/categories/BolgBuild/"/>
     
     
       <category term="Hexo" scheme="https://seachal.me/tags/Hexo/"/>
     
-      <category term="Blog" scheme="https://seachal.me/tags/Blog/"/>
+      <category term="BolgBuild" scheme="https://seachal.me/tags/BolgBuild/"/>
     
   </entry>
   
@@ -131,7 +216,7 @@
     <link href="https://seachal.me/Android/2017/12/28/Android/Android%E8%AE%BE%E7%BD%AETextView%E6%96%87%E6%98%BE%E7%A4%BA%E5%9B%BA%E5%AE%9A%E5%AD%97%E6%95%B0%20%E7%9C%81%E7%95%A5%E5%8F%B7%E8%A1%A8%E7%A4%BA%E5%A4%9A%E4%BD%99%E9%83%A8%E5%88%86/"/>
     <id>https://seachal.me/Android/2017/12/28/Android/Android设置TextView文显示固定字数 省略号表示多余部分/</id>
     <published>2017-12-28T12:10:30.000Z</published>
-    <updated>2018-01-03T08:34:07.000Z</updated>
+    <updated>2018-01-12T02:46:10.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Android设置TextView文显示固定字数-省略号表示多余部分"><a href="#Android设置TextView文显示固定字数-省略号表示多余部分" class="headerlink" title="Android设置TextView文显示固定字数 省略号表示多余部分"></a>Android设置TextView文显示固定字数 省略号表示多余部分</h1><p>今天在设置TextView文显示固定字数 省略号表示多余部分时，发现<code>android:maxLines</code>和<code>android:ellipsize</code>这两个属性同时使用并没有效果。<br><em>原因：</em><br> 把               <code>android:layout_height=&quot;match_parent&quot;</code><br>改为                <code>android:layout_height=&quot;wrap_content&quot;</code><br>就有效果了。</p><p>##更多代码<br>在xml中：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">android:ellipsize=&quot;start&quot; 　　省略号在开头</span><br><span class="line">android:ellipsize=&quot;middle&quot;   省略号在中间</span><br><span class="line">android:ellipsize=&quot;marquee&quot;  跑马灯</span><br></pre></td></tr></table></figure><p>在java文件中：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tv.setEllipsize(TextUtils.TruncateAt.valueOf(&quot;START&quot;));</span><br><span class="line">tv.setEllipsize(TextUtils.TruncateAt.valueOf(&quot;MIDDLE&quot;));</span><br><span class="line">tv.setEllipsize(TextUtils.TruncateAt.valueOf(&quot;MARQUEE&quot;));</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -184,8 +269,8 @@
   
   <entry>
     <title>Hexo创建文章和草稿</title>
-    <link href="https://seachal.me/Bolg/2017/12/25/BlogBuild/2017-12-30-1/"/>
-    <id>https://seachal.me/Bolg/2017/12/25/BlogBuild/2017-12-30-1/</id>
+    <link href="https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2017-12-30-1/"/>
+    <id>https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2017-12-30-1/</id>
     <published>2017-12-25T12:10:30.000Z</published>
     <updated>2017-12-29T12:10:30.000Z</updated>
     
@@ -200,19 +285,19 @@
     
     </summary>
     
-      <category term="Bolg" scheme="https://seachal.me/categories/Bolg/"/>
+      <category term="BolgBuild" scheme="https://seachal.me/categories/BolgBuild/"/>
     
     
       <category term="Hexo" scheme="https://seachal.me/tags/Hexo/"/>
     
-      <category term="Blog" scheme="https://seachal.me/tags/Blog/"/>
+      <category term="BolgBuild" scheme="https://seachal.me/tags/BolgBuild/"/>
     
   </entry>
   
   <entry>
     <title>Hexo创建文章和草稿</title>
-    <link href="https://seachal.me/Bolg/2017/12/25/BlogBuild/2018-01-04/"/>
-    <id>https://seachal.me/Bolg/2017/12/25/BlogBuild/2018-01-04/</id>
+    <link href="https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2018-01-04/"/>
+    <id>https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2018-01-04/</id>
     <published>2017-12-25T12:10:30.000Z</published>
     <updated>2017-12-29T12:10:30.000Z</updated>
     
@@ -228,12 +313,12 @@
     
     </summary>
     
-      <category term="Bolg" scheme="https://seachal.me/categories/Bolg/"/>
+      <category term="BolgBuild" scheme="https://seachal.me/categories/BolgBuild/"/>
     
     
       <category term="Hexo" scheme="https://seachal.me/tags/Hexo/"/>
     
-      <category term="Blog" scheme="https://seachal.me/tags/Blog/"/>
+      <category term="BolgBuild" scheme="https://seachal.me/tags/BolgBuild/"/>
     
   </entry>
   
