@@ -1,10 +1,10 @@
-https://seachal.me/ReactNative/2018/01/12/ReactNative/2018-01-12/
+https://seachal.me/Git/2018/01/12/GIt/2018-01-12/
+https://seachal.me/uncategorized/2018/01/12/ReactNative/2018-01-12-1/
 https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/
+https://seachal.me/ReactNative/2018/01/12/ReactNative/2018-01-12/
 https://seachal.me/uncategorized/2018/01/10/2018-01-10-1/
 https://seachal.me/Android/2018/01/10/2018-01-10/
 https://seachal.me/程序员/2018/01/04/程序员/2018-01-04/
 https://seachal.me/BolgBuild/2018/01/03/BlogBuild/Hexo遇到的坑/
 https://seachal.me/BolgBuild/2017/12/29/BlogBuild/Hexo博客Next主题如何添加ForkMeOnGithub/
 https://seachal.me/Android/2017/12/28/Android/Android设置TextView文显示固定字数 省略号表示多余部分/
-https://seachal.me/Android/2017/12/28/Android/动态为TextView控件设置drawableLeft图标,并设置间距/
-https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2017-12-30-1/
