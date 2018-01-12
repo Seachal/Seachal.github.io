@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://seachal.me/"/>
-  <updated>2018-01-12T08:26:17.000Z</updated>
+  <updated>2018-01-12T08:41:21.000Z</updated>
   <id>https://seachal.me/</id>
   
   <author>
@@ -21,15 +21,18 @@
     <link href="https://seachal.me/Git/2018/01/12/GIt/2018-01-12/"/>
     <id>https://seachal.me/Git/2018/01/12/GIt/2018-01-12/</id>
     <published>2018-01-12T10:10:30.000Z</published>
-    <updated>2018-01-12T08:26:17.000Z</updated>
+    <updated>2018-01-12T08:41:21.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="用GitBook制作一本书（从GitHub导入创建一本书）"><a href="#用GitBook制作一本书（从GitHub导入创建一本书）" class="headerlink" title="用GitBook制作一本书（从GitHub导入创建一本书）"></a>用GitBook制作一本书（从GitHub导入创建一本书）</h1><h1 id="1创建一个Github-Repository"><a href="#1创建一个Github-Repository" class="headerlink" title="1创建一个Github Repository"></a>1创建一个Github Repository</h1><p><a href="https://github.com/new" target="_blank" rel="noopener">https://github.com/new</a><br><img src="http://p1nxdiyfl.bkt.clouddn.com/15157435127481.jpg" alt=""></p><h1 id="2创建一本书"><a href="#2创建一本书" class="headerlink" title="2创建一本书"></a>2创建一本书</h1><p><a href="https://www.gitbook.com/new" target="_blank" rel="noopener">https://www.gitbook.com/new</a></p><ol><li>选择从Github导入<br><img src="http://p1nxdiyfl.bkt.clouddn.com/15157437522947.jpg" alt=""><br>2.Github授权<br><img src="http://p1nxdiyfl.bkt.clouddn.com/15157438850691.jpg" alt=""></li></ol><h1 id="3-导入Github-Repository作为书籍"><a href="#3-导入Github-Repository作为书籍" class="headerlink" title="3 导入Github Repository作为书籍"></a>3 导入Github Repository作为书籍</h1><p>再次回到<a href="https://www.gitbook.com/new，" target="_blank" rel="noopener">https://www.gitbook.com/new，</a>  填写Book信息，选择你要导入的Github Repository<br><img src="http://p1nxdiyfl.bkt.clouddn.com/15157441137050.jpg" alt=""></p><p><img src="http://p1nxdiyfl.bkt.clouddn.com/15157444474391.jpg" alt=""></p><p>这个页面目前是在同步，等同步完毕后，就可以看到自己的书了。</p><h1 id="4去编辑自己的书吧"><a href="#4去编辑自己的书吧" class="headerlink" title="4去编辑自己的书吧"></a>4去编辑自己的书吧</h1><p>可以在浏览器编辑，也可以在客户端编辑</p><p>参考：<a href="http://blog.csdn.net/hk2291976/article/details/51173850" target="_blank" rel="noopener">http://blog.csdn.net/hk2291976/article/details/51173850</a></p>]]></content>
+    <content type="html"><![CDATA[<link href="http://github.com/yrgoldteeth/darkdowncss/raw/master/darkdown.css" rel="stylesheet"><h1 id="用GitBook制作一本书（从GitHub导入创建一本书）"><a href="#用GitBook制作一本书（从GitHub导入创建一本书）" class="headerlink" title="用GitBook制作一本书（从GitHub导入创建一本书）"></a>用GitBook制作一本书（从GitHub导入创建一本书）</h1><h1 id="1创建一个Github-Repository"><a href="#1创建一个Github-Repository" class="headerlink" title="1创建一个Github Repository"></a>1创建一个Github Repository</h1><p><a href="https://github.com/new" target="_blank" rel="noopener">https://github.com/new</a><br><img src="http://p1nxdiyfl.bkt.clouddn.com/15157435127481.jpg" alt=""></p><h1 id="2创建一本书"><a href="#2创建一本书" class="headerlink" title="2创建一本书"></a>2创建一本书</h1><p><a href="https://www.gitbook.com/new" target="_blank" rel="noopener">https://www.gitbook.com/new</a></p><ol><li>选择从Github导入<br><img src="http://p1nxdiyfl.bkt.clouddn.com/15157437522947.jpg" alt=""><br>2.Github授权<br><img src="http://p1nxdiyfl.bkt.clouddn.com/15157438850691.jpg" alt=""></li></ol><h1 id="3-导入Github-Repository作为书籍"><a href="#3-导入Github-Repository作为书籍" class="headerlink" title="3 导入Github Repository作为书籍"></a>3 导入Github Repository作为书籍</h1><p>再次回到<a href="https://www.gitbook.com/new，" target="_blank" rel="noopener">https://www.gitbook.com/new，</a>  填写Book信息，选择你要导入的Github Repository<br><img src="http://p1nxdiyfl.bkt.clouddn.com/15157441137050.jpg" alt=""></p><p><img src="http://p1nxdiyfl.bkt.clouddn.com/15157444474391.jpg" alt=""></p><p>这个页面目前是在同步，等同步完毕后，就可以看到自己的书了。</p><h1 id="4去编辑自己的书吧"><a href="#4去编辑自己的书吧" class="headerlink" title="4去编辑自己的书吧"></a>4去编辑自己的书吧</h1><p>可以在浏览器编辑，也可以在客户端编辑</p><p>参考：<a href="http://blog.csdn.net/hk2291976/article/details/51173850" target="_blank" rel="noopener">http://blog.csdn.net/hk2291976/article/details/51173850</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;用GitBook制作一本书（从GitHub导入创建一本书）&quot;&gt;&lt;a href=&quot;#用GitBook制作一本书（从GitHub导入创建一本书）&quot; class=&quot;headerlink&quot; title=&quot;用GitBook制作一本书（从GitHub导入创建一本书）&quot;&gt;&lt;/a
+        &lt;link href=&quot;http://github.com/yrgoldteeth/darkdowncss/raw/master/darkdown.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+
+&lt;h1 id=&quot;用GitBook制作一本书（从GitHub导入创建一本书）&quot;&gt;&lt;a
       
     
     </summary>
