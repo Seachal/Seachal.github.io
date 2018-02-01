@@ -46,31 +46,6 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://seachal.me/uncategorized/2018/01/13/Android/app%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84build.gradle%E8%AF%A6%E8%A7%A3/"/>
-    <id>https://seachal.me/uncategorized/2018/01/13/Android/app目录下的build.gradle详解/</id>
-    <published>2018-01-13T14:13:04.000Z</published>
-    <updated>2018-02-01T08:47:26.173Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>title: app目录下的build.gradle详解<br>date: 2017-07-23 16:30:30<br>updated_at: 2017-12-24 16:30:30<br>tags:</p><ul><li>Android</li><li>gradle</li><li>配置</li><li>含义<br>categories: Android</li></ul><hr><h1 id="app目录下的build-gradle详解"><a href="#app目录下的build-gradle详解" class="headerlink" title="app目录下的build.gradle详解"></a>app目录下的build.gradle详解</h1><figure class="highlight plain"><figcaption><span>表示这是一个Android程序模块，如果是作为库，就声明为Library'com.android.library'</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">applyplugin:&apos;com.android.application&apos;</span><br><span class="line"></span><br><span class="line">android &#123;</span><br><span class="line"></span><br><span class="line">compileSdkVersion26// 编译版本，指用哪个版本的SDK进行编译</span><br><span class="line"></span><br><span class="line">buildToolsVersion&quot;26.0.1&quot;//构建工具</span><br><span class="line"></span><br><span class="line">//对项目的更多细节进行配置</span><br><span class="line"></span><br><span class="line">defaultConfig &#123;</span><br><span class="line"></span><br><span class="line">applicationId&quot;com.seachal.myapplicationtestlog&quot;</span><br><span class="line"></span><br><span class="line">minSdkVersion19</span><br><span class="line"></span><br><span class="line">targetSdkVersion26</span><br><span class="line"></span><br><span class="line">versionCode1</span><br><span class="line"></span><br><span class="line">versionName&quot;1.0&quot;</span><br><span class="line"></span><br><span class="line">testInstrumentationRunner&quot;android.support.test.runner.AndroidJUnitRunner&quot;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//指定生成安装文件的相关配置</span><br><span class="line"></span><br><span class="line">buildTypes &#123;</span><br><span class="line"></span><br><span class="line">//release 闭包用于指定生成正式版安装文件的配置</span><br><span class="line"></span><br><span class="line">release &#123;</span><br><span class="line"></span><br><span class="line">minifyEnabledfalse//指定是否对项目的代码进行混淆， true 表示混淆， false 表示不混淆。</span><br><span class="line"></span><br><span class="line">//proguard-android.txt在默认的SDK目录下，有通用的混淆规则</span><br><span class="line"></span><br><span class="line">// proguard-rules.pro 有本项目专用的混淆规则</span><br><span class="line"></span><br><span class="line">proguardFiles getDefaultProguardFile(&apos;proguard-android.txt&apos;),&apos;proguard-rules.pro&apos;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//debug闭包可以忽略不写</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">dependencies &#123;</span><br><span class="line"></span><br><span class="line">//本地依赖声明，它表示将 libs 目录下所有.jar 后缀的文件都添加到项目的构建路径当中</span><br><span class="line"></span><br><span class="line">compile fileTree(dir:&apos;libs&apos;,include: [&apos;*.jar&apos;])</span><br><span class="line"></span><br><span class="line">androidTestCompile(&apos;com.android.support.test.espresso:espresso-core:2.2.2&apos;, &#123;</span><br><span class="line"></span><br><span class="line">excludegroup:&apos;com.android.support&apos;,module:&apos;support-annotations&apos;</span><br><span class="line"></span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">// 远程依赖声明</span><br><span class="line"></span><br><span class="line">compile&apos;com.android.support:appcompat-v7:26.+&apos;</span><br><span class="line"></span><br><span class="line">//com.android.support.constraint 是域名。constraint-layout是组名，用于区分同一公司的不同库。 1.0.2是版本号</span><br><span class="line"></span><br><span class="line">compile&apos;com.android.support.constraint:constraint-layout:1.0.2&apos;</span><br><span class="line"></span><br><span class="line">//compile project(&apos;:helper&apos;)  //库依赖声明格式，表示依赖了一个叫helper的Library</span><br><span class="line"></span><br><span class="line">// 声明测试用例库</span><br><span class="line"></span><br><span class="line">testCompile&apos;junit:junit:4.12&apos;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;hr&gt;
-&lt;p&gt;title: app目录下的build.gradle详解&lt;br&gt;date: 2017-07-23 16:30:30&lt;br&gt;updated_at: 2017-12-24 16:30:30&lt;br&gt;tags:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Android&lt;/li&gt;
-&lt;li&gt;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>用GitBook制作一本书（从GitHub导入创建一本书）</title>
     <link href="https://seachal.me/Git/2018/01/12/GIt/2018-01-12/"/>
     <id>https://seachal.me/Git/2018/01/12/GIt/2018-01-12/</id>
@@ -97,35 +72,6 @@
       <category term="GitBook" scheme="https://seachal.me/tags/GitBook/"/>
     
       <category term="GitHub" scheme="https://seachal.me/tags/GitHub/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac和Linux返回上一级的命令是什么</title>
-    <link href="https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/"/>
-    <id>https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/</id>
-    <published>2018-01-12T02:10:30.000Z</published>
-    <updated>2018-01-12T02:44:49.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Mac和Linux返回上一级的命令是什么"><a href="#Mac和Linux返回上一级的命令是什么" class="headerlink" title="Mac和Linux返回上一级的命令是什么"></a>Mac和Linux返回上一级的命令是什么</h1><p>要注意在linux shell有几个特定的符号。<br>一个就是 . 指当前目录，例如：<br> sh ./xx<br>就是用shell去运行当前目录下的xx程序。<br>一个是 .. 指上一级目录，例如：<br> vi ../xx<br>就是用vi去打开上一级目录下的xx文件。<br> cd ..<br>将上一级目录变为当前目录，也就是返回上一级。<br>另外就是 ~ 代表当前用户的家目录。<br> cd ~<br>回到登录用户的家目录。<br>参考：<a href="https://zhidao.baidu.com/question/58838894" target="_blank" rel="noopener">https://zhidao.baidu.com/question/58838894</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;a href=&quot;#Mac和Linux返回上一级的命令是什么&quot; class=&quot;headerlink&quot; title=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;/a&gt;Mac和Linux返回上一级的命令是什么&lt;/h1&gt;&lt;
-      
-    
-    </summary>
-    
-      <category term="Mac" scheme="https://seachal.me/categories/Mac/"/>
-    
-    
-      <category term="shell" scheme="https://seachal.me/tags/shell/"/>
-    
-      <category term="命令行" scheme="https://seachal.me/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
-    
-      <category term="Terminal" scheme="https://seachal.me/tags/Terminal/"/>
     
   </entry>
   
@@ -161,6 +107,35 @@
       <category term="ES6" scheme="https://seachal.me/tags/ES6/"/>
     
       <category term="Variable" scheme="https://seachal.me/tags/Variable/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac和Linux返回上一级的命令是什么</title>
+    <link href="https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/"/>
+    <id>https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/</id>
+    <published>2018-01-12T02:10:30.000Z</published>
+    <updated>2018-01-12T02:44:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Mac和Linux返回上一级的命令是什么"><a href="#Mac和Linux返回上一级的命令是什么" class="headerlink" title="Mac和Linux返回上一级的命令是什么"></a>Mac和Linux返回上一级的命令是什么</h1><p>要注意在linux shell有几个特定的符号。<br>一个就是 . 指当前目录，例如：<br> sh ./xx<br>就是用shell去运行当前目录下的xx程序。<br>一个是 .. 指上一级目录，例如：<br> vi ../xx<br>就是用vi去打开上一级目录下的xx文件。<br> cd ..<br>将上一级目录变为当前目录，也就是返回上一级。<br>另外就是 ~ 代表当前用户的家目录。<br> cd ~<br>回到登录用户的家目录。<br>参考：<a href="https://zhidao.baidu.com/question/58838894" target="_blank" rel="noopener">https://zhidao.baidu.com/question/58838894</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;a href=&quot;#Mac和Linux返回上一级的命令是什么&quot; class=&quot;headerlink&quot; title=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;/a&gt;Mac和Linux返回上一级的命令是什么&lt;/h1&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="Mac" scheme="https://seachal.me/categories/Mac/"/>
+    
+    
+      <category term="shell" scheme="https://seachal.me/tags/shell/"/>
+    
+      <category term="命令行" scheme="https://seachal.me/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+    
+      <category term="Terminal" scheme="https://seachal.me/tags/Terminal/"/>
     
   </entry>
   
@@ -306,7 +281,7 @@
     <link href="https://seachal.me/Android/2017/12/28/Android/%E5%8A%A8%E6%80%81%E4%B8%BATextView%E6%8E%A7%E4%BB%B6%E8%AE%BE%E7%BD%AEdrawableLeft%E5%9B%BE%E6%A0%87,%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%97%B4%E8%B7%9D/"/>
     <id>https://seachal.me/Android/2017/12/28/Android/动态为TextView控件设置drawableLeft图标,并设置间距/</id>
     <published>2017-12-28T11:10:30.000Z</published>
-    <updated>2018-01-03T06:44:15.000Z</updated>
+    <updated>2018-02-01T09:20:22.991Z</updated>
     
     <content type="html"><![CDATA[<h1 id="动态为TextView控件设置drawableLeft图标-并设置间距"><a href="#动态为TextView控件设置drawableLeft图标-并设置间距" class="headerlink" title="动态为TextView控件设置drawableLeft图标,并设置间距"></a>动态为TextView控件设置drawableLeft图标,并设置间距</h1><p><em>重要属性:</em></p><p>textView.setCompoundDrawablePadding(4);//设置图片和text之间的间距 </p><p>textView.setPadding(-5, 0, 0, 0);//设置整体的padding</p><p>代码如下:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">addDrwable</span><span class="params">(TextView textView)</span> </span>&#123;</span><br><span class="line">       <span class="comment">//获取图片</span></span><br><span class="line">       Drawable drawable = ContextCompat.getDrawable(mContext, R.drawable.staff_portrait);</span><br><span class="line">       drawable.setBounds(<span class="number">0</span>, <span class="number">0</span>, drawable.getMinimumWidth() / <span class="number">2</span>, drawable.getMinimumHeight() / <span class="number">2</span>);</span><br><span class="line">       <span class="comment">//在左侧添加图片</span></span><br><span class="line">       textView.setCompoundDrawables(drawable, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>);</span><br><span class="line">       <span class="comment">//textView.setCompoundDrawablesRelative(drawable, null, null, null);</span></span><br><span class="line">       textView.setCompoundDrawablePadding(<span class="number">5</span>);<span class="comment">//设置图片和text之间的间距</span></span><br><span class="line">       textView.setPadding(<span class="number">25</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>);</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure><p><strong>存在问题</strong><br>TextView的属性Gravity对添加的图片无效，如Gravity的值为center，图片会居左，文字相对于无图片时的位置偏右了一点。<br>所以只能被迫选择列表中的数据全部由居中给为居左</p><p><img src="http://p1nxdiyfl.bkt.clouddn.com/Jietu20171229-172723.png" alt="Jietu20171229-172723"></p>]]></content>
     
@@ -332,19 +307,18 @@
   
   <entry>
     <title>Hexo创建文章和草稿</title>
-    <link href="https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2018-01-04/"/>
-    <id>https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2018-01-04/</id>
+    <link href="https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2017-12-30-1/"/>
+    <id>https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2017-12-30-1/</id>
     <published>2017-12-25T12:10:30.000Z</published>
     <updated>2017-12-29T12:10:30.000Z</updated>
     
-    <content type="html"><![CDATA[<p>#<br>首先安装gulp，执行以下命令：</p><figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> insatll gulp -g</span><br></pre></td></tr></table></figure><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> gulp-htmlclean</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="Hexo创建文章和草稿"><a href="#Hexo创建文章和草稿" class="headerlink" title="Hexo创建文章和草稿"></a>Hexo创建文章和草稿</h1><h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><p>命令行中输入：</p><p>========================</p><p>$ hexo new “new article”</p><p>========================</p><p>之后在source/_posts目录下面，多了一个new-article.md的文件。</p><p>打开之后我们会看到：</p><p>=========================</p><p>title: new article </p><p>date: 2014-11-01 20:10:33 </p><p>tags: </p><hr><p>=========================</p><p>文件的开头是属性，采用统一的yaml格式，用三条短横线分隔。下面是文章正文。</p><p>文章的正文支持markdown格式，建议你先学习一下它的语法。markdown不像html似的一大堆标签，很简单，只有几个符号。</p><p>新建、删除或修改文章后，不需要重启hexo server，刷新一下即可预览。</p><h2 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h2><p>文章可以拥有如下属性：</p><p>Setting Description Default</p><p>layout    Layout    post或page    </p><p>title    文章的标题    </p><p>date    创建日期    文件的创建日期    </p><p>updated    修改日期    文件的修改日期    </p><p>comments    是否开启评论    true    </p><p>tags    标签    </p><p>categories    分类    </p><p>permalink    url中的名字    文件名    </p><p>动态博客中通过发布文章页面设置的各种属性，在hexo里要这样设置。</p><h2 id="分类和标签"><a href="#分类和标签" class="headerlink" title="分类和标签"></a>分类和标签</h2><p>例如：</p><p>===========</p><p>categories: </p><ul><li>日记 </li></ul><p>tags: </p><ul><li><p>Hexo </p></li><li><p>node.js</p></li></ul><p>===========</p><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>同wordpress一样，之上的内容为摘要。</p><h2 id="layout"><a href="#layout" class="headerlink" title="layout"></a>layout</h2><p>如果你修改了layout，在scaffolds文件夹里一定要有名字对应的模版文件，否则会采用默认模版。</p><h2 id="文件名"><a href="#文件名" class="headerlink" title="文件名"></a>文件名</h2><p>在配置文件中的new_post_name项可以设置文件名，默认为:title，也就是你在命令行输入的名字。</p><p>文件名可以为下面几个变量和字符串常量的任意组合：</p><p>Variable Description</p><p>:title    Escaped title (lower case and replace spaces with dash)    </p><p>:year    Created year (4-digit)    </p><p>:month    Created month (2-digit)    </p><p>:i_month    Created month (Without leading zeros)    </p><p>:day    Created day (2-digit)    </p><p>:i_day    Created day (Without leading zeros)    </p><h2 id="草稿"><a href="#草稿" class="headerlink" title="草稿"></a>草稿</h2><p>草稿相当于很多博客都有的“私密文章”功能。</p><p>============================</p><p>$ hexo new draft “new draft”</p><p>============================</p><p>会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。</p><p>如果你希望强行预览草稿，更改配置文件：</p><p>===================</p><p>render_drafts: true</p><p>===================</p><p>或者，如下方式启动server：</p><p>======================</p><p>$ hexo server –drafts</p><p>======================</p><p>下面这条命令可以把草稿变成文章，或者页面：</p><p>==================================</p><p>$ hexo publish [layout] </p><p>==================================</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;#&lt;br&gt;首先安装gulp，执行以下命令：&lt;/p&gt;
-&lt;figure class=&quot;highlight coffeescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;
+        &lt;h1 id=&quot;Hexo创建文章和草稿&quot;&gt;&lt;a href=&quot;#Hexo创建文章和草稿&quot; class=&quot;headerlink&quot; title=&quot;Hexo创建文章和草稿&quot;&gt;&lt;/a&gt;Hexo创建文章和草稿&lt;/h1&gt;&lt;h2 id=&quot;文章&quot;&gt;&lt;a href=&quot;#文章&quot; class=&quot;head
       
     
     </summary>
@@ -360,18 +334,19 @@
   
   <entry>
     <title>Hexo创建文章和草稿</title>
-    <link href="https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2017-12-30-1/"/>
-    <id>https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2017-12-30-1/</id>
+    <link href="https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2018-01-04/"/>
+    <id>https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2018-01-04/</id>
     <published>2017-12-25T12:10:30.000Z</published>
     <updated>2017-12-29T12:10:30.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Hexo创建文章和草稿"><a href="#Hexo创建文章和草稿" class="headerlink" title="Hexo创建文章和草稿"></a>Hexo创建文章和草稿</h1><h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><p>命令行中输入：</p><p>========================</p><p>$ hexo new “new article”</p><p>========================</p><p>之后在source/_posts目录下面，多了一个new-article.md的文件。</p><p>打开之后我们会看到：</p><p>=========================</p><p>title: new article </p><p>date: 2014-11-01 20:10:33 </p><p>tags: </p><hr><p>=========================</p><p>文件的开头是属性，采用统一的yaml格式，用三条短横线分隔。下面是文章正文。</p><p>文章的正文支持markdown格式，建议你先学习一下它的语法。markdown不像html似的一大堆标签，很简单，只有几个符号。</p><p>新建、删除或修改文章后，不需要重启hexo server，刷新一下即可预览。</p><h2 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h2><p>文章可以拥有如下属性：</p><p>Setting Description Default</p><p>layout    Layout    post或page    </p><p>title    文章的标题    </p><p>date    创建日期    文件的创建日期    </p><p>updated    修改日期    文件的修改日期    </p><p>comments    是否开启评论    true    </p><p>tags    标签    </p><p>categories    分类    </p><p>permalink    url中的名字    文件名    </p><p>动态博客中通过发布文章页面设置的各种属性，在hexo里要这样设置。</p><h2 id="分类和标签"><a href="#分类和标签" class="headerlink" title="分类和标签"></a>分类和标签</h2><p>例如：</p><p>===========</p><p>categories: </p><ul><li>日记 </li></ul><p>tags: </p><ul><li><p>Hexo </p></li><li><p>node.js</p></li></ul><p>===========</p><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>同wordpress一样，之上的内容为摘要。</p><h2 id="layout"><a href="#layout" class="headerlink" title="layout"></a>layout</h2><p>如果你修改了layout，在scaffolds文件夹里一定要有名字对应的模版文件，否则会采用默认模版。</p><h2 id="文件名"><a href="#文件名" class="headerlink" title="文件名"></a>文件名</h2><p>在配置文件中的new_post_name项可以设置文件名，默认为:title，也就是你在命令行输入的名字。</p><p>文件名可以为下面几个变量和字符串常量的任意组合：</p><p>Variable Description</p><p>:title    Escaped title (lower case and replace spaces with dash)    </p><p>:year    Created year (4-digit)    </p><p>:month    Created month (2-digit)    </p><p>:i_month    Created month (Without leading zeros)    </p><p>:day    Created day (2-digit)    </p><p>:i_day    Created day (Without leading zeros)    </p><h2 id="草稿"><a href="#草稿" class="headerlink" title="草稿"></a>草稿</h2><p>草稿相当于很多博客都有的“私密文章”功能。</p><p>============================</p><p>$ hexo new draft “new draft”</p><p>============================</p><p>会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。</p><p>如果你希望强行预览草稿，更改配置文件：</p><p>===================</p><p>render_drafts: true</p><p>===================</p><p>或者，如下方式启动server：</p><p>======================</p><p>$ hexo server –drafts</p><p>======================</p><p>下面这条命令可以把草稿变成文章，或者页面：</p><p>==================================</p><p>$ hexo publish [layout] </p><p>==================================</p>]]></content>
+    <content type="html"><![CDATA[<p>#<br>首先安装gulp，执行以下命令：</p><figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> insatll gulp -g</span><br></pre></td></tr></table></figure><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> gulp-htmlclean</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;Hexo创建文章和草稿&quot;&gt;&lt;a href=&quot;#Hexo创建文章和草稿&quot; class=&quot;headerlink&quot; title=&quot;Hexo创建文章和草稿&quot;&gt;&lt;/a&gt;Hexo创建文章和草稿&lt;/h1&gt;&lt;h2 id=&quot;文章&quot;&gt;&lt;a href=&quot;#文章&quot; class=&quot;head
+        &lt;p&gt;#&lt;br&gt;首先安装gulp，执行以下命令：&lt;/p&gt;
+&lt;figure class=&quot;highlight coffeescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;
       
     
     </summary>
@@ -446,6 +421,37 @@
       <category term="Mac" scheme="https://seachal.me/tags/Mac/"/>
     
       <category term="IDE" scheme="https://seachal.me/tags/IDE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>app目录下的build.gradle详解</title>
+    <link href="https://seachal.me/Android/2017/07/23/Android/app%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84build.gradle%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://seachal.me/Android/2017/07/23/Android/app目录下的build.gradle详解/</id>
+    <published>2017-07-23T08:30:30.000Z</published>
+    <updated>2018-02-01T09:20:14.509Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="app目录下的build-gradle详解"><a href="#app目录下的build-gradle详解" class="headerlink" title="app目录下的build.gradle详解"></a>app目录下的build.gradle详解</h1><figure class="highlight plain"><figcaption><span>表示这是一个Android程序模块，如果是作为库，就声明为Library'com.android.library'</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">applyplugin:&apos;com.android.application&apos;</span><br><span class="line"></span><br><span class="line">android &#123;</span><br><span class="line"></span><br><span class="line">compileSdkVersion26// 编译版本，指用哪个版本的SDK进行编译</span><br><span class="line"></span><br><span class="line">buildToolsVersion&quot;26.0.1&quot;//构建工具</span><br><span class="line"></span><br><span class="line">//对项目的更多细节进行配置</span><br><span class="line"></span><br><span class="line">defaultConfig &#123;</span><br><span class="line"></span><br><span class="line">applicationId&quot;com.seachal.myapplicationtestlog&quot;</span><br><span class="line"></span><br><span class="line">minSdkVersion19</span><br><span class="line"></span><br><span class="line">targetSdkVersion26</span><br><span class="line"></span><br><span class="line">versionCode1</span><br><span class="line"></span><br><span class="line">versionName&quot;1.0&quot;</span><br><span class="line"></span><br><span class="line">testInstrumentationRunner&quot;android.support.test.runner.AndroidJUnitRunner&quot;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//指定生成安装文件的相关配置</span><br><span class="line"></span><br><span class="line">buildTypes &#123;</span><br><span class="line"></span><br><span class="line">//release 闭包用于指定生成正式版安装文件的配置</span><br><span class="line"></span><br><span class="line">release &#123;</span><br><span class="line"></span><br><span class="line">minifyEnabledfalse//指定是否对项目的代码进行混淆， true 表示混淆， false 表示不混淆。</span><br><span class="line"></span><br><span class="line">//proguard-android.txt在默认的SDK目录下，有通用的混淆规则</span><br><span class="line"></span><br><span class="line">// proguard-rules.pro 有本项目专用的混淆规则</span><br><span class="line"></span><br><span class="line">proguardFiles getDefaultProguardFile(&apos;proguard-android.txt&apos;),&apos;proguard-rules.pro&apos;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//debug闭包可以忽略不写</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">dependencies &#123;</span><br><span class="line"></span><br><span class="line">//本地依赖声明，它表示将 libs 目录下所有.jar 后缀的文件都添加到项目的构建路径当中</span><br><span class="line"></span><br><span class="line">compile fileTree(dir:&apos;libs&apos;,include: [&apos;*.jar&apos;])</span><br><span class="line"></span><br><span class="line">androidTestCompile(&apos;com.android.support.test.espresso:espresso-core:2.2.2&apos;, &#123;</span><br><span class="line"></span><br><span class="line">excludegroup:&apos;com.android.support&apos;,module:&apos;support-annotations&apos;</span><br><span class="line"></span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">// 远程依赖声明</span><br><span class="line"></span><br><span class="line">compile&apos;com.android.support:appcompat-v7:26.+&apos;</span><br><span class="line"></span><br><span class="line">//com.android.support.constraint 是域名。constraint-layout是组名，用于区分同一公司的不同库。 1.0.2是版本号</span><br><span class="line"></span><br><span class="line">compile&apos;com.android.support.constraint:constraint-layout:1.0.2&apos;</span><br><span class="line"></span><br><span class="line">//compile project(&apos;:helper&apos;)  //库依赖声明格式，表示依赖了一个叫helper的Library</span><br><span class="line"></span><br><span class="line">// 声明测试用例库</span><br><span class="line"></span><br><span class="line">testCompile&apos;junit:junit:4.12&apos;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;app目录下的build-gradle详解&quot;&gt;&lt;a href=&quot;#app目录下的build-gradle详解&quot; class=&quot;headerlink&quot; title=&quot;app目录下的build.gradle详解&quot;&gt;&lt;/a&gt;app目录下的build.gradle详解&lt;/
+      
+    
+    </summary>
+    
+      <category term="Android" scheme="https://seachal.me/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="https://seachal.me/tags/Android/"/>
+    
+      <category term="gradle" scheme="https://seachal.me/tags/gradle/"/>
+    
+      <category term="配置" scheme="https://seachal.me/tags/%E9%85%8D%E7%BD%AE/"/>
+    
+      <category term="含义" scheme="https://seachal.me/tags/%E5%90%AB%E4%B9%89/"/>
     
   </entry>
   
