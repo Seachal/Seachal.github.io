@@ -4,18 +4,20 @@
 
     
   <url>
-    <loc>https://seachal.me/Android/2017/12/28/Android/%E5%8A%A8%E6%80%81%E4%B8%BATextView%E6%8E%A7%E4%BB%B6%E8%AE%BE%E7%BD%AEdrawableLeft%E5%9B%BE%E6%A0%87,%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%97%B4%E8%B7%9D/</loc>
-    <lastmod>2018-02-01T09:20:22.991Z</lastmod>
+    <loc>https://seachal.me/Android/2018/07/23/Android/app%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84build.gradle%E8%AF%A6%E8%A7%A3/</loc>
+    <lastmod>2018-02-01T09:22:42.626Z</lastmod>
     <data>
         <display>
-        <title>动态为TextView控件设置drawableLeft图标,并设置间距</title>
-        <pubTime>2017-12-28T11:10:30.000Z</pubTime>
+        <title>app目录下的build.gradle详解</title>
+        <pubTime>2018-07-23T08:30:30.000Z</pubTime>
         
         <tag>Android</tag>
          
-        <tag>View</tag>
+        <tag>gradle</tag>
          
-        <tag>TextView</tag>
+        <tag>配置</tag>
+         
+        <tag>含义</tag>
          
          
            
@@ -28,20 +30,40 @@
 
     
   <url>
-    <loc>https://seachal.me/Android/2017/07/23/Android/app%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84build.gradle%E8%AF%A6%E8%A7%A3/</loc>
-    <lastmod>2018-02-01T09:20:14.509Z</lastmod>
+    <loc>https://seachal.me/Android/2018/01/23/Android/RelativeLayout%E3%80%81Framelayout%20%E4%B8%A4%E5%B8%83%E5%B1%80%E9%87%8D%E5%8F%A0,%E4%BD%BF%E4%B8%8B%E5%B1%82%E4%B8%8D%E5%93%8D%E5%BA%94%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6/</loc>
+    <lastmod>2018-02-01T09:22:04.387Z</lastmod>
     <data>
         <display>
-        <title>app目录下的build.gradle详解</title>
-        <pubTime>2017-07-23T08:30:30.000Z</pubTime>
+        <title>RelativeLayout、Framelayout 两布局重叠,使下层不响应点击事件</title>
+        <pubTime>2018-01-23T08:30:30.000Z</pubTime>
         
         <tag>Android</tag>
          
-        <tag>gradle</tag>
+        <tag>IDE</tag>
          
-        <tag>配置</tag>
          
-        <tag>含义</tag>
+           
+             
+              <breadCrumb title="Android" url="https://seachal.me/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://seachal.me/Android/2017/12/28/Android/%E5%8A%A8%E6%80%81%E4%B8%BATextView%E6%8E%A7%E4%BB%B6%E8%AE%BE%E7%BD%AEdrawableLeft%E5%9B%BE%E6%A0%87,%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%97%B4%E8%B7%9D/</loc>
+    <lastmod>2018-02-01T09:20:22.991Z</lastmod>
+    <data>
+        <display>
+        <title>动态为TextView控件设置drawableLeft图标,并设置间距</title>
+        <pubTime>2017-12-28T11:10:30.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>View</tag>
+         
+        <tag>TextView</tag>
          
          
            
@@ -90,30 +112,6 @@
         <tag>ListView</tag>
          
         <tag>问题</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android" url="https://seachal.me/categories/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://seachal.me/Android/2018/01/23/Android/RelativeLayout%E3%80%81Framelayout%20%E4%B8%A4%E5%B8%83%E5%B1%80%E9%87%8D%E5%8F%A0,%E4%BD%BF%E4%B8%8B%E5%B1%82%E4%B8%8D%E5%93%8D%E5%BA%94%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6/</loc>
-    <lastmod>2018-02-01T08:47:36.451Z</lastmod>
-    <data>
-        <display>
-        <title>RelativeLayout、Framelayout 两布局重叠,使下层不响应点击事件</title>
-        <pubTime>2018-01-23T08:30:30.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>Mac</tag>
-         
-        <tag>IDE</tag>
          
          
            

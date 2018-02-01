@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[app目录下的build.gradle详解]]></title>
+    <url>%2FAndroid%2F2018%2F07%2F23%2FAndroid%2Fapp%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84build.gradle%E8%AF%A6%E8%A7%A3%2F</url>
+    <content type="text"><![CDATA[app目录下的build.gradle详解表示这是一个Android程序模块，如果是作为库，就声明为Library'com.android.library'123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778applyplugin:&apos;com.android.application&apos;android &#123;compileSdkVersion26// 编译版本，指用哪个版本的SDK进行编译buildToolsVersion&quot;26.0.1&quot;//构建工具//对项目的更多细节进行配置defaultConfig &#123;applicationId&quot;com.seachal.myapplicationtestlog&quot;minSdkVersion19targetSdkVersion26versionCode1versionName&quot;1.0&quot;testInstrumentationRunner&quot;android.support.test.runner.AndroidJUnitRunner&quot;&#125;//指定生成安装文件的相关配置buildTypes &#123;//release 闭包用于指定生成正式版安装文件的配置release &#123;minifyEnabledfalse//指定是否对项目的代码进行混淆， true 表示混淆， false 表示不混淆。//proguard-android.txt在默认的SDK目录下，有通用的混淆规则// proguard-rules.pro 有本项目专用的混淆规则proguardFiles getDefaultProguardFile(&apos;proguard-android.txt&apos;),&apos;proguard-rules.pro&apos;&#125;//debug闭包可以忽略不写&#125;&#125;dependencies &#123;//本地依赖声明，它表示将 libs 目录下所有.jar 后缀的文件都添加到项目的构建路径当中compile fileTree(dir:&apos;libs&apos;,include: [&apos;*.jar&apos;])androidTestCompile(&apos;com.android.support.test.espresso:espresso-core:2.2.2&apos;, &#123;excludegroup:&apos;com.android.support&apos;,module:&apos;support-annotations&apos;&#125;)// 远程依赖声明compile&apos;com.android.support:appcompat-v7:26.+&apos;//com.android.support.constraint 是域名。constraint-layout是组名，用于区分同一公司的不同库。 1.0.2是版本号compile&apos;com.android.support.constraint:constraint-layout:1.0.2&apos;//compile project(&apos;:helper&apos;) //库依赖声明格式，表示依赖了一个叫helper的Library// 声明测试用例库testCompile&apos;junit:junit:4.12&apos;&#125;]]></content>
+      <categories>
+        <category>Android</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>gradle</tag>
+        <tag>配置</tag>
+        <tag>含义</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[RelativeLayout、Framelayout 两布局重叠,使下层不响应点击事件]]></title>
     <url>%2FAndroid%2F2018%2F01%2F23%2FAndroid%2FRelativeLayout%E3%80%81Framelayout%20%E4%B8%A4%E5%B8%83%E5%B1%80%E9%87%8D%E5%8F%A0%2C%E4%BD%BF%E4%B8%8B%E5%B1%82%E4%B8%8D%E5%93%8D%E5%BA%94%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6%2F</url>
     <content type="text"><![CDATA[RelativeLayout、Framelayout 两布局重叠,使下层不响应点击事件123456789101112131415161718192021222324252627282930代码段A&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent"&gt; &lt;ListView android:id="@+id/listview" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:fadingEdge="none" android:listSelector="@android:color/transparent" android:scrollbars="none" /&gt; &lt;LinearLayout android:id="@+id/search_container" android:layout_height="match_parent" android:layout_width="match_parent" android:visibility="gone" android:orientation="vertical" android:background="@android:color/darker_gray"&gt; &lt;/LinearLayout&gt;&lt;/RelativeLayout&gt; FrameLayout、RelativeLayout，代码中控件代码的的位置越靠后，此控件越会显示在层叠布局的上方。 代码段B的布局会动态加载到代码段A的search_container中，并且形成重叠布局，此时 markView 会遮盖listView，但是点击事件会穿透markView传递给listView。 123456789101112131415代码段B&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" &gt; &lt;View android:id="@+id/markView" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.5" android:background="@color/black" /&gt;&lt;/LinearLayout&gt; 怎样解决这个问题呢？ 代码段B 增加一行代码 android:clickable=&quot;true&quot; 变成这样123456789101112131415代码段C&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:clickable="true" android:orientation="vertical" &gt; &lt;View android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.5" android:background="@color/black" /&gt;&lt;/LinearLayout&gt;]]></content>
@@ -9,7 +23,6 @@
       </categories>
       <tags>
         <tag>Android</tag>
-        <tag>Mac</tag>
         <tag>IDE</tag>
       </tags>
   </entry>
@@ -26,6 +39,19 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[Mac和Linux返回上一级的命令是什么]]></title>
+    <url>%2FMac%2F2018%2F01%2F12%2FMac%2F2018-01-11%2F</url>
+    <content type="text"><![CDATA[Mac和Linux返回上一级的命令是什么要注意在linux shell有几个特定的符号。一个就是 . 指当前目录，例如： sh ./xx就是用shell去运行当前目录下的xx程序。一个是 .. 指上一级目录，例如： vi ../xx就是用vi去打开上一级目录下的xx文件。 cd ..将上一级目录变为当前目录，也就是返回上一级。另外就是 ~ 代表当前用户的家目录。 cd ~回到登录用户的家目录。参考：https://zhidao.baidu.com/question/58838894]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+        <tag>命令行</tag>
+        <tag>Terminal</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo创建文章和草稿]]></title>
     <url>%2FReactNative%2F2018%2F01%2F12%2FReactNative%2F2018-01-12%2F</url>
     <content type="text"><![CDATA[JavaScript语法let以及let与var的区别let 语句声明一个块级作用域的本地变量，并且可选的将其初始化为一个值。 语法let var1 [= value1] [, var2 [= value2]] [, …, varN [= valueN]]; 参数var1, var2, …, varN 变量名。可以是任意合法的标识符。 value1, value2, …, valueN 变量的初始值。可以是任意合法的表达式。 描述let允许你声明一个作用域被限制在块级中的变量、语句或者表达式。与var关键字不同的是，它声明的变量只能是全局或者整个函数块的。 这里解释了我们为什么选取“let”这个名字。 12345678Let is a mathematical statement that was adopted by early programming languages like Scheme and Basic. Variables are considered low level entities not suitable for higher levels of abstraction, thus the desire of many language designers to introduce similar but more powerful concepts like in Clojure, F#, Scala, where let might mean a value, or a variable that can be assigned, but not changed, which in turn lets the compiler catch more programming errors and optimize code better. JavaScript has had var from the beginning, so they just needed another keyword, and just borrowed from dozens of other languages that use let already as a traditional keyword as close to var as possible, although in JavaScript let creates block scope local variable instead. answered Jun 20 ‘16 at 7:47 exebook 123456Let是一个数学声明，是采用于早期的编程语言如Scheme和Basic。变量被认为是不适合更高层次抽象的低级实体，因此许多语言设计者希望引入类似但更强大的概念，如在Clojure、f#、Scala，let可能意味着一个值，或者一个变量可以赋值，但不能被更改，这反过来使编译器能够捕获更多的编程错误和优化代码更好。javascript从一开始就有var，所以他们只是需要另一个关键字，并只是借用了其他数十种语言，使用let已经作为一个传统的尽可能接近var的关键字，虽然在javascript 中 let只创建块范围局部变量而已。 作用域规则let声明的变量只在其声明的块或子块中可用，这一点，与var相似。二者之间最主要的区别在于var声明的变量的作用域是整个封闭函数。 1234567891011121314151617function varTest() &#123; var x = 1; if (true) &#123; var x = 2; // 同样的变量! console.log(x); // 2 &#125; console.log(x); // 2&#125;function letTest() &#123; let x = 1; if (true) &#123; let x = 2; // 不同的变量 console.log(x); // 2 &#125; console.log(x); // 1&#125; 简化内部函数代码当用到内部函数的时候，let会让你的代码更加简洁。 1234567891011121314151617181920212223242526var list = document.getElementById('list');for (let i = 1; i &lt;= 5; i++) &#123; let item = document.createElement('li'); item.appendChild(document.createTextNode('Item ' + i)); item.onclick = function(ev) &#123; console.log('Item ' + i + ' is clicked.'); &#125;; list.appendChild(item);&#125;// to achieve the same effect with 'var'// you have to create a different context// using a closure to preserve the valuefor (var i = 1; i &lt;= 5; i++) &#123; var item = document.createElement('li'); item.appendChild(document.createTextNode('Item ' + i)); (function(i)&#123; item.onclick = function(ev) &#123; console.log('Item ' + i + ' is clicked.'); &#125;; &#125;)(i); list.appendChild(item);&#125; 以上示例的工作原理是因为（匿名）内部函数的五个实例引用了变量i的五个不同实例。注意，如果你将let替换为var，则它将无法正常工作，因为所有内部函数都将返回相同的i：6的最终值。此外，我们可以通过将创建新元素的代码移动到每个循环的作用域来保持循环更清晰。 在程序或者函数的顶层，let并不会像**var**一样在全局对象上创造一个属性，比如： 1234var x = 'global';let y = 'global';console.log(this.x); // "global"console.log(this.y); // undefined 模仿私有接口在处理构造函数的时候，可以通过let绑定来共享一个或多个私有成员，而不使用闭包： 123456789101112131415161718192021222324252627282930313233343536var Thing;&#123; let privateScope = new WeakMap(); let counter = 0; Thing = function() &#123; this.someProperty = 'foo'; privateScope.set(this, &#123; hidden: ++counter, &#125;); &#125;; Thing.prototype.showPublic = function() &#123; return this.someProperty; &#125;; Thing.prototype.showPrivate = function() &#123; return privateScope.get(this).hidden; &#125;;&#125;console.log(typeof privateScope);// "undefined"var thing = new Thing();console.log(thing);// Thing &#123;someProperty: "foo"&#125;thing.showPublic();// "foo"thing.showPrivate();// 1 let暂存死区的错误在相同的函数或块作用域内重新声明同一个变量会引发SyntaxError。 1234if (x) &#123; let foo; let foo; // TypeError thrown.&#125; 在 ECMAScript 2015 中，**let**绑定不受变量提升的约束，这意味着**let**声明不会被提升到当前执行上下文的顶部。在块中的变量初始化之前，引用它将会导致 [ReferenceError](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)（而使用 var 声明变量则恰恰相反，该变量的值是 undefined ）。该变量处于从块开始到初始化处理的“暂存死区”。 123456function do_something() &#123; console.log(bar); // undefined console.log(foo); // ReferenceError: foo is not defined var bar = 1; let foo = 2;&#125; 在 switch 声明中你可能会遇到这样的错误，因为它只有一个块. 123456789switch (x) &#123; case 0: let foo; break; case 1: let foo; // TypeError for redeclaration. break;&#125; 但是，重要的是要指出嵌套在case子句内的块将创建一个新的块作用域的词法环境，这不会产生上面显示的重新声明错误。 123456789101112let x = 1;switch(x) &#123; case 0: &#123; let foo; break; &#125; case 1: &#123; let foo; break; &#125;&#125; 与词法作用域结合的暂存死区由于词法作用域，表达式(foo + 55)内的标识符“foo”会解析为if块的foo，而不是覆盖值为33的foo。在这一行中，if块的“foo”已经在词法环境中创建，但尚未达到（并终止）其初始化（这是语句本身的一部分）：它仍处于暂存死区。 1234567function test()&#123; var foo = 33; if (true) &#123; let foo = (foo + 55); // ReferenceError &#125;&#125;test(); 这种现象可能会使您陷入以下情况。指令let n of n.a已经在for循环块的私有范围内，因此标识符“n.a”被解析为位于指令本身的第一部分（“let n”）中的’n’对象的属性’a’ ，由于尚未达成和终止其声明，因此仍处于暂存死区。 12345678910function go(n) &#123; // n here is defined! console.log(n); // Object &#123;a: [1,2,3]&#125; for (let n of n.a) &#123; // ReferenceError console.log(n); &#125;&#125;go(&#123;a: [1, 2, 3]&#125;); 其他情况当在块中使用时，let将变量的作用域限制为该块。注意**var**的作用域在它被声明的函数内的区别。 12345678910111213var a = 1;var b = 2;if (a === 1) &#123; var a = 11; // the scope is global let b = 22; // the scope is inside the if-block console.log(a); // 11 console.log(b); // 22&#125; console.log(a); // 11console.log(b); // 2 规范| Specification | Status | Comment || ECMAScript 2015 (6th Edition, ECMA-262) Let and Const Declarations | Standard | Initial definition. Does not specify let expressions or let blocks. || ECMAScript Latest Draft (ECMA-262) Let and Const Declarations | Living Standard | | 浏览器兼容 Desktop Mobile Feature Chrome Edge Firefox Internet Explorer Opera Safari Basic support 41 12 441 2 3 11 17 10 1. Prior to Firefox 44, let is only available to code blocks in HTML wrapped in a &lt;script type=&quot;application/javascript;version=1.7&quot;&gt; block (or higher version) and has different semantics (e.g. no temporal dead zone). 2. Prior to Firefox 46, a TypeError is thrown on redeclaration instead of a SyntaxError. 3. Firefox 54 adds support of let in workers. 相关链接 var const ES6 In Depth: let and const Breaking changes in let and const in Firefox 44. You Don’t Know JS: Scope &amp; Closures: Chapter 3: Function vs. Block Scope 文档标签和贡献者 标签： ECMAScript 2015 JavaScript let Statement Variable declaration Variables 参考：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let]]></content>
@@ -39,19 +65,6 @@
         <tag>Statement</tag>
         <tag>ES6</tag>
         <tag>Variable</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Mac和Linux返回上一级的命令是什么]]></title>
-    <url>%2FMac%2F2018%2F01%2F12%2FMac%2F2018-01-11%2F</url>
-    <content type="text"><![CDATA[Mac和Linux返回上一级的命令是什么要注意在linux shell有几个特定的符号。一个就是 . 指当前目录，例如： sh ./xx就是用shell去运行当前目录下的xx程序。一个是 .. 指上一级目录，例如： vi ../xx就是用vi去打开上一级目录下的xx文件。 cd ..将上一级目录变为当前目录，也就是返回上一级。另外就是 ~ 代表当前用户的家目录。 cd ~回到登录用户的家目录。参考：https://zhidao.baidu.com/question/58838894]]></content>
-      <categories>
-        <category>Mac</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-        <tag>命令行</tag>
-        <tag>Terminal</tag>
       </tags>
   </entry>
   <entry>
@@ -130,8 +143,8 @@
   </entry>
   <entry>
     <title><![CDATA[Hexo创建文章和草稿]]></title>
-    <url>%2FBolgBuild%2F2017%2F12%2F25%2FBlogBuild%2F2017-12-30-1%2F</url>
-    <content type="text"><![CDATA[Hexo创建文章和草稿文章命令行中输入： ======================== $ hexo new “new article” ======================== 之后在source/_posts目录下面，多了一个new-article.md的文件。 打开之后我们会看到： ========================= title: new article date: 2014-11-01 20:10:33 tags: ========================= 文件的开头是属性，采用统一的yaml格式，用三条短横线分隔。下面是文章正文。 文章的正文支持markdown格式，建议你先学习一下它的语法。markdown不像html似的一大堆标签，很简单，只有几个符号。 新建、删除或修改文章后，不需要重启hexo server，刷新一下即可预览。 属性文章可以拥有如下属性： Setting Description Default layout Layout post或page title 文章的标题 date 创建日期 文件的创建日期 updated 修改日期 文件的修改日期 comments 是否开启评论 true tags 标签 categories 分类 permalink url中的名字 文件名 动态博客中通过发布文章页面设置的各种属性，在hexo里要这样设置。 分类和标签例如： =========== categories: 日记 tags: Hexo node.js =========== 摘要同wordpress一样，之上的内容为摘要。 layout如果你修改了layout，在scaffolds文件夹里一定要有名字对应的模版文件，否则会采用默认模版。 文件名在配置文件中的new_post_name项可以设置文件名，默认为:title，也就是你在命令行输入的名字。 文件名可以为下面几个变量和字符串常量的任意组合： Variable Description :title Escaped title (lower case and replace spaces with dash) :year Created year (4-digit) :month Created month (2-digit) :i_month Created month (Without leading zeros) :day Created day (2-digit) :i_day Created day (Without leading zeros) 草稿草稿相当于很多博客都有的“私密文章”功能。 ============================ $ hexo new draft “new draft” ============================ 会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。 如果你希望强行预览草稿，更改配置文件： =================== render_drafts: true =================== 或者，如下方式启动server： ====================== $ hexo server –drafts ====================== 下面这条命令可以把草稿变成文章，或者页面： ================================== $ hexo publish [layout] ==================================]]></content>
+    <url>%2FBolgBuild%2F2017%2F12%2F25%2FBlogBuild%2F2018-01-04%2F</url>
+    <content type="text"><![CDATA[#首先安装gulp，执行以下命令： 1npm insatll gulp -g 1npm install gulp-htmlclean]]></content>
       <categories>
         <category>BolgBuild</category>
       </categories>
@@ -142,8 +155,8 @@
   </entry>
   <entry>
     <title><![CDATA[Hexo创建文章和草稿]]></title>
-    <url>%2FBolgBuild%2F2017%2F12%2F25%2FBlogBuild%2F2018-01-04%2F</url>
-    <content type="text"><![CDATA[#首先安装gulp，执行以下命令： 1npm insatll gulp -g 1npm install gulp-htmlclean]]></content>
+    <url>%2FBolgBuild%2F2017%2F12%2F25%2FBlogBuild%2F2017-12-30-1%2F</url>
+    <content type="text"><![CDATA[Hexo创建文章和草稿文章命令行中输入： ======================== $ hexo new “new article” ======================== 之后在source/_posts目录下面，多了一个new-article.md的文件。 打开之后我们会看到： ========================= title: new article date: 2014-11-01 20:10:33 tags: ========================= 文件的开头是属性，采用统一的yaml格式，用三条短横线分隔。下面是文章正文。 文章的正文支持markdown格式，建议你先学习一下它的语法。markdown不像html似的一大堆标签，很简单，只有几个符号。 新建、删除或修改文章后，不需要重启hexo server，刷新一下即可预览。 属性文章可以拥有如下属性： Setting Description Default layout Layout post或page title 文章的标题 date 创建日期 文件的创建日期 updated 修改日期 文件的修改日期 comments 是否开启评论 true tags 标签 categories 分类 permalink url中的名字 文件名 动态博客中通过发布文章页面设置的各种属性，在hexo里要这样设置。 分类和标签例如： =========== categories: 日记 tags: Hexo node.js =========== 摘要同wordpress一样，之上的内容为摘要。 layout如果你修改了layout，在scaffolds文件夹里一定要有名字对应的模版文件，否则会采用默认模版。 文件名在配置文件中的new_post_name项可以设置文件名，默认为:title，也就是你在命令行输入的名字。 文件名可以为下面几个变量和字符串常量的任意组合： Variable Description :title Escaped title (lower case and replace spaces with dash) :year Created year (4-digit) :month Created month (2-digit) :i_month Created month (Without leading zeros) :day Created day (2-digit) :i_day Created day (Without leading zeros) 草稿草稿相当于很多博客都有的“私密文章”功能。 ============================ $ hexo new draft “new draft” ============================ 会在source/_drafts目录下生成一个new-draft.md文件。但是这个文件不被显示在页面上，链接也访问不到。也就是说如果你想把某一篇文章移除显示，又不舍得删除，可以把它移动到_drafts目录之中。 如果你希望强行预览草稿，更改配置文件： =================== render_drafts: true =================== 或者，如下方式启动server： ====================== $ hexo server –drafts ====================== 下面这条命令可以把草稿变成文章，或者页面： ================================== $ hexo publish [layout] ==================================]]></content>
       <categories>
         <category>BolgBuild</category>
       </categories>
@@ -176,20 +189,6 @@
         <tag>Android</tag>
         <tag>Mac</tag>
         <tag>IDE</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[app目录下的build.gradle详解]]></title>
-    <url>%2FAndroid%2F2017%2F07%2F23%2FAndroid%2Fapp%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84build.gradle%E8%AF%A6%E8%A7%A3%2F</url>
-    <content type="text"><![CDATA[app目录下的build.gradle详解表示这是一个Android程序模块，如果是作为库，就声明为Library'com.android.library'123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778applyplugin:&apos;com.android.application&apos;android &#123;compileSdkVersion26// 编译版本，指用哪个版本的SDK进行编译buildToolsVersion&quot;26.0.1&quot;//构建工具//对项目的更多细节进行配置defaultConfig &#123;applicationId&quot;com.seachal.myapplicationtestlog&quot;minSdkVersion19targetSdkVersion26versionCode1versionName&quot;1.0&quot;testInstrumentationRunner&quot;android.support.test.runner.AndroidJUnitRunner&quot;&#125;//指定生成安装文件的相关配置buildTypes &#123;//release 闭包用于指定生成正式版安装文件的配置release &#123;minifyEnabledfalse//指定是否对项目的代码进行混淆， true 表示混淆， false 表示不混淆。//proguard-android.txt在默认的SDK目录下，有通用的混淆规则// proguard-rules.pro 有本项目专用的混淆规则proguardFiles getDefaultProguardFile(&apos;proguard-android.txt&apos;),&apos;proguard-rules.pro&apos;&#125;//debug闭包可以忽略不写&#125;&#125;dependencies &#123;//本地依赖声明，它表示将 libs 目录下所有.jar 后缀的文件都添加到项目的构建路径当中compile fileTree(dir:&apos;libs&apos;,include: [&apos;*.jar&apos;])androidTestCompile(&apos;com.android.support.test.espresso:espresso-core:2.2.2&apos;, &#123;excludegroup:&apos;com.android.support&apos;,module:&apos;support-annotations&apos;&#125;)// 远程依赖声明compile&apos;com.android.support:appcompat-v7:26.+&apos;//com.android.support.constraint 是域名。constraint-layout是组名，用于区分同一公司的不同库。 1.0.2是版本号compile&apos;com.android.support.constraint:constraint-layout:1.0.2&apos;//compile project(&apos;:helper&apos;) //库依赖声明格式，表示依赖了一个叫helper的Library// 声明测试用例库testCompile&apos;junit:junit:4.12&apos;&#125;]]></content>
-      <categories>
-        <category>Android</category>
-      </categories>
-      <tags>
-        <tag>Android</tag>
-        <tag>gradle</tag>
-        <tag>配置</tag>
-        <tag>含义</tag>
       </tags>
   </entry>
   <entry>
