@@ -47,27 +47,6 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.me/uncategorized/2018/01/15/ReactNative/2018-01-15/"/>
-    <id>https://seachal.me/uncategorized/2018/01/15/ReactNative/2018-01-15/</id>
-    <published>2018-01-15T02:32:17.000Z</published>
-    <updated>2018-01-15T04:39:51.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>#<br>invariant  violation：element type is  invalid:expected a string<br><img src="http://p1nxdiyfl.bkt.clouddn.com/2018-01-15-15159835416665.jpg" alt=""></p><p>造成条件:</p><figure class="highlight plain"><figcaption><span>React, &#123; Component &#125; from 'react';</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">import &#123; AppRegistry, View &#125; from &apos;react-native&apos;;</span><br><span class="line"></span><br><span class="line">class FlexDimensionsBasics extends Component &#123;</span><br><span class="line">    render() &#123;</span><br><span class="line">        return (</span><br><span class="line">            // 试试去掉父View中的`flex: 1`。</span><br><span class="line">            // 则父View不再具有尺寸，因此子组件也无法再撑开。</span><br><span class="line">            // 然后再用`height: 300`来代替父View的`flex: 1`试试看？</span><br><span class="line">            &lt;View style=&#123;&#123;flex: 1&#125;&#125;&gt;</span><br><span class="line">                &lt;View style=&#123;&#123;flex: 1, backgroundColor: &apos;powderblue&apos;&#125;&#125; /&gt;</span><br><span class="line">                &lt;View style=&#123;&#123;flex: 2, backgroundColor: &apos;skyblue&apos;&#125;&#125; /&gt;</span><br><span class="line">                &lt;View style=&#123;&#123;flex: 3, backgroundColor: &apos;steelblue&apos;&#125;&#125; /&gt;</span><br><span class="line">            &lt;/View&gt;</span><br><span class="line">        );</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p><code>class FlexDimensionsBasics extends Component</code><br>没有写成<br><code>export default class FixedDimensionsBasics extends Component</code><br>原因还没查找。</p><p><img src="images/15159851730271.jpg" alt=""></p><p><a href="http://p1nxdiyfl.bkt.clouddn.com/2018-01-15-15159851730271.jpgSeachalMweb.jpg" target="_blank" rel="noopener">http://p1nxdiyfl.bkt.clouddn.com/2018-01-15-15159851730271.jpgSeachalMweb.jpg</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;#&lt;br&gt;invariant  violation：element type is  invalid:expected a string&lt;br&gt;&lt;img src=&quot;http://p1nxdiyfl.bkt.clouddn.com/2018-01-15-15159835416
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
     <link href="https://seachal.me/uncategorized/2018/01/13/Android/app%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84build.gradle%E8%AF%A6%E8%A7%A3/"/>
     <id>https://seachal.me/uncategorized/2018/01/13/Android/app目录下的build.gradle详解/</id>
     <published>2018-01-13T14:13:04.000Z</published>

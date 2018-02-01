@@ -1,5 +1,4 @@
 https://seachal.me/Android/2018/01/23/Android/RelativeLayout、Framelayout 两布局重叠,使下层不响应点击事件/
-https://seachal.me/uncategorized/2018/01/15/ReactNative/2018-01-15/
 https://seachal.me/uncategorized/2018/01/13/Android/app目录下的build.gradle详解/
 https://seachal.me/Git/2018/01/12/GIt/2018-01-12/
 https://seachal.me/ReactNative/2018/01/12/ReactNative/2018-01-12/
@@ -8,3 +7,4 @@ https://seachal.me/uncategorized/2018/01/10/2018-01-10-1/
 https://seachal.me/Android/2018/01/10/2018-01-10/
 https://seachal.me/程序员/2018/01/04/程序员/2018-01-04/
 https://seachal.me/BolgBuild/2018/01/03/BlogBuild/Hexo遇到的坑/
+https://seachal.me/BolgBuild/2017/12/29/BlogBuild/Hexo博客Next主题如何添加ForkMeOnGithub/
