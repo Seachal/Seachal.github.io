@@ -169,16 +169,16 @@
     <link href="https://seachal.me/uncategorized/2018/01/10/2018-01-10-1/"/>
     <id>https://seachal.me/uncategorized/2018/01/10/2018-01-10-1/</id>
     <published>2018-01-10T11:00:33.000Z</published>
-    <updated>2018-02-01T08:57:22.168Z</updated>
+    <updated>2018-02-01T08:59:19.754Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>title:  PyCharm与IntelliJ IDEA Python插件FAQ<br>date:  2017-01-10 15:10:30<br>tags: </p><ul><li>IntelliJ</li><li>IDE</li><li>Python<br>categories:  IDE</li></ul><h1 id="PyCharm与IntelliJ-IDEA-Python插件FAQ"><a href="#PyCharm与IntelliJ-IDEA-Python插件FAQ" class="headerlink" title="PyCharm与IntelliJ IDEA Python插件FAQ"></a>PyCharm与IntelliJ IDEA Python插件FAQ</h1><p>PyCharm与IntelliJ IDEA + Python插件</p><p>问：随着PyCharm的宣布，IDEA插件仍然可用？<br>答：是的，我们计划同步发布新的PyCharm构建和插件更新。对于购买了IntelliJ IDEA Ultimate许可证的用户，该插件将保持免费。</p><p>问：插件是否支持PyCharm支持的大部分/全部功能？<br>答：IntelliJ IDEA的Python插件是与PyCharm相同的代码库构建的。有些功能可能暂时在插件中不可用，因为与PyCharm相比，最新的IntelliJ IDEA基于早期的IntelliJ平台。</p><p>问：PyCharm和Python插件有什么不同？使用PyCharm而不仅仅是插件会有好处吗？<br>答：PyCharm在一些领域提供了一个更简单的用户界面，例如项目管理，IDE设置等。</p><p>Python插件依次具有Jython全面的支持功能（跨语言导航，完成和重构）。PyCharm仅支持Jython作为运行应用程序的运行时。</p><p>如果你不使用Java / Python集成，PyCharm是一个更好的开始。</p><p>问：我可以使用我的IntelliJ IDEA许可证使用PyCharm吗？<br>答：不可以。这两种产品使用不同的许可证制度。如果您想使用这两种产品，则需要购买两个许可证。</p><p>问：IntelliJ IDEA和PyCharm之间的项目文件是否兼容？<br>答：在PyCharm中创建的项目可以在安装了Python插件的IntelliJ IDEA中打开，没有任何问题。IntelliJ IDEA允许更灵活的项目配置，例如为项目配置库的可能性。PyCharm将能够打开并使用更高级设置的项目，但是您将无法更改PyCharm中的设置。<br>参考：<a href="https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ" target="_blank" rel="noopener">https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ</a></p>]]></content>
+    <content type="html"><![CDATA[<hr><p>title:  PyCharm与IntelliJ IDEA Python插件FAQ<br>date:  2017-07-10 15:10:30<br>tags: </p><ul><li>IntelliJ</li><li>IDE</li><li>Python<br>categories:  IDE</li></ul><hr><h1 id="PyCharm与IntelliJ-IDEA-Python插件FAQ"><a href="#PyCharm与IntelliJ-IDEA-Python插件FAQ" class="headerlink" title="PyCharm与IntelliJ IDEA Python插件FAQ"></a>PyCharm与IntelliJ IDEA Python插件FAQ</h1><p>PyCharm与IntelliJ IDEA + Python插件</p><p>问：随着PyCharm的宣布，IDEA插件仍然可用？<br>答：是的，我们计划同步发布新的PyCharm构建和插件更新。对于购买了IntelliJ IDEA Ultimate许可证的用户，该插件将保持免费。</p><p>问：插件是否支持PyCharm支持的大部分/全部功能？<br>答：IntelliJ IDEA的Python插件是与PyCharm相同的代码库构建的。有些功能可能暂时在插件中不可用，因为与PyCharm相比，最新的IntelliJ IDEA基于早期的IntelliJ平台。</p><p>问：PyCharm和Python插件有什么不同？使用PyCharm而不仅仅是插件会有好处吗？<br>答：PyCharm在一些领域提供了一个更简单的用户界面，例如项目管理，IDE设置等。</p><p>Python插件依次具有Jython全面的支持功能（跨语言导航，完成和重构）。PyCharm仅支持Jython作为运行应用程序的运行时。</p><p>如果你不使用Java / Python集成，PyCharm是一个更好的开始。</p><p>问：我可以使用我的IntelliJ IDEA许可证使用PyCharm吗？<br>答：不可以。这两种产品使用不同的许可证制度。如果您想使用这两种产品，则需要购买两个许可证。</p><p>问：IntelliJ IDEA和PyCharm之间的项目文件是否兼容？<br>答：在PyCharm中创建的项目可以在安装了Python插件的IntelliJ IDEA中打开，没有任何问题。IntelliJ IDEA允许更灵活的项目配置，例如为项目配置库的可能性。PyCharm将能够打开并使用更高级设置的项目，但是您将无法更改PyCharm中的设置。<br>参考：<a href="https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ" target="_blank" rel="noopener">https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ</a></p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;hr&gt;
-&lt;p&gt;title:  PyCharm与IntelliJ IDEA Python插件FAQ&lt;br&gt;date:  2017-01-10 15:10:30&lt;br&gt;tags: &lt;/p&gt;
+&lt;p&gt;title:  PyCharm与IntelliJ IDEA Python插件FAQ&lt;br&gt;date:  2017-07-10 15:10:30&lt;br&gt;tags: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;IntelliJ&lt;/li&gt;
 &lt;li&gt;IDE&lt;/li&gt;
