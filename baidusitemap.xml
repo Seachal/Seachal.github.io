@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>https://seachal.me/Android/2018/01/10/2018-01-10/</loc>
+    <lastmod>2018-02-01T09:17:22.468Z</lastmod>
+    <data>
+        <display>
+        <title>Android ListView的Item会出现点击两次的问题</title>
+        <pubTime>2018-01-10T07:10:30.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>ListView</tag>
+         
+        <tag>问题</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="https://seachal.me/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://seachal.me/uncategorized/2018/01/10/2018-01-10-1/</loc>
     <lastmod>2018-02-01T08:59:19.754Z</lastmod>
     <data>
@@ -149,30 +173,6 @@
            
              
               <breadCrumb title="ReactNative" url="https://seachal.me/categories/ReactNative/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://seachal.me/Android/2018/01/10/2018-01-10/</loc>
-    <lastmod>2018-01-10T08:43:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android ListView的Item会出现点击两次的问题</title>
-        <pubTime>2018-01-10T07:10:30.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>ListView</tag>
-         
-        <tag>问题</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android" url="https://seachal.me/categories/Android/"/>
           
         </display>
     </data>
