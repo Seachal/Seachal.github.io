@@ -31,6 +31,19 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[Mac和Linux返回上一级的命令是什么]]></title>
+    <url>%2FMac%2F2018%2F01%2F12%2FMac%2F2018-01-11%2F</url>
+    <content type="text"><![CDATA[Mac和Linux返回上一级的命令是什么要注意在linux shell有几个特定的符号。一个就是 . 指当前目录，例如： sh ./xx就是用shell去运行当前目录下的xx程序。一个是 .. 指上一级目录，例如： vi ../xx就是用vi去打开上一级目录下的xx文件。 cd ..将上一级目录变为当前目录，也就是返回上一级。另外就是 ~ 代表当前用户的家目录。 cd ~回到登录用户的家目录。参考：https://zhidao.baidu.com/question/58838894]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+        <tag>命令行</tag>
+        <tag>Terminal</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo创建文章和草稿]]></title>
     <url>%2FReactNative%2F2018%2F01%2F12%2FReactNative%2F2018-01-12%2F</url>
     <content type="text"><![CDATA[JavaScript语法let以及let与var的区别let 语句声明一个块级作用域的本地变量，并且可选的将其初始化为一个值。 语法let var1 [= value1] [, var2 [= value2]] [, …, varN [= valueN]]; 参数var1, var2, …, varN 变量名。可以是任意合法的标识符。 value1, value2, …, valueN 变量的初始值。可以是任意合法的表达式。 描述let允许你声明一个作用域被限制在块级中的变量、语句或者表达式。与var关键字不同的是，它声明的变量只能是全局或者整个函数块的。 这里解释了我们为什么选取“let”这个名字。 12345678Let is a mathematical statement that was adopted by early programming languages like Scheme and Basic. Variables are considered low level entities not suitable for higher levels of abstraction, thus the desire of many language designers to introduce similar but more powerful concepts like in Clojure, F#, Scala, where let might mean a value, or a variable that can be assigned, but not changed, which in turn lets the compiler catch more programming errors and optimize code better. JavaScript has had var from the beginning, so they just needed another keyword, and just borrowed from dozens of other languages that use let already as a traditional keyword as close to var as possible, although in JavaScript let creates block scope local variable instead. answered Jun 20 ‘16 at 7:47 exebook 123456Let是一个数学声明，是采用于早期的编程语言如Scheme和Basic。变量被认为是不适合更高层次抽象的低级实体，因此许多语言设计者希望引入类似但更强大的概念，如在Clojure、f#、Scala，let可能意味着一个值，或者一个变量可以赋值，但不能被更改，这反过来使编译器能够捕获更多的编程错误和优化代码更好。javascript从一开始就有var，所以他们只是需要另一个关键字，并只是借用了其他数十种语言，使用let已经作为一个传统的尽可能接近var的关键字，虽然在javascript 中 let只创建块范围局部变量而已。 作用域规则let声明的变量只在其声明的块或子块中可用，这一点，与var相似。二者之间最主要的区别在于var声明的变量的作用域是整个封闭函数。 1234567891011121314151617function varTest() &#123; var x = 1; if (true) &#123; var x = 2; // 同样的变量! console.log(x); // 2 &#125; console.log(x); // 2&#125;function letTest() &#123; let x = 1; if (true) &#123; let x = 2; // 不同的变量 console.log(x); // 2 &#125; console.log(x); // 1&#125; 简化内部函数代码当用到内部函数的时候，let会让你的代码更加简洁。 1234567891011121314151617181920212223242526var list = document.getElementById('list');for (let i = 1; i &lt;= 5; i++) &#123; let item = document.createElement('li'); item.appendChild(document.createTextNode('Item ' + i)); item.onclick = function(ev) &#123; console.log('Item ' + i + ' is clicked.'); &#125;; list.appendChild(item);&#125;// to achieve the same effect with 'var'// you have to create a different context// using a closure to preserve the valuefor (var i = 1; i &lt;= 5; i++) &#123; var item = document.createElement('li'); item.appendChild(document.createTextNode('Item ' + i)); (function(i)&#123; item.onclick = function(ev) &#123; console.log('Item ' + i + ' is clicked.'); &#125;; &#125;)(i); list.appendChild(item);&#125; 以上示例的工作原理是因为（匿名）内部函数的五个实例引用了变量i的五个不同实例。注意，如果你将let替换为var，则它将无法正常工作，因为所有内部函数都将返回相同的i：6的最终值。此外，我们可以通过将创建新元素的代码移动到每个循环的作用域来保持循环更清晰。 在程序或者函数的顶层，let并不会像**var**一样在全局对象上创造一个属性，比如： 1234var x = 'global';let y = 'global';console.log(this.x); // "global"console.log(this.y); // undefined 模仿私有接口在处理构造函数的时候，可以通过let绑定来共享一个或多个私有成员，而不使用闭包： 123456789101112131415161718192021222324252627282930313233343536var Thing;&#123; let privateScope = new WeakMap(); let counter = 0; Thing = function() &#123; this.someProperty = 'foo'; privateScope.set(this, &#123; hidden: ++counter, &#125;); &#125;; Thing.prototype.showPublic = function() &#123; return this.someProperty; &#125;; Thing.prototype.showPrivate = function() &#123; return privateScope.get(this).hidden; &#125;;&#125;console.log(typeof privateScope);// "undefined"var thing = new Thing();console.log(thing);// Thing &#123;someProperty: "foo"&#125;thing.showPublic();// "foo"thing.showPrivate();// 1 let暂存死区的错误在相同的函数或块作用域内重新声明同一个变量会引发SyntaxError。 1234if (x) &#123; let foo; let foo; // TypeError thrown.&#125; 在 ECMAScript 2015 中，**let**绑定不受变量提升的约束，这意味着**let**声明不会被提升到当前执行上下文的顶部。在块中的变量初始化之前，引用它将会导致 [ReferenceError](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)（而使用 var 声明变量则恰恰相反，该变量的值是 undefined ）。该变量处于从块开始到初始化处理的“暂存死区”。 123456function do_something() &#123; console.log(bar); // undefined console.log(foo); // ReferenceError: foo is not defined var bar = 1; let foo = 2;&#125; 在 switch 声明中你可能会遇到这样的错误，因为它只有一个块. 123456789switch (x) &#123; case 0: let foo; break; case 1: let foo; // TypeError for redeclaration. break;&#125; 但是，重要的是要指出嵌套在case子句内的块将创建一个新的块作用域的词法环境，这不会产生上面显示的重新声明错误。 123456789101112let x = 1;switch(x) &#123; case 0: &#123; let foo; break; &#125; case 1: &#123; let foo; break; &#125;&#125; 与词法作用域结合的暂存死区由于词法作用域，表达式(foo + 55)内的标识符“foo”会解析为if块的foo，而不是覆盖值为33的foo。在这一行中，if块的“foo”已经在词法环境中创建，但尚未达到（并终止）其初始化（这是语句本身的一部分）：它仍处于暂存死区。 1234567function test()&#123; var foo = 33; if (true) &#123; let foo = (foo + 55); // ReferenceError &#125;&#125;test(); 这种现象可能会使您陷入以下情况。指令let n of n.a已经在for循环块的私有范围内，因此标识符“n.a”被解析为位于指令本身的第一部分（“let n”）中的’n’对象的属性’a’ ，由于尚未达成和终止其声明，因此仍处于暂存死区。 12345678910function go(n) &#123; // n here is defined! console.log(n); // Object &#123;a: [1,2,3]&#125; for (let n of n.a) &#123; // ReferenceError console.log(n); &#125;&#125;go(&#123;a: [1, 2, 3]&#125;); 其他情况当在块中使用时，let将变量的作用域限制为该块。注意**var**的作用域在它被声明的函数内的区别。 12345678910111213var a = 1;var b = 2;if (a === 1) &#123; var a = 11; // the scope is global let b = 22; // the scope is inside the if-block console.log(a); // 11 console.log(b); // 22&#125; console.log(a); // 11console.log(b); // 2 规范| Specification | Status | Comment || ECMAScript 2015 (6th Edition, ECMA-262) Let and Const Declarations | Standard | Initial definition. Does not specify let expressions or let blocks. || ECMAScript Latest Draft (ECMA-262) Let and Const Declarations | Living Standard | | 浏览器兼容 Desktop Mobile Feature Chrome Edge Firefox Internet Explorer Opera Safari Basic support 41 12 441 2 3 11 17 10 1. Prior to Firefox 44, let is only available to code blocks in HTML wrapped in a &lt;script type=&quot;application/javascript;version=1.7&quot;&gt; block (or higher version) and has different semantics (e.g. no temporal dead zone). 2. Prior to Firefox 46, a TypeError is thrown on redeclaration instead of a SyntaxError. 3. Firefox 54 adds support of let in workers. 相关链接 var const ES6 In Depth: let and const Breaking changes in let and const in Firefox 44. You Don’t Know JS: Scope &amp; Closures: Chapter 3: Function vs. Block Scope 文档标签和贡献者 标签： ECMAScript 2015 JavaScript let Statement Variable declaration Variables 参考：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/let]]></content>
@@ -45,24 +58,6 @@
         <tag>ES6</tag>
         <tag>Variable</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Mac和Linux返回上一级的命令是什么]]></title>
-    <url>%2FMac%2F2018%2F01%2F12%2FMac%2F2018-01-11%2F</url>
-    <content type="text"><![CDATA[Mac和Linux返回上一级的命令是什么要注意在linux shell有几个特定的符号。一个就是 . 指当前目录，例如： sh ./xx就是用shell去运行当前目录下的xx程序。一个是 .. 指上一级目录，例如： vi ../xx就是用vi去打开上一级目录下的xx文件。 cd ..将上一级目录变为当前目录，也就是返回上一级。另外就是 ~ 代表当前用户的家目录。 cd ~回到登录用户的家目录。参考：https://zhidao.baidu.com/question/58838894]]></content>
-      <categories>
-        <category>Mac</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-        <tag>命令行</tag>
-        <tag>Terminal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>%2Funcategorized%2F2018%2F01%2F10%2F2018-01-10-1%2F</url>
-    <content type="text"><![CDATA[title: PyCharm与IntelliJ IDEA Python插件FAQdate: 2017-07-10 15:10:30tags: IntelliJ IDE Pythoncategories: IDE PyCharm与IntelliJ IDEA Python插件FAQPyCharm与IntelliJ IDEA + Python插件 问：随着PyCharm的宣布，IDEA插件仍然可用？答：是的，我们计划同步发布新的PyCharm构建和插件更新。对于购买了IntelliJ IDEA Ultimate许可证的用户，该插件将保持免费。 问：插件是否支持PyCharm支持的大部分/全部功能？答：IntelliJ IDEA的Python插件是与PyCharm相同的代码库构建的。有些功能可能暂时在插件中不可用，因为与PyCharm相比，最新的IntelliJ IDEA基于早期的IntelliJ平台。 问：PyCharm和Python插件有什么不同？使用PyCharm而不仅仅是插件会有好处吗？答：PyCharm在一些领域提供了一个更简单的用户界面，例如项目管理，IDE设置等。 Python插件依次具有Jython全面的支持功能（跨语言导航，完成和重构）。PyCharm仅支持Jython作为运行应用程序的运行时。 如果你不使用Java / Python集成，PyCharm是一个更好的开始。 问：我可以使用我的IntelliJ IDEA许可证使用PyCharm吗？答：不可以。这两种产品使用不同的许可证制度。如果您想使用这两种产品，则需要购买两个许可证。 问：IntelliJ IDEA和PyCharm之间的项目文件是否兼容？答：在PyCharm中创建的项目可以在安装了Python插件的IntelliJ IDEA中打开，没有任何问题。IntelliJ IDEA允许更灵活的项目配置，例如为项目配置库的可能性。PyCharm将能够打开并使用更高级设置的项目，但是您将无法更改PyCharm中的设置。参考：https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ]]></content>
   </entry>
   <entry>
     <title><![CDATA[Android ListView的Item会出现点击两次的问题]]></title>
@@ -186,6 +181,19 @@
         <tag>Android</tag>
         <tag>Mac</tag>
         <tag>IDE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[PyCharm与IntelliJ IDEA Python插件FAQ]]></title>
+    <url>%2FIDE%2F2017%2F07%2F10%2F2018-01-10-1%2F</url>
+    <content type="text"><![CDATA[PyCharm与IntelliJ IDEA Python插件FAQPyCharm与IntelliJ IDEA + Python插件 问：随着PyCharm的宣布，IDEA插件仍然可用？答：是的，我们计划同步发布新的PyCharm构建和插件更新。对于购买了IntelliJ IDEA Ultimate许可证的用户，该插件将保持免费。 问：插件是否支持PyCharm支持的大部分/全部功能？答：IntelliJ IDEA的Python插件是与PyCharm相同的代码库构建的。有些功能可能暂时在插件中不可用，因为与PyCharm相比，最新的IntelliJ IDEA基于早期的IntelliJ平台。 问：PyCharm和Python插件有什么不同？使用PyCharm而不仅仅是插件会有好处吗？答：PyCharm在一些领域提供了一个更简单的用户界面，例如项目管理，IDE设置等。 Python插件依次具有Jython全面的支持功能（跨语言导航，完成和重构）。PyCharm仅支持Jython作为运行应用程序的运行时。 如果你不使用Java / Python集成，PyCharm是一个更好的开始。 问：我可以使用我的IntelliJ IDEA许可证使用PyCharm吗？答：不可以。这两种产品使用不同的许可证制度。如果您想使用这两种产品，则需要购买两个许可证。 问：IntelliJ IDEA和PyCharm之间的项目文件是否兼容？答：在PyCharm中创建的项目可以在安装了Python插件的IntelliJ IDEA中打开，没有任何问题。IntelliJ IDEA允许更灵活的项目配置，例如为项目配置库的可能性。PyCharm将能够打开并使用更高级设置的项目，但是您将无法更改PyCharm中的设置。参考：https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ]]></content>
+      <categories>
+        <category>IDE</category>
+      </categories>
+      <tags>
+        <tag>IDE</tag>
+        <tag>IntelliJ</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>

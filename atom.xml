@@ -101,6 +101,35 @@
   </entry>
   
   <entry>
+    <title>Mac和Linux返回上一级的命令是什么</title>
+    <link href="https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/"/>
+    <id>https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/</id>
+    <published>2018-01-12T02:10:30.000Z</published>
+    <updated>2018-01-12T02:44:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Mac和Linux返回上一级的命令是什么"><a href="#Mac和Linux返回上一级的命令是什么" class="headerlink" title="Mac和Linux返回上一级的命令是什么"></a>Mac和Linux返回上一级的命令是什么</h1><p>要注意在linux shell有几个特定的符号。<br>一个就是 . 指当前目录，例如：<br> sh ./xx<br>就是用shell去运行当前目录下的xx程序。<br>一个是 .. 指上一级目录，例如：<br> vi ../xx<br>就是用vi去打开上一级目录下的xx文件。<br> cd ..<br>将上一级目录变为当前目录，也就是返回上一级。<br>另外就是 ~ 代表当前用户的家目录。<br> cd ~<br>回到登录用户的家目录。<br>参考：<a href="https://zhidao.baidu.com/question/58838894" target="_blank" rel="noopener">https://zhidao.baidu.com/question/58838894</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;a href=&quot;#Mac和Linux返回上一级的命令是什么&quot; class=&quot;headerlink&quot; title=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;/a&gt;Mac和Linux返回上一级的命令是什么&lt;/h1&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="Mac" scheme="https://seachal.me/categories/Mac/"/>
+    
+    
+      <category term="shell" scheme="https://seachal.me/tags/shell/"/>
+    
+      <category term="命令行" scheme="https://seachal.me/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+    
+      <category term="Terminal" scheme="https://seachal.me/tags/Terminal/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo创建文章和草稿</title>
     <link href="https://seachal.me/ReactNative/2018/01/12/ReactNative/2018-01-12/"/>
     <id>https://seachal.me/ReactNative/2018/01/12/ReactNative/2018-01-12/</id>
@@ -132,61 +161,6 @@
       <category term="ES6" scheme="https://seachal.me/tags/ES6/"/>
     
       <category term="Variable" scheme="https://seachal.me/tags/Variable/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac和Linux返回上一级的命令是什么</title>
-    <link href="https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/"/>
-    <id>https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/</id>
-    <published>2018-01-12T02:10:30.000Z</published>
-    <updated>2018-01-12T02:44:49.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Mac和Linux返回上一级的命令是什么"><a href="#Mac和Linux返回上一级的命令是什么" class="headerlink" title="Mac和Linux返回上一级的命令是什么"></a>Mac和Linux返回上一级的命令是什么</h1><p>要注意在linux shell有几个特定的符号。<br>一个就是 . 指当前目录，例如：<br> sh ./xx<br>就是用shell去运行当前目录下的xx程序。<br>一个是 .. 指上一级目录，例如：<br> vi ../xx<br>就是用vi去打开上一级目录下的xx文件。<br> cd ..<br>将上一级目录变为当前目录，也就是返回上一级。<br>另外就是 ~ 代表当前用户的家目录。<br> cd ~<br>回到登录用户的家目录。<br>参考：<a href="https://zhidao.baidu.com/question/58838894" target="_blank" rel="noopener">https://zhidao.baidu.com/question/58838894</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;a href=&quot;#Mac和Linux返回上一级的命令是什么&quot; class=&quot;headerlink&quot; title=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;/a&gt;Mac和Linux返回上一级的命令是什么&lt;/h1&gt;&lt;
-      
-    
-    </summary>
-    
-      <category term="Mac" scheme="https://seachal.me/categories/Mac/"/>
-    
-    
-      <category term="shell" scheme="https://seachal.me/tags/shell/"/>
-    
-      <category term="命令行" scheme="https://seachal.me/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
-    
-      <category term="Terminal" scheme="https://seachal.me/tags/Terminal/"/>
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://seachal.me/uncategorized/2018/01/10/2018-01-10-1/"/>
-    <id>https://seachal.me/uncategorized/2018/01/10/2018-01-10-1/</id>
-    <published>2018-01-10T11:00:33.000Z</published>
-    <updated>2018-02-01T08:59:19.754Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>title:  PyCharm与IntelliJ IDEA Python插件FAQ<br>date:  2017-07-10 15:10:30<br>tags: </p><ul><li>IntelliJ</li><li>IDE</li><li>Python<br>categories:  IDE</li></ul><hr><h1 id="PyCharm与IntelliJ-IDEA-Python插件FAQ"><a href="#PyCharm与IntelliJ-IDEA-Python插件FAQ" class="headerlink" title="PyCharm与IntelliJ IDEA Python插件FAQ"></a>PyCharm与IntelliJ IDEA Python插件FAQ</h1><p>PyCharm与IntelliJ IDEA + Python插件</p><p>问：随着PyCharm的宣布，IDEA插件仍然可用？<br>答：是的，我们计划同步发布新的PyCharm构建和插件更新。对于购买了IntelliJ IDEA Ultimate许可证的用户，该插件将保持免费。</p><p>问：插件是否支持PyCharm支持的大部分/全部功能？<br>答：IntelliJ IDEA的Python插件是与PyCharm相同的代码库构建的。有些功能可能暂时在插件中不可用，因为与PyCharm相比，最新的IntelliJ IDEA基于早期的IntelliJ平台。</p><p>问：PyCharm和Python插件有什么不同？使用PyCharm而不仅仅是插件会有好处吗？<br>答：PyCharm在一些领域提供了一个更简单的用户界面，例如项目管理，IDE设置等。</p><p>Python插件依次具有Jython全面的支持功能（跨语言导航，完成和重构）。PyCharm仅支持Jython作为运行应用程序的运行时。</p><p>如果你不使用Java / Python集成，PyCharm是一个更好的开始。</p><p>问：我可以使用我的IntelliJ IDEA许可证使用PyCharm吗？<br>答：不可以。这两种产品使用不同的许可证制度。如果您想使用这两种产品，则需要购买两个许可证。</p><p>问：IntelliJ IDEA和PyCharm之间的项目文件是否兼容？<br>答：在PyCharm中创建的项目可以在安装了Python插件的IntelliJ IDEA中打开，没有任何问题。IntelliJ IDEA允许更灵活的项目配置，例如为项目配置库的可能性。PyCharm将能够打开并使用更高级设置的项目，但是您将无法更改PyCharm中的设置。<br>参考：<a href="https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ" target="_blank" rel="noopener">https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;hr&gt;
-&lt;p&gt;title:  PyCharm与IntelliJ IDEA Python插件FAQ&lt;br&gt;date:  2017-07-10 15:10:30&lt;br&gt;tags: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IntelliJ&lt;/li&gt;
-&lt;li&gt;IDE&lt;/li&gt;
-&lt;li&gt;Python
-      
-    
-    </summary>
-    
     
   </entry>
   
@@ -472,6 +446,35 @@
       <category term="Mac" scheme="https://seachal.me/tags/Mac/"/>
     
       <category term="IDE" scheme="https://seachal.me/tags/IDE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PyCharm与IntelliJ IDEA Python插件FAQ</title>
+    <link href="https://seachal.me/IDE/2017/07/10/2018-01-10-1/"/>
+    <id>https://seachal.me/IDE/2017/07/10/2018-01-10-1/</id>
+    <published>2017-07-10T07:10:30.000Z</published>
+    <updated>2018-02-01T09:18:53.170Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="PyCharm与IntelliJ-IDEA-Python插件FAQ"><a href="#PyCharm与IntelliJ-IDEA-Python插件FAQ" class="headerlink" title="PyCharm与IntelliJ IDEA Python插件FAQ"></a>PyCharm与IntelliJ IDEA Python插件FAQ</h1><p>PyCharm与IntelliJ IDEA + Python插件</p><p>问：随着PyCharm的宣布，IDEA插件仍然可用？<br>答：是的，我们计划同步发布新的PyCharm构建和插件更新。对于购买了IntelliJ IDEA Ultimate许可证的用户，该插件将保持免费。</p><p>问：插件是否支持PyCharm支持的大部分/全部功能？<br>答：IntelliJ IDEA的Python插件是与PyCharm相同的代码库构建的。有些功能可能暂时在插件中不可用，因为与PyCharm相比，最新的IntelliJ IDEA基于早期的IntelliJ平台。</p><p>问：PyCharm和Python插件有什么不同？使用PyCharm而不仅仅是插件会有好处吗？<br>答：PyCharm在一些领域提供了一个更简单的用户界面，例如项目管理，IDE设置等。</p><p>Python插件依次具有Jython全面的支持功能（跨语言导航，完成和重构）。PyCharm仅支持Jython作为运行应用程序的运行时。</p><p>如果你不使用Java / Python集成，PyCharm是一个更好的开始。</p><p>问：我可以使用我的IntelliJ IDEA许可证使用PyCharm吗？<br>答：不可以。这两种产品使用不同的许可证制度。如果您想使用这两种产品，则需要购买两个许可证。</p><p>问：IntelliJ IDEA和PyCharm之间的项目文件是否兼容？<br>答：在PyCharm中创建的项目可以在安装了Python插件的IntelliJ IDEA中打开，没有任何问题。IntelliJ IDEA允许更灵活的项目配置，例如为项目配置库的可能性。PyCharm将能够打开并使用更高级设置的项目，但是您将无法更改PyCharm中的设置。<br>参考：<a href="https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ" target="_blank" rel="noopener">https://confluence.jetbrains.com/display/PYH/PyCharm+vs.+IntelliJ+IDEA+Python+plugin+FAQ</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;PyCharm与IntelliJ-IDEA-Python插件FAQ&quot;&gt;&lt;a href=&quot;#PyCharm与IntelliJ-IDEA-Python插件FAQ&quot; class=&quot;headerlink&quot; title=&quot;PyCharm与IntelliJ IDEA Pyth
+      
+    
+    </summary>
+    
+      <category term="IDE" scheme="https://seachal.me/categories/IDE/"/>
+    
+    
+      <category term="IDE" scheme="https://seachal.me/tags/IDE/"/>
+    
+      <category term="IntelliJ" scheme="https://seachal.me/tags/IntelliJ/"/>
+    
+      <category term="Python" scheme="https://seachal.me/tags/Python/"/>
     
   </entry>
   
