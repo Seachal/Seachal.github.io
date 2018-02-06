@@ -7,8 +7,8 @@
     </url>
 
     <url>
-        <loc>https://seachal.me/Android/2018/07/23/Android/app%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84build.gradle%E8%AF%A6%E8%A7%A3/</loc>
-        <lastmod>2018-02-01T09:22:42.626Z</lastmod>
+        <loc>https://seachal.me/Android/2018/02/06/Android/Android%20Studio%203.0%E4%B8%AD%E8%A7%A3%E5%86%B3apt%E6%8A%A5%E9%94%99%EF%BC%8Candroid-apt%E5%88%87%E6%8D%A2%E4%B8%BA%E5%AE%98%E6%96%B9annotationProcessor%20/</loc>
+        <lastmod>2018-02-06T02:04:10.747Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -16,7 +16,15 @@
 
     <url>
         <loc>https://seachal.me/Android/2018/01/23/Android/RelativeLayout%E3%80%81Framelayout%20%E4%B8%A4%E5%B8%83%E5%B1%80%E9%87%8D%E5%8F%A0,%E4%BD%BF%E4%B8%8B%E5%B1%82%E4%B8%8D%E5%93%8D%E5%BA%94%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6/</loc>
-        <lastmod>2018-02-01T09:22:04.387Z</lastmod>
+        <lastmod>2018-02-06T01:17:33.306Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://seachal.me/Android/2018/07/23/Android/app%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84build.gradle%E8%AF%A6%E8%A7%A3/</loc>
+        <lastmod>2018-02-01T09:22:42.626Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
