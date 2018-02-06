@@ -92,18 +92,18 @@
 
 
 
-<meta name="description" content="Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor最近从GitHub上Fork了一个项目，用Android Studio3 打开后， 报错1234567891011121314151617181920212223242526Error:Cannot choose between the following configura">
+<meta name="description" content="Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor最近从GitHub上Fork了一个项目任阅，用Android Studio3 打开后 报错1234567891011121314151617181920212223242526Error:Cannot choose between the following configur">
 <meta name="keywords" content="Android,问题解决,Android Studio,apt">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor">
 <meta property="og:url" content="https://seachal.me/Android/2018/02/06/Android/Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor /index.html">
 <meta property="og:site_name" content="Seachal的Blogs">
-<meta property="og:description" content="Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor最近从GitHub上Fork了一个项目，用Android Studio3 打开后， 报错1234567891011121314151617181920212223242526Error:Cannot choose between the following configura">
+<meta property="og:description" content="Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor最近从GitHub上Fork了一个项目任阅，用Android Studio3 打开后 报错1234567891011121314151617181920212223242526Error:Cannot choose between the following configur">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-02-06T02:04:10.747Z">
+<meta property="og:updated_time" content="2018-02-06T02:35:50.338Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor">
-<meta name="twitter:description" content="Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor最近从GitHub上Fork了一个项目，用Android Studio3 打开后， 报错1234567891011121314151617181920212223242526Error:Cannot choose between the following configura">
+<meta name="twitter:description" content="Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor最近从GitHub上Fork了一个项目任阅，用Android Studio3 打开后 报错1234567891011121314151617181920212223242526Error:Cannot choose between the following configur">
 
 
 
@@ -370,7 +370,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-02-06T10:04:10+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-02-06T10:35:50+08:00">
                 2018-02-06
               </time>
             
@@ -431,7 +431,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  891 字
+                  893 字
                 </span>
               
 
@@ -469,7 +469,7 @@
       
 
       
-        <h1 id="Android-Studio-3-0中解决apt报错，android-apt切换为官方annotationProcessor"><a href="#Android-Studio-3-0中解决apt报错，android-apt切换为官方annotationProcessor" class="headerlink" title="Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor"></a>Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor</h1><p>最近从GitHub上Fork了一个项目，用Android Studio3 打开后，</p>
+        <h1 id="Android-Studio-3-0中解决apt报错，android-apt切换为官方annotationProcessor"><a href="#Android-Studio-3-0中解决apt报错，android-apt切换为官方annotationProcessor" class="headerlink" title="Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor"></a>Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor</h1><p>最近从GitHub上Fork了一个项目<a href="https://github.com/Seachal/BookReader" target="_blank" rel="noopener">任阅</a>，用Android Studio3 打开后</p>
 <h2 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h2><figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">Error:Cannot choose between the following configurations of project :EasyAdapterLibrary:</span><br><span class="line">  -<span class="ruby"> debugApiElements</span></span><br><span class="line"><span class="ruby">  - debugRuntimeElements</span></span><br><span class="line"><span class="ruby">  - releaseApiElements</span></span><br><span class="line"><span class="ruby">  - releaseRuntimeElements</span></span><br><span class="line"><span class="ruby">All of them match the consumer <span class="symbol">attributes:</span></span></span><br><span class="line"><span class="ruby">  - Configuration <span class="string">'debugApiElements'</span><span class="symbol">:</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.api.attributes.BuildTypeAttr <span class="string">'debug'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.gradle.internal.dependency.AndroidTypeAttr <span class="string">'Aar'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.gradle.internal.dependency.VariantAttr <span class="string">'debug'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found org.gradle.api.attributes.Usage <span class="string">'java-api'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">  - Configuration <span class="string">'debugRuntimeElements'</span><span class="symbol">:</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.api.attributes.BuildTypeAttr <span class="string">'debug'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.gradle.internal.dependency.AndroidTypeAttr <span class="string">'Aar'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.gradle.internal.dependency.VariantAttr <span class="string">'debug'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found org.gradle.api.attributes.Usage <span class="string">'java-runtime'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">  - Configuration <span class="string">'releaseApiElements'</span><span class="symbol">:</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.api.attributes.BuildTypeAttr <span class="string">'release'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.gradle.internal.dependency.AndroidTypeAttr <span class="string">'Aar'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.gradle.internal.dependency.VariantAttr <span class="string">'release'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found org.gradle.api.attributes.Usage <span class="string">'java-api'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">  - Configuration <span class="string">'releaseRuntimeElements'</span><span class="symbol">:</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.api.attributes.BuildTypeAttr <span class="string">'release'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.gradle.internal.dependency.AndroidTypeAttr <span class="string">'Aar'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found com.android.build.gradle.internal.dependency.VariantAttr <span class="string">'release'</span> but wasn<span class="string">'t required.</span></span></span><br><span class="line"><span class="ruby">      - Found org.gradle.api.attributes.Usage <span class="string">'java-runtime'</span> but wasn<span class="string">'t required.</span></span></span><br></pre></td></tr></table></figure>
 <h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>从Messages中并没有查看出是什么原因，但是此项目之前使用的AS2.1，并且gradle中使用了apt，所以我怀疑是Studio升级到3.0之后原来的配置方式apt与最新版本Gradle已经不兼容。</p>
 <blockquote>
@@ -574,6 +574,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/Android/2018/02/06/Android/Android Studio 3中解决butterknife:7报错的问题/" rel="prev" title="Android Studio 3中解决butterknife:7报错的问题">
+                Android Studio 3中解决butterknife:7报错的问题 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -661,7 +665,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">17</span>
+                  <span class="site-state-item-count">18</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -683,7 +687,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">34</span>
+                  <span class="site-state-item-count">35</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -813,7 +817,7 @@ show_date_time();
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">14.4k</span>
+    <span title="Site words total count">14.6k</span>
   
 </div>
 

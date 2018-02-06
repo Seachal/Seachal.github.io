@@ -4,6 +4,58 @@
 
     
   <url>
+    <loc>https://seachal.me/Android/2018/02/06/Android/Android%20Studio%203%E4%B8%AD%E8%A7%A3%E5%86%B3butterknife:7%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2018-02-06T02:40:30.387Z</lastmod>
+    <data>
+        <display>
+        <title>Android Studio 3中解决butterknife:7报错的问题</title>
+        <pubTime>2018-02-06T09:30:30.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>问题解决</tag>
+         
+        <tag>Android Studio</tag>
+         
+        <tag>butterknife</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="https://seachal.me/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://seachal.me/Android/2018/02/06/Android/Android%20Studio%203.0%E4%B8%AD%E8%A7%A3%E5%86%B3apt%E6%8A%A5%E9%94%99%EF%BC%8Candroid-apt%E5%88%87%E6%8D%A2%E4%B8%BA%E5%AE%98%E6%96%B9annotationProcessor%20/</loc>
+    <lastmod>2018-02-06T02:35:50.338Z</lastmod>
+    <data>
+        <display>
+        <title>Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor</title>
+        <pubTime>2018-02-06T08:30:30.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>问题解决</tag>
+         
+        <tag>Android Studio</tag>
+         
+        <tag>apt</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="https://seachal.me/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://seachal.me/Android/2017/07/23/Android/app%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84build.gradle%E8%AF%A6%E8%A7%A3/</loc>
     <lastmod>2018-02-06T02:07:57.412Z</lastmod>
     <data>
@@ -18,32 +70,6 @@
         <tag>配置</tag>
          
         <tag>含义</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android" url="https://seachal.me/categories/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://seachal.me/Android/2018/02/06/Android/Android%20Studio%203.0%E4%B8%AD%E8%A7%A3%E5%86%B3apt%E6%8A%A5%E9%94%99%EF%BC%8Candroid-apt%E5%88%87%E6%8D%A2%E4%B8%BA%E5%AE%98%E6%96%B9annotationProcessor%20/</loc>
-    <lastmod>2018-02-06T02:04:10.747Z</lastmod>
-    <data>
-        <display>
-        <title>Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor</title>
-        <pubTime>2018-02-06T08:30:30.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>问题解决</tag>
-         
-        <tag>Android Studio</tag>
-         
-        <tag>apt</tag>
          
          
            
@@ -80,6 +106,30 @@
 
     
   <url>
+    <loc>https://seachal.me/Android/2017/12/23/Android/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE_Mac%E5%92%8CWindos%E5%92%8CLinux/</loc>
+    <lastmod>2018-02-01T09:20:26.406Z</lastmod>
+    <data>
+        <display>
+        <title>Android Studio快捷键_Mac和Windos和Linux</title>
+        <pubTime>2017-12-23T08:30:30.000Z</pubTime>
+        
+        <tag>IDE</tag>
+         
+        <tag>Android</tag>
+         
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android" url="https://seachal.me/categories/Android/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://seachal.me/Android/2017/12/28/Android/%E5%8A%A8%E6%80%81%E4%B8%BATextView%E6%8E%A7%E4%BB%B6%E8%AE%BE%E7%BD%AEdrawableLeft%E5%9B%BE%E6%A0%87,%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%97%B4%E8%B7%9D/</loc>
     <lastmod>2018-02-01T09:20:22.991Z</lastmod>
     <data>
@@ -104,6 +154,30 @@
 
     
   <url>
+    <loc>https://seachal.me/Github/2017/12/23/%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E4%B8%8B%E9%85%8D%E7%BD%AEGithub%E5%92%8CBitbucket%E7%9A%84SSH/</loc>
+    <lastmod>2018-02-01T09:18:56.665Z</lastmod>
+    <data>
+        <display>
+        <title>如何在Mac下配置Github和Bitbucket的SSH</title>
+        <pubTime>2017-12-23T13:10:30.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+        <tag>Git</tag>
+         
+        <tag>Github</tag>
+         
+         
+           
+             
+              <breadCrumb title="Github" url="https://seachal.me/categories/Github/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://seachal.me/IDE/2017/07/10/2018-01-10-1/</loc>
     <lastmod>2018-02-01T09:18:53.170Z</lastmod>
     <data>
@@ -111,9 +185,9 @@
         <title>PyCharm与IntelliJ IDEA Python插件FAQ</title>
         <pubTime>2017-07-10T07:10:30.000Z</pubTime>
         
-        <tag>IDE</tag>
-         
         <tag>IntelliJ</tag>
+         
+        <tag>IDE</tag>
          
         <tag>Python</tag>
          
@@ -294,58 +368,12 @@
 
     
   <url>
-    <loc>https://seachal.me/Android/2017/12/23/Android/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE_Mac%E5%92%8CWindos%E5%92%8CLinux/</loc>
-    <lastmod>2018-01-03T08:33:38.000Z</lastmod>
-    <data>
-        <display>
-        <title>Android Studio快捷键_Mac和Windos和Linux</title>
-        <pubTime>2017-12-23T08:30:30.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>Mac</tag>
-         
-        <tag>IDE</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android" url="https://seachal.me/categories/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://seachal.me/BolgBuild/2017/12/29/BlogBuild/Hexo%E5%8D%9A%E5%AE%A2Next%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0ForkMeOnGithub/</loc>
     <lastmod>2017-12-29T12:10:30.000Z</lastmod>
     <data>
         <display>
         <title>Hexo博客Next主题如何添"ForkMeOnGithub"</title>
         <pubTime>2017-12-29T06:10:30.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>BolgBuild</tag>
-         
-         
-           
-             
-              <breadCrumb title="BolgBuild" url="https://seachal.me/categories/BolgBuild/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2017-12-30-1/</loc>
-    <lastmod>2017-12-29T12:10:30.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo创建文章和草稿</title>
-        <pubTime>2017-12-25T12:10:30.000Z</pubTime>
         
         <tag>Hexo</tag>
          
@@ -384,23 +412,21 @@
 
     
   <url>
-    <loc>https://seachal.me/Github/2017/12/23/%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E4%B8%8B%E9%85%8D%E7%BD%AEGithub%E5%92%8CBitbucket%E7%9A%84SSH/</loc>
-    <lastmod>2017-12-29T11:55:46.000Z</lastmod>
+    <loc>https://seachal.me/BolgBuild/2017/12/25/BlogBuild/2017-12-30-1/</loc>
+    <lastmod>2017-12-29T12:10:30.000Z</lastmod>
     <data>
         <display>
-        <title>如何在Mac下配置Github和Bitbucket的SSH</title>
-        <pubTime>2017-12-23T13:10:30.000Z</pubTime>
+        <title>Hexo创建文章和草稿</title>
+        <pubTime>2017-12-25T12:10:30.000Z</pubTime>
         
-        <tag>Mac</tag>
+        <tag>Hexo</tag>
          
-        <tag>Git</tag>
-         
-        <tag>Github</tag>
+        <tag>BolgBuild</tag>
          
          
            
              
-              <breadCrumb title="Github" url="https://seachal.me/categories/Github/"/>
+              <breadCrumb title="BolgBuild" url="https://seachal.me/categories/BolgBuild/"/>
           
         </display>
     </data>
