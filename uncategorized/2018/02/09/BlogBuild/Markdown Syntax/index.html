@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+<!--Google 引擎验证申请地址 Baidu 引擎验证申请地址-->
+
+
+  <meta name="google-site-verification" content="yz2wXOfHDWg9lPX0q7GGr4VYbjAI4MLLiyOTBofbPsM">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+  <meta name="google-site-verification" content="true">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.ico?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.ico?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Seachal,Android,Java,笔记,Hexo,博客">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Seachal的Blogs" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="注释（Comment）注释是写作者自己的标注记录，不被浏览器解析渲染。HTML 以 &amp;lt;!-- 开头，以 --&amp;gt; 结尾的闭包定义注释（支持跨行），不在正文中显示。Markdown 沿用 HTML Comment 注释格式：&amp;lt;!-- This text will not appear in the browser window. --&amp;gt;  注释适用场景示例：  CSDN 博客">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Seachal的Blogs">
+<meta property="og:url" content="https://seachal.me/uncategorized/2018/02/09/BlogBuild/Markdown Syntax/index.html">
+<meta property="og:site_name" content="Seachal的Blogs">
+<meta property="og:description" content="注释（Comment）注释是写作者自己的标注记录，不被浏览器解析渲染。HTML 以 &amp;lt;!-- 开头，以 --&amp;gt; 结尾的闭包定义注释（支持跨行），不在正文中显示。Markdown 沿用 HTML Comment 注释格式：&amp;lt;!-- This text will not appear in the browser window. --&amp;gt;  注释适用场景示例：  CSDN 博客">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://daringfireball.net/graphics/logos/">
+<meta property="og:image" content="http://avatar.csdn.net/9/D/B/1_phunxm.jpg">
+<meta property="og:image" content="http://pad.haroopress.com/assets/images/logo-small.png">
+<meta property="og:updated_time" content="2018-02-09T05:32:23.124Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Seachal的Blogs">
+<meta name="twitter:description" content="注释（Comment）注释是写作者自己的标注记录，不被浏览器解析渲染。HTML 以 &amp;lt;!-- 开头，以 --&amp;gt; 结尾的闭包定义注释（支持跨行），不在正文中显示。Markdown 沿用 HTML Comment 注释格式：&amp;lt;!-- This text will not appear in the browser window. --&amp;gt;  注释适用场景示例：  CSDN 博客">
+<meta name="twitter:image" content="http://daringfireball.net/graphics/logos/">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post - 默认行为，在文章页面（拥有目录列表）时显示","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://seachal.me/uncategorized/2018/02/09/BlogBuild/Markdown Syntax/">
+
+
+
+
+
+  <title> | Seachal的Blogs</title>
+  
+
+
+
+
+
+
+
+
+
+ <style>
+  .forkMeOnGithub{
+      display: none;
+  }
+  @media (min-width: 768px) {
+  .forkMeOnGithub{
+      display: inline;
+  }
+ }
+  </style>
+
+
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Seachal的Blogs</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">记录学习的技能和遇到的问题</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://seachal.me/uncategorized/2018/02/09/BlogBuild/Markdown Syntax/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Seachal">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/seachalzhang.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Seachal的Blogs">
+    </span>
+
+    
+      <header class="post-header">
+
+
+
+        
+        
+          <h1 class="post-title" itemprop="name headline"></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-09T13:29:36+08:00">
+                2018-02-09
+              </time>
+
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-02-09T13:32:23+08:00">
+                2018-02-09
+              </time>
+            
+          </span>
+
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/uncategorized/2018/02/09/BlogBuild/Markdown Syntax/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="uncategorized/2018/02/09/BlogBuild/Markdown Syntax/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  6,531 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  26 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+
+      
+      
+
+      
+        <!--[TOC]-->
+<h2 id="注释（Comment）"><a href="#注释（Comment）" class="headerlink" title="注释（Comment）"></a>注释（Comment）</h2><p>注释是写作者自己的标注记录，不被浏览器解析渲染。<br>HTML 以 <code>&lt;!--</code> 开头，以 <code>--&gt;</code> 结尾的闭包定义注释（支持跨行），不在正文中显示。<br>Markdown 沿用 <a href="http://home.wangjianshuo.com/cn/20070526_aeaeaehtmleccommentie.htm" target="_blank" rel="noopener">HTML Comment</a> 注释格式：<br><code>&lt;!-- This text will not appear in the browser window. --&gt;</code></p>
+<!-- This text will not appear in the browser window. -->
+<p><strong>注释适用场景示例：</strong></p>
+<ol>
+<li><p>CSDN 博客默认会在网页生成TOC，而 GitHub 仍不支持<code>[TOC]</code>，因此在发布 Markdown 博客时可注释掉开头的 [TOC] 标签，在需要查看 OUTLINE 时再打开。<br><code>&lt;!--[TOC]--&gt;</code></p>
+</li>
+<li><p>在博客 Markdown 源码开头，本人通常使用注释来备注 git commit-hash-id 和 commit-date 信息（git log -p ），以便修订变更时回溯。<br><code>&lt;!--commit 5326f29752b7ee3472aa00b40574bd585e3ef25b--&gt;</code>  </p>
+</li>
+</ol>
+<!--commit 5326f29752b7ee3472aa00b40574bd585e3ef25b-->
+<p><code>&lt;!--Mon Nov 2 00:36:40 2015 +0800--&gt;</code></p>
+<ol>
+<li>在使用 Markdown 写作博客时，本人喜欢采用参考式链接，然后在文末专门开辟一节用于定义文中用到的所有脚注和参考链接。借助 Haroopad/FoldingText/Marked2 的折叠特性，本人习惯在末尾添加一行 Comment Heading，用于在阅读 Markdown 源码时折叠隐藏文末的参考区。<br><code>##&lt;!--以下是本文的脚注和超链接--&gt;</code></li>
+</ol>
+<h2 id="标题（Header）-Header"><a href="#标题（Header）-Header" class="headerlink" title="标题（Header）[^Header]"></a><font color="red">标题（Header）</font>[^Header]</h2><p>标题用于呈现文档组织结构，很多 Markdown 解析器都提供基于 Heading Levels 来生成文档大纲的 <code>[TOC]</code>（Table of Contents）标签，搜索引擎则使用标题为网页的结构和内容编制索引。<br>一般论文或博客文档结构到3到4级即可，可参考《<a href="http://www.zaojiance.com/news/news-detail-2013-10-09-23-55.html" target="_blank" rel="noopener">毕业论文的国家标准格式与通用格式</a>》、《<a href="http://wenku.baidu.com/link?url=CCLjLN3lGmNVU6_TlAiTgSXZKNObnmFPEKuVXIw8OanlNhzy7vWhu-r-ekzb7GjUGoHKfnFehrClNFbB3yCgcOcJqVYYMuTfddxjw5gIPse" target="_blank" rel="noopener">发表论文通用格式</a>》和《<a href="http://biyelunwen.yjbys.com/geshi/417273.html" target="_blank" rel="noopener">期刊论文格式</a>》。</p>
+<p>Markdown 支持两种标题的语法，类 <a href="http://docutils.sourceforge.net/mirror/setext.html" target="_blank" rel="noopener">Setext</a> 和类 <a href="http://www.aaronsw.com/2002/atx/" target="_blank" rel="noopener">atx</a> 形式。</p>
+<h3 id="Setext-Heading-Format（2-level）"><a href="#Setext-Heading-Format（2-level）" class="headerlink" title="Setext Heading Format（2 level）"></a>Setext Heading Format（2 level）</h3><p>类 Setext 形式是用底线的形式，使用三个或以上连续 =（equal signs）底线标记最高阶标题，使用三个或以上连续 -（dashes）底线标记第二阶标题。例如：</p>
+<ol>
+<li><p>equal signs for first-level headers:</p>
+<h1 id="This-is-an-H1"><a href="#This-is-an-H1" class="headerlink" title=" This is an H1"></a> This is an H1</h1></li>
+<li><p>dashes for second-level headers:</p>
+<h2 id="This-is-an-H2"><a href="#This-is-an-H2" class="headerlink" title=" This is an H2"></a> This is an H2</h2></li>
+</ol>
+<h3 id="Atx-Heading-Format（6-level）"><a href="#Atx-Heading-Format（6-level）" class="headerlink" title="Atx Heading Format（6 level）"></a>Atx Heading Format（6 level）</h3><p>类 Atx 形式则是在行首插入 1 到 6 个 # （hash character），对应 6 阶标题（对应 HTML 中的 <code>&lt;h1&gt;</code> - <code>&lt;h6&gt;</code> 标签）。例如：</p>
+<pre><code># 这是一级标题（H1，通常用于文档标题）  
+## 这是二级标题（H2，有些渲染器会为二级标题添加 hr 底线）  
+### 这是三级标题（H3）  
+#### 这是四级标题（H4）  
+##### 这是五级标题（H5）#####  
+###### 这是六级标题（H6）######
+</code></pre><p>行首的 <code>#</code> 号个数决定标题阶数，为兼容和阅感起见，建议最后一个 <code>#</code> 号和标题文字之间加插一个空格。<br>行中（末）的 <code>#</code> 号则被视作普通字符。为美观起见，你也可以选择性地「闭合」类 atx 样式的标题，在行尾加上对应或不限数量的 # 号。</p>
+<h2 id="句段（Sentence-Paragraph）"><a href="#句段（Sentence-Paragraph）" class="headerlink" title="句段（Sentence / Paragraph）"></a>句段（Sentence / Paragraph）</h2><h3 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h3><p>标准 Markdown 不支持自然换行（literal new line），有些渲染器扩展支持自然换行。<br><code>#</code> 号标识的 Heading（H1-H6） 会自然换行，普通句段之间若要强制换行（Manual Line Break），可以在自然换行行尾追加两个（或以上）空格来实现。<br>由于不同的 Markdown Editor 的渲染效果不一，建议按照标准 Markdown 书写，这样发布到不同的渲染引擎下才能取得最优的兼容性。例如：你可能需要在两行连续的以 <code>&gt;</code> 开头的引用之间加入两个空格硬换行来避免粘连；在某些 Markdown Editor 中，你可能需要在 bullet list item 行尾追加两个空格硬换行来续接后面的混合编排。</p>
+<p><strong>适时内嵌 HTML 的 <code>&lt;br&gt;</code> 控制换行</strong></p>
+<blockquote>
+<p>由于空格在 Markdown 中主要是起着控制排版的作用，因此在某些复杂的区块元素中，例如下文提到的 Table 表格中的 td 元素中，只能通过内嵌 HTML 的<code>&lt;br&gt;</code>（XHTML 自闭合写作 <code>&lt;br /&gt;</code>）标签来实现局部换行。</p>
+</blockquote>
+<h3 id="分段"><a href="#分段" class="headerlink" title="分段"></a>分段</h3><p>段落是由一个或多个连续的文本行组成，它的前后往往需要<strong>空行</strong>予以明示分隔。</p>
+<blockquote>
+<p>在显示上看起来像是空的，例如只包含空格或（和）制表符（tab）的行，便会被视为空行。</p>
+</blockquote>
+<p><strong>空行适用场景说明：</strong></p>
+<ol>
+<li>空行的上一句末无需再添加两个空格或 <code>&lt;br/&gt;</code> 换行了。  </li>
+<li>句段之间引入空行，相当于间隔成段落（对应 HTML 的 <code>&lt;p&gt;</code> 标签）。  </li>
+<li>尽管 Markdown Render 会对各阶 Heading（H1-H6）有特殊的格式渲染来凸显层级，但还是建议在章节（Section/Chapter）末尾适时插入空行，以示行文分割且方便阅读。  </li>
+<li>为了更优的 <em>阅读感</em> 和 <em>兼容性</em>，建议在分割线（Horizontal Rules）的上面留一空行，块引用（Blockquote）、预格式化（Preformatted Code Block）、列表（List）、表格（Table）等区块元素的上下各插入空行。</li>
+</ol>
+<h2 id="符号（Punctuation-Characters）"><a href="#符号（Punctuation-Characters）" class="headerlink" title="符号（Punctuation Characters）"></a>符号（Punctuation Characters）</h2><h3 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h3><p>Markdown 精挑细选了一些符号组成了一套基于文本的标记语法。比如：</p>
+<ul>
+<li>在文字两旁加上 * 号，看起来就像*强调*。</li>
+<li>多行行首添加 +（或 - 或 *），看起来就是列表。</li>
+<li>句段行首添加 &gt; 号来引用区块，就像你曾在电子邮件中见过的那样。</li>
+</ul>
+<p>可以使用反斜杠（\，backslash）转义输入 Markdown 标记符号的原义字符。  </p>
+<hr>
+<p>#：行首的 <kbd>#</kbd>（此处使用 kbd 闭包显示按键字幕）号默认为H1，这里使用反斜杠转义显示原义字符。  </p>
+<h3 id="字符实体"><a href="#字符实体" class="headerlink" title="字符实体"></a>字符实体</h3><p>在 Markdown 中，空格和 tab 往往用于格式控制，例如：</p>
+<ul>
+<li>行首插入 tab 或 四个空格 缩进表示 <code>&lt;pre&gt;</code> 预格式化；</li>
+<li>引用、列表的 bullet 标记符前的 tab 或 空格 用于缩进嵌套层级；</li>
+<li>…</li>
+</ul>
+<p>普通段落一般都是顶格开始，无法使用 空格 或 tab 来缩进，包括引用标记符（&gt;）、列表标记符（bullet list indicator）后面的空格都无法实现缩进。<br>如果硬要输入空格显示占位缩进效果，可以嵌入空格对应的 <a href="http://114.xixik.com/character/" target="_blank" rel="noopener">HTML Entity</a> 实体码。HTML 转义字符串（Escape Sequence），即字符实体（Character Entity）。字符实体由三部分构成：</p>
+<ol>
+<li>第一部分是一个 <code>&amp;</code> （ampersand）符号；</li>
+<li>第二部分是实体（Entity）名字；或者 <code>#</code> 加上实体编号（<a href="http://entity-lookup.leftlogic.com/" target="_blank" rel="noopener">Entity Code</a>）；</li>
+<li>第三部分是一个分号 <code>;</code> （semicolon）。</li>
+</ol>
+<p><a href="http://www.oicqzone.com/pc/2015083122336.html" target="_blank" rel="noopener">HTML提供了5种空格实体</a>（<a href="http://www.cnblogs.com/BaishangBloom/p/4642519.html" target="_blank" rel="noopener">space entity</a>），它们拥有不同的宽度，非断行空格（<code>&amp;nbsp;</code>）是常规空格的宽度，可运行于所有主流浏览器。其他几种空格（ <code>&amp;ensp;</code>、<code>&amp;emsp;</code>、<code>&amp;thinsp;</code>、<code>&amp;zwnj;</code>、<code>&amp;zwj;</code>）在不同浏览器中宽度各异。</p>
+<table>
+<thead>
+<tr>
+<th>entity</th>
+<th>code</th>
+<th>full-name</th>
+<th>width</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&amp;nbsp;</code></td>
+<td><code>&amp;#160;</code></td>
+<td>no-break space</td>
+<td>键盘空格（space bar）</td>
+</tr>
+<tr>
+<td><code>&amp;ensp;</code></td>
+<td><code>&amp;#8194;</code></td>
+<td>en space</td>
+<td>半角空格（half-width）</td>
+</tr>
+<tr>
+<td><code>&amp;emsp;</code></td>
+<td><code>&amp;#8195;</code></td>
+<td>em space</td>
+<td>全角空格（full-width）</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>在HTML中，使用<code>&amp;nbsp;</code>产生的空格是不会累加的（只算1个）；要使用html实体表示才可累加。  </li>
+<li><code>&amp;ensp;</code>中的en是字体排印学的计量单位，为em宽度的一半，名义上是小写字母n的宽度。此空格传承空格家族一贯的特性：透明的！此空格有个相当稳健的特性，就是其占据的宽度正好是1/2个中文宽度，而且基本上不受字体影响。  </li>
+<li><code>&amp;emsp;</code>中的em是字体排印学的计量单位，相当于当前指定的点数。此空格也传承空格家族一贯的特性：透明的！此空格也有个相当稳健的特性，就是其占据的宽度正好是1个中文宽度，而且基本上不受字体影响。  </li>
+</ol>
+<hr>
+<p>  普通自然行行首敲2个空格无占位缩进效果。<br>&nbsp;&nbsp;&nbsp;&nbsp;该行行首添加了4个<code>&amp;nbsp;</code>。<br>&ensp;&ensp;&ensp;&ensp;该行行首添加了4个<code>&amp;ensp;</code>。<br>&emsp;&emsp;&emsp;&emsp;该行行首添加了4个<code>&amp;emsp;</code>。</p>
+<h2 id="分隔线（Horizontal-Rules）"><a href="#分隔线（Horizontal-Rules）" class="headerlink" title="分隔线（Horizontal Rules）"></a>分隔线（Horizontal Rules）</h2><p>你可以在一行中用三个以上的星号（asterisks：*）或减号（hyphens：-）或底线（underscores：_）来建立一个水平分隔线，对应 HTML 中的 <code>&lt;hr&gt;</code> 标签，用于Sentence/Section/Page Break。<br>行内不能有其他东西，但你可以在星号或是减号中间插入空格。<br>下面每种写法都可以建立起分隔线：</p>
+<pre><code>---
+- - -
+-----
+</code></pre><p><strong>注意：</strong></p>
+<blockquote>
+<p>采用减号（-）分割时，最好空格隔开或上面空一行，不然三个以上连续的减号会误将上一行文字升级为二级标题！</p>
+</blockquote>
+<h2 id="文本格式（Text-Styling）"><a href="#文本格式（Text-Styling）" class="headerlink" title="文本格式（Text Styling）"></a>文本格式（Text Styling）</h2><p>文本格式包括强调、加粗、突出、下划线、删除线、脚标等增强修饰和丰富表现。</p>
+<h3 id="强调（Italic-Emphasize）"><a href="#强调（Italic-Emphasize）" class="headerlink" title="强调（Italic/Emphasize）"></a>强调（Italic/Emphasize）</h3><p><strong>说明：</strong><br>星号（*）或下划线（_）包围的文字将会显示斜体，对应 HTML 中的 <code>&lt;i&gt;</code> / <code>&lt;em&gt;</code> 标签。</p>
+<p><strong>语法：</strong></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Some of these words <span class="emphasis">*are emphasized*</span>.</span><br><span class="line">Some of these words <span class="emphasis">_are emphasized also_</span>.</span><br></pre></td></tr></table></figure>
+<p><strong>示例：</strong><br>Some of these words <em>are emphasized</em>.<br>Some of these words <em>are emphasized also</em>.</p>
+<p><strong>GFM（<a href="https://help.github.com/articles/github-flavored-markdown/" target="_blank" rel="noopener">Github Flavored Markdown</a>）建议：</strong></p>
+<blockquote>
+<p>鉴于C语言等源码中，通常采用下划线定义变量，因此 GFM 忽略单词内的下划线，同时建议使用星号（*）来包裹斜体。</p>
+<blockquote>
+<p>下划线闭包单词斜体：wow <em>great</em> stuff (源码：<code>wow _great_ stuff</code>)<br>GFM 忽略单词内的下划线：wow_great_stuff</p>
+</blockquote>
+</blockquote>
+<h3 id="加粗（Bold-Strong）"><a href="#加粗（Bold-Strong）" class="headerlink" title="加粗（Bold/Strong）"></a>加粗（Bold/Strong）</h3><p><strong>说明：</strong><br>两个星号（**）或下划线（__）包围的需要特别强调的文字将会加粗显示，对应 HTML 中的 <code>&lt;b&gt;</code> / <code>&lt;strong&gt;</code> 标签。</p>
+<p><strong>语法：</strong></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Use two asterisks for <span class="strong">**strong emphasis**</span>.</span><br><span class="line">Or, if you prefer, <span class="strong">__use two underscores instead__</span>.</span><br><span class="line">A <span class="strong">***section surrounded with three asterisks**</span>* will be  specially emphasized.</span><br></pre></td></tr></table></figure>
+<p><strong>示例：</strong><br>Use two asterisks for <strong>strong emphasis</strong>.<br>Or, if you prefer, <strong>use two underscores instead</strong>.<br>A <strong><em>section surrounded with three asterisks</em></strong> will be  specially emphasized.</p>
+<h3 id="突出（Mark-Highlight）"><a href="#突出（Mark-Highlight）" class="headerlink" title="突出（Mark/Highlight）"></a>突出（Mark/Highlight）</h3><p><strong>说明：</strong><br>在 HTML 中，可以使用 <code>&lt;mark&gt;</code> 标签来高亮显示文字，以达到醒目的目的。<br>标准 markdown 没有提供对应的标签支持，Macdown 和 Haroopad 均使用两个等号（equal signs：=）包围来突出高亮显示。</p>
+<p><strong>语法：</strong><br>Macdown 和 Haroopad：<code>==Highlight==</code><br><a href="http://www.criticmarkup.com/" target="_blank" rel="noopener">CriticMarkup</a>语法：<code>{==Highlight==}</code></p>
+<p><strong>示例：</strong><br>Macdown 和 Haroopad：==Highlight==</p>
+<h3 id="下划线（Underline）"><a href="#下划线（Underline）" class="headerlink" title="下划线（Underline）"></a>下划线（Underline）</h3><p><strong>说明：</strong><br>在 HTML 中，可以使用 <code>&lt;u&gt;</code> 标签来为文本添加下划线。<br>标准 markdown 没有提供对应的标签支持，MMD（<a href="http://fletcherpenney.net/multimarkdown/" target="_blank" rel="noopener">MultiMarkdown</a>）提供了扩展支持。<br>Macdown 使用星号表示强调，使用下划线表示下划线原义；Haroopad 则使用两个加号（plus sign：+）来标记下划线。</p>
+<p><strong>语法：</strong><br>Macdown：<code>_underline_</code><br>Haroopad：<code>++underline++</code></p>
+<p><strong>示例：</strong><br>Macdown：<em>underline</em><br>Haroopad：++underline++</p>
+<h3 id="删除线（Strikethrough）"><a href="#删除线（Strikethrough）" class="headerlink" title="删除线（Strikethrough）"></a>删除线（Strikethrough）</h3><p><strong>说明：</strong><br>在 HTML 中，可以使用 <code>&lt;del&gt;</code> 标签来定义文档中已被删除的文本（配合 <code>&lt;ins&gt;</code> 标签来描述文档中的更新和修正）。<br>标准 markdown 没有提供对应的标签支持，GFM 提供了扩展支持，使用两个波浪符号（two wavy line:~~）包围来给文本添加删除线。</p>
+<p><strong>语法：</strong></p>
+<pre><code>~~Strikethrough~~
+</code></pre><p><strong>示例：</strong><br><del>Strikethrough</del></p>
+<h3 id="脚标（Script）"><a href="#脚标（Script）" class="headerlink" title="脚标（Script）"></a>脚标（Script）</h3><p>标准 Markdown 不支持脚标，只能通过内嵌 HTML 的<code>&lt;sup&gt;</code>和<code>&lt;sub&gt;</code>标签来实现。</p>
+<h4 id="上脚标："><a href="#上脚标：" class="headerlink" title="上脚标："></a>上脚标：</h4><p>Haroopad 语法（Caret）：<code>^Superscript^</code><br>HTML 语法：<code>&lt;sup&gt;superscript&lt;/sup&gt;</code></p>
+<p><strong>示例：</strong><br><code>2^10^</code> = 2<sup>10</sup> = 1024;</p>
+<h4 id="下脚标："><a href="#下脚标：" class="headerlink" title="下脚标："></a>下脚标：</h4><p>Haroopad 语法：<code>~Subscript~</code><br>HTML 语法：<code>&lt;sub&gt;subscript&lt;/sub&gt;</code></p>
+<p><strong>示例：</strong><br><code>H~2~O</code> = H<sub>2</sub>O is a liquid.</p>
+<h2 id="链接（Hyperlink）"><a href="#链接（Hyperlink）" class="headerlink" title="链接（Hyperlink）"></a>链接（Hyperlink）</h2><h3 id="自动链接（Autolink）"><a href="#自动链接（Autolink）" class="headerlink" title="自动链接（Autolink）"></a>自动链接（Autolink）</h3><p>当我们在书写一个网址时，有些 Markdown Render 能自动生成标题（title）与网址（href URL）一致的链接，这种链接也即<strong>自动链接</strong>。<br>Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要用尖括号包起来的文字， Markdown 就会自动识别转化成链接。<br>对于 HTTP(s) 协议开头的超链接地址，甚至无需添加尖括号明示，也会生成自动链接。  </p>
+<p><a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">http://daringfireball.net/projects/markdown/</a></p>
+<h3 id="文字（text-href）"><a href="#文字（text-href）" class="headerlink" title="文字（text href）"></a>文字（text href）</h3><p>Markdown 支持两种形式的超文本链接语法格式： 行内式（Inline）和参考式（Reference）两种形式。<br>不管是哪一种，链接文字都是用方括号（square brackets：[]）来标记。  </p>
+<h4 id="行内式（Inline）"><a href="#行内式（Inline）" class="headerlink" title="行内式（Inline）"></a>行内式（Inline）</h4><p>只要在方块括号后面紧接着圆括号（parenthesis or round brackets）并插入链接网址即可在一行内构建链接，其语法格式为<code>[text](url)</code>，HTML 等效源码为 <code>&lt;a href=&quot;url&quot;&gt;text&lt;/a&gt;</code>。<br>如果是要链接到本机资源，可以使用相对路径（./path/to/your/resource）。</p>
+<p>以下定义了一个指向 Daring Fireball Markdown 首页的超链接：</p>
+<hr>
+<p><code>[Daring Fireball Markdown](http://daringfireball.net/projects/markdown/)</code><br><a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">Daring Fireball Markdown</a></p>
+<hr>
+<p>如果你还想要加上链接的 title ，只要在网址后面用双引号把 title 文字包起来即可。</p>
+<hr>
+<p><code>[Daring Fireball Markdown](http://daringfireball.net/projects/markdown/ &quot;Markdown Official Website&quot;)</code><br><a href="http://daringfireball.net/projects/markdown/" title="Markdown Official Website" target="_blank" rel="noopener">Daring Fireball Markdown</a></p>
+<hr>
+<p>当鼠标悬停在超链接文本上时，将会提示 “Markdown Official Website”。</p>
+<h4 id="参考式（Reference）"><a href="#参考式（Reference）" class="headerlink" title="参考式（Reference）"></a>参考式（Reference）</h4><p>参考式的链接是在链接文字的括号后面再接上另一个方括号，在第二个方括号里面填入用以辨识链接的标记id，然后在其他地方给出该标记id真正的链接地址。</p>
+<hr>
+<ol>
+<li>先定义参考refid：<code>[text][refid]</code>  </li>
+<li>再定义refid所指：<code>[refid]:URL</code></li>
+</ol>
+<hr>
+<p>以下参考间接定义指向 Daring Fireball Markdown 首页的超链接：</p>
+<hr>
+<ol>
+<li>先定义参考id为markdown_homepage_refid：<br><code>[Daring Fireball Markdown][markdown_homepage_refid]</code>  </li>
+<li>再在其他地方定义markdown_homepage_refid指向的URL：<br><code>[markdown_homepage_refid]:http://daringfireball.net/projects/markdown/</code>  </li>
+<li>最终效果同行内式：<br><a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">Daring Fireball Markdown</a>  </li>
+</ol>
+<hr>
+<p><strong>说明：</strong></p>
+<ol>
+<li>也可选择性地在两个方括号中间加上一个空格：<code>[text] [refid]</code>。由于 Markdown 不支持自然换行，将两个方括号在连续两行书写也是没问题的。中间用空行隔开，则被认为是两条精简格式的参考链接。  </li>
+<li>refid 可以与 text 一致，从而进一步精简参考链接的书写格式：    <ul>
+<li>此时 <code>[refid]</code> 中的 refid 可以省略置空为 <code>[]</code> ：先定义 <code>[text][]</code> ，再定义 <code>[text]:URL</code> 。</li>
+<li>你甚至可以将 <code>[text][]</code> 中的空中括号也省掉不写，进一步简写为 <code>[text]</code> ，后面再定义 <code>[text]:URL</code> 。  </li>
+</ul>
+</li>
+<li>refid 所指 href URL 在文件任意处给出定义即可。<code>[refid]:URL</code> 的 URL 后面可以选择性地用单引号、双引号或是括弧闭包起来标记 title。<br> 下面这三种链接的定义都是相同的：<br> <code>[foo]: http://example.com/  &quot;Optional Title Here&quot;</code><br> <code>[foo]: http://example.com/  &#39;Optional Title Here&#39;</code><br> <code>[foo]: http://example.com/  (Optional Title Here)</code></li>
+</ol>
+<h3 id="图片（image-href）"><a href="#图片（image-href）" class="headerlink" title="图片（image href）"></a>图片（image href）</h3><h4 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h4><p>Markdown 使用一种和文本链接很相似的语法来插入图片，同样也允许两种样式： 行内式和参考式。<br>不同的是，需要在链接文字方括号之前添加一个感叹号（exclamation mark：!），其语法格式为 <code>![alt_text](url)</code>，HTML 等效源码为 <code>&lt;img src=&quot;url&quot; alt=&quot;text&quot; /&gt;</code>，其中alt_text可以置空。  </p>
+<hr>
+<p>daringfirefall logo:<br><code>![daringfirefall](http://daringfireball.net/graphics/logos/)</code><br><img src="http://daringfireball.net/graphics/logos/" alt="daringfirefall" title="daringfirefall"></p>
+<p>当然，你也可以像文字链接那样添加 title 以供鼠标悬停提示。</p>
+<p><strong>说明：</strong><br>Markdown 中的段落（包括图片）默认顶格左对齐，若要将图片居中，可以直接内嵌 HTML 的 <code>&lt;img&gt;</code> 标签，设置<code>align=&quot;middle&quot;</code>。如果还不行，可以尝试封裹一层 div 设置 <code>style=&quot;text-align:center&quot;</code> 实现：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">"text-align:center"</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://avatar.csdn.net/9/D/B/1_phunxm.jpg"</span> <span class="attr">align</span>=<span class="string">"middle"</span>  <span class="attr">alt</span>=<span class="string">"程序猿-弦苦"</span> /&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<div style="text-align:center"><img src="http://avatar.csdn.net/9/D/B/1_phunxm.jpg" align="middle" alt="程序猿-弦苦"></div>
+
+<h4 id="图片链接"><a href="#图片链接" class="headerlink" title="图片链接"></a>图片链接</h4><p>如果拷贝了别人的图片插入到自己的博客中，最好在图片上给出一个超链接指向源头，方便追溯出处。<br>我们在 Markdown 图片标记<code>![]()</code>外面再嵌套一层<code>[]()</code>即可建立图片超链接，点击图片即可跳转到链接源地址。<br>图片链接的格式看起来大概是这样的:<br><code>[![](img_url)](ref_url)</code></p>
+<hr>
+<p>定义 haroopad logo 指向首页：<br><code>[![](http://pad.haroopress.com/assets/images/logo-small.png &quot;haroopad&quot;)](http://pad.haroopress.com/)</code></p>
+<p><a href="http://pad.haroopress.com/" target="_blank" rel="noopener"><img src="http://pad.haroopress.com/assets/images/logo-small.png" alt="" title="haroopad"></a></p>
+<h3 id="锚点（inner-link）"><a href="#锚点（inner-link）" class="headerlink" title="锚点（inner link）"></a>锚点（inner link）</h3><h4 id="书签（Bookmark）"><a href="#书签（Bookmark）" class="headerlink" title="书签（Bookmark）"></a>书签（Bookmark）</h4><p>HTML 中的 <code>&lt;a&gt;</code> 标签最重要的属性是 href ，它指示的链接目标，既可以是外部站点，也可以是页内锚点。页内锚点可以实现类似书签跳转的功能，最典型的就是点击 TOC 中的目录书签跳转到指定章节阅读。<br>构建页内锚点的语法，类似参考式链接：</p>
+<hr>
+<ol>
+<li>先定义锚点id：<code>&lt;a href=&quot;#auchor_id&quot;&gt;bookmark_text&lt;/a&gt;</code>  </li>
+<li>再定义一个id为auchor_id的对象（这里以<code>&lt;p&gt;</code>为例）：<code>&lt;p id=&quot;auchor_id&quot;&gt;auchor_text&lt;/p&gt;</code></li>
+</ol>
+<hr>
+<p>例如，我们在文末定义了id为end的 EOF（End Of File）：<code>&lt;p id=&quot;end&quot;&gt;The end！&lt;/p&gt;</code>，然后通过<code>&lt;a href=&quot;#end&quot;&gt;Goto the End!&lt;/a&gt;</code>指定书签“Goto the End!”跳转到文末“The End!”处：</p>
+<p><a href="#end">Goto the End!</a></p>
+<h4 id="脚注（Footnote）"><a href="#脚注（Footnote）" class="headerlink" title="脚注（Footnote）"></a>脚注（Footnote）</h4><p>上面我们定义了书签 <code>Goto the End!</code> ，点击该书签将跳转到文末 id 为 <code>#end</code> 的锚点，使得我们能快速翻到文末。那怎么再跳转回刚才书签所在的阅读点呢？下面来介绍一下具备回环跳转效果的脚注。</p>
+<p><strong>脚注</strong>用于为正文中的某个条目添加补充注释，对词条的引文出处进行标注或对专业术语予以解释，跟参考文献一样。脚注一般位于文档的末尾，文内则以数字标注。</p>
+<p>脚注的写法和极简参考式链接书写格式比较类似：</p>
+<hr>
+<ol>
+<li>先在需要脚注的单词（terminology）后面添加 <code>[^Footnote]</code> ： <code>terminology[^Footnote]</code></li>
+<li>再在文末 glossary 区域定义脚注（添加注解）： <code>[^Footnote]：explanatory notes</code></li>
+</ol>
+<hr>
+<p>以下是本文针对第二章标题 “标题（Header）”的着色添加的脚注：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">## &lt;font color='red'&gt;标题（Header）&lt;/font&gt;[^Header]</span></span><br><span class="line"></span><br><span class="line">[<span class="symbol">^Header</span>]:<span class="link">这里的源码为`&lt;font color='red'&gt;标题（Header）&lt;/font&gt;`，尝试使用 font.color 着色。</span></span><br></pre></td></tr></table></figure>
+<p><strong>说明：</strong></p>
+<blockquote>
+<ol>
+<li>被添加脚注的词条后面会出现一个超链接数字（有的渲染为上标格式），点击数字跳转到文末 glossary 区域该脚注的定义处。  </li>
+<li>文末 glossary 区域该脚注定义的行尾会添加一个回车符号（&crarr;），点击可回到被标注的脚注点。</li>
+</ol>
+</blockquote>
+<h2 id="引用（Blockquote）"><a href="#引用（Blockquote）" class="headerlink" title="引用（Blockquote）"></a>引用（Blockquote）</h2><p>HTML 中的 <code>&lt;blockquote&gt;</code> 标签定义摘自另一个源的块引用。<br><code>&lt;blockquote&gt;</code> 与 <code>&lt;/blockquote&gt;</code> 之间的所有文本都会从常规文本中分离出来，经常会在左右两边进行<strong>缩进</strong>，而且有时会使用<strong>斜体</strong>。也就是说，块引用拥有它们自己的<u>空间</u>。本文大量使用引用（复合列表）来标识特殊说明或注意事项。</p>
+<p>Markdown 标记区块引用是使用类似 email 的引用方式，在断好的行前加上 <code>&gt;</code> （more than or greater than sign）：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 爱上一个人  </span></span><br><span class="line"><span class="quote">&gt; 恋上一座城</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>爱上一个人<br>恋上一座城</p>
+</blockquote>
+<hr>
+<p>行首的多重引用标记可以实现嵌套缩进效果（注意解梦时需要空行出梦）：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 梦</span></span><br><span class="line">&gt;&gt; 梦中梦</span><br><span class="line">&gt;&gt;&gt; 盗梦空间</span><br><span class="line">&gt;</span><br><span class="line">&gt;&gt; 梦中梦</span><br><span class="line"></span><br><span class="line"><span class="quote">&gt; 梦</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>梦</p>
+<blockquote>
+<p>梦中梦</p>
+<blockquote>
+<p>盗梦空间</p>
+</blockquote>
+<p>梦中梦</p>
+</blockquote>
+<p>梦</p>
+</blockquote>
+<p><strong>说明：</strong></p>
+<blockquote>
+<ol>
+<li>若使用引用格式插入代码，行首的缩进格式丢失，需要自行补充空格占位符。  </li>
+<li>一般不建议使用 blockquote（<code>&gt;</code>）格式引用源代码，应采用 pre 格式引用代码。  </li>
+<li>嵌套深入浅出时，需要添加空行（blank line）或者空引用行（additional levels of >）。</li>
+</ol>
+</blockquote>
+<h2 id="代码（Code）"><a href="#代码（Code）" class="headerlink" title="代码（Code）"></a>代码（Code）</h2><p>如果要标记行内代码片段，可以用<strong>反引号</strong>（backtick quotes）闭包；如果要插入跨行片段或块，可使用<strong>预格式化</strong>语法。<br>本文在示范 Markdown 语法源码时，独行单句采用了行内代码格式，跨行代码片段则采用了代码块格式。</p>
+<h3 id="行内代码（Inline-Code）"><a href="#行内代码（Inline-Code）" class="headerlink" title="行内代码（Inline Code）"></a>行内代码（Inline Code）</h3><p><strong>说明：</strong></p>
+<p>如果要标记行内代码片段，可以用反引号（backtick quotes）包裹，对应 HTML 中的 <code>&lt;code&gt;</code> 标签（把文本变成等宽字体，暗示是源程序代码）。<br>如果要在代码区段内插入反引号，可以用多个反引号来开启和结束代码区段。  </p>
+<p><strong>语法：</strong></p>
+<p>Use the `printf()` function.(此处使用了反斜杠转义)</p>
+<p><strong>示例：</strong></p>
+<p>Use the <code>printf()</code> function.(`printf()`)<br>Use the<code>`printf()` </code>function.(`` `printf()` ```)</p>
+<h3 id="代码块（Code-Blocks）"><a href="#代码块（Code-Blocks）" class="headerlink" title="代码块（Code Blocks）"></a>代码块（Code Blocks）</h3><p><strong>说明：</strong></p>
+<ul>
+<li>Preformatted Code Block<br>  如果要插入跨行片段或块，且要保持排版样式（包括空格、换行符和缩进），可使用<strong>预格式化</strong>引用语法格式。对应 HTML 中的 <code>&lt;pre&gt;</code> 标签。  </li>
+<li>Fenced Code Block<br>  如果要支持编程语言语法高亮，则可以使用 GFM 扩展的基于 YAML[^YAML] 标记语言的 Fenced Code Block 引用语法格式。</li>
+</ul>
+<p><strong>语法：</strong></p>
+<ul>
+<li>Preformatted Code Block<br>  在句段的行首插入1个tab 或 4个空格，则表示代码块。  </li>
+<li>[Fenced Code Block]<br>  在句段行首和行末用三个反引号换行闭包，并在行首三个反引号后添加 <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank" rel="noopener">YAML</a> 语言标识。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>language</th>
+<th>aliases</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Markdown</code></td>
+<td>无别名，注意区分大小写</td>
+</tr>
+<tr>
+<td><code>HTML</code></td>
+<td><code>xhtml</code></td>
+</tr>
+<tr>
+<td><code>JavaScript</code></td>
+<td><code>js</code>、<code>node</code></td>
+</tr>
+<tr>
+<td><code>C</code></td>
+<td>无别名，注意区分大小写</td>
+</tr>
+<tr>
+<td><code>C++</code></td>
+<td><code>cpp</code></td>
+</tr>
+<tr>
+<td><code>Objective-C</code></td>
+<td><code>obj-c</code>、<code>objc</code>、<code>objectivec</code></td>
+</tr>
+<tr>
+<td><code>VimL</code></td>
+<td><code>vim</code>、<code>nvim</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>示例：</strong></p>
+<hr>
+<p><strong>1.Preformatted Code Block</strong></p>
+<p>将一段代码块整体向右缩进（<kbd>⌘</kbd> + <kbd>]</kbd>）即可测试。</p>
+<p>（1）以tab开头：</p>
+<pre><code>these lines begin with tab will be shown as pre code block.
+these lines begin with tab will be shown as pre code block.
+these lines begin with tab will be shown as pre code block.
+</code></pre><p>（2）以4个空格开头：</p>
+<pre><code>these lines begin with 4 spaces will also be shown as pre code block.
+these lines begin with 4 spaces will also be shown as pre code block.
+these lines begin with 4 spaces will also be shown as pre code block.
+</code></pre><p><strong>注意：</strong></p>
+<blockquote>
+<p>pre 格式存在以下缺陷：</p>
+<ul>
+<li>对多tab及空格的缩进支持不完善！</li>
+<li>将宏符号#（#include、#import）误解为H1，可能会影响解析器的TOC！</li>
+<li>将顶格空白行（包括行首带tab）误认为Paragraph Break，而割断代码块成片段！</li>
+</ul>
+</blockquote>
+<hr>
+<p><strong>2.Fenced Code Block</strong></p>
+<p>Fenced Code Block 以三个反引号（backtick quotes：`，有的支持波浪线~）包裹，第一行的三个反引号之后可以冠上编程语言的 YAML 标记识别语法高亮。</p>
+<ul>
+<li>以下演示插入一句 python 代码：</li>
+</ul>
+<blockquote>
+<p>首行（三个反引号开头）：```python<br>中间：print(‘Hello world!’)<br>末行（三个反引号结尾）：```</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">'Hello world!'</span>)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>以下演示插入一段 Objective-C 代码：</li>
+</ul>
+<blockquote>
+<p>首行：```obj-c<br>中间：Objective-C Code Block<br>末行：```</p>
+</blockquote>
+<figure class="highlight obj-c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//  main.m</span></span><br><span class="line"><span class="comment">//  EmptyApplication</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"><span class="comment">//  Created by faner on 15/9/5.</span></span><br><span class="line"><span class="comment">//  Copyright © 2015年 faner. All rights reserved.</span></span><br><span class="line"><span class="comment">//</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#import <span class="meta-string">&lt;UIKit/UIKit.h&gt;</span></span></span><br><span class="line"><span class="meta">#import <span class="meta-string">"AppDelegate.h"</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> main(<span class="keyword">int</span> argc, <span class="keyword">char</span> * argv[]) &#123;</span><br><span class="line">	<span class="keyword">@autoreleasepool</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="built_in">UIApplicationMain</span>(argc, argv, <span class="literal">nil</span>, <span class="built_in">NSStringFromClass</span>([AppDelegate <span class="keyword">class</span>]));</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>注意：</strong></p>
+<blockquote>
+<ol>
+<li>Haroopad 编辑器将上述代码中的<code>#import</code>的第一个有效字符<code>#</code><a href="https://github.com/rhiokim/haroopad/issues/536" target="_blank" rel="noopener">误解为 H1</a>，导致 TOC 错乱或  Heading Focus Folding 失效。此时，可尝试在 Fenced Code Block 行首添加空格或 tab 缩进。</li>
+<li>关于 GitHub 配置 Fenced Code Block 语法高亮所使用的 YAML 标记 ，可参考 <a href="http://www.cnblogs.com/chwkai/archive/2009/03/01/249924.html" target="_blank" rel="noopener">初探YAML</a>、<a href="http://blog.csdn.net/conquer0715/article/details/42108061" target="_blank" rel="noopener">YAML学习</a>、<a href="http://www.cnblogs.com/dbasys/archive/2007/06/11/2127620.html" target="_blank" rel="noopener">YAML学习总结</a>、<a href="http://www.ibm.com/developerworks/cn/xml/x-1103linrr/" target="_blank" rel="noopener">YAML–想要爱你很容易</a>。</li>
+</ol>
+</blockquote>
+<h2 id="列表（List）"><a href="#列表（List）" class="headerlink" title="列表（List）"></a>列表（List）</h2><p>GFM 等 Markdown 扩展支持和无序列表、有序列表和任务列表。</p>
+<h3 id="无序列表（Unordered-List）"><a href="#无序列表（Unordered-List）" class="headerlink" title="无序列表（Unordered List）"></a>无序列表（Unordered List）</h3><p>无序列表（unordered, bulleted）项目的行首使用星号（或加号，或减号）加空格作为列表标记（list markers）：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>bullet list item 1 begin with a hyphens '-'</span><br><span class="line"><span class="bullet">+ </span>bullet list item 2 begin with a pluses '+'</span><br><span class="line"><span class="bullet">* </span>bullet list item 3 begin with an asterisks '*'</span><br></pre></td></tr></table></figure>
+<p>示例效果：</p>
+<ul>
+<li>bullet list item 1 begin with a ‘-‘</li>
+</ul>
+<ul>
+<li>bullet list item 2 begin with a ‘+’</li>
+</ul>
+<ul>
+<li>bullet list item 3 begin with a ‘*’</li>
+</ul>
+<p>通过在列表标记前面增加 tab 阶次来实现嵌套效果（nested list）。<br>以下是针对本文 TOC 中【链接】这一章节的目录：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>链接（Hyperlink）</span><br><span class="line"><span class="code">	- 自动链接（Autolink） &lt;!--行首缩进1个tab--&gt;</span></span><br><span class="line"><span class="code">	- 文字（text href）</span></span><br><span class="line"><span class="code">		- 行内式（Inline） &lt;!--行首缩进2个tab--&gt;</span></span><br><span class="line"><span class="code">		- 参考式（Reference）</span></span><br><span class="line"><span class="code">	- 图片（image href）</span></span><br><span class="line"><span class="code">		- 插入图片</span></span><br><span class="line"><span class="code">		- 图片链接</span></span><br><span class="line"><span class="code">	- 锚点（inner link）</span></span><br><span class="line"><span class="code">		- 书签（Bookmark）</span></span><br><span class="line"><span class="code">		- 脚注（Footnote）</span></span><br><span class="line"><span class="bullet">- </span>引用（Blockquote）</span><br></pre></td></tr></table></figure>
+<hr>
+<ul>
+<li>链接（Hyperlink）<ul>
+<li>自动链接（Autolink）</li>
+<li>文字（text href）<ul>
+<li>行内式（Inline）</li>
+<li>参考式（Reference）</li>
+</ul>
+</li>
+<li>图片（image href）<ul>
+<li>插入图片</li>
+<li>图片链接</li>
+</ul>
+</li>
+<li>锚点（inner link）<ul>
+<li>书签（Bookmark）</li>
+<li>脚注（Footnote）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>引用（Blockquote）</li>
+</ul>
+<p><strong>缩进控制符：空格 or TAB？</strong></p>
+<blockquote>
+<ol>
+<li>在列表标记前面插入空格也可以实现缩进控制嵌套效果，但不同的 Markdown Render 对控制层级的空格个数要求不一。  </li>
+<li>为了取得最佳的兼容性，建议使用 <strong>tab</strong> 来控制嵌套层级（nested hierarchy），以期在不同的渲染引擎下都能达到预期的显示效果。当然，前提是使用 hard tabs（tab characters），而非 soft tabs（spaces）。</li>
+</ol>
+</blockquote>
+<h3 id="有序列表（Ordered-List）"><a href="#有序列表（Ordered-List）" class="headerlink" title="有序列表（Ordered List）"></a>有序列表（Ordered List）</h3><p>有序列表（ordered / numbered）项目的行首则使用数字接一个英文句点标记（use numbers followed by periods）：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1. </span>GETTING STARTED  </span><br><span class="line"><span class="code">	Choosing Blogging Platform (WordPress)</span></span><br><span class="line"><span class="bullet">2. </span>GETTING YOUR BLOG ONLINE  </span><br><span class="line"><span class="code">	Choosing Domain Name &amp; Web Hosting</span></span><br><span class="line"><span class="bullet">3. </span>DESIGNING AND TWEAKING YOUR BLOG  </span><br><span class="line"><span class="code">	Quick and easy ways to get your blog look the way you want</span></span><br><span class="line"><span class="bullet">4. </span>WRITING BLOG POSTS AND PAGES  </span><br><span class="line"><span class="code">	Adding new content for your Blog (Posts, Pages, Images etc…)</span></span><br></pre></td></tr></table></figure>
+<p><a href="http://startbloggingonline.com/" target="_blank" rel="noopener">Step-by-step walkthrough for starting a blog</a>:</p>
+<ol>
+<li>GETTING STARTED<br> Choosing Blogging Platform (WordPress)</li>
+<li>GETTING YOUR BLOG ONLINE<br> Choosing Domain Name &amp; Web Hosting</li>
+<li>DESIGNING AND TWEAKING YOUR BLOG<br> Quick and easy ways to get your blog look the way you want</li>
+<li>WRITING BLOG POSTS AND PAGES<br> Adding new content for your Blog (Posts, Pages, Images etc…)</li>
+</ol>
+<p>有序列表和无序列表可以实现混合嵌套编排。</p>
+<h3 id="任务列表（Task-Lit）"><a href="#任务列表（Task-Lit）" class="headerlink" title="任务列表（Task Lit）"></a>任务列表（Task Lit）</h3><p>GFM 扩展支持把列表变成带勾选框的任务列表，只需要在列表标记后添加<code>[ ]</code>标记☐表示unchecked，在中括号中填写x（<code>[x]</code>）标记☑︎表示checked（filled）。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>[ ] task1 to do</span><br><span class="line"><span class="bullet">- </span>[x] task2 done</span><br><span class="line"><span class="bullet">1. </span>[ ] task3 to do</span><br><span class="line"><span class="bullet">2. </span>[x] task4 done</span><br></pre></td></tr></table></figure>
+<hr>
+<ul>
+<li style="list-style: none"><input type="checkbox"> task1 to do</li>
+<li style="list-style: none"><input type="checkbox" checked="checked"> task2 done</li>
+</ul>
+<ol>
+<li style="list-style: none"><input type="checkbox"> task3 to do</li>
+<li style="list-style: none"><input type="checkbox" checked="checked"> task4 done</li>
+</ol>
+<h2 id="表格（Table）"><a href="#表格（Table）" class="headerlink" title="表格（Table）"></a>表格（Table）</h2><p>You can create tables by assembling a list of words and dividing them with hyphens <code>-</code> (for the first row), and then separating each column with a pipe <code>|</code> (vertical bar):</p>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<p>For aesthetic purposes, you can also add extra pipes on the ends:</p>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<p>Note that the dashes at the top don’t need to match the length of the header text exactly:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Help</td>
+<td>Display the help window.</td>
+</tr>
+<tr>
+<td>Close</td>
+<td>Closes a window</td>
+</tr>
+</tbody>
+</table>
+<p>You can also include inline Markdown such as links, bold, italics, or strikethrough:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Help</td>
+<td><del>Display the</del> help window.</td>
+</tr>
+<tr>
+<td>Close</td>
+<td><em>Closes</em> a window</td>
+</tr>
+</tbody>
+</table>
+<p>Finally, by including colons <code>:</code> within the header row, you can define text to be left-aligned, right-aligned, or center-aligned:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Left-Aligned</th>
+<th style="text-align:center">Center Aligned</th>
+<th style="text-align:right">Right Aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">col 3 is</td>
+<td style="text-align:center">some wordy text</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td style="text-align:left">col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td style="text-align:left">zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+<p>A colon on the left-most side indicates a left-aligned column; a colon on the right-most side indicates a right-aligned column; a colon on both sides indicates a center-aligned column.</p>
+<h2 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h2><p>You can render <em>LaTeX</em>[^LaTeX] mathematical expressions using <strong>MathJax</strong>[^MathJax], as on math.stackexchange.com:<br>The <em>Gamma function</em> satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral</p>
+<p>$$<br>\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.<br>$$</p>
+<p>书写一个质能守恒公式</p>
+<p>$$E=mc^2$$</p>
+<p>可参考 <a href="http://mlworks.cn/posts/introduction-to-mathjax-and-latex-expression/" target="_blank" rel="noopener">Mathjax与LaTex公式简介</a>。</p>
+<p>##<!--以下是本文的脚注和超链接--></p>
+<p id="end">The end！</p>
+
+<p>[^Header]:这里的源码为<code>&lt;font color=&#39;red&#39;&gt;标题（Header）&lt;/font&gt;</code>，尝试使用 font.color 着色。</p>
+<p>[^YAML]:<a href="http://yaml.org/" target="_blank" rel="noopener">YAML</a>是”YAML Ain’t a Markup Language”（YAML不是一种置标语言）的递归缩写，早先YAML的意思其实是：”Yet Another Markup Language”（另外一种置标语言）。</p>
+<p>[^LaTeX]: <a href="http://www.latex-project.org/" target="_blank" rel="noopener">LaTeX</a>是一种基于 <a href="http://www.ctex.org/documents/shredder/tex_frame.html" target="_blank" rel="noopener">ΤΕΧ</a>的排版系统，它通过\section和\paragraph等语句，规定了每一句话在文章中所从属的层次，从而极大方便了对各个层次批量处理。可参考 <a href="http://blog.csdn.net/dbzhang800/article/details/6820659" target="_blank" rel="noopener">TeX 与 LaTeX</a>、<a href="http://liam0205.me/2014/09/08/latex-introduction/" target="_blank" rel="noopener">LaTeX 入门文档</a> 和 <a href="http://www.douban.com/note/330524120/" target="_blank" rel="noopener">LaTeX 入门教程</a>。</p>
+<p>[^MathJax]: <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="noopener">MatchJax</a> 是一个JavaScript引擎，用来显示网络上的数学公式。MathJax可以解析Latex、MathML和ASCIIMathML的标记语言。</p>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+
+    
+     <div>
+      
+      <ul class="post-copyright">
+         <li class="post-copyright-link">
+          <strong>本文作者：</strong>
+          <a href="/" title="欢迎访问 Seachal 的个人博客">Seachal</a>
+        </li>
+
+        <li class="post-copyright-link">
+          <strong>本文标题：</strong>
+          <a href="https://seachal.me/uncategorized/2018/02/09/BlogBuild/Markdown Syntax/" title=""></a>
+        </li>
+
+      <li class="post-copyright-date">
+            <strong>发布时间：</strong>2018年2月9日 - 13时02分
+        </li>
+
+        <li class="post-copyright-license">
+          <strong>版权声明： </strong>
+          本文由 Seachal 原创，采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" rel="license" target="_blank">保留署名-非商业性使用-禁止演绎 4.0-国际许可协议</a> 转载请保留以上声明信息！
+        </li>
+      </ul>
+    
+  </div>
+     
+
+
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/uncategorized/2018/02/08/BlogBuild/常用博客Metaweblog Api地址/" rel="next" title="">
+                <i class="fa fa-chevron-left"></i> 
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/seachalzhang.jpg" alt="Seachal">
+            
+              <p class="site-author-name" itemprop="name">Seachal</p>
+              <p class="site-description motion-element" itemprop="description">Android开发笔记|Java学习笔记</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">21</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">36</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          <div class="links-of-author motion-element">
+            
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/Seachal" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-Github"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.jianshu.com/u/a2d105dc9ca9" target="_blank" title="简书">
+                    
+                      <i class="fa fa-fw fa-globe"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://www.cnblogs.com/Seachal" target="_blank" title="cnblogs">
+                    
+                      <i class="fa fa-fw fa-globe"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:seachal.zhang@gmail.com" target="_blank" title="E-Mail">
+                    
+                      <i class="fa fa-fw fa-envelope"></i></a>
+                </span>
+              
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          <div id="days"></div>
+
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("05/27/2017 15:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#注释（Comment）"><span class="nav-number">1.</span> <span class="nav-text">注释（Comment）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#标题（Header）-Header"><span class="nav-number">2.</span> <span class="nav-text">标题（Header）[^Header]</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Setext-Heading-Format（2-level）"><span class="nav-number">2.1.</span> <span class="nav-text">Setext Heading Format（2 level）</span></a></li></ol></li></ol><li class="nav-item nav-level-1"><a class="nav-link" href="#This-is-an-H1"><span class="nav-number"></span> <span class="nav-text"> This is an H1</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#This-is-an-H2"><span class="nav-number">1.</span> <span class="nav-text"> This is an H2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Atx-Heading-Format（6-level）"><span class="nav-number">1.1.</span> <span class="nav-text">Atx Heading Format（6 level）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#句段（Sentence-Paragraph）"><span class="nav-number">2.</span> <span class="nav-text">句段（Sentence / Paragraph）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#换行"><span class="nav-number">2.1.</span> <span class="nav-text">换行</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分段"><span class="nav-number">2.2.</span> <span class="nav-text">分段</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#符号（Punctuation-Characters）"><span class="nav-number">3.</span> <span class="nav-text">符号（Punctuation Characters）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#转义字符"><span class="nav-number">3.1.</span> <span class="nav-text">转义字符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字符实体"><span class="nav-number">3.2.</span> <span class="nav-text">字符实体</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分隔线（Horizontal-Rules）"><span class="nav-number">4.</span> <span class="nav-text">分隔线（Horizontal Rules）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文本格式（Text-Styling）"><span class="nav-number">5.</span> <span class="nav-text">文本格式（Text Styling）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#强调（Italic-Emphasize）"><span class="nav-number">5.1.</span> <span class="nav-text">强调（Italic/Emphasize）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#加粗（Bold-Strong）"><span class="nav-number">5.2.</span> <span class="nav-text">加粗（Bold/Strong）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#突出（Mark-Highlight）"><span class="nav-number">5.3.</span> <span class="nav-text">突出（Mark/Highlight）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#下划线（Underline）"><span class="nav-number">5.4.</span> <span class="nav-text">下划线（Underline）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除线（Strikethrough）"><span class="nav-number">5.5.</span> <span class="nav-text">删除线（Strikethrough）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#脚标（Script）"><span class="nav-number">5.6.</span> <span class="nav-text">脚标（Script）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#上脚标："><span class="nav-number">5.6.1.</span> <span class="nav-text">上脚标：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#下脚标："><span class="nav-number">5.6.2.</span> <span class="nav-text">下脚标：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#链接（Hyperlink）"><span class="nav-number">6.</span> <span class="nav-text">链接（Hyperlink）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#自动链接（Autolink）"><span class="nav-number">6.1.</span> <span class="nav-text">自动链接（Autolink）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#文字（text-href）"><span class="nav-number">6.2.</span> <span class="nav-text">文字（text href）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#行内式（Inline）"><span class="nav-number">6.2.1.</span> <span class="nav-text">行内式（Inline）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#参考式（Reference）"><span class="nav-number">6.2.2.</span> <span class="nav-text">参考式（Reference）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图片（image-href）"><span class="nav-number">6.3.</span> <span class="nav-text">图片（image href）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#插入图片"><span class="nav-number">6.3.1.</span> <span class="nav-text">插入图片</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#图片链接"><span class="nav-number">6.3.2.</span> <span class="nav-text">图片链接</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#锚点（inner-link）"><span class="nav-number">6.4.</span> <span class="nav-text">锚点（inner link）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#书签（Bookmark）"><span class="nav-number">6.4.1.</span> <span class="nav-text">书签（Bookmark）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#脚注（Footnote）"><span class="nav-number">6.4.2.</span> <span class="nav-text">脚注（Footnote）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#引用（Blockquote）"><span class="nav-number">7.</span> <span class="nav-text">引用（Blockquote）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码（Code）"><span class="nav-number">8.</span> <span class="nav-text">代码（Code）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#行内代码（Inline-Code）"><span class="nav-number">8.1.</span> <span class="nav-text">行内代码（Inline Code）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#代码块（Code-Blocks）"><span class="nav-number">8.2.</span> <span class="nav-text">代码块（Code Blocks）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#列表（List）"><span class="nav-number">9.</span> <span class="nav-text">列表（List）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#无序列表（Unordered-List）"><span class="nav-number">9.1.</span> <span class="nav-text">无序列表（Unordered List）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#有序列表（Ordered-List）"><span class="nav-number">9.2.</span> <span class="nav-text">有序列表（Ordered List）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#任务列表（Task-Lit）"><span class="nav-number">9.3.</span> <span class="nav-text">任务列表（Task Lit）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#表格（Table）"><span class="nav-number">10.</span> <span class="nav-text">表格（Table）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数学公式"><span class="nav-number">11.</span> <span class="nav-text">数学公式</span></a></li></ol></li></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+      
+        
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Seachal</span>
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">21.5k</span>
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.3</div>
+
+<!--以下4行为一条竖线和Coding Page-->
+ 
+  <span class="post-meta-divider">|</span>
+
+  <div class="powered-by">  
+  </div>
+  <span>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
+  </div>
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </footer></div>
+    
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+
+
+
+ <!-- hexo 添加 Fork me on GitHub 主题在https://github.com/blog/273-github-ribbons-->
+ <div class="forkMeOnGithub">
+ <a target="_blank" href="https://github.com/Seachal"><img style="position: absolute; top: 0; right: 0; border: 0" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+ </div>
+
+
+
+
+
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://Seachal.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://seachal.me/uncategorized/2018/02/09/BlogBuild/Markdown Syntax/';
+          this.page.identifier = 'uncategorized/2018/02/09/BlogBuild/Markdown Syntax/';
+          this.page.title = '';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://Seachal.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</head></html>
