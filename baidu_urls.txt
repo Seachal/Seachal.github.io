@@ -1,3 +1,4 @@
+https://seachal.me/uncategorized/2018/08/19/Mac/批量文件字符集转换为UTF-i脚本（file batch convert char set ）2018-08-19/
 https://seachal.me/uncategorized/2018/06/21/Java/2018-06-21/
 https://seachal.me/uncategorized/2018/06/04/Android/Library/BGAQRCode/
 https://seachal.me/uncategorized/2018/05/28/Android/Library/2018-05-28/
@@ -7,4 +8,3 @@ https://seachal.me/uncategorized/2018/04/18/Android/2018-04-18-1/
 https://seachal.me/uncategorized/2018/04/18/Android/2018-04-18/
 https://seachal.me/uncategorized/2018/04/15/VersionControl/2018-04-15/
 https://seachal.me/uncategorized/2018/03/21/Android/2018-03-21/
-https://seachal.me/uncategorized/2018/03/12/Java/2018-03-12/

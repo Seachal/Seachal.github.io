@@ -4,6 +4,21 @@
 
     
   <url>
+    <loc>https://seachal.me/uncategorized/2018/08/19/Mac/%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E9%9B%86%E8%BD%AC%E6%8D%A2%E4%B8%BAUTF-i%E8%84%9A%E6%9C%AC%EF%BC%88file%20batch%20convert%20char%20set%20%EF%BC%892018-08-19/</loc>
+    <lastmod>2018-08-19T10:14:50.456Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2018-08-19T09:55:23.821Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://seachal.me/uncategorized/2018/06/21/Java/2018-06-21/</loc>
     <lastmod>2018-06-21T08:21:26.553Z</lastmod>
     <data>
@@ -232,9 +247,9 @@
         <title>科学上网</title>
         <pubTime>2018-01-04T11:10:30.000Z</pubTime>
         
-        <tag>工具</tag>
-         
         <tag>程序员</tag>
+         
+        <tag>工具</tag>
          
          
            
@@ -289,7 +304,7 @@
     
   <url>
     <loc>https://seachal.me/Android/2018/02/06/Android/Android%20Studio%203%E4%B8%AD%E8%A7%A3%E5%86%B3butterknife:7%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2018-02-06T02:44:11.046Z</lastmod>
+    <lastmod>2018-02-06T02:45:28.410Z</lastmod>
     <data>
         <display>
         <title>Android Studio 3中解决butterknife:7报错的问题</title>
@@ -349,9 +364,9 @@
         
         <tag>Android</tag>
          
-        <tag>View</tag>
-         
         <tag>问题解决</tag>
+         
+        <tag>View</tag>
          
          
            
@@ -371,9 +386,9 @@
         <title>Android Studio快捷键_Mac和Windos和Linux</title>
         <pubTime>2017-12-23T08:30:30.000Z</pubTime>
         
-        <tag>IDE</tag>
-         
         <tag>Android</tag>
+         
+        <tag>IDE</tag>
          
         <tag>Mac</tag>
          
@@ -589,9 +604,9 @@
         <title>程序员应该知道的10种软件</title>
         <pubTime>2018-01-04T06:10:30.000Z</pubTime>
         
-        <tag>工具</tag>
-         
         <tag>程序员</tag>
+         
+        <tag>工具</tag>
          
          
            
@@ -610,6 +625,28 @@
         <display>
         <title>Hexo遇到的坑</title>
         <pubTime>2018-01-03T06:10:30.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>BolgBuild</tag>
+         
+         
+           
+             
+              <breadCrumb title="BolgBuild" url="https://seachal.me/categories/BolgBuild/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://seachal.me/BolgBuild/2017/12/29/BlogBuild/Hexo%E5%8D%9A%E5%AE%A2Next%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0ForkMeOnGithub/</loc>
+    <lastmod>2017-12-29T12:10:30.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo博客Next主题如何添"ForkMeOnGithub"</title>
+        <pubTime>2017-12-29T06:10:30.000Z</pubTime>
         
         <tag>Hexo</tag>
          
@@ -654,28 +691,6 @@
         <display>
         <title>Hexo创建文章和草稿</title>
         <pubTime>2017-12-25T12:10:30.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>BolgBuild</tag>
-         
-         
-           
-             
-              <breadCrumb title="BolgBuild" url="https://seachal.me/categories/BolgBuild/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://seachal.me/BolgBuild/2017/12/29/BlogBuild/Hexo%E5%8D%9A%E5%AE%A2Next%E4%B8%BB%E9%A2%98%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0ForkMeOnGithub/</loc>
-    <lastmod>2017-12-29T12:10:30.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo博客Next主题如何添"ForkMeOnGithub"</title>
-        <pubTime>2017-12-29T06:10:30.000Z</pubTime>
         
         <tag>Hexo</tag>
          

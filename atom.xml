@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://seachal.me/"/>
-  <updated>2018-06-21T08:21:26.553Z</updated>
+  <updated>2018-08-19T10:14:50.456Z</updated>
   <id>https://seachal.me/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://seachal.me/uncategorized/2018/08/19/Mac/%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E9%9B%86%E8%BD%AC%E6%8D%A2%E4%B8%BAUTF-i%E8%84%9A%E6%9C%AC%EF%BC%88file%20batch%20convert%20char%20set%20%EF%BC%892018-08-19/"/>
+    <id>https://seachal.me/uncategorized/2018/08/19/Mac/批量文件字符集转换为UTF-i脚本（file batch convert char set ）2018-08-19/</id>
+    <published>2018-08-19T09:55:23.821Z</published>
+    <updated>2018-08-19T10:14:50.456Z</updated>
+    
+    <content type="html"><![CDATA[<p>#<br>最近遇到一个大项目，项目使用的encoding 有GBK也有UTF-8， 在intellij中虽然可以一个一个conver，但是感觉太慢了，并且reload为UTF-8也不是长久之计，在Git中仍然是乱码。<br>  查阅了一些资料，写个脚本终于批量把gbk 转换为 utf-8了。<br>这是在mac 10.13中测试的示例。按名称查找文件，转换编码，然后替换原始文件。完美。</p><ul><li><ol><li>新建一个名为 ConvertEncoding.sh文件</li></ol></li><li><ol><li>将下面的完整代码复制到shell脚本中。</li></ol></li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">     find ./ -name *.java -<span class="built_in">type</span> f | \</span><br><span class="line">     (<span class="keyword">while</span> <span class="built_in">read</span> file;</span><br><span class="line">         <span class="keyword">do</span> <span class="keyword">if</span> [[ <span class="string">"<span class="variable">$file</span>"</span> != *.DS_Store* ]]; <span class="keyword">then</span></span><br><span class="line">         <span class="keyword">if</span> [[ <span class="string">"<span class="variable">$file</span>"</span> != *-utf8* ]]; <span class="keyword">then</span></span><br><span class="line">             iconv -f GBK -t UTF-8 <span class="string">"<span class="variable">$file</span>"</span> &gt; <span class="string">"<span class="variable">$file</span>-utf8"</span>;</span><br><span class="line">             rm <span class="variable">$file</span>;</span><br><span class="line">             <span class="built_in">echo</span> mv <span class="string">"<span class="variable">$file</span>-utf8"</span> <span class="string">"<span class="variable">$file</span>"</span>;</span><br><span class="line">             mv <span class="string">"<span class="variable">$file</span>-utf8"</span> <span class="string">"<span class="variable">$file</span>"</span>;</span><br><span class="line">         <span class="keyword">fi</span></span><br><span class="line">     <span class="keyword">fi</span> </span><br><span class="line">     <span class="keyword">done</span>);</span><br></pre></td></tr></table></figure><p> <code>./</code> 要替换为自己的项目文件夹。<br><img src="media/15346734086983.jpg" alt="-w655"></p><ul><li><ol><li>把shell文件拖到terminal中 enter执行。</li></ol></li></ul><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">bogon:</span>~ username$ <span class="regexp">/Users/</span><span class="regexp">/Documents/</span>batchconvert.sh </span><br><span class="line">-<span class="string">bash:</span> <span class="regexp">/Users/</span>username<span class="regexp">/Documents/</span>batchconvert.<span class="string">sh:</span> Permission denied</span><br><span class="line"><span class="string">bogon:</span>~ username$ chmod <span class="number">777</span> batchconvert.sh</span><br><span class="line"><span class="string">chmod:</span> batchconvert.<span class="string">sh:</span> No such file or directory</span><br><span class="line"><span class="string">bogon:</span>~ username$ chmod <span class="number">777</span> <span class="regexp">/Users/</span>username<span class="regexp">/Documents/</span>batchconvert.sh </span><br><span class="line"><span class="string">bogon:</span>~ username$ </span><br><span class="line"><span class="string">bogon:</span>~ username$ </span><br><span class="line"><span class="string">bogon:</span>~ username$ <span class="regexp">/Users/</span>username<span class="regexp">/Documents/</span>batchconvert.sh</span><br></pre></td></tr></table></figure><p>其中 <code>chmod 777 /Users/username/Documents/batchconvert.sh</code>是给batchconvert.sh赋予全新啊。</p><!-- 参考： https://stackoverflow.com/questions/1182037/osx-change-file-encoding-iconv-recursive-->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#&lt;br&gt;最近遇到一个大项目，项目使用的encoding 有GBK也有UTF-8， 在intellij中虽然可以一个一个conver，但是感觉太慢了，并且reload为UTF-8也不是长久之计，在Git中仍然是乱码。&lt;br&gt;  查阅了一些资料，写个脚本终于批量把gbk 转换
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -356,7 +377,7 @@
     <link href="https://seachal.me/Android/2018/02/06/Android/Android%20Studio%203%E4%B8%AD%E8%A7%A3%E5%86%B3butterknife:7%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>https://seachal.me/Android/2018/02/06/Android/Android Studio 3中解决butterknife:7报错的问题/</id>
     <published>2018-02-06T09:30:30.000Z</published>
-    <updated>2018-02-06T02:44:11.046Z</updated>
+    <updated>2018-02-06T02:45:28.410Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Android-Studio-3中解决butterknife-7报错的问题"><a href="#Android-Studio-3中解决butterknife-7报错的问题" class="headerlink" title="Android Studio 3中解决butterknife:7报错的问题"></a>Android Studio 3中解决butterknife:7报错的问题</h1><p>最近从GitHub上Fork了一个项目<a href="https://github.com/Seachal/BookReader" target="_blank" rel="noopener">任阅</a>，用Android Studio3 打开后<br><a href="https://seachal.me/Android/2018/02/06/Android/Android%20Studio%203.0%E4%B8%AD%E8%A7%A3%E5%86%B3apt%E6%8A%A5%E9%94%99%EF%BC%8Candroid-apt%E5%88%87%E6%8D%A2%E4%B8%BA%E5%AE%98%E6%96%B9annotationProcessor%20/">Android Studio 3.0中android-apt切换为官方annotationProcessor</a><br>解决apt的问题后butterknife又有问题。</p><p>报错：</p><figure class="highlight oxygene"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Error:Execution failed <span class="keyword">for</span> task <span class="string">':app:javaPreCompileDebug'</span>.</span><br><span class="line">&gt; Annotation processors must be explicitly declared now.  The following dependencies <span class="keyword">on</span> the compile classpath are found <span class="keyword">to</span> contain annotation processor.  Please <span class="keyword">add</span> them <span class="keyword">to</span> the annotationProcessor configuration.</span><br><span class="line">    - butterknife-<span class="number">7.0</span>.<span class="number">1</span>.jar (com.jakewharton:butterknife:<span class="number">7.0</span>.<span class="number">1</span>)</span><br><span class="line">  Alternatively, <span class="keyword">set</span> android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = <span class="keyword">true</span> <span class="keyword">to</span> <span class="keyword">continue</span> <span class="keyword">with</span> previous behavior.  Note that this option <span class="keyword">is</span> <span class="keyword">deprecated</span> <span class="keyword">and</span> will be removed <span class="keyword">in</span> the <span class="keyword">future</span>.</span><br><span class="line">  See https:<span class="comment">//developer.android.com/r/tools/annotation-processor-error-message.html for more details.</span></span><br></pre></td></tr></table></figure><p>解决办法：<br>加上 annotationProcessor ‘com.jakewharton:butterknife:7.0.1’即可解决</p><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">   <span class="keyword">compile</span> <span class="string">'com.jakewharton:butterknife:7.0.1'</span></span><br><span class="line">+ annotationProcessor <span class="string">'com.jakewharton:butterknife:7.0.1'</span></span><br></pre></td></tr></table></figure><p>参考：<a href="https://www.jianshu.com/p/09dc882a9fad" target="_blank" rel="noopener">https://www.jianshu.com/p/09dc882a9fad</a></p>]]></content>
     
@@ -436,9 +457,9 @@
     
       <category term="Android" scheme="https://seachal.me/tags/Android/"/>
     
-      <category term="View" scheme="https://seachal.me/tags/View/"/>
-    
       <category term="问题解决" scheme="https://seachal.me/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+      <category term="View" scheme="https://seachal.me/tags/View/"/>
     
   </entry>
   
@@ -469,35 +490,6 @@
       <category term="GitBook" scheme="https://seachal.me/tags/GitBook/"/>
     
       <category term="GitHub" scheme="https://seachal.me/tags/GitHub/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac和Linux返回上一级的命令是什么</title>
-    <link href="https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/"/>
-    <id>https://seachal.me/Mac/2018/01/12/Mac/2018-01-11/</id>
-    <published>2018-01-12T02:10:30.000Z</published>
-    <updated>2018-01-12T02:44:49.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Mac和Linux返回上一级的命令是什么"><a href="#Mac和Linux返回上一级的命令是什么" class="headerlink" title="Mac和Linux返回上一级的命令是什么"></a>Mac和Linux返回上一级的命令是什么</h1><p>要注意在linux shell有几个特定的符号。<br>一个就是 . 指当前目录，例如：<br> sh ./xx<br>就是用shell去运行当前目录下的xx程序。<br>一个是 .. 指上一级目录，例如：<br> vi ../xx<br>就是用vi去打开上一级目录下的xx文件。<br> cd ..<br>将上一级目录变为当前目录，也就是返回上一级。<br>另外就是 ~ 代表当前用户的家目录。<br> cd ~<br>回到登录用户的家目录。<br>参考：<a href="https://zhidao.baidu.com/question/58838894" target="_blank" rel="noopener">https://zhidao.baidu.com/question/58838894</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;a href=&quot;#Mac和Linux返回上一级的命令是什么&quot; class=&quot;headerlink&quot; title=&quot;Mac和Linux返回上一级的命令是什么&quot;&gt;&lt;/a&gt;Mac和Linux返回上一级的命令是什么&lt;/h1&gt;&lt;
-      
-    
-    </summary>
-    
-      <category term="Mac" scheme="https://seachal.me/categories/Mac/"/>
-    
-    
-      <category term="shell" scheme="https://seachal.me/tags/shell/"/>
-    
-      <category term="命令行" scheme="https://seachal.me/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
-    
-      <category term="Terminal" scheme="https://seachal.me/tags/Terminal/"/>
     
   </entry>
   
