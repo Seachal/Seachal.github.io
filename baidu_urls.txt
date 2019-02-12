@@ -1,3 +1,4 @@
+https://seachal.me/uncategorized/2019/02/12/IOS开发2019-02-12/
 https://seachal.me/uncategorized/2019/02/12/Visual Studio Code设置中文-2019-02-10/
 https://seachal.me/uncategorized/2019/02/12/VersionControl/Git 头像修改-2019-02-10/
 https://seachal.me/uncategorized/2019/02/11/Android/RxJava -2019-02-11/
@@ -7,4 +8,3 @@ https://seachal.me/uncategorized/2019/01/31/github cheat sheet-2019-01-17/
 https://seachal.me/uncategorized/2019/01/31/Android/在运行时请求权限-2019-01-15/
 https://seachal.me/uncategorized/2019/01/26/Android/区域、省市县、地区选择-2019-01-26/
 https://seachal.me/uncategorized/2019/01/25/Android/RxJava1和RxJava2的变化-2019-01-25/
-https://seachal.me/uncategorized/2019/01/25/Android/Retrofit统一异常错误处理-2019-01-25/

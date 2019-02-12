@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://seachal.me/"/>
-  <updated>2019-02-12T02:13:39.185Z</updated>
+  <updated>2019-02-12T04:37:13.463Z</updated>
   <id>https://seachal.me/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://seachal.me/uncategorized/2019/02/12/IOS%E5%BC%80%E5%8F%912019-02-12/"/>
+    <id>https://seachal.me/uncategorized/2019/02/12/IOS开发2019-02-12/</id>
+    <published>2019-02-12T04:18:21.799Z</published>
+    <updated>2019-02-12T04:37:13.463Z</updated>
+    
+    <content type="html"><![CDATA[<p># </p><h2 id="更新Pod"><a href="#更新Pod" class="headerlink" title="更新Pod"></a>更新Pod</h2><p><img src="media/15499455667434.jpg" alt="-w756"></p><p>ZBarSDK 没用pod传上去<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span>  ios项目路径</span><br><span class="line">pod <span class="keyword">update</span></span><br></pre></td></tr></table></figure></p><p> 样例<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">bogon:future-terminal-ios ctitc$ pod <span class="keyword">update</span></span><br><span class="line"><span class="keyword">Update</span> all pods</span><br><span class="line">Updating <span class="keyword">local</span> specs repositories</span><br><span class="line">  $ /usr/<span class="keyword">bin</span>/git -C /<span class="keyword">Users</span>/ctitc/.cocoapods/repos/<span class="keyword">master</span> <span class="keyword">fetch</span> origin <span class="comment">--progress</span></span><br><span class="line">  remote: Enumerating objects: <span class="number">63096</span>, done.        </span><br><span class="line">  remote: Counting objects: <span class="number">100</span>% (<span class="number">63096</span>/<span class="number">63096</span>), done.        </span><br><span class="line">  remote: Compressing objects: <span class="number">100</span>% (<span class="number">30</span>/<span class="number">30</span>), done.        </span><br><span class="line">  <span class="keyword">error</span>: RPC <span class="keyword">failed</span>; curl 18 transfer closed with outstanding read data remaining</span><br><span class="line">  fatal: The remote <span class="keyword">end</span> hung up unexpectedly</span><br><span class="line">  fatal: early EOF</span><br><span class="line">  fatal: <span class="keyword">index</span>-pack <span class="keyword">failed</span></span><br><span class="line">[!] CocoaPods was <span class="keyword">not</span> able <span class="keyword">to</span> <span class="keyword">update</span> the <span class="string">`master`</span> repo. <span class="keyword">If</span> this <span class="keyword">is</span> an unexpected issue <span class="keyword">and</span> persists you can inspect it running <span class="string">`pod repo update --verbose`</span></span><br><span class="line">bogon:future-terminal-ios ctitc$ pod <span class="keyword">update</span></span><br><span class="line"><span class="keyword">Update</span> all pods</span><br><span class="line">Updating <span class="keyword">local</span> specs repositories</span><br><span class="line">  $ /usr/<span class="keyword">bin</span>/git -C /<span class="keyword">Users</span>/ctitc/.cocoapods/repos/<span class="keyword">master</span> <span class="keyword">fetch</span> origin <span class="comment">--progress</span></span><br><span class="line">  remote: Enumerating objects: <span class="number">63096</span>, done.        </span><br><span class="line">  remote: Counting objects: <span class="number">100</span>% (<span class="number">63096</span>/<span class="number">63096</span>), done.        </span><br><span class="line">  remote: Compressing objects: <span class="number">100</span>% (<span class="number">30</span>/<span class="number">30</span>), done.        </span><br><span class="line">  remote: Total <span class="number">244951</span> (delta <span class="number">63068</span>), reused <span class="number">63079</span> (delta <span class="number">63065</span>), pack-reused <span class="number">181855</span>        </span><br><span class="line">  Receiving objects: <span class="number">100</span>% (<span class="number">244951</span>/<span class="number">244951</span>), <span class="number">27.45</span> MiB | <span class="number">134.00</span> KiB/s, done.</span><br><span class="line">  Resolving deltas: <span class="number">100</span>% (<span class="number">166785</span>/<span class="number">166785</span>), completed <span class="keyword">with</span> <span class="number">8472</span> <span class="keyword">local</span> objects.</span><br><span class="line">  <span class="keyword">From</span> https://github.com/CocoaPods/Specs</span><br><span class="line">     <span class="number">0</span>d0a66f88d7.<span class="number">.9</span>d245ec95f3  <span class="keyword">master</span>      -&gt; origin/<span class="keyword">master</span></span><br><span class="line">   * [<span class="keyword">new</span> branch]              cdn_scripts -&gt; origin/cdn_scripts</span><br><span class="line">  $ /usr/<span class="keyword">bin</span>/git -C /<span class="keyword">Users</span>/ctitc/.cocoapods/repos/<span class="keyword">master</span> rev-<span class="keyword">parse</span> <span class="comment">--abbrev-ref</span></span><br><span class="line">  <span class="keyword">HEAD</span></span><br><span class="line">  <span class="keyword">master</span></span><br><span class="line">  $ /usr/<span class="keyword">bin</span>/git -C /<span class="keyword">Users</span>/ctitc/.cocoapods/repos/<span class="keyword">master</span> <span class="keyword">reset</span> <span class="comment">--hard</span></span><br><span class="line">  origin/<span class="keyword">master</span></span><br></pre></td></tr></table></figure></p><p>参考：<a href="https://www.jianshu.com/p/97189e71efd9" target="_blank" rel="noopener">https://www.jianshu.com/p/97189e71efd9</a></p><p>如果pod install/update 后clean 还无法解决，那么点击A<br>future-terminal-ios.Xcworkspace文件打开再run一下试试</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;# &lt;/p&gt;
+&lt;h2 id=&quot;更新Pod&quot;&gt;&lt;a href=&quot;#更新Pod&quot; class=&quot;headerlink&quot; title=&quot;更新Pod&quot;&gt;&lt;/a&gt;更新Pod&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;media/15499455667434.jpg&quot; alt=&quot;-w756&quot;&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -414,27 +436,6 @@ https:
       
       
         &lt;h1 id=&quot;adb-命令&quot;&gt;&lt;a href=&quot;#adb-命令&quot; class=&quot;headerlink&quot; title=&quot;adb 命令&quot;&gt;&lt;/a&gt;adb 命令&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://seachal.me/uncategorized/2019/01/10/Android/AndroidStudio%E5%88%A0%E9%99%A4%E6%9C%AA%E4%BD%BF%E7%94%A8%E7%9A%84%E7%B1%BB(Class)%E5%92%8C%E8%B5%84%E6%BA%90(Resource)%202019-01-04/"/>
-    <id>https://seachal.me/uncategorized/2019/01/10/Android/AndroidStudio删除未使用的类(Class)和资源(Resource) 2019-01-04/</id>
-    <published>2019-01-10T02:21:06.269Z</published>
-    <updated>2019-01-10T02:21:06.270Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="AndroidStudio删除未使用的类-Class-和资源-Resource-2019-01-04"><a href="#AndroidStudio删除未使用的类-Class-和资源-Resource-2019-01-04" class="headerlink" title="AndroidStudio删除未使用的类(Class)和资源(Resource) -2019-01-04"></a>AndroidStudio删除未使用的类(Class)和资源(Resource) -2019-01-04</h1><h2 id="删除类"><a href="#删除类" class="headerlink" title="删除类"></a>删除类</h2><p>要在整个项目上运行，请转到Analyze -&gt; Run inspection by name…，键入<code>Unused declaration</code>并选择所需的范围。然后仔细检查输出并在需要时将某些类标记为入口点。<br><img src="media/15469402600844.jpg" alt="-w340"><br>现在，您可以Unused declaration在列表中选择节点，并立即Safe delete对所有未使用的声明执行操作。</p><p><img src="media/15469404055529.jpg" alt="-w491"></p><p>同时可以选择是检查 Class还是检查Method<br>这样就可以只删除不用的类，而不删除不用的Method。</p><h3 id="还可以按编程语言匹配要删除的内容，厉害"><a href="#还可以按编程语言匹配要删除的内容，厉害" class="headerlink" title="还可以按编程语言匹配要删除的内容，厉害"></a>还可以按编程语言匹配要删除的内容，厉害</h3><p><img src="media/15469403062014.jpg" alt="-w599"></p><h2 id="删除kotlin"><a href="#删除kotlin" class="headerlink" title="删除kotlin"></a>删除kotlin</h2><p>对于Kotlin，输入<code>Unused symbol</code>有类似的检查<code>Kotlin | Redundant constructs | Unused symbol</code>。</p><h2 id="删除资源res文件"><a href="#删除资源res文件" class="headerlink" title="删除资源res文件"></a>删除资源res文件</h2><p>对于res，输入<code>Unused resources</code><br>然后选择  remove，注意，按钮可能被隐藏需要展开按钮组，<br><img src="media/15469400396597.jpg" alt="-w1279"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;AndroidStudio删除未使用的类-Class-和资源-Resource-2019-01-04&quot;&gt;&lt;a href=&quot;#AndroidStudio删除未使用的类-Class-和资源-Resource-2019-01-04&quot; class=&quot;headerlink&quot;
       
     
     </summary>
