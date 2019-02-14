@@ -1,10 +1,10 @@
-https://seachal.me/uncategorized/2018/10/21/VersionControl/2018-04-15/
-https://seachal.me/uncategorized/2018/10/21/Mac/批量文件字符集转换为UTF-i脚本（file batch convert char set ）2018-08-19/
-https://seachal.me/uncategorized/2018/10/21/ReactNative/2018-02-23/
-https://seachal.me/uncategorized/2018/10/21/BlogBuild/2018-02-09/
-https://seachal.me/uncategorized/2018/10/21/Java/2018-06-21/
-https://seachal.me/uncategorized/2018/10/21/Java/2018-03-12/
-https://seachal.me/uncategorized/2018/10/21/BlogBuild/常用博客Metaweblog Api地址/
-https://seachal.me/uncategorized/2018/10/21/Android/Library/图表开源库MPAndroidChart/
-https://seachal.me/uncategorized/2018/10/21/Android/Library/pictureSelector/
-https://seachal.me/uncategorized/2018/10/21/Android/Library/2018-05-28/
+https://seachal.me/uncategorized/2019/02/13/Android/addTextChangedListener的三个方法2019-02-13/
+https://seachal.me/uncategorized/2019/02/13/Android/Android Error2019-02-13/
+https://seachal.me/uncategorized/2019/02/12/IOS开发2019-02-12/
+https://seachal.me/uncategorized/2019/02/12/Android/RxJava-2019-01-24/
+https://seachal.me/uncategorized/2019/02/12/Android/Android基础知识2019-02-12/
+https://seachal.me/uncategorized/2019/02/12/Android/RxJava -2019-02-11/
+https://seachal.me/uncategorized/2019/02/11/Android/TextInputLayout-2019-01-15/
+https://seachal.me/uncategorized/2019/02/11/Java/images/Java2019-02-01/
+https://seachal.me/uncategorized/2019/02/10/Visual Studio Code设置中文-2019-02-10/
+https://seachal.me/uncategorized/2019/02/10/VersionControl/Git 头像修改-2019-02-10/

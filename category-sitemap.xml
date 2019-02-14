@@ -14,6 +14,13 @@
     </url>
 
     <url>
+        <loc>https://seachal.me/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/</loc>
+        <lastmod>2018-01-04T12:10:30.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://seachal.me/categories/IDE/</loc>
         <lastmod>2018-10-20T06:36:49.913Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -43,21 +50,14 @@
 
     <url>
         <loc>https://seachal.me/categories/Android/</loc>
-        <lastmod>2018-10-21T07:09:54.464Z</lastmod>
+        <lastmod>2018-11-17T07:02:12.656Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://seachal.me/categories/Git/</loc>
-        <lastmod>2018-10-21T07:09:54.511Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://seachal.me/categories/%E7%A8%8B%E5%BA%8F%E5%91%98/</loc>
-        <lastmod>2018-10-21T07:09:54.525Z</lastmod>
+        <lastmod>2018-11-17T07:02:12.718Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
