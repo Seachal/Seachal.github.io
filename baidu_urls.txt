@@ -1,10 +1,10 @@
-https://seachal.github.io/uncategorized/2019/03/16/Java/Mac OS 下的Java环境-2019-03-06/
-https://seachal.github.io/uncategorized/2019/03/16/Android/Github Library/pictureSelector/
-https://seachal.github.io/uncategorized/2019/03/16/Android/Github Library/图表开源库MPAndroidChart/
-https://seachal.github.io/uncategorized/2019/03/16/Android/tools/Android UI分析工具uiautomatorviewer  2019-03-06/
-https://seachal.github.io/uncategorized/2019/03/16/Android/Github Library/EasyPermission 源码分析-2019-02-28/
-https://seachal.github.io/uncategorized/2019/03/16/Android/Github Library/2018-05-28/
-https://seachal.github.io/uncategorized/2019/03/16/Android/Github Library/BGAQRCode/
-https://seachal.github.io/uncategorized/2019/03/04/Android/addTextChangedListener的三个方法2019-02-13/
-https://seachal.github.io/uncategorized/2019/03/04/Android/在非Activity中使用startActivity-2019-03-04/
-https://seachal.github.io/uncategorized/2019/02/28/Android/在运行时请求权限-2019-01-15/
+http://yoursite.com/uncategorized/2019/03/16/Java/Mac OS 下的Java环境-2019-03-06/
+http://yoursite.com/uncategorized/2019/03/16/Android/Github Library/pictureSelector/
+http://yoursite.com/uncategorized/2019/03/16/Android/Github Library/图表开源库MPAndroidChart/
+http://yoursite.com/uncategorized/2019/03/16/Android/tools/Android UI分析工具uiautomatorviewer  2019-03-06/
+http://yoursite.com/uncategorized/2019/03/16/Android/Github Library/EasyPermission 源码分析-2019-02-28/
+http://yoursite.com/uncategorized/2019/03/16/Android/Github Library/2018-05-28/
+http://yoursite.com/uncategorized/2019/03/16/Android/Github Library/BGAQRCode/
+http://yoursite.com/uncategorized/2019/03/04/Android/addTextChangedListener的三个方法2019-02-13/
+http://yoursite.com/uncategorized/2019/03/04/Android/在非Activity中使用startActivity-2019-03-04/
+http://yoursite.com/uncategorized/2019/02/28/Android/在运行时请求权限-2019-01-15/

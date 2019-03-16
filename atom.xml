@@ -5,9 +5,9 @@
   <subtitle>记录学习的技能和遇到的问题</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://seachal.github.io/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2019-03-16T03:07:24.142Z</updated>
-  <id>https://seachal.github.io/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>Seachal</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/03/16/Java/Mac%20OS%20%E4%B8%8B%E7%9A%84Java%E7%8E%AF%E5%A2%83-2019-03-06/"/>
-    <id>https://seachal.github.io/uncategorized/2019/03/16/Java/Mac OS 下的Java环境-2019-03-06/</id>
+    <link href="http://yoursite.com/uncategorized/2019/03/16/Java/Mac%20OS%20%E4%B8%8B%E7%9A%84Java%E7%8E%AF%E5%A2%83-2019-03-06/"/>
+    <id>http://yoursite.com/uncategorized/2019/03/16/Java/Mac OS 下的Java环境-2019-03-06/</id>
     <published>2019-03-16T03:07:24.142Z</published>
     <updated>2019-03-16T03:07:24.142Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/03/16/Android/Github%20Library/pictureSelector/"/>
-    <id>https://seachal.github.io/uncategorized/2019/03/16/Android/Github Library/pictureSelector/</id>
+    <link href="http://yoursite.com/uncategorized/2019/03/16/Android/Github%20Library/pictureSelector/"/>
+    <id>http://yoursite.com/uncategorized/2019/03/16/Android/Github Library/pictureSelector/</id>
     <published>2019-03-16T03:07:24.118Z</published>
     <updated>2019-03-16T03:07:24.118Z</updated>
     
@@ -62,8 +62,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/03/16/Android/Github%20Library/%E5%9B%BE%E8%A1%A8%E5%BC%80%E6%BA%90%E5%BA%93MPAndroidChart/"/>
-    <id>https://seachal.github.io/uncategorized/2019/03/16/Android/Github Library/图表开源库MPAndroidChart/</id>
+    <link href="http://yoursite.com/uncategorized/2019/03/16/Android/Github%20Library/%E5%9B%BE%E8%A1%A8%E5%BC%80%E6%BA%90%E5%BA%93MPAndroidChart/"/>
+    <id>http://yoursite.com/uncategorized/2019/03/16/Android/Github Library/图表开源库MPAndroidChart/</id>
     <published>2019-03-16T03:07:24.118Z</published>
     <updated>2019-03-16T03:07:24.118Z</updated>
     
@@ -83,8 +83,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/03/16/Android/tools/Android%20UI%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7uiautomatorviewer%20%202019-03-06/"/>
-    <id>https://seachal.github.io/uncategorized/2019/03/16/Android/tools/Android UI分析工具uiautomatorviewer  2019-03-06/</id>
+    <link href="http://yoursite.com/uncategorized/2019/03/16/Android/tools/Android%20UI%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7uiautomatorviewer%20%202019-03-06/"/>
+    <id>http://yoursite.com/uncategorized/2019/03/16/Android/tools/Android UI分析工具uiautomatorviewer  2019-03-06/</id>
     <published>2019-03-16T03:07:24.118Z</published>
     <updated>2019-03-16T03:07:24.119Z</updated>
     
@@ -104,8 +104,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/03/16/Android/Github%20Library/EasyPermission%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-2019-02-28/"/>
-    <id>https://seachal.github.io/uncategorized/2019/03/16/Android/Github Library/EasyPermission 源码分析-2019-02-28/</id>
+    <link href="http://yoursite.com/uncategorized/2019/03/16/Android/Github%20Library/EasyPermission%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-2019-02-28/"/>
+    <id>http://yoursite.com/uncategorized/2019/03/16/Android/Github Library/EasyPermission 源码分析-2019-02-28/</id>
     <published>2019-03-16T03:07:24.106Z</published>
     <updated>2019-03-16T03:07:24.106Z</updated>
     
@@ -125,8 +125,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/03/16/Android/Github%20Library/2018-05-28/"/>
-    <id>https://seachal.github.io/uncategorized/2019/03/16/Android/Github Library/2018-05-28/</id>
+    <link href="http://yoursite.com/uncategorized/2019/03/16/Android/Github%20Library/2018-05-28/"/>
+    <id>http://yoursite.com/uncategorized/2019/03/16/Android/Github Library/2018-05-28/</id>
     <published>2019-03-16T03:07:24.105Z</published>
     <updated>2019-03-16T03:07:24.105Z</updated>
     
@@ -146,8 +146,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/03/16/Android/Github%20Library/BGAQRCode/"/>
-    <id>https://seachal.github.io/uncategorized/2019/03/16/Android/Github Library/BGAQRCode/</id>
+    <link href="http://yoursite.com/uncategorized/2019/03/16/Android/Github%20Library/BGAQRCode/"/>
+    <id>http://yoursite.com/uncategorized/2019/03/16/Android/Github Library/BGAQRCode/</id>
     <published>2019-03-16T03:07:24.105Z</published>
     <updated>2019-03-16T03:07:24.105Z</updated>
     
@@ -170,8 +170,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/03/04/Android/addTextChangedListener%E7%9A%84%E4%B8%89%E4%B8%AA%E6%96%B9%E6%B3%952019-02-13/"/>
-    <id>https://seachal.github.io/uncategorized/2019/03/04/Android/addTextChangedListener的三个方法2019-02-13/</id>
+    <link href="http://yoursite.com/uncategorized/2019/03/04/Android/addTextChangedListener%E7%9A%84%E4%B8%89%E4%B8%AA%E6%96%B9%E6%B3%952019-02-13/"/>
+    <id>http://yoursite.com/uncategorized/2019/03/04/Android/addTextChangedListener的三个方法2019-02-13/</id>
     <published>2019-03-04T13:38:08.625Z</published>
     <updated>2019-03-04T13:38:08.625Z</updated>
     
@@ -191,8 +191,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/03/04/Android/%E5%9C%A8%E9%9D%9EActivity%E4%B8%AD%E4%BD%BF%E7%94%A8startActivity-2019-03-04/"/>
-    <id>https://seachal.github.io/uncategorized/2019/03/04/Android/在非Activity中使用startActivity-2019-03-04/</id>
+    <link href="http://yoursite.com/uncategorized/2019/03/04/Android/%E5%9C%A8%E9%9D%9EActivity%E4%B8%AD%E4%BD%BF%E7%94%A8startActivity-2019-03-04/"/>
+    <id>http://yoursite.com/uncategorized/2019/03/04/Android/在非Activity中使用startActivity-2019-03-04/</id>
     <published>2019-03-04T13:38:08.625Z</published>
     <updated>2019-03-04T13:38:08.625Z</updated>
     
@@ -212,8 +212,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/02/28/Android/%E5%9C%A8%E8%BF%90%E8%A1%8C%E6%97%B6%E8%AF%B7%E6%B1%82%E6%9D%83%E9%99%90-2019-01-15/"/>
-    <id>https://seachal.github.io/uncategorized/2019/02/28/Android/在运行时请求权限-2019-01-15/</id>
+    <link href="http://yoursite.com/uncategorized/2019/02/28/Android/%E5%9C%A8%E8%BF%90%E8%A1%8C%E6%97%B6%E8%AF%B7%E6%B1%82%E6%9D%83%E9%99%90-2019-01-15/"/>
+    <id>http://yoursite.com/uncategorized/2019/02/28/Android/在运行时请求权限-2019-01-15/</id>
     <published>2019-02-28T12:23:15.245Z</published>
     <updated>2019-02-28T12:23:15.245Z</updated>
     
@@ -233,8 +233,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/02/27/Programmer/HTTP%20%E5%93%8D%E5%BA%94%E4%BB%A3%E7%A0%81-2019-01-14/"/>
-    <id>https://seachal.github.io/uncategorized/2019/02/27/Programmer/HTTP 响应代码-2019-01-14/</id>
+    <link href="http://yoursite.com/uncategorized/2019/02/27/Programmer/HTTP%20%E5%93%8D%E5%BA%94%E4%BB%A3%E7%A0%81-2019-01-14/"/>
+    <id>http://yoursite.com/uncategorized/2019/02/27/Programmer/HTTP 响应代码-2019-01-14/</id>
     <published>2019-02-27T12:01:27.599Z</published>
     <updated>2019-02-27T12:01:27.599Z</updated>
     
@@ -254,8 +254,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/02/27/Android/Android%E4%B8%AD%20dpi%EF%BC%8C%E5%88%86%E8%BE%A8%E7%8E%87%EF%BC%8C%E5%B1%8F%E5%B9%95%E5%B0%BA%E5%AF%B8%EF%BC%8Cdp%EF%BC%8Cpx%EF%BC%8Cdip-2019-02-18/"/>
-    <id>https://seachal.github.io/uncategorized/2019/02/27/Android/Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18/</id>
+    <link href="http://yoursite.com/uncategorized/2019/02/27/Android/Android%E4%B8%AD%20dpi%EF%BC%8C%E5%88%86%E8%BE%A8%E7%8E%87%EF%BC%8C%E5%B1%8F%E5%B9%95%E5%B0%BA%E5%AF%B8%EF%BC%8Cdp%EF%BC%8Cpx%EF%BC%8Cdip-2019-02-18/"/>
+    <id>http://yoursite.com/uncategorized/2019/02/27/Android/Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18/</id>
     <published>2019-02-27T12:01:27.598Z</published>
     <updated>2019-02-27T12:01:27.598Z</updated>
     
@@ -275,8 +275,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/02/27/Android/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%862019-02-12/"/>
-    <id>https://seachal.github.io/uncategorized/2019/02/27/Android/Android基础知识2019-02-12/</id>
+    <link href="http://yoursite.com/uncategorized/2019/02/27/Android/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%862019-02-12/"/>
+    <id>http://yoursite.com/uncategorized/2019/02/27/Android/Android基础知识2019-02-12/</id>
     <published>2019-02-27T12:01:27.598Z</published>
     <updated>2019-02-27T12:01:27.598Z</updated>
     
@@ -296,8 +296,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/02/27/Android/android%20studio%E4%BF%AE%E6%94%B9%E9%A1%B9%E7%9B%AE%E5%90%8D-2018-03-21/"/>
-    <id>https://seachal.github.io/uncategorized/2019/02/27/Android/android studio修改项目名-2018-03-21/</id>
+    <link href="http://yoursite.com/uncategorized/2019/02/27/Android/android%20studio%E4%BF%AE%E6%94%B9%E9%A1%B9%E7%9B%AE%E5%90%8D-2018-03-21/"/>
+    <id>http://yoursite.com/uncategorized/2019/02/27/Android/android studio修改项目名-2018-03-21/</id>
     <published>2019-02-27T12:01:27.598Z</published>
     <updated>2019-02-27T12:01:27.598Z</updated>
     
@@ -317,8 +317,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/02/27/Android/Android%20Error%202019-02-13/"/>
-    <id>https://seachal.github.io/uncategorized/2019/02/27/Android/Android Error 2019-02-13/</id>
+    <link href="http://yoursite.com/uncategorized/2019/02/27/Android/Android%20Error%202019-02-13/"/>
+    <id>http://yoursite.com/uncategorized/2019/02/27/Android/Android Error 2019-02-13/</id>
     <published>2019-02-27T12:01:27.597Z</published>
     <updated>2019-02-27T12:01:27.597Z</updated>
     
@@ -338,8 +338,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/02/27/Android/Android%20View%20%E5%88%86%E6%9E%902019-02-20/"/>
-    <id>https://seachal.github.io/uncategorized/2019/02/27/Android/Android View 分析2019-02-20/</id>
+    <link href="http://yoursite.com/uncategorized/2019/02/27/Android/Android%20View%20%E5%88%86%E6%9E%902019-02-20/"/>
+    <id>http://yoursite.com/uncategorized/2019/02/27/Android/Android View 分析2019-02-20/</id>
     <published>2019-02-27T12:01:27.597Z</published>
     <updated>2019-02-27T12:01:27.598Z</updated>
     
@@ -359,8 +359,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/02/27/Android/Android%20Profiler%E5%88%86%E4%B8%BA%E4%B8%89%E5%A4%A7%E6%A8%A1%E5%9D%97%EF%BC%9A%20cpu%E3%80%81%E5%86%85%E5%AD%98%20%E3%80%81%E7%BD%91%E7%BB%9C%E3%80%82%E5%9F%BA%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%A8%E4%B8%8A%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%9C%89%E8%AE%B2%E5%88%B0%E3%80%82%E8%BF%99%E9%87%8C%E8%AF%A6%E7%BB%86%E8%AF%B4%E4%B8%80%E4%B8%8B-2018-02-28/"/>
-    <id>https://seachal.github.io/uncategorized/2019/02/27/Android/Android Profiler分为三大模块： cpu、内存 、网络。基本的使用在上一篇文章有讲到。这里详细说一下-2018-02-28/</id>
+    <link href="http://yoursite.com/uncategorized/2019/02/27/Android/Android%20Profiler%E5%88%86%E4%B8%BA%E4%B8%89%E5%A4%A7%E6%A8%A1%E5%9D%97%EF%BC%9A%20cpu%E3%80%81%E5%86%85%E5%AD%98%20%E3%80%81%E7%BD%91%E7%BB%9C%E3%80%82%E5%9F%BA%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%A8%E4%B8%8A%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%9C%89%E8%AE%B2%E5%88%B0%E3%80%82%E8%BF%99%E9%87%8C%E8%AF%A6%E7%BB%86%E8%AF%B4%E4%B8%80%E4%B8%8B-2018-02-28/"/>
+    <id>http://yoursite.com/uncategorized/2019/02/27/Android/Android Profiler分为三大模块： cpu、内存 、网络。基本的使用在上一篇文章有讲到。这里详细说一下-2018-02-28/</id>
     <published>2019-02-27T12:01:27.597Z</published>
     <updated>2019-02-27T12:01:27.597Z</updated>
     
@@ -380,8 +380,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/02/24/VersionControl/git%20gui%20tower%20compare%20tow%20commit%20diff2019-02-24/"/>
-    <id>https://seachal.github.io/uncategorized/2019/02/24/VersionControl/git gui tower compare tow commit diff2019-02-24/</id>
+    <link href="http://yoursite.com/uncategorized/2019/02/24/VersionControl/git%20gui%20tower%20compare%20tow%20commit%20diff2019-02-24/"/>
+    <id>http://yoursite.com/uncategorized/2019/02/24/VersionControl/git gui tower compare tow commit diff2019-02-24/</id>
     <published>2019-02-24T03:38:39.466Z</published>
     <updated>2019-02-24T04:46:19.411Z</updated>
     
@@ -402,8 +402,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/02/20/Android/android%20view2019-02-20/"/>
-    <id>https://seachal.github.io/uncategorized/2019/02/20/Android/android view2019-02-20/</id>
+    <link href="http://yoursite.com/uncategorized/2019/02/20/Android/android%20view2019-02-20/"/>
+    <id>http://yoursite.com/uncategorized/2019/02/20/Android/android view2019-02-20/</id>
     <published>2019-02-20T12:44:50.548Z</published>
     <updated>2019-02-20T13:08:52.443Z</updated>
     
@@ -423,8 +423,8 @@
   
   <entry>
     <title></title>
-    <link href="https://seachal.github.io/uncategorized/2019/02/14/Android/RxJava%E7%9B%B8%E5%85%B3%E5%8D%9A%E6%96%872019-02-14/"/>
-    <id>https://seachal.github.io/uncategorized/2019/02/14/Android/RxJava相关博文2019-02-14/</id>
+    <link href="http://yoursite.com/uncategorized/2019/02/14/Android/RxJava%E7%9B%B8%E5%85%B3%E5%8D%9A%E6%96%872019-02-14/"/>
+    <id>http://yoursite.com/uncategorized/2019/02/14/Android/RxJava相关博文2019-02-14/</id>
     <published>2019-02-14T13:06:10.111Z</published>
     <updated>2019-02-14T13:08:20.618Z</updated>
     
