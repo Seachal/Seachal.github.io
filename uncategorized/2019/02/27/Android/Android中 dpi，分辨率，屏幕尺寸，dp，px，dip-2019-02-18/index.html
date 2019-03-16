@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+<!--Google 引擎验证申请地址 Baidu 引擎验证申请地址-->
+
+
+  <meta name="google-site-verification" content="yz2wXOfHDWg9lPX0q7GGr4VYbjAI4MLLiyOTBofbPsM">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+  <meta name="google-site-verification" content="true">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.ico?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.ico?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Seachal,Android,Java,笔记,Hexo,博客">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Seachal的Blogs" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18!--参考：https://www.jianshu.com/p/211cbaa5a59e-- 1.什么是屏幕尺寸、分辨率和像素密度？屏幕尺寸单位：英寸（inch）   1英寸 = 2.54厘米 目前市场上屏幕尺寸以5.5英寸为主（Android 2018年），数据由【友盟】提供。 屏幕分辨率：定义：横纵向上的像素点">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Seachal的Blogs">
+<meta property="og:url" content="https://seachal.github.io/uncategorized/2019/02/27/Android/Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18/index.html">
+<meta property="og:site_name" content="Seachal的Blogs">
+<meta property="og:description" content="Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18!--参考：https://www.jianshu.com/p/211cbaa5a59e-- 1.什么是屏幕尺寸、分辨率和像素密度？屏幕尺寸单位：英寸（inch）   1英寸 = 2.54厘米 目前市场上屏幕尺寸以5.5英寸为主（Android 2018年），数据由【友盟】提供。 屏幕分辨率：定义：横纵向上的像素点">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https:////upload-images.jianshu.io/upload_images/14042110-2c9ececddb674774.png">
+<meta property="og:image" content="https:////upload-images.jianshu.io/upload_images/14042110-b27d81fe57e99246.png">
+<meta property="og:image" content="https:////upload-images.jianshu.io/upload_images/14042110-0595c32276fac023.png">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/14042110-a2e26030751e1eeb.png">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/6502966-04dda14f6b140a49.png">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/6502966-28a0a0ad25f3587f.png">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/6502966-29f7887633d28e12.png">
+<meta property="og:updated_time" content="2019-02-27T12:01:27.598Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Seachal的Blogs">
+<meta name="twitter:description" content="Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18!--参考：https://www.jianshu.com/p/211cbaa5a59e-- 1.什么是屏幕尺寸、分辨率和像素密度？屏幕尺寸单位：英寸（inch）   1英寸 = 2.54厘米 目前市场上屏幕尺寸以5.5英寸为主（Android 2018年），数据由【友盟】提供。 屏幕分辨率：定义：横纵向上的像素点">
+<meta name="twitter:image" content="https:////upload-images.jianshu.io/upload_images/14042110-2c9ececddb674774.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post - 默认行为，在文章页面（拥有目录列表）时显示","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://seachal.github.io/uncategorized/2019/02/27/Android/Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18/">
+
+
+
+
+
+  <title> | Seachal的Blogs</title>
+  
+
+
+
+
+
+
+
+
+
+ <style>
+  .forkMeOnGithub{
+      display: none;
+  }
+  @media (min-width: 768px) {
+  .forkMeOnGithub{
+      display: inline;
+  }
+ }
+  </style>
+
+
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Seachal的Blogs</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">记录学习的技能和遇到的问题</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://seachal.github.io/uncategorized/2019/02/27/Android/Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Seachal">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/seachalzhang.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Seachal的Blogs">
+    </span>
+
+    
+      <header class="post-header">
+
+
+
+        
+        
+          <h1 class="post-title" itemprop="name headline"></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-27T20:01:27+08:00">
+                2019-02-27
+              </time>
+
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-02-27T20:01:27+08:00">
+                2019-02-27
+              </time>
+            
+          </span>
+
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/uncategorized/2019/02/27/Android/Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="uncategorized/2019/02/27/Android/Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1,342 字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  5 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+
+      
+      
+
+      
+        <h1 id="Android中-dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18"><a href="#Android中-dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18" class="headerlink" title="Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18"></a>Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18</h1><a href="!--参考：https://www.jianshu.com/p/211cbaa5a59e--">!--参考：https://www.jianshu.com/p/211cbaa5a59e--</a>
+<h3 id="1-什么是屏幕尺寸、分辨率和像素密度？"><a href="#1-什么是屏幕尺寸、分辨率和像素密度？" class="headerlink" title="1.什么是屏幕尺寸、分辨率和像素密度？"></a>1.什么是屏幕尺寸、分辨率和像素密度？</h3><h4 id="屏幕尺寸"><a href="#屏幕尺寸" class="headerlink" title="屏幕尺寸"></a>屏幕尺寸</h4><p>单位：英寸（inch）   1英寸 = 2.54厘米</p>
+<p>目前市场上屏幕尺寸以5.5英寸为主（Android 2018年），数据由【友盟】提供。</p>
+<h4 id="屏幕分辨率："><a href="#屏幕分辨率：" class="headerlink" title="屏幕分辨率："></a>屏幕分辨率：</h4><p>定义：横纵向上的像素点        （ 分辨率越高，显示的效果越好）</p>
+<p>单位：px   1px = 1像素点</p>
+<p> 一般表达的方式，纵向像素 <em> 横向像素 = 1920 </em> 1080</p>
+<p>目前市场上手机屏幕分辨率 还是以1920*1080像素为主</p>
+<h4 id="屏幕像素密度"><a href="#屏幕像素密度" class="headerlink" title="屏幕像素密度"></a>屏幕像素密度</h4><p>定义：指的是每英寸上的像素点        （密度越高，显示效果越好）</p>
+<p>单位：dpi </p>
+<p> <strong><strong><strong><strong>**</strong></strong></strong></strong>像素密度与【屏幕尺寸】和【分辨率】有关<strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></p>
+<p>下面举个“栗子”</p>
+<p>一步4.95英寸、屏幕分辨率是1920*1080的手机，求屏幕像素密度</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/14042110-2c9ececddb674774.png" alt=""></p>
+<p>手机4.95英寸，指的是手机对角线的长度</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/14042110-b27d81fe57e99246.png" alt=""></p>
+<p>因为AC=1920，BC=1080，所以AB≈2203</p>
+<p>所以像素密度 = 2203 / 4.95 ≈ 445</p>
+<hr>
+<h3 id="为什么我们要用android开发的时候不用px做为单位？"><a href="#为什么我们要用android开发的时候不用px做为单位？" class="headerlink" title="为什么我们要用android开发的时候不用px做为单位？"></a>为什么我们要用android开发的时候不用px做为单位？</h3><h4 id="px（像素）"><a href="#px（像素）" class="headerlink" title="px（像素）"></a>px（像素）</h4><p>构成图像的最小单位</p>
+<hr>
+<h4 id="dp-、dip"><a href="#dp-、dip" class="headerlink" title="dp 、dip"></a>dp 、dip</h4><p>密度无关像素     【注意，dip和dpi不一样】</p>
+<p>如果在160dpi（像素密度为160），那么 1dip = 1px</p>
+<pre><code>在240dpi（像素密度为240），那么 1.5dip = 1px        （后面会解释，别着急）
+</code></pre><p>举个“栗子”</p>
+<p>在2部手机中</p>
+<p>A手机 分辨率为 480*320，像素密度为 160DPI</p>
+<p>B手机 分辨率为 800*480，像素密度为 240DPI</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/14042110-0595c32276fac023.png" alt=""></p>
+<p>A手机</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/14042110-a2e26030751e1eeb.png" alt=""></p>
+<p>B手机</p>
+<p>如果我们图片要在A手机宽度铺满全屏显示的话，我们就得设置图片宽度为320px</p>
+<p>我们要B手机宽度铺满全屏显示，需要设置多少？得设置480px。</p>
+<p>那么问题来了，android手机那么多，分辨率并不是固定的（参考楼上分辨率数据），不像iPhone，屏幕的分辨率是固定的。我们想要图片在每部手机显示都是横向铺满的，设置px的话明显有问题。</p>
+<p>所以，我们开发的时候单位一般设置为dp、dip</p>
+<p>如果我们图片设置320dp，在480*320上，1dp=1px，所以图片是铺满的</p>
+<p>在800<em>480手机上，1px = 1.5dp，所以320dp = 320dp </em> 1.5 = 480dp，所以图片也是铺满的</p>
+<p>可能到这里小伙伴们头脑没转过来，为什么1px在不同分辨率手机上，等于的dp是不同的呢？</p>
+<p>因为手机的像素密度不同啊！</p>
+<p>上面说过dp、dip叫做密度无关像素，你可以这么理解，dp和dip存在的意义，是和像素密度没有关系的。我使用dp作为单位设置控件，不管你什么屏幕大小，多大的dpi，显示的效果始终保持一致。就是专门用于不同手机屏幕分辨率，我却能都适应。至于160dpi里1dp=1px，480dpi里1dp=1.5px，为什么这么设置呢？因为人家google就这么定义的。没必要深究</p>
+<p><strong>px和dp的换算公式：px = dp * (dpi / 160)</strong></p>
+<hr>
+<h4 id="sp"><a href="#sp" class="headerlink" title="sp"></a>sp</h4><p>定义：根据字体首选项进行缩放</p>
+<p>sp绝大部分都是用来设置文字大小的大小.</p>
+<p>google开发指导手册上推荐我们设置12sp以上大小的单位，不要用12sp以下，以为用户可能看不清。推荐使用大小有12sp、14sp、18sp和22sp作为我们首选的字体大小。</p>
+<p>字体设置的时候    不能有   小数和奇数。因为字体放缩的时候可能对精度的丢失</p>
+<p>==写法好像有错误==</p>
+<blockquote>
+<p>以上写法有误，<br>如果屏幕密度较高，密度无关像素会相应扩展至整个屏幕。1dp在设备屏幕上总是等于1/160英寸。使用dp的好处是，无论屏幕密度如何，总能获得同样的尺寸。 《Android开发权威指南》<br>1dp = 1/160 英寸, </p>
+</blockquote>
+<a href="!--参考：https://www.jianshu.com/p/a585841282a8--">!--参考：https://www.jianshu.com/p/a585841282a8--</a>
+<h4 id="1-先来看几个概念"><a href="#1-先来看几个概念" class="headerlink" title="1.先来看几个概念"></a>1.先来看几个概念</h4><ul>
+<li>分辨率，像 1920x1080</li>
+<li>屏幕像素密度：屏幕每英寸所包含的像素数</li>
+<li>dpi：（Dots Per Inch，每英寸点数）一种度量单位</li>
+</ul>
+<p>怎么根据分辨率和屏幕尺寸计算<strong>屏幕密度</strong>？</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/6502966-04dda14f6b140a49.png" alt=""></p>
+<p>计算屏幕密度.png</p>
+<p>那440dpi在android中是什么样的概念呢？</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/6502966-28a0a0ad25f3587f.png" alt=""></p>
+<p>谷歌官方文档中对于密度的分类.png</p>
+<p>属于xxhdpi这一分类 ，那么其运行时加载的图片也是xxhdpi文件夹下的。</p>
+<h4 id="2-接下来看px与dp还有dip的关系"><a href="#2-接下来看px与dp还有dip的关系" class="headerlink" title="2.接下来看px与dp还有dip的关系"></a>2.接下来看px与dp还有dip的关系</h4><ul>
+<li>dp其实就是dip：设备独立像素（又称设备无关像素 Device Independent Pixels 、密度独立性 Density ndependent或设备独立像素，简称DIP或DP）。<br>  dp也是谷歌推荐的android开发中使用单位。</li>
+<li>px：像素</li>
+</ul>
+<p>一般UI拿过来的图就是px标注的，然后会告诉你做图时所用的尺寸是多大的，如1334x750，4.7寸的屏幕</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/6502966-29f7887633d28e12.png" alt=""></p>
+<p>image.png</p>
+<p>我们该怎么把px转为dp写在android的布局文件中呢？</p>
+<ol>
+<li>先计算UI所给图纸的密度，1334x1334+750x750=2342056<br> 2342056 开根号大概为 1530<br> 1530/4.7 = 325 dpi</li>
+<li>325/160 = 2.03 （160相当于一个标准dpi，是google给定的值，我们所计算的dpi都会与其进行比较）<br> 如图上一个控件是高80px，那 80/2.03 大概40dp，我们一般就在布局文件设置40dp</li>
+</ol>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+
+    
+     <div>
+      
+      <ul class="post-copyright">
+         <li class="post-copyright-link">
+          <strong>本文作者：</strong>
+          <a href="/" title="欢迎访问 Seachal 的个人博客">Seachal</a>
+        </li>
+
+        <li class="post-copyright-link">
+          <strong>本文标题：</strong>
+          <a href="https://seachal.github.io/uncategorized/2019/02/27/Android/Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18/" title=""></a>
+        </li>
+
+      <li class="post-copyright-date">
+            <strong>发布时间：</strong>2019年2月27日 - 20时02分
+        </li>
+
+        <li class="post-copyright-license">
+          <strong>版权声明： </strong>
+          本文由 Seachal 原创，采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" rel="license" target="_blank">保留署名-非商业性使用-禁止演绎 4.0-国际许可协议</a> 转载请保留以上声明信息！
+        </li>
+      </ul>
+    
+  </div>
+     
+
+
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/uncategorized/2019/02/27/Android/Android Error 2019-02-13/" rel="next" title="">
+                <i class="fa fa-chevron-left"></i> 
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/uncategorized/2019/02/27/Android/android studio修改项目名-2018-03-21/" rel="prev" title="">
+                 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/seachalzhang.jpg" alt="Seachal">
+            
+              <p class="site-author-name" itemprop="name">Seachal</p>
+              <p class="site-description motion-element" itemprop="description">Android开发笔记|Java学习笔记</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">67</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">36</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          <div class="links-of-author motion-element">
+            
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/Seachal" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-Github"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.jianshu.com/u/a2d105dc9ca9" target="_blank" title="简书">
+                    
+                      <i class="fa fa-fw fa-globe"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://www.cnblogs.com/Seachal" target="_blank" title="cnblogs">
+                    
+                      <i class="fa fa-fw fa-globe"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:seachal.zhang@gmail.com" target="_blank" title="E-Mail">
+                    
+                      <i class="fa fa-fw fa-envelope"></i></a>
+                </span>
+              
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          <div id="days"></div>
+
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("05/27/2017 15:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Android中-dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18"><span class="nav-number">1.</span> <span class="nav-text">Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-什么是屏幕尺寸、分辨率和像素密度？"><span class="nav-number">1.0.1.</span> <span class="nav-text">1.什么是屏幕尺寸、分辨率和像素密度？</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#屏幕尺寸"><span class="nav-number">1.0.1.1.</span> <span class="nav-text">屏幕尺寸</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#屏幕分辨率："><span class="nav-number">1.0.1.2.</span> <span class="nav-text">屏幕分辨率：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#屏幕像素密度"><span class="nav-number">1.0.1.3.</span> <span class="nav-text">屏幕像素密度</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#为什么我们要用android开发的时候不用px做为单位？"><span class="nav-number">1.0.2.</span> <span class="nav-text">为什么我们要用android开发的时候不用px做为单位？</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#px（像素）"><span class="nav-number">1.0.2.1.</span> <span class="nav-text">px（像素）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#dp-、dip"><span class="nav-number">1.0.2.2.</span> <span class="nav-text">dp 、dip</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#sp"><span class="nav-number">1.0.2.3.</span> <span class="nav-text">sp</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-先来看几个概念"><span class="nav-number">1.0.2.4.</span> <span class="nav-text">1.先来看几个概念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-接下来看px与dp还有dip的关系"><span class="nav-number">1.0.2.5.</span> <span class="nav-text">2.接下来看px与dp还有dip的关系</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+      
+        
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Seachal</span>
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">41.2k</span>
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.3</div>
+
+<!--以下4行为一条竖线和Coding Page-->
+ 
+  <span class="post-meta-divider">|</span>
+
+  <div class="powered-by">  
+  </div>
+  <span>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
+  </div>
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </footer></div>
+    
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+
+
+
+ <!-- hexo 添加 Fork me on GitHub 主题在https://github.com/blog/273-github-ribbons-->
+ <div class="forkMeOnGithub">
+ <a target="_blank" href="https://github.com/Seachal"><img style="position: absolute; top: 0; right: 0; border: 0" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+ </div>
+
+
+
+
+
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://Seachal.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://seachal.github.io/uncategorized/2019/02/27/Android/Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18/';
+          this.page.identifier = 'uncategorized/2019/02/27/Android/Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18/';
+          this.page.title = '';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://Seachal.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</head></html>
