@@ -4,8 +4,44 @@
 
     
   <url>
+    <loc>https://seachal.github.io/Tools/2019/03/28/Tools/%E5%B0%86Markdown%E8%BD%ACMindMap_2019-03-28/</loc>
+    <lastmod>2019-04-11T00:37:21.031Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2019-03-28T05:17:45.472Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Tools" url="https://seachal.github.io/categories/Tools/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://seachal.github.io/Python/2019/03/29/Python/Python%E7%8E%AF%E5%A2%83%E9%97%AE%E9%A2%982019-03-29/</loc>
+    <lastmod>2019-03-29T00:55:15.812Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2019-03-29T00:38:03.994Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Python" url="https://seachal.github.io/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://seachal.github.io/Github/2017/12/23/%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E4%B8%8B%E9%85%8D%E7%BD%AEGithub%E5%92%8CBitbucket%E7%9A%84SSH/</loc>
-    <lastmod>2019-03-21T01:17:12.874Z</lastmod>
+    <lastmod>2019-03-25T08:50:39.020Z</lastmod>
     <data>
         <display>
         <title>如何在Mac下配置Github和Bitbucket的SSH</title>
@@ -28,12 +64,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/uncategorized/2019/03/21/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Vagrant%E7%9A%84%E8%99%9A%E6%8B%9F%E7%9B%92vboxheadless%E8%BF%9B%E7%A8%8B%E4%BD%BF%E7%94%A8100%EF%BC%85%E7%9A%84cpu-2019-01-02/</loc>
-    <lastmod>2019-03-21T01:17:12.848Z</lastmod>
+    <loc>https://seachal.github.io/uncategorized/2019/03/25/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Vagrant%E7%9A%84%E8%99%9A%E6%8B%9F%E7%9B%92vboxheadless%E8%BF%9B%E7%A8%8B%E4%BD%BF%E7%94%A8100%EF%BC%85%E7%9A%84cpu-2019-01-02/</loc>
+    <lastmod>2019-03-25T08:50:38.994Z</lastmod>
     <data>
         <display>
         <title>为什么使用Vagrant的虚拟盒vboxheadless进程使用100％的cpu-2019-01-02</title>
-        <pubTime>2019-03-21T01:17:12.848Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.994Z</pubTime>
         
          
            
@@ -43,12 +79,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/uncategorized/2019/03/21/github%20cheat%20sheet-2019-01-17/</loc>
-    <lastmod>2019-03-21T01:17:12.821Z</lastmod>
+    <loc>https://seachal.github.io/uncategorized/2019/03/25/github%20cheat%20sheet-2019-01-17/</loc>
+    <lastmod>2019-03-25T08:50:38.967Z</lastmod>
     <data>
         <display>
         <title>github cheat sheet-2019-01-17</title>
-        <pubTime>2019-03-21T01:17:12.821Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.967Z</pubTime>
         
          
            
@@ -58,12 +94,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/uncategorized/2019/03/21/Visual%20Studio%20Code%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87-2019-02-10/</loc>
-    <lastmod>2019-03-21T01:17:12.795Z</lastmod>
+    <loc>https://seachal.github.io/uncategorized/2019/03/25/Visual%20Studio%20Code%E8%AE%BE%E7%BD%AE%E4%B8%AD%E6%96%87-2019-02-10/</loc>
+    <lastmod>2019-03-25T08:50:38.941Z</lastmod>
     <data>
         <display>
         <title>Visual Studio Code设置中文-2019-02-10</title>
-        <pubTime>2019-03-21T01:17:12.794Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.941Z</pubTime>
         
          
            
@@ -73,12 +109,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/VersionControl/2019/03/21/VersionControl/%E5%9C%A8bitbucket%20%E5%88%A0%E9%99%A4%E5%88%86%E6%94%AF-2019-01-09/</loc>
-    <lastmod>2019-03-21T01:17:12.768Z</lastmod>
+    <loc>https://seachal.github.io/VersionControl/2019/03/25/VersionControl/%E5%9C%A8bitbucket%20%E5%88%A0%E9%99%A4%E5%88%86%E6%94%AF-2019-01-09/</loc>
+    <lastmod>2019-03-25T08:50:38.915Z</lastmod>
     <data>
         <display>
         <title>在bitbucket 删除分支-2019-01-09</title>
-        <pubTime>2019-03-21T01:17:12.767Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.915Z</pubTime>
         
          
            
@@ -91,12 +127,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/VersionControl/2019/03/21/VersionControl/git%20gui%20tower%20compare%20tow%20commit%20diff2019-02-24/</loc>
-    <lastmod>2019-03-21T01:17:12.741Z</lastmod>
+    <loc>https://seachal.github.io/VersionControl/2019/03/25/VersionControl/git%20gui%20tower%20compare%20tow%20commit%20diff2019-02-24/</loc>
+    <lastmod>2019-03-25T08:50:38.889Z</lastmod>
     <data>
         <display>
         <title>git gui tower compare tow commit diff2019-02-24</title>
-        <pubTime>2019-03-21T01:17:12.741Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.889Z</pubTime>
         
          
            
@@ -109,12 +145,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/VersionControl/Git/2019/03/21/VersionControl/Git/git%E5%86%B2%E7%AA%81%E5%90%88%E5%B9%B6_2019-03-19/</loc>
-    <lastmod>2019-03-21T01:17:12.715Z</lastmod>
+    <loc>https://seachal.github.io/VersionControl/Git/2019/03/25/VersionControl/Git/git%E5%86%B2%E7%AA%81%E5%90%88%E5%B9%B6_2019-03-19/</loc>
+    <lastmod>2019-03-25T08:50:38.863Z</lastmod>
     <data>
         <display>
         <title>git冲突合并_2019-03-19</title>
-        <pubTime>2019-03-21T01:17:12.715Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.863Z</pubTime>
         
          
            
@@ -130,12 +166,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/VersionControl/2019/03/21/VersionControl/Git%20%E5%A4%B4%E5%83%8F%E4%BF%AE%E6%94%B9-2019-02-10/</loc>
-    <lastmod>2019-03-21T01:17:12.689Z</lastmod>
+    <loc>https://seachal.github.io/VersionControl/2019/03/25/VersionControl/Git%20%E5%A4%B4%E5%83%8F%E4%BF%AE%E6%94%B9-2019-02-10/</loc>
+    <lastmod>2019-03-25T08:50:38.837Z</lastmod>
     <data>
         <display>
         <title>Git 头像修改-2019-02-10</title>
-        <pubTime>2019-03-21T01:17:12.688Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.837Z</pubTime>
         
          
            
@@ -148,12 +184,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/VersionControl/2019/03/21/VersionControl/2018-04-15/</loc>
-    <lastmod>2019-03-21T01:17:12.662Z</lastmod>
+    <loc>https://seachal.github.io/VersionControl/2019/03/25/VersionControl/2018-04-15/</loc>
+    <lastmod>2019-03-25T08:50:38.811Z</lastmod>
     <data>
         <display>
         <title>Sun Apr 15 2018 00:00:00 GMT+0800 (中国标准时间)</title>
-        <pubTime>2019-03-21T01:17:12.662Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.811Z</pubTime>
         
          
            
@@ -167,7 +203,7 @@
     
   <url>
     <loc>https://seachal.github.io/Git/2018/01/12/VersionControl/2018-01-12/</loc>
-    <lastmod>2019-03-21T01:17:12.635Z</lastmod>
+    <lastmod>2019-03-25T08:50:38.786Z</lastmod>
     <data>
         <display>
         <title>用GitBook制作一本书（从GitHub导入创建一本书）</title>
@@ -188,12 +224,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Tools/2019/03/21/Tools/sublime%E5%85%A8%E5%B1%80%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%9B%BF%E6%8D%A22019-03-11/</loc>
-    <lastmod>2019-03-21T01:17:12.609Z</lastmod>
+    <loc>https://seachal.github.io/Tools/2019/03/25/Tools/sublime%E5%85%A8%E5%B1%80%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%9B%BF%E6%8D%A22019-03-11/</loc>
+    <lastmod>2019-03-25T08:50:38.759Z</lastmod>
     <data>
         <display>
         <title>sublime全局查找与替换2019-03-11</title>
-        <pubTime>2019-03-21T01:17:12.608Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.759Z</pubTime>
         
          
            
@@ -207,7 +243,7 @@
     
   <url>
     <loc>https://seachal.github.io/Github/2017/12/23/Tools/cvs%E6%96%87%E4%BB%B6%E6%89%93%E5%BC%80%E5%90%8E%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98-2019-03-14/</loc>
-    <lastmod>2019-03-21T01:17:12.582Z</lastmod>
+    <lastmod>2019-03-25T08:50:38.733Z</lastmod>
     <data>
         <display>
         <title>如何在Mac下配置Github和Bitbucket的SSH</title>
@@ -230,12 +266,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/ReactNative/2019/03/21/ReactNative/2018-02-23/</loc>
-    <lastmod>2019-03-21T01:17:12.555Z</lastmod>
+    <loc>https://seachal.github.io/ReactNative/2019/03/25/ReactNative/2018-02-23/</loc>
+    <lastmod>2019-03-25T08:50:38.707Z</lastmod>
     <data>
         <display>
         <title>Fri Feb 23 2018 00:00:00 GMT+0800 (中国标准时间)</title>
-        <pubTime>2019-03-21T01:17:12.555Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.706Z</pubTime>
         
          
            
@@ -249,7 +285,7 @@
     
   <url>
     <loc>https://seachal.github.io/ReactNative/2018/01/12/ReactNative/2018-01-12/</loc>
-    <lastmod>2019-03-21T01:17:12.528Z</lastmod>
+    <lastmod>2019-03-25T08:50:38.668Z</lastmod>
     <data>
         <display>
         <title>Hexo创建文章和草稿</title>
@@ -278,12 +314,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Programmer/2019/03/21/Programmer/HTTP%20%E5%93%8D%E5%BA%94%E4%BB%A3%E7%A0%81-2019-01-14/</loc>
-    <lastmod>2019-03-21T01:17:12.502Z</lastmod>
+    <loc>https://seachal.github.io/Programmer/2019/03/25/Programmer/HTTP%20%E5%93%8D%E5%BA%94%E4%BB%A3%E7%A0%81-2019-01-14/</loc>
+    <lastmod>2019-03-25T08:50:38.584Z</lastmod>
     <data>
         <display>
         <title>HTTP 响应代码-2019-01-14</title>
-        <pubTime>2019-03-21T01:17:12.501Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.584Z</pubTime>
         
          
            
@@ -296,12 +332,30 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Mac/2019/03/21/Mac/%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E9%9B%86%E8%BD%AC%E6%8D%A2%E4%B8%BAUTF-i%E8%84%9A%E6%9C%AC%EF%BC%88file%20batch%20convert%20char%20set%20%EF%BC%892018-08-19/</loc>
-    <lastmod>2019-03-21T01:17:12.448Z</lastmod>
+    <loc>https://seachal.github.io/Mac/2019/03/25/Mac/%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E9%9B%86%E8%BD%AC%E6%8D%A2%E4%B8%BAUTF-i%E8%84%9A%E6%9C%AC%EF%BC%88file%20batch%20convert%20char%20set%20%EF%BC%892018-08-19/</loc>
+    <lastmod>2019-03-25T08:50:38.531Z</lastmod>
     <data>
         <display>
         <title>批量文件字符集转换为UTF-i脚本（file batch convert char set ）2018-08-19</title>
-        <pubTime>2019-03-21T01:17:12.448Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.530Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Mac" url="https://seachal.github.io/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://seachal.github.io/Mac/2019/03/25/Mac/Mac%E5%92%8CLinux%E8%BF%94%E5%9B%9E%E4%B8%8A%E4%B8%80%E7%BA%A7%E7%9A%84%E5%91%BD%E4%BB%A4_2018-01-11/</loc>
+    <lastmod>2019-03-25T08:50:38.529Z</lastmod>
+    <data>
+        <display>
+        <title>Mac和Linux返回上一级的命令_2018-01-11</title>
+        <pubTime>2019-03-25T08:50:38.529Z</pubTime>
         
          
            
@@ -315,7 +369,7 @@
     
   <url>
     <loc>https://seachal.github.io/Mac/2018/01/12/Mac/2018-01-11/</loc>
-    <lastmod>2019-03-21T01:17:12.422Z</lastmod>
+    <lastmod>2019-03-25T08:50:38.503Z</lastmod>
     <data>
         <display>
         <title>Mac和Linux返回上一级的命令是什么</title>
@@ -338,12 +392,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/uncategorized/2019/03/21/Json%E8%A7%A3%E6%9E%902019-01-21/</loc>
-    <lastmod>2019-03-21T01:17:12.396Z</lastmod>
+    <loc>https://seachal.github.io/uncategorized/2019/03/25/Json%E8%A7%A3%E6%9E%902019-01-21/</loc>
+    <lastmod>2019-03-25T08:50:38.477Z</lastmod>
     <data>
         <display>
         <title>Json解析2019-01-21</title>
-        <pubTime>2019-03-21T01:17:12.396Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.476Z</pubTime>
         
          
            
@@ -353,12 +407,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Java/images/2019/03/21/Java/images/Java2019-02-01/</loc>
-    <lastmod>2019-03-21T01:17:12.370Z</lastmod>
+    <loc>https://seachal.github.io/Java/images/2019/03/25/Java/images/Java2019-02-01/</loc>
+    <lastmod>2019-03-25T08:50:38.451Z</lastmod>
     <data>
         <display>
         <title>Java2019-02-01</title>
-        <pubTime>2019-03-21T01:17:12.369Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.449Z</pubTime>
         
          
            
@@ -374,12 +428,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Java/2019/03/21/Java/Mac%20OS%20%E4%B8%8B%E7%9A%84Java%E7%8E%AF%E5%A2%83-2019-03-06/</loc>
-    <lastmod>2019-03-21T01:17:12.340Z</lastmod>
+    <loc>https://seachal.github.io/Java/2019/03/25/Java/Mac%20OS%20%E4%B8%8B%E7%9A%84Java%E7%8E%AF%E5%A2%83-2019-03-06/</loc>
+    <lastmod>2019-03-25T08:50:38.423Z</lastmod>
     <data>
         <display>
         <title>Mac OS 下的Java环境-2019-03-06</title>
-        <pubTime>2019-03-21T01:17:12.339Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.423Z</pubTime>
         
          
            
@@ -392,12 +446,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Java/2019/03/21/Java/Java%E4%B8%AD%E5%AD%97%E7%AC%A6%E4%B8%B2split()%20%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95_2019-03-13/</loc>
-    <lastmod>2019-03-21T01:17:12.313Z</lastmod>
+    <loc>https://seachal.github.io/Java/2019/03/25/Java/Java%E4%B8%AD%E5%AD%97%E7%AC%A6%E4%B8%B2split()%20%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95_2019-03-13/</loc>
+    <lastmod>2019-03-25T08:50:38.396Z</lastmod>
     <data>
         <display>
         <title>Java中字符串split() 的使用方法_2019-03-13</title>
-        <pubTime>2019-03-21T01:17:12.313Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.396Z</pubTime>
         
          
            
@@ -410,12 +464,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Java/2019/03/21/Java/2018-06-21/</loc>
-    <lastmod>2019-03-21T01:17:12.287Z</lastmod>
+    <loc>https://seachal.github.io/Java/2019/03/25/Java/2018-06-21/</loc>
+    <lastmod>2019-03-25T08:50:38.370Z</lastmod>
     <data>
         <display>
         <title>Thu Jun 21 2018 00:00:00 GMT+0800 (中国标准时间)</title>
-        <pubTime>2019-03-21T01:17:12.287Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.369Z</pubTime>
         
          
            
@@ -428,12 +482,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Java/2019/03/21/Java/2018-03-12/</loc>
-    <lastmod>2019-03-21T01:17:12.261Z</lastmod>
+    <loc>https://seachal.github.io/Java/2019/03/25/Java/2018-03-12/</loc>
+    <lastmod>2019-03-25T08:50:38.344Z</lastmod>
     <data>
         <display>
         <title>Mon Mar 12 2018 00:00:00 GMT+0800 (中国标准时间)</title>
-        <pubTime>2019-03-21T01:17:12.261Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.344Z</pubTime>
         
          
            
@@ -446,12 +500,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/uncategorized/2019/03/21/IOS%E5%BC%80%E5%8F%912019-02-12/</loc>
-    <lastmod>2019-03-21T01:17:12.234Z</lastmod>
+    <loc>https://seachal.github.io/uncategorized/2019/03/25/IOS%E5%BC%80%E5%8F%912019-02-12/</loc>
+    <lastmod>2019-03-25T08:50:38.317Z</lastmod>
     <data>
         <display>
         <title>IOS开发2019-02-12</title>
-        <pubTime>2019-03-21T01:17:12.234Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.317Z</pubTime>
         
          
            
@@ -461,12 +515,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/BlogBuild/2019/03/21/BlogBuild/%E5%B8%B8%E7%94%A8%E5%8D%9A%E5%AE%A2Metaweblog%20Api%E5%9C%B0%E5%9D%80/</loc>
-    <lastmod>2019-03-21T01:17:12.207Z</lastmod>
+    <loc>https://seachal.github.io/BlogBuild/2019/03/25/BlogBuild/%E5%B8%B8%E7%94%A8%E5%8D%9A%E5%AE%A2Metaweblog%20Api%E5%9C%B0%E5%9D%80/</loc>
+    <lastmod>2019-03-25T08:50:38.291Z</lastmod>
     <data>
         <display>
         <title>常用博客Metaweblog Api地址</title>
-        <pubTime>2019-03-21T01:17:12.207Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.290Z</pubTime>
         
          
            
@@ -479,12 +533,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/BlogBuild/2019/03/21/BlogBuild/MarkDown%E6%B3%A8%E9%87%8A%EF%BC%8C%E9%9A%90%E8%97%8F%E6%96%87%E5%AD%97_2018-02-09/</loc>
-    <lastmod>2019-03-21T01:17:12.180Z</lastmod>
+    <loc>https://seachal.github.io/BlogBuild/2019/03/25/BlogBuild/MarkDown%E6%B3%A8%E9%87%8A%EF%BC%8C%E9%9A%90%E8%97%8F%E6%96%87%E5%AD%97_2018-02-09/</loc>
+    <lastmod>2019-03-25T08:50:38.264Z</lastmod>
     <data>
         <display>
         <title>MarkDown注释，隐藏文字_2018-02-09</title>
-        <pubTime>2019-03-21T01:17:12.180Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.263Z</pubTime>
         
          
            
@@ -497,12 +551,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/2019/03/21/Android/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/android%20%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F-leakcanary-2019-03-01/</loc>
-    <lastmod>2019-03-21T01:17:12.048Z</lastmod>
+    <loc>https://seachal.github.io/Android/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/2019/03/25/Android/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/android%20%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F-leakcanary-2019-03-01/</loc>
+    <lastmod>2019-03-25T08:50:38.133Z</lastmod>
     <data>
         <display>
         <title>android 内存泄漏-leakcanary-2019-03-01</title>
-        <pubTime>2019-03-21T01:17:12.047Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.133Z</pubTime>
         
          
            
@@ -518,12 +572,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/%E5%9C%A8%E9%9D%9EActivity%E4%B8%AD%E4%BD%BF%E7%94%A8startActivity-2019-03-04/</loc>
-    <lastmod>2019-03-21T01:17:12.022Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/%E5%9C%A8%E9%9D%9EActivity%E4%B8%AD%E4%BD%BF%E7%94%A8startActivity-2019-03-04/</loc>
+    <lastmod>2019-03-25T08:50:38.108Z</lastmod>
     <data>
         <display>
         <title>在非Activity中使用startActivity-2019-03-04</title>
-        <pubTime>2019-03-21T01:17:12.022Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.107Z</pubTime>
         
          
            
@@ -536,12 +590,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/%E5%9C%A8%E8%BF%90%E8%A1%8C%E6%97%B6%E8%AF%B7%E6%B1%82%E6%9D%83%E9%99%90-2019-01-15/</loc>
-    <lastmod>2019-03-21T01:17:11.996Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/%E5%9C%A8%E8%BF%90%E8%A1%8C%E6%97%B6%E8%AF%B7%E6%B1%82%E6%9D%83%E9%99%90-2019-01-15/</loc>
+    <lastmod>2019-03-25T08:50:38.081Z</lastmod>
     <data>
         <display>
         <title>在运行时请求权限-2019-01-15</title>
-        <pubTime>2019-03-21T01:17:11.995Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.080Z</pubTime>
         
          
            
@@ -554,12 +608,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/%E5%8C%BA%E5%9F%9F%E3%80%81%E7%9C%81%E5%B8%82%E5%8E%BF%E3%80%81%E5%9C%B0%E5%8C%BA%E9%80%89%E6%8B%A9-2019-01-26/</loc>
-    <lastmod>2019-03-21T01:17:11.969Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/%E5%8C%BA%E5%9F%9F%E3%80%81%E7%9C%81%E5%B8%82%E5%8E%BF%E3%80%81%E5%9C%B0%E5%8C%BA%E9%80%89%E6%8B%A9-2019-01-26/</loc>
+    <lastmod>2019-03-25T08:50:38.053Z</lastmod>
     <data>
         <display>
         <title>区域、省市县、地区选择-2019-01-26</title>
-        <pubTime>2019-03-21T01:17:11.969Z</pubTime>
+        <pubTime>2019-03-25T08:50:38.052Z</pubTime>
         
          
            
@@ -573,7 +627,7 @@
     
   <url>
     <loc>https://seachal.github.io/Android/2017/12/28/Android/%E5%8A%A8%E6%80%81%E4%B8%BATextView%E6%8E%A7%E4%BB%B6%E8%AE%BE%E7%BD%AEdrawableLeft%E5%9B%BE%E6%A0%87,%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%97%B4%E8%B7%9D/</loc>
-    <lastmod>2019-03-21T01:17:11.943Z</lastmod>
+    <lastmod>2019-03-25T08:50:38.020Z</lastmod>
     <data>
         <display>
         <title>动态为TextView控件设置drawableLeft图标,并设置间距</title>
@@ -596,12 +650,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91%E4%B8%AD%E4%BA%8B%E4%BB%B6%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95requestDisallowInterceptTouchEvent-2019-01-03/</loc>
-    <lastmod>2019-03-21T01:17:11.916Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91%E4%B8%AD%E4%BA%8B%E4%BB%B6%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95requestDisallowInterceptTouchEvent-2019-01-03/</loc>
+    <lastmod>2019-03-25T08:50:37.994Z</lastmod>
     <data>
         <display>
         <title>事件分发中事件冲突解决方法requestDisallowInterceptTouchEvent-2019-01-03</title>
-        <pubTime>2019-03-21T01:17:11.915Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.993Z</pubTime>
         
          
            
@@ -614,12 +668,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/Tools/2019/03/21/Android/Tools/Android%20UI%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7uiautomatorviewer%20%202019-03-06/</loc>
-    <lastmod>2019-03-21T01:17:11.890Z</lastmod>
+    <loc>https://seachal.github.io/Android/tools/2019/03/25/Android/tools/Android%20UI%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7uiautomatorviewer%20%202019-03-06/</loc>
+    <lastmod>2019-03-25T08:50:37.967Z</lastmod>
     <data>
         <display>
         <title>Android UI分析工具uiautomatorviewer  2019-03-06</title>
-        <pubTime>2019-03-21T01:17:11.889Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.967Z</pubTime>
         
          
            
@@ -627,7 +681,7 @@
               <breadCrumb title="Android" url="https://seachal.github.io/categories/Android/"/>
           
              
-              <breadCrumb title="Tools" url="https://seachal.github.io/categories/Android/Tools/"/>
+              <breadCrumb title="tools" url="https://seachal.github.io/categories/Android/tools/"/>
           
         </display>
     </data>
@@ -635,12 +689,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/Tools/2019/03/21/Android/Tools/Android%20Studio%20IDEA%E4%B8%AD%E6%9F%A5%E7%9C%8B%E6%96%B9%E6%B3%95%E8%A2%AB%E8%B0%83%E7%94%A8%E9%93%BE2019-03-19/</loc>
-    <lastmod>2019-03-21T01:17:11.853Z</lastmod>
+    <loc>https://seachal.github.io/Android/tools/2019/03/25/Android/tools/Android%20Studio%20IDEA%E4%B8%AD%E6%9F%A5%E7%9C%8B%E6%96%B9%E6%B3%95%E8%A2%AB%E8%B0%83%E7%94%A8%E9%93%BE2019-03-19/</loc>
+    <lastmod>2019-03-25T08:50:37.941Z</lastmod>
     <data>
         <display>
         <title>Android Studio IDEA中查看方法被调用链2019-03-19</title>
-        <pubTime>2019-03-21T01:17:11.853Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.941Z</pubTime>
         
          
            
@@ -648,7 +702,7 @@
               <breadCrumb title="Android" url="https://seachal.github.io/categories/Android/"/>
           
              
-              <breadCrumb title="Tools" url="https://seachal.github.io/categories/Android/Tools/"/>
+              <breadCrumb title="tools" url="https://seachal.github.io/categories/Android/tools/"/>
           
         </display>
     </data>
@@ -657,7 +711,7 @@
     
   <url>
     <loc>https://seachal.github.io/Android/2017/07/23/Android/app%E7%9B%AE%E5%BD%95%E4%B8%8B%E7%9A%84build.gradle%E8%AF%A6%E8%A7%A3/</loc>
-    <lastmod>2019-03-21T01:17:11.827Z</lastmod>
+    <lastmod>2019-03-25T08:50:37.915Z</lastmod>
     <data>
         <display>
         <title>app目录下的build.gradle详解</title>
@@ -682,12 +736,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/android%20view2019-02-20/</loc>
-    <lastmod>2019-03-21T01:17:11.801Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/android%20view2019-02-20/</loc>
+    <lastmod>2019-03-25T08:50:37.890Z</lastmod>
     <data>
         <display>
         <title>android view2019-02-20</title>
-        <pubTime>2019-03-21T01:17:11.801Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.889Z</pubTime>
         
          
            
@@ -700,12 +754,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/android%20studio%E4%BF%AE%E6%94%B9%E9%A1%B9%E7%9B%AE%E5%90%8D-2018-03-21/</loc>
-    <lastmod>2019-03-21T01:17:11.773Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/android%20studio%E4%BF%AE%E6%94%B9%E9%A1%B9%E7%9B%AE%E5%90%8D-2018-03-21/</loc>
+    <lastmod>2019-03-25T08:50:37.863Z</lastmod>
     <data>
         <display>
         <title>android studio修改项目名-2018-03-21</title>
-        <pubTime>2019-03-21T01:17:11.773Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.863Z</pubTime>
         
          
            
@@ -718,12 +772,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/addTextChangedListener%E7%9A%84%E4%B8%89%E4%B8%AA%E6%96%B9%E6%B3%952019-02-13/</loc>
-    <lastmod>2019-03-21T01:17:11.747Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/addTextChangedListener%E7%9A%84%E4%B8%89%E4%B8%AA%E6%96%B9%E6%B3%952019-02-13/</loc>
+    <lastmod>2019-03-25T08:50:37.837Z</lastmod>
     <data>
         <display>
         <title>addTextChangedListener的三个方法2019-02-13</title>
-        <pubTime>2019-03-21T01:17:11.747Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.837Z</pubTime>
         
          
            
@@ -736,12 +790,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/adb%E5%91%BD%E4%BB%A42019-01-03/</loc>
-    <lastmod>2019-03-21T01:17:11.721Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/adb%E5%91%BD%E4%BB%A42019-01-03/</loc>
+    <lastmod>2019-03-25T08:50:37.811Z</lastmod>
     <data>
         <display>
         <title>adb命令2019-01-03</title>
-        <pubTime>2019-03-21T01:17:11.720Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.810Z</pubTime>
         
          
            
@@ -754,12 +808,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/TextInputLayout-2019-01-15/</loc>
-    <lastmod>2019-03-21T01:17:11.694Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/TextInputLayout-2019-01-15/</loc>
+    <lastmod>2019-03-25T08:50:37.784Z</lastmod>
     <data>
         <display>
         <title>TextInputLayout-2019-01-15</title>
-        <pubTime>2019-03-21T01:17:11.694Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.784Z</pubTime>
         
          
            
@@ -772,12 +826,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/RxJava%E7%9B%B8%E5%85%B3%E5%8D%9A%E6%96%872019-02-14/</loc>
-    <lastmod>2019-03-21T01:17:11.668Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/RxJava%E7%9B%B8%E5%85%B3%E5%8D%9A%E6%96%872019-02-14/</loc>
+    <lastmod>2019-03-25T08:50:37.758Z</lastmod>
     <data>
         <display>
         <title>RxJava相关博文2019-02-14</title>
-        <pubTime>2019-03-21T01:17:11.667Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.758Z</pubTime>
         
          
            
@@ -790,12 +844,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/RxJava%E7%9A%84%E6%93%8D%E4%BD%9C%E7%AC%A6%E5%92%8CRetrofit%E5%AE%9E%E7%8E%B0token%E8%BF%87%E6%9C%9F%E8%87%AA%E5%8A%A8%E5%88%B7%E6%96%B0(%E6%9B%B4%E6%96%B0)2019-01-25/</loc>
-    <lastmod>2019-03-21T01:17:11.640Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/RxJava%E7%9A%84%E6%93%8D%E4%BD%9C%E7%AC%A6%E5%92%8CRetrofit%E5%AE%9E%E7%8E%B0token%E8%BF%87%E6%9C%9F%E8%87%AA%E5%8A%A8%E5%88%B7%E6%96%B0(%E6%9B%B4%E6%96%B0)2019-01-25/</loc>
+    <lastmod>2019-03-25T08:50:37.731Z</lastmod>
     <data>
         <display>
         <title>RxJava的操作符和Retrofit实现token过期自动刷新(更新)2019-01-25</title>
-        <pubTime>2019-03-21T01:17:11.639Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.731Z</pubTime>
         
          
            
@@ -808,12 +862,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/RxJava1%E5%92%8CRxJava2%E7%9A%84%E5%8F%98%E5%8C%96-2019-01-25/</loc>
-    <lastmod>2019-03-21T01:17:11.613Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/RxJava1%E5%92%8CRxJava2%E7%9A%84%E5%8F%98%E5%8C%96-2019-01-25/</loc>
+    <lastmod>2019-03-25T08:50:37.705Z</lastmod>
     <data>
         <display>
         <title>RxJava1和RxJava2的变化-2019-01-25</title>
-        <pubTime>2019-03-21T01:17:11.613Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.705Z</pubTime>
         
          
            
@@ -826,12 +880,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/RxJava-2019-01-24/</loc>
-    <lastmod>2019-03-21T01:17:11.587Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/RxJava-2019-01-24/</loc>
+    <lastmod>2019-03-25T08:50:37.679Z</lastmod>
     <data>
         <display>
         <title>RxJava-2019-01-24</title>
-        <pubTime>2019-03-21T01:17:11.587Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.678Z</pubTime>
         
          
            
@@ -844,12 +898,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/RxJava%20-2019-02-11/</loc>
-    <lastmod>2019-03-21T01:17:11.561Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/RxJava%20-2019-02-11/</loc>
+    <lastmod>2019-03-25T08:50:37.652Z</lastmod>
     <data>
         <display>
         <title>RxJava -2019-02-11</title>
-        <pubTime>2019-03-21T01:17:11.561Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.652Z</pubTime>
         
          
            
@@ -862,12 +916,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/Retrofit%E7%BB%9F%E4%B8%80%E5%BC%82%E5%B8%B8%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86-2019-01-25/</loc>
-    <lastmod>2019-03-21T01:17:11.535Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/Retrofit%E7%BB%9F%E4%B8%80%E5%BC%82%E5%B8%B8%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86-2019-01-25/</loc>
+    <lastmod>2019-03-25T08:50:37.627Z</lastmod>
     <data>
         <display>
         <title>Retrofit统一异常错误处理-2019-01-25</title>
-        <pubTime>2019-03-21T01:17:11.535Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.626Z</pubTime>
         
          
            
@@ -881,7 +935,7 @@
     
   <url>
     <loc>https://seachal.github.io/Android/2018/01/23/Android/RelativeLayout%E3%80%81Framelayout%20%E4%B8%A4%E5%B8%83%E5%B1%80%E9%87%8D%E5%8F%A0,%E4%BD%BF%E4%B8%8B%E5%B1%82%E4%B8%8D%E5%93%8D%E5%BA%94%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6/</loc>
-    <lastmod>2019-03-21T01:17:11.509Z</lastmod>
+    <lastmod>2019-03-25T08:50:37.600Z</lastmod>
     <data>
         <display>
         <title>RelativeLayout、Framelayout 两布局重叠,使下层不响应点击事件</title>
@@ -904,12 +958,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/Mac%20%E4%B8%8B%20Android%20%E5%8F%8D%E7%BC%96%E8%AF%91-2018-12-30/</loc>
-    <lastmod>2019-03-21T01:17:11.482Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/Mac%20%E4%B8%8B%20Android%20%E5%8F%8D%E7%BC%96%E8%AF%91-2018-12-30/</loc>
+    <lastmod>2019-03-25T08:50:37.573Z</lastmod>
     <data>
         <display>
         <title>Mac 下 Android 反编译-2018-12-30</title>
-        <pubTime>2019-03-21T01:17:11.481Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.573Z</pubTime>
         
          
            
@@ -922,12 +976,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/Github-Library/2019/03/21/Android/Github%20Library/%E5%9B%BE%E8%A1%A8%E5%BC%80%E6%BA%90%E5%BA%93MPAndroidChart/</loc>
-    <lastmod>2019-03-21T01:17:11.456Z</lastmod>
+    <loc>https://seachal.github.io/Android/Library-SDK/2019/03/25/Android/Library&SDK/%E5%9B%BE%E8%A1%A8%E5%BC%80%E6%BA%90%E5%BA%93MPAndroidChart/</loc>
+    <lastmod>2019-03-25T08:50:37.547Z</lastmod>
     <data>
         <display>
         <title>图表开源库MPAndroidChart</title>
-        <pubTime>2019-03-21T01:17:11.455Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.546Z</pubTime>
         
          
            
@@ -935,7 +989,7 @@
               <breadCrumb title="Android" url="https://seachal.github.io/categories/Android/"/>
           
              
-              <breadCrumb title="Github Library" url="https://seachal.github.io/categories/Android/Github-Library/"/>
+              <breadCrumb title="Library&amp;SDK" url="https://seachal.github.io/categories/Android/Library-SDK/"/>
           
         </display>
     </data>
@@ -943,12 +997,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/Github-Library/2019/03/21/Android/Github%20Library/pictureSelector/</loc>
-    <lastmod>2019-03-21T01:17:11.430Z</lastmod>
+    <loc>https://seachal.github.io/Android/Library-SDK/2019/03/25/Android/Library&SDK/pictureSelector/</loc>
+    <lastmod>2019-03-25T08:50:37.521Z</lastmod>
     <data>
         <display>
         <title>pictureSelector</title>
-        <pubTime>2019-03-21T01:17:11.430Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.520Z</pubTime>
         
          
            
@@ -956,7 +1010,7 @@
               <breadCrumb title="Android" url="https://seachal.github.io/categories/Android/"/>
           
              
-              <breadCrumb title="Github Library" url="https://seachal.github.io/categories/Android/Github-Library/"/>
+              <breadCrumb title="Library&amp;SDK" url="https://seachal.github.io/categories/Android/Library-SDK/"/>
           
         </display>
     </data>
@@ -964,12 +1018,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/Github-Library/2019/03/21/Android/Github%20Library/EasyPermission%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-2019-02-28/</loc>
-    <lastmod>2019-03-21T01:17:11.403Z</lastmod>
+    <loc>https://seachal.github.io/Android/Library-SDK/2019/03/25/Android/Library&SDK/EasyPermission%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-2019-02-28/</loc>
+    <lastmod>2019-03-25T08:50:37.495Z</lastmod>
     <data>
         <display>
         <title>EasyPermission 源码分析-2019-02-28</title>
-        <pubTime>2019-03-21T01:17:11.403Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.494Z</pubTime>
         
          
            
@@ -977,7 +1031,7 @@
               <breadCrumb title="Android" url="https://seachal.github.io/categories/Android/"/>
           
              
-              <breadCrumb title="Github Library" url="https://seachal.github.io/categories/Android/Github-Library/"/>
+              <breadCrumb title="Library&amp;SDK" url="https://seachal.github.io/categories/Android/Library-SDK/"/>
           
         </display>
     </data>
@@ -985,12 +1039,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/Github-Library/2019/03/21/Android/Github%20Library/BGAQRCode/</loc>
-    <lastmod>2019-03-21T01:17:11.377Z</lastmod>
+    <loc>https://seachal.github.io/Android/Library-SDK/2019/03/25/Android/Library&SDK/BGAQRCode/</loc>
+    <lastmod>2019-03-25T08:50:37.468Z</lastmod>
     <data>
         <display>
         <title>BGAQRCode</title>
-        <pubTime>2019-03-21T01:17:11.377Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.468Z</pubTime>
         
          
            
@@ -998,7 +1052,7 @@
               <breadCrumb title="Android" url="https://seachal.github.io/categories/Android/"/>
           
              
-              <breadCrumb title="Github Library" url="https://seachal.github.io/categories/Android/Github-Library/"/>
+              <breadCrumb title="Library&amp;SDK" url="https://seachal.github.io/categories/Android/Library-SDK/"/>
           
         </display>
     </data>
@@ -1006,12 +1060,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/Github-Library/2019/03/21/Android/Github%20Library/2018-05-28/</loc>
-    <lastmod>2019-03-21T01:17:11.350Z</lastmod>
+    <loc>https://seachal.github.io/Android/Library-SDK/2019/03/25/Android/Library&SDK/2018-05-28/</loc>
+    <lastmod>2019-03-25T08:50:37.442Z</lastmod>
     <data>
         <display>
         <title>Mon May 28 2018 00:00:00 GMT+0800 (中国标准时间)</title>
-        <pubTime>2019-03-21T01:17:11.350Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.442Z</pubTime>
         
          
            
@@ -1019,7 +1073,7 @@
               <breadCrumb title="Android" url="https://seachal.github.io/categories/Android/"/>
           
              
-              <breadCrumb title="Github Library" url="https://seachal.github.io/categories/Android/Github-Library/"/>
+              <breadCrumb title="Library&amp;SDK" url="https://seachal.github.io/categories/Android/Library-SDK/"/>
           
         </display>
     </data>
@@ -1028,7 +1082,7 @@
     
   <url>
     <loc>https://seachal.github.io/Android/2017/12/28/Android/Android%E8%AE%BE%E7%BD%AETextView%E6%96%87%E6%98%BE%E7%A4%BA%E5%9B%BA%E5%AE%9A%E5%AD%97%E6%95%B0%20%E7%9C%81%E7%95%A5%E5%8F%B7%E8%A1%A8%E7%A4%BA%E5%A4%9A%E4%BD%99%E9%83%A8%E5%88%86/</loc>
-    <lastmod>2019-03-21T01:17:11.324Z</lastmod>
+    <lastmod>2019-03-25T08:50:37.415Z</lastmod>
     <data>
         <display>
         <title>Android设置TextView文显示固定字数 省略号表示多余部分</title>
@@ -1049,12 +1103,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%862019-02-12/</loc>
-    <lastmod>2019-03-21T01:17:11.298Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%862019-02-12/</loc>
+    <lastmod>2019-03-25T08:50:37.389Z</lastmod>
     <data>
         <display>
         <title>Android基础知识2019-02-12</title>
-        <pubTime>2019-03-21T01:17:11.297Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.388Z</pubTime>
         
          
            
@@ -1067,12 +1121,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/Android%E4%B8%AD%20dpi%EF%BC%8C%E5%88%86%E8%BE%A8%E7%8E%87%EF%BC%8C%E5%B1%8F%E5%B9%95%E5%B0%BA%E5%AF%B8%EF%BC%8Cdp%EF%BC%8Cpx%EF%BC%8Cdip-2019-02-18/</loc>
-    <lastmod>2019-03-21T01:17:11.271Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/Android%E4%B8%AD%20dpi%EF%BC%8C%E5%88%86%E8%BE%A8%E7%8E%87%EF%BC%8C%E5%B1%8F%E5%B9%95%E5%B0%BA%E5%AF%B8%EF%BC%8Cdp%EF%BC%8Cpx%EF%BC%8Cdip-2019-02-18/</loc>
+    <lastmod>2019-03-25T08:50:37.363Z</lastmod>
     <data>
         <display>
         <title>Android中 dpi，分辨率，屏幕尺寸，dp，px，dip-2019-02-18</title>
-        <pubTime>2019-03-21T01:17:11.271Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.362Z</pubTime>
         
          
            
@@ -1085,12 +1139,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/AndroidStudio%E5%88%A0%E9%99%A4%E6%9C%AA%E4%BD%BF%E7%94%A8%E7%9A%84%E7%B1%BB(Class)%E5%92%8C%E8%B5%84%E6%BA%90(Resource)%202019-01-04/</loc>
-    <lastmod>2019-03-21T01:17:11.245Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/AndroidStudio%E5%88%A0%E9%99%A4%E6%9C%AA%E4%BD%BF%E7%94%A8%E7%9A%84%E7%B1%BB(Class)%E5%92%8C%E8%B5%84%E6%BA%90(Resource)%202019-01-04/</loc>
+    <lastmod>2019-03-25T08:50:37.337Z</lastmod>
     <data>
         <display>
         <title>AndroidStudio删除未使用的类(Class)和资源(Resource) 2019-01-04</title>
-        <pubTime>2019-03-21T01:17:11.245Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.336Z</pubTime>
         
          
            
@@ -1103,12 +1157,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/Android-%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/2019/03/21/Android/Android%20%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/ListView%20RecyclerView%E6%98%BE%E7%A4%BA%E6%B7%B7%E4%B9%B1%E9%97%AE%E9%A2%98_2019-03-19/</loc>
-    <lastmod>2019-03-21T01:17:11.219Z</lastmod>
+    <loc>https://seachal.github.io/Android/Android-%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/2019/03/25/Android/Android%20%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/ListView%20RecyclerView%E6%98%BE%E7%A4%BA%E6%B7%B7%E4%B9%B1%E9%97%AE%E9%A2%98_2019-03-19/</loc>
+    <lastmod>2019-03-25T08:50:37.311Z</lastmod>
     <data>
         <display>
         <title>ListView RecyclerView显示混乱问题_2019-03-19</title>
-        <pubTime>2019-03-21T01:17:11.219Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.310Z</pubTime>
         
          
            
@@ -1124,12 +1178,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/Android-%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/2019/03/21/Android/Android%20%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/Android%20%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88_2019-03-18/</loc>
-    <lastmod>2019-03-21T01:17:11.193Z</lastmod>
+    <loc>https://seachal.github.io/Android/Android-%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/2019/03/25/Android/Android%20%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/Android%20%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88_2019-03-18/</loc>
+    <lastmod>2019-03-25T08:50:37.285Z</lastmod>
     <data>
         <display>
         <title>Android 报错解决方案_2019-03-18</title>
-        <pubTime>2019-03-21T01:17:11.192Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.284Z</pubTime>
         
          
            
@@ -1145,12 +1199,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/Android-View/2019/03/21/Android/Android%20View/Android%20RelativeLayout%20%E5%92%8C%20ConstraintLayout2019-03-18/</loc>
-    <lastmod>2019-03-21T01:17:11.166Z</lastmod>
+    <loc>https://seachal.github.io/Android/Android-View/2019/03/25/Android/Android%20View/Android%20RelativeLayout%20%E5%92%8C%20ConstraintLayout2019-03-18/</loc>
+    <lastmod>2019-03-25T08:50:37.258Z</lastmod>
     <data>
         <display>
         <title>Android RelativeLayout 和 ConstraintLayout2019-03-18</title>
-        <pubTime>2019-03-21T01:17:11.165Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.258Z</pubTime>
         
          
            
@@ -1166,12 +1220,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/Android%20View%20%E5%88%86%E6%9E%902019-02-20/</loc>
-    <lastmod>2019-03-21T01:17:11.140Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/Android%20View%20%E5%88%86%E6%9E%902019-02-20/</loc>
+    <lastmod>2019-03-25T08:50:37.224Z</lastmod>
     <data>
         <display>
         <title>Android View 分析2019-02-20</title>
-        <pubTime>2019-03-21T01:17:11.139Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.224Z</pubTime>
         
          
            
@@ -1185,7 +1239,7 @@
     
   <url>
     <loc>https://seachal.github.io/Android/2017/12/23/Android/Android%20Studio%E5%BF%AB%E6%8D%B7%E9%94%AE_Mac%E5%92%8CWindos%E5%92%8CLinux/</loc>
-    <lastmod>2019-03-21T01:17:11.113Z</lastmod>
+    <lastmod>2019-03-25T08:50:37.197Z</lastmod>
     <data>
         <display>
         <title>Android Studio快捷键_Mac和Windos和Linux</title>
@@ -1209,7 +1263,7 @@
     
   <url>
     <loc>https://seachal.github.io/Android/2018/02/06/Android/Android%20Studio%203%E4%B8%AD%E8%A7%A3%E5%86%B3butterknife:7%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2019-03-21T01:17:11.087Z</lastmod>
+    <lastmod>2019-03-25T08:50:37.171Z</lastmod>
     <data>
         <display>
         <title>Android Studio 3中解决butterknife:7报错的问题</title>
@@ -1235,7 +1289,7 @@
     
   <url>
     <loc>https://seachal.github.io/Android/2018/02/06/Android/Android%20Studio%203%E4%B8%AD%E8%A7%A3%E5%86%B3androidannotations%E6%8A%A5%E9%94%99/</loc>
-    <lastmod>2019-03-21T01:17:11.061Z</lastmod>
+    <lastmod>2019-03-25T08:50:37.146Z</lastmod>
     <data>
         <display>
         <title>Android Studio 3中解决androidannotations报错</title>
@@ -1261,7 +1315,7 @@
     
   <url>
     <loc>https://seachal.github.io/Android/2018/02/06/Android/Android%20Studio%203.0%E4%B8%AD%E8%A7%A3%E5%86%B3apt%E6%8A%A5%E9%94%99%EF%BC%8Candroid-apt%E5%88%87%E6%8D%A2%E4%B8%BA%E5%AE%98%E6%96%B9annotationProcessor%20/</loc>
-    <lastmod>2019-03-21T01:17:11.034Z</lastmod>
+    <lastmod>2019-03-25T08:50:37.119Z</lastmod>
     <data>
         <display>
         <title>Android Studio 3.0中解决apt报错，android-apt切换为官方annotationProcessor</title>
@@ -1286,12 +1340,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/Android%20Profiler%E5%88%86%E4%B8%BA%E4%B8%89%E5%A4%A7%E6%A8%A1%E5%9D%97%EF%BC%9A%20cpu%E3%80%81%E5%86%85%E5%AD%98%20%E3%80%81%E7%BD%91%E7%BB%9C%E3%80%82%E5%9F%BA%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%A8%E4%B8%8A%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%9C%89%E8%AE%B2%E5%88%B0%E3%80%82%E8%BF%99%E9%87%8C%E8%AF%A6%E7%BB%86%E8%AF%B4%E4%B8%80%E4%B8%8B-2018-02-28/</loc>
-    <lastmod>2019-03-21T01:17:11.007Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/Android%20Profiler%E5%88%86%E4%B8%BA%E4%B8%89%E5%A4%A7%E6%A8%A1%E5%9D%97%EF%BC%9A%20cpu%E3%80%81%E5%86%85%E5%AD%98%20%E3%80%81%E7%BD%91%E7%BB%9C%E3%80%82%E5%9F%BA%E6%9C%AC%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%A8%E4%B8%8A%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%9C%89%E8%AE%B2%E5%88%B0%E3%80%82%E8%BF%99%E9%87%8C%E8%AF%A6%E7%BB%86%E8%AF%B4%E4%B8%80%E4%B8%8B-2018-02-28/</loc>
+    <lastmod>2019-03-25T08:50:37.092Z</lastmod>
     <data>
         <display>
         <title>Android Profiler分为三大模块： cpu、内存 、网络。基本的使用在上一篇文章有讲到。这里详细说一下-2018-02-28</title>
-        <pubTime>2019-03-21T01:17:11.006Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.091Z</pubTime>
         
          
            
@@ -1304,12 +1358,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/Android%20Error%202019-02-13/</loc>
-    <lastmod>2019-03-21T01:17:10.981Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/Android%20Error%202019-02-13/</loc>
+    <lastmod>2019-03-25T08:50:37.053Z</lastmod>
     <data>
         <display>
         <title>Android Error 2019-02-13</title>
-        <pubTime>2019-03-21T01:17:10.980Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.052Z</pubTime>
         
          
            
@@ -1322,12 +1376,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/2018-04-18-%E9%9A%90%E8%97%8F%E6%A0%87%E9%A2%98%E6%A0%8F%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2019-03-21T01:17:10.954Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/2018-04-18-%E9%9A%90%E8%97%8F%E6%A0%87%E9%A2%98%E6%A0%8F%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2019-03-25T08:50:37.027Z</lastmod>
     <data>
         <display>
         <title>2018-04-18-隐藏标题栏的问题</title>
-        <pubTime>2019-03-21T01:17:10.954Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.027Z</pubTime>
         
          
            
@@ -1340,12 +1394,12 @@
 
     
   <url>
-    <loc>https://seachal.github.io/Android/2019/03/21/Android/2018-04-18-1_Unable%20to%20merge%20dex/</loc>
-    <lastmod>2019-03-21T01:17:10.928Z</lastmod>
+    <loc>https://seachal.github.io/Android/2019/03/25/Android/2018-04-18-1_Unable%20to%20merge%20dex/</loc>
+    <lastmod>2019-03-25T08:50:37.000Z</lastmod>
     <data>
         <display>
         <title>2018-04-18-1_Unable to merge dex</title>
-        <pubTime>2019-03-21T01:17:10.928Z</pubTime>
+        <pubTime>2019-03-25T08:50:37.000Z</pubTime>
         
          
            
@@ -1359,7 +1413,7 @@
     
   <url>
     <loc>https://seachal.github.io/Android/2018/01/10/2018-01-10/</loc>
-    <lastmod>2019-03-21T01:17:10.902Z</lastmod>
+    <lastmod>2019-03-25T08:50:36.974Z</lastmod>
     <data>
         <display>
         <title>Android ListView的Item会出现点击两次的问题</title>
@@ -1383,7 +1437,7 @@
     
   <url>
     <loc>https://seachal.github.io/IDE/2017/07/10/2018-01-10-1/</loc>
-    <lastmod>2019-03-21T01:17:10.875Z</lastmod>
+    <lastmod>2019-03-25T08:50:36.948Z</lastmod>
     <data>
         <display>
         <title>PyCharm与IntelliJ IDEA Python插件FAQ</title>
@@ -1399,24 +1453,6 @@
            
              
               <breadCrumb title="IDE" url="https://seachal.github.io/categories/IDE/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://seachal.github.io/Mac/2019/03/20/Mac/Mac%E5%92%8CLinux%E8%BF%94%E5%9B%9E%E4%B8%8A%E4%B8%80%E7%BA%A7%E7%9A%84%E5%91%BD%E4%BB%A4_2018-01-11/</loc>
-    <lastmod>2019-03-21T00:48:05.412Z</lastmod>
-    <data>
-        <display>
-        <title>Mac和Linux返回上一级的命令_2018-01-11</title>
-        <pubTime>2019-03-20T12:56:14.521Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Mac" url="https://seachal.github.io/categories/Mac/"/>
           
         </display>
     </data>
