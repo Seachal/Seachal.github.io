@@ -97,8 +97,8 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[批量文件字符集转换为UTF-i脚本（file batch convert char set ）2018-08-19]]></title>
-    <url>%2FMac%2F2019%2F03%2F25%2FMac%2F%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E9%9B%86%E8%BD%AC%E6%8D%A2%E4%B8%BAUTF-i%E8%84%9A%E6%9C%AC%EF%BC%88file%20batch%20convert%20char%20set%20%EF%BC%892018-08-19%2F</url>
+    <title><![CDATA[批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19]]></title>
+    <url>%2FMac%2F2019%2F03%2F25%2FMac%2F%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E5%AD%97%E7%AC%A6%E9%9B%86%E8%BD%AC%E6%8D%A2%E4%B8%BAUTF-8%E8%84%9A%E6%9C%AC%EF%BC%88file%20batch%20convert%20char%20set%20%EF%BC%892018-08-19%2F</url>
     <content type="text"><![CDATA[#最近遇到一个大项目，项目使用的encoding 有GBK也有UTF-8， 在intellij中虽然可以一个一个conver，但是感觉太慢了，并且reload为UTF-8也不是长久之计，在Git中仍然是乱码。 查阅了一些资料，写个脚本终于批量把gbk 转换为 utf-8了。这是在mac 10.13中测试的示例。按名称查找文件，转换编码，然后替换原始文件。完美。 新建一个名为 ConvertEncoding.sh文件 将下面的完整代码复制到shell脚本中。 123456789101112#!/bin/bash find ./ -name *.java -type f | \ (while read file; do if [[ "$file" != *.DS_Store* ]]; then if [[ "$file" != *-utf8* ]]; then iconv -f GBK -t UTF-8 "$file" &gt; "$file-utf8"; rm $file; echo mv "$file-utf8" "$file"; mv "$file-utf8" "$file"; fi fi done); ./ 要替换为自己的项目文件夹。 把shell文件拖到terminal中 enter执行。 12345678bogon:~ username$ /Users//Documents/batchconvert.sh -bash: /Users/username/Documents/batchconvert.sh: Permission deniedbogon:~ username$ chmod 777 batchconvert.shchmod: batchconvert.sh: No such file or directorybogon:~ username$ chmod 777 /Users/username/Documents/batchconvert.sh bogon:~ username$ bogon:~ username$ bogon:~ username$ /Users/username/Documents/batchconvert.sh 其中 chmod 777 /Users/username/Documents/batchconvert.sh是给batchconvert.sh赋予全新啊。]]></content>
       <categories>
         <category>Mac</category>

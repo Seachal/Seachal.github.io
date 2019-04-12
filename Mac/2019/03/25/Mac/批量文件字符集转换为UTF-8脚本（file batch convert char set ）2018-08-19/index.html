@@ -92,21 +92,19 @@
 
 
 
-<meta name="description" content="在bitbucket删除分支删除分支第一步  如果遇到主分支不能删除，则改变主分支， How to change the  main branch  in bitbucket  参考： https://stackoverflow.com/questions/37550492/how-to-change-the-main-branch-in-bitbucket">
+<meta name="description" content="#最近遇到一个大项目，项目使用的encoding 有GBK也有UTF-8， 在intellij中虽然可以一个一个conver，但是感觉太慢了，并且reload为UTF-8也不是长久之计，在Git中仍然是乱码。  查阅了一些资料，写个脚本终于批量把gbk 转换为 utf-8了。这是在mac 10.13中测试的示例。按名称查找文件，转换编码，然后替换原始文件。完美。   新建一个名为 ConvertE">
 <meta property="og:type" content="article">
-<meta property="og:title" content="在bitbucket 删除分支-2019-01-09">
-<meta property="og:url" content="https://seachal.github.io/VersionControl/2019/03/25/VersionControl/在bitbucket 删除分支-2019-01-09/index.html">
+<meta property="og:title" content="批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19">
+<meta property="og:url" content="https://seachal.github.io/Mac/2019/03/25/Mac/批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19/index.html">
 <meta property="og:site_name" content="Seachal的Blogs">
-<meta property="og:description" content="在bitbucket删除分支删除分支第一步  如果遇到主分支不能删除，则改变主分支， How to change the  main branch  in bitbucket  参考： https://stackoverflow.com/questions/37550492/how-to-change-the-main-branch-in-bitbucket">
+<meta property="og:description" content="#最近遇到一个大项目，项目使用的encoding 有GBK也有UTF-8， 在intellij中虽然可以一个一个conver，但是感觉太慢了，并且reload为UTF-8也不是长久之计，在Git中仍然是乱码。  查阅了一些资料，写个脚本终于批量把gbk 转换为 utf-8了。这是在mac 10.13中测试的示例。按名称查找文件，转换编码，然后替换原始文件。完美。   新建一个名为 ConvertE">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://seachal.github.io/VersionControl/2019/03/25/VersionControl/在bitbucket%20删除分支-2019-01-09/media/15469981564606.jpg">
-<meta property="og:image" content="https://seachal.github.io/VersionControl/2019/03/25/VersionControl/在bitbucket%20删除分支-2019-01-09/media/15469982608476.jpg">
-<meta property="og:image" content="https://seachal.github.io/VersionControl/2019/03/25/VersionControl/在bitbucket%20删除分支-2019-01-09/media/15469985800167.jpg">
-<meta property="og:updated_time" content="2019-03-25T08:50:38.915Z">
+<meta property="og:image" content="https://seachal.github.io/Mac/2019/03/25/Mac/批量文件字符集转换为UTF-8脚本（file%20batch%20convert%20char%20set%20）2018-08-19/media/15346734086983.jpg">
+<meta property="og:updated_time" content="2019-04-12T05:18:55.190Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="在bitbucket 删除分支-2019-01-09">
-<meta name="twitter:description" content="在bitbucket删除分支删除分支第一步  如果遇到主分支不能删除，则改变主分支， How to change the  main branch  in bitbucket  参考： https://stackoverflow.com/questions/37550492/how-to-change-the-main-branch-in-bitbucket">
-<meta name="twitter:image" content="https://seachal.github.io/VersionControl/2019/03/25/VersionControl/在bitbucket%20删除分支-2019-01-09/media/15469981564606.jpg">
+<meta name="twitter:title" content="批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19">
+<meta name="twitter:description" content="#最近遇到一个大项目，项目使用的encoding 有GBK也有UTF-8， 在intellij中虽然可以一个一个conver，但是感觉太慢了，并且reload为UTF-8也不是长久之计，在Git中仍然是乱码。  查阅了一些资料，写个脚本终于批量把gbk 转换为 utf-8了。这是在mac 10.13中测试的示例。按名称查找文件，转换编码，然后替换原始文件。完美。   新建一个名为 ConvertE">
+<meta name="twitter:image" content="https://seachal.github.io/Mac/2019/03/25/Mac/批量文件字符集转换为UTF-8脚本（file%20batch%20convert%20char%20set%20）2018-08-19/media/15346734086983.jpg">
 
 
 
@@ -136,13 +134,13 @@
 
 
 
-  <link rel="canonical" href="https://seachal.github.io/VersionControl/2019/03/25/VersionControl/在bitbucket 删除分支-2019-01-09/">
+  <link rel="canonical" href="https://seachal.github.io/Mac/2019/03/25/Mac/批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19/">
 
 
 
 
 
-  <title>在bitbucket 删除分支-2019-01-09 | Seachal的Blogs</title>
+  <title>批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19 | Seachal的Blogs</title>
   
 
 
@@ -323,7 +321,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://seachal.github.io/VersionControl/2019/03/25/VersionControl/在bitbucket 删除分支-2019-01-09/">
+    <link itemprop="mainEntityOfPage" href="https://seachal.github.io/Mac/2019/03/25/Mac/批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Seachal">
@@ -342,7 +340,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">在bitbucket 删除分支-2019-01-09</h1>
+          <h1 class="post-title" itemprop="name headline">批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19</h1>
         
 
         <div class="post-meta">
@@ -373,8 +371,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-03-25T16:50:38+08:00">
-                2019-03-25
+              <time title="更新于" itemprop="dateModified" datetime="2019-04-12T13:18:55+08:00">
+                2019-04-12
               </time>
             
           </span>
@@ -393,8 +391,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/VersionControl/" itemprop="url" rel="index">
-                    <span itemprop="name">VersionControl</span>
+                  <a href="/categories/Mac/" itemprop="url" rel="index">
+                    <span itemprop="name">Mac</span>
                   </a>
                 </span>
 
@@ -411,8 +409,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/VersionControl/2019/03/25/VersionControl/在bitbucket 删除分支-2019-01-09/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="VersionControl/2019/03/25/VersionControl/在bitbucket 删除分支-2019-01-09/" itemprop="commentCount"></span>
+                <a href="/Mac/2019/03/25/Mac/批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Mac/2019/03/25/Mac/批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -434,7 +432,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  53 字
+                  291 字
                 </span>
               
 
@@ -472,11 +470,28 @@
       
 
       
-        <h1 id="在bitbucket删除分支"><a href="#在bitbucket删除分支" class="headerlink" title="在bitbucket删除分支"></a>在bitbucket删除分支</h1><h2 id="删除分支"><a href="#删除分支" class="headerlink" title="删除分支"></a>删除分支</h2><p>第一步<br><img src="media/15469981564606.jpg" alt="-w1039"></p>
-<p><img src="media/15469982608476.jpg" alt="-w664"></p>
-<p>如果遇到主分支不能删除，则改变主分支，</p>
-<h2 id="How-to-change-the-main-branch-in-bitbucket"><a href="#How-to-change-the-main-branch-in-bitbucket" class="headerlink" title="How to change the  main branch  in bitbucket"></a>How to change the  main branch  in bitbucket</h2><p><img src="media/15469985800167.jpg" alt="-w448"></p>
-<p> 参考： <a href="https://stackoverflow.com/questions/37550492/how-to-change-the-main-branch-in-bitbucket" target="_blank" rel="noopener">https://stackoverflow.com/questions/37550492/how-to-change-the-main-branch-in-bitbucket</a></p>
+        <p>#<br>最近遇到一个大项目，项目使用的encoding 有GBK也有UTF-8， 在intellij中虽然可以一个一个conver，但是感觉太慢了，并且reload为UTF-8也不是长久之计，在Git中仍然是乱码。<br>  查阅了一些资料，写个脚本终于批量把gbk 转换为 utf-8了。<br>这是在mac 10.13中测试的示例。按名称查找文件，转换编码，然后替换原始文件。完美。</p>
+<ul>
+<li><ol>
+<li>新建一个名为 ConvertEncoding.sh文件</li>
+</ol>
+</li>
+<li><ol>
+<li>将下面的完整代码复制到shell脚本中。</li>
+</ol>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line">     find ./ -name *.java -<span class="built_in">type</span> f | \</span><br><span class="line">     (<span class="keyword">while</span> <span class="built_in">read</span> file;</span><br><span class="line">         <span class="keyword">do</span> <span class="keyword">if</span> [[ <span class="string">"<span class="variable">$file</span>"</span> != *.DS_Store* ]]; <span class="keyword">then</span></span><br><span class="line">         <span class="keyword">if</span> [[ <span class="string">"<span class="variable">$file</span>"</span> != *-utf8* ]]; <span class="keyword">then</span></span><br><span class="line">             iconv -f GBK -t UTF-8 <span class="string">"<span class="variable">$file</span>"</span> &gt; <span class="string">"<span class="variable">$file</span>-utf8"</span>;</span><br><span class="line">             rm <span class="variable">$file</span>;</span><br><span class="line">             <span class="built_in">echo</span> mv <span class="string">"<span class="variable">$file</span>-utf8"</span> <span class="string">"<span class="variable">$file</span>"</span>;</span><br><span class="line">             mv <span class="string">"<span class="variable">$file</span>-utf8"</span> <span class="string">"<span class="variable">$file</span>"</span>;</span><br><span class="line">         <span class="keyword">fi</span></span><br><span class="line">     <span class="keyword">fi</span> </span><br><span class="line">     <span class="keyword">done</span>);</span><br></pre></td></tr></table></figure>
+<p> <code>./</code> 要替换为自己的项目文件夹。<br><img src="media/15346734086983.jpg" alt="-w655"></p>
+<ul>
+<li><ol>
+<li>把shell文件拖到terminal中 enter执行。</li>
+</ol>
+</li>
+</ul>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">bogon:</span>~ username$ <span class="regexp">/Users/</span><span class="regexp">/Documents/</span>batchconvert.sh </span><br><span class="line">-<span class="string">bash:</span> <span class="regexp">/Users/</span>username<span class="regexp">/Documents/</span>batchconvert.<span class="string">sh:</span> Permission denied</span><br><span class="line"><span class="string">bogon:</span>~ username$ chmod <span class="number">777</span> batchconvert.sh</span><br><span class="line"><span class="string">chmod:</span> batchconvert.<span class="string">sh:</span> No such file or directory</span><br><span class="line"><span class="string">bogon:</span>~ username$ chmod <span class="number">777</span> <span class="regexp">/Users/</span>username<span class="regexp">/Documents/</span>batchconvert.sh </span><br><span class="line"><span class="string">bogon:</span>~ username$ </span><br><span class="line"><span class="string">bogon:</span>~ username$ </span><br><span class="line"><span class="string">bogon:</span>~ username$ <span class="regexp">/Users/</span>username<span class="regexp">/Documents/</span>batchconvert.sh</span><br></pre></td></tr></table></figure>
+<p>其中 <code>chmod 777 /Users/username/Documents/batchconvert.sh</code>是给batchconvert.sh赋予全新啊。</p>
+<!-- 参考： https://stackoverflow.com/questions/1182037/osx-change-file-encoding-iconv-recursive-->
       
     </div>
     
@@ -502,7 +517,7 @@
 
         <li class="post-copyright-link">
           <strong>本文标题：</strong>
-          <a href="https://seachal.github.io/VersionControl/2019/03/25/VersionControl/在bitbucket 删除分支-2019-01-09/" title="在bitbucket 删除分支-2019-01-09">在bitbucket 删除分支-2019-01-09</a>
+          <a href="https://seachal.github.io/Mac/2019/03/25/Mac/批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19/" title="批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19">批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19</a>
         </li>
 
       <li class="post-copyright-date">
@@ -529,8 +544,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/VersionControl/2019/03/25/VersionControl/git gui tower compare tow commit diff2019-02-24/" rel="next" title="git gui tower compare tow commit diff2019-02-24">
-                <i class="fa fa-chevron-left"></i> git gui tower compare tow commit diff2019-02-24
+              <a href="/Mac/2019/03/25/Mac/Mac和Linux返回上一级的命令_2018-01-11/" rel="next" title="Mac和Linux返回上一级的命令_2018-01-11">
+                <i class="fa fa-chevron-left"></i> Mac和Linux返回上一级的命令_2018-01-11
               </a>
             
           </div>
@@ -539,8 +554,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/uncategorized/2019/03/25/Visual Studio Code设置中文-2019-02-10/" rel="prev" title="Visual Studio Code设置中文-2019-02-10">
-                Visual Studio Code设置中文-2019-02-10 <i class="fa fa-chevron-right"></i>
+              <a href="/Programmer/2019/03/25/Programmer/HTTP 响应代码-2019-01-14/" rel="prev" title="HTTP 响应代码-2019-01-14">
+                HTTP 响应代码-2019-01-14 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -603,17 +618,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -736,22 +742,6 @@ show_date_time();
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#在bitbucket删除分支"><span class="nav-number">1.</span> <span class="nav-text">在bitbucket删除分支</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#删除分支"><span class="nav-number">1.1.</span> <span class="nav-text">删除分支</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#How-to-change-the-main-branch-in-bitbucket"><span class="nav-number">1.2.</span> <span class="nav-text">How to change the  main branch  in bitbucket</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
@@ -946,9 +936,9 @@ show_date_time();
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'https://seachal.github.io/VersionControl/2019/03/25/VersionControl/在bitbucket 删除分支-2019-01-09/';
-          this.page.identifier = 'VersionControl/2019/03/25/VersionControl/在bitbucket 删除分支-2019-01-09/';
-          this.page.title = '在bitbucket 删除分支-2019-01-09';
+          this.page.url = 'https://seachal.github.io/Mac/2019/03/25/Mac/批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19/';
+          this.page.identifier = 'Mac/2019/03/25/Mac/批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19/';
+          this.page.title = '批量文件字符集转换为UTF-8脚本（file batch convert char set ）2018-08-19';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://Seachal.disqus.com/embed.js';
